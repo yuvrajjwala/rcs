@@ -425,7 +425,7 @@
                 </div>
             </div>
 
-            <div id="arr1">
+            <div id="arr1" >
                 <div id="MainHead">
                     <div class="heading">
                         For those who are striving for quality at all stages
@@ -448,7 +448,7 @@
         </div>
 
 
-        <div onmouseover="mouseBgHover(1)" id="arr2">
+        <div onmouseover="mouseBgHover(1)" id="arr2" >
             <div class="h2">For those who are striving for quality at all stages</div>
             <button class="btn transparent magnetic">Let's Talk</button>
         </div>
@@ -1117,11 +1117,27 @@
     <script src="script.js"></script>
     <!-- aos is here jwala -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init({
+         offset: 120,
+         duration: 400,
+         disable: function () {
+            var maxWidth = 800;
+            return window.innerWidth < maxWidth;
+         }
+      });
+
+   </script>
+    <script src="smooth-scrollbar.js"></script>
     <script>
-        AOS.init({
-            offset: 120,
-            duration: 400,
-        });
+        
+        //SMOOTH SCROLL MOMENTUM JS
+
+        var Scrollbar = window.Scrollbar;
+        const options= {
+            'damping':0.06
+        }
+        Scrollbar.init(document.querySelector('body'), options);
     </script>
 </body>
 
