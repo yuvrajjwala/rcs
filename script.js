@@ -1,7 +1,7 @@
 //Background Animation...
 var w = window.innerWidth;
 var h = window.innerHeight;
-console.log(w)
+// console.log(w)
 var ele = Math.floor(Math.random() * 5);
 var anim = Math.floor(Math.random() * 5);
 const root = document.querySelector(':root');
@@ -30,9 +30,9 @@ else {
 //animation addition
 if (w > 900) {
     e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.8);')
-    e1.setAttribute('style', 'display: block ; position: absolute;top:' + es.getPropertyValue('--pos_y_final') + ';left:calc(50vw - 500px);  height: 1000px;  width: 1000px; animation : anim1 2s ease-in-out ;')
-    e2.setAttribute('style', 'display: block ; position: absolute;top:' + es.getPropertyValue('--pos_y_final') + ';left:calc(50vw - 500px);  height: 1000px;  width: 1000px; animation : anim2 2s ease-in-out ;')
-    e3.setAttribute('style', 'display: block ; position: absolute;top:' + es.getPropertyValue('--pos_y_final') + ';left:calc(50vw - 500px);  height: 1000px;  width: 1000px;animation : anim3 2s ease-in-out ;')
+    e1.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px; animation : anim1 2s ease-in-out ;')
+    e2.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px; animation : anim2 2s ease-in-out ;')
+    e3.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px;animation : anim3 2s ease-in-out ;')
 }
 else {
     e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.4);')
@@ -76,7 +76,7 @@ const img = document.getElementById('listImg')
 img.style.transitionDuration = '0.5s'
 
 l1.addEventListener('click', () => {
-    img.setAttribute('src', './img/628df8040afc12127ab2ce50_img-process-1.png');
+    img.setAttribute('src', './img/our1.png');
     img.style.opacity = '0';
     setTimeout(() => {
         img.style.opacity = '1';
@@ -98,7 +98,7 @@ l1.addEventListener('click', () => {
 l2.addEventListener('click', () => {
     img.style.opacity = '0';
     setTimeout(() => {
-        img.setAttribute('src', './img/628df804aa525684b7e16049_img-process-2.png');
+        img.setAttribute('src', './img/our2.png');
         img.style.opacity = '1';
     }, 500);
     document.getElementById('p2').classList.toggle('show');
@@ -119,7 +119,7 @@ l2.addEventListener('click', () => {
 l3.addEventListener('click', () => {
     img.style.opacity = '0';
     setTimeout(() => {
-        img.setAttribute('src', './img/628df80334fb2d50f4a5a826_img-process-3.png');
+        img.setAttribute('src', './img/our3.png');
         img.style.opacity = '1';
     }, 500);
     document.getElementById('p3').classList.toggle('show');
@@ -139,7 +139,7 @@ l3.addEventListener('click', () => {
 l4.addEventListener('click', () => {
     img.style.opacity = '0';
     setTimeout(() => {
-        img.setAttribute('src', './img/628df80399fd7a1ca8d07c64_img-process-4.png');
+        img.setAttribute('src', './img/our4.png');
         img.style.opacity = '1';
     }, 500);
     document.getElementById('p4').classList.toggle('show');
@@ -554,7 +554,7 @@ area6 = document.querySelector('#arr11')
 const observer1 = new IntersectionObserver(entries1 => {
 
     //    console.log(entries)
-    console.log(entries1[0].intersectionRatio)
+    // console.log(entries1[0].intersectionRatio)
     if (entries1[0].isIntersecting) {
         setTimeout(() => {
             if (w > 900) {
@@ -587,7 +587,7 @@ observer1.observe(document.getElementById('comp5'));
 const observer2 = new IntersectionObserver(entries2 => {
 
     //    console.log(entries)
-    console.log(entries2[0].intersectionRatio)
+    // console.log(entries2[0].intersectionRatio)
     if (entries2[0].isIntersecting) {
         setTimeout(() => {
             if (w > 900) {
@@ -621,7 +621,7 @@ observer2.observe(document.getElementById('comp4'));
 const observer3 = new IntersectionObserver(entries3 => {
 
     //    console.log(entries)
-    console.log(entries3[0].intersectionRatio)
+    // console.log(entries3[0].intersectionRatio)
     if (entries3[0].isIntersecting) {
         setTimeout(() => {
             if (w > 900) {
@@ -653,7 +653,7 @@ observer3.observe(document.getElementById('comp3'));
 const observer4 = new IntersectionObserver(entries4 => {
 
     //    console.log(entries)
-    console.log(entries4[0].intersectionRatio)
+    // console.log(entries4[0].intersectionRatio)
     if (entries4[0].isIntersecting) {
         setTimeout(() => {
             if (w > 900) {
@@ -684,7 +684,7 @@ observer4.observe(document.getElementById('comp2'));
 const observer5 = new IntersectionObserver(entries5 => {
 
     //    console.log(entries)
-    console.log(entries5[0].intersectionRatio)
+    // console.log(entries5[0].intersectionRatio)
     if (entries5[0].isIntersecting) {
         if (w > 900) {
             document.getElementById('comp1').style.transform = 'scale(0.85)'
@@ -725,12 +725,12 @@ document.getElementById('foot12').addEventListener('mouseleave', () => {
 // MOUSE HOVER ANIMATION CURSOR
 
 function mouseBgHover(i) {
-    if (i == 1) {
-        document.getElementById('circle').style.backgroundColor = "white";
-    }
-    else {
-        document.getElementById('circle').style.backgroundColor = "#000000cb";
-    }
+    // if (i == 1) {
+    //     document.getElementById('box-shadow-div').style.backgroundColor = "white";
+    // }
+    // else {
+    //     document.getElementById('box-shadow-div').style.backgroundColor = "#000000cb";
+    // }
 }
 
 
@@ -745,19 +745,7 @@ const footer = new IntersectionObserver(footer => {
     else {
         document.getElementById('arr12').style.display = 'none'
     }
-    // else{
-    //     setTimeout(() => {
-
-    //         document.getElementById('comp5').style.transform = ' translateX(25.4vw) translateY(-18vh) scale(0)'
-    //     }, 500);
-    // }   
-
-
-
 }
-    // {
-    //     threshold:0.5
-    // }
 )
 
 footer.observe(document.getElementById('arr11'));
@@ -861,11 +849,11 @@ function populate(arr, count, text, ids, dec) {
         img.setAttribute('src', './img/work/page1/' + item + '.png')
         ImgArea.appendChild(div);
         div.appendChild(img)
-        div.appendChild(document.createTextNode(text[count]))
+        // div.appendChild(document.createTextNode(text[count]))
         count++;
     })
     const div = document.createElement('div');
-    div.classList.add('bottom-text')
+    // div.classList.add('bottom-text')
     // div.appendChild(document.createTextNode('and more ...'))
     ImgArea.appendChild(div)
 
@@ -947,15 +935,18 @@ function right() {
 
 // document.getElementsByTagName('footer')[0].style.transitionDuration = '0.1s'
 function myFunction() {
+    console.log('this is the footer function')
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
-    var bottom = scrolled-95.74
+    // var bottom = scrolled-95.74
+    var bottom = scrolled-90.74
 
     if(bottom>=0){
-        document.getElementsByTagName('footer')[0].style.transform = 'translateY('+(60-(bottom*14.1))+'%)';
+        document.getElementById('arr12').style.transform = 'translateY('+(60-(bottom*14.1))+'%)';
+        
     }
-    console.log(scrolled-95.74)
+    console.log(bottom)
 }
 
 window.onscroll = function() {myFunction()};
