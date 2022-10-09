@@ -416,44 +416,59 @@
                 </div>
 
                 <div id="overlay-sidebar" class="overlay-scroll-container">
-                <div id="menu-scroll-container" class="menu-scroll-container">
-                    <div class="menu-scroll-social">
-                        <ul>
-                            <li ><span>Social</span></li>
-                            <li class="magnetic">LinkedIn</li>
-                            <li class="magnetic">Behance</li>
-                            <li class="magnetic">Dribble</li>
-                            <li class="magnetic">Instagram</li>
-                            <li class="magnetic">Instagram</li>
-                            <li class="magnetic">Twitter</li>
-                            <li class="magnetic">Github</li>
-                        </ul>
+                    <div id="menu-scroll-container" class="menu-scroll-container">
+                        <div class="menu-scroll-social">
+                            <ul>
+                                <li><span>Social</span></li>
+                                <li class="magnetic">LinkedIn</li>
+                                <li class="magnetic">Behance</li>
+                                <li class="magnetic">Dribble</li>
+                                <li class="magnetic">Instagram</li>
+                                <li class="magnetic">Twitter</li>
+                                <li class="magnetic">Github</li>
+                            </ul>
+                        </div>
+                        <div class="menu-scroll-navagition">
+                            <ul>
+                                <li id="line-span-menu"><span>Menu</span></li>
+                                <li class="magnetic"> <a id="style-no" href="./work/work.html">Home</a></li>
+                                <li class="magnetic"> <a id="style-no" href="./work/work.html">Work</a></li>
+                                <!-- <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li> -->
+                                <li class="magnetic"><a id="style-no" href="./services/services.html">Services</a></li>
+                                <li class="magnetic"><a id="style-no" href="./process/process.html">Our Process</a></li>
+                                </li>
+                                <li class="magnetic">Contacts</li>
+                            </ul>
+                        </div>
+                        <div class="email-sidebar">
+                            <p id="light">Contact</p>
+                            <div style="display: flex;">
+                                <div>
+                            <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
+                                Rawcanvasstudio1@gmail.com</p>
+                            <div id="email-bottom-1">
+                                <div id="email-bottm-2"></div>
+                            </div>
+                        </div>
+                        <div class="telegram-div-sidbar">
+                                <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram</p>
+                                <div id="email-bottom-11">
+                                    <div id="email-bottm-22"></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                    <div class="menu-scroll-navagition">
-                        <ul>
-                            <li  id="line-span-menu"><span>Menu</span></li>
-                            <li class="magnetic"> <a id="style-no" href="./work/work.html">Work</a></li>
-                            <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li>
-                            <li class="magnetic"><a id="style-no" href="./services/services.html">Services</a></li>
-                            <li class="magnetic">Tutorials</li>
-                            <li class="magnetic">Contacts</li>
-                        </ul>
-                    </div>
-                    <div class="email-sidebar">
-                        <p id="light">Get in touch</p>
-                <p class="email-rcs">rawcanvasstudio.com</p>
-                    </div>
+                    
                 </div>
-                
-            </div>
-                
-                
-                
+
+
+
                 <div id="menu">
                     <div id="men">
                         menu
                     </div>
-                    
+
                     <div onclick="siderBarOpen()" id="ham">
                         <div id="_1"></div>
                         <div id="_2"></div>
@@ -461,23 +476,23 @@
                 </div>
             </div>
             <script>
-                let a=0;
-                function siderBarOpen(){
-                    
-                    if(a%2!=0){
+                let a = 0;
+                function siderBarOpen() {
+
+                    if (a % 2 != 0) {
                         a++;
-                        document.getElementById('overlay-sidebar').style.opacity=0;
-                        document.getElementById('menu-scroll-container').style.right="-45vw";
+                        document.getElementById('overlay-sidebar').style.opacity = 0;
+                        document.getElementById('menu-scroll-container').style.right = "-45vw";
                     }
-                    else{
+                    else {
                         a++;
-                        document.getElementById('overlay-sidebar').style.opacity=1;
-                        document.getElementById('menu-scroll-container').style.right="0vw";
+                        document.getElementById('overlay-sidebar').style.opacity = 1;
+                        document.getElementById('menu-scroll-container').style.right = "0vw";
                     }
                 }
             </script>
 
-            <div id="arr1" >
+            <div id="arr1">
                 <div id="MainHead">
                     <div class="heading">
                         For those who are striving for quality at all stages
@@ -500,7 +515,7 @@
         </div>
 
 
-        <div onmouseover="mouseBgHover(1)" id="arr2" >
+        <div onmouseover="mouseBgHover(1)" id="arr2">
             <div class="h2">For those who are striving for quality at all stages</div>
             <button class="btn transparent magnetic">Let's Talk</button>
         </div>
@@ -509,7 +524,8 @@
         <div onmouseover="mouseBgHover(0)" id="arr3">
             <div class="cards" id="c1">
                 <div class="text">
-                    <p class="round-head" style="color: #62BEB7; width:8rem; letter-spacing: 4px; height:3rem; padding:0.5rem">WHY US</p>
+                    <p class="round-head"
+                        style="color: #62BEB7; width:8rem; letter-spacing: 4px; height:3rem; padding:0.5rem">WHY US</p>
                     <div class="heading">Get your top quality & dedicated talent</div>
                     <p>Our
                         swift-paced team is capable
@@ -523,7 +539,8 @@
             </div>
             <div class="cards" id="c2">
                 <div class="text">
-                    <p class="round-head" style="color: #62BEB7; width:8rem; letter-spacing: 4px; height:3rem; padding:0.5rem">TEAM UP</p>
+                    <p class="round-head"
+                        style="color: #62BEB7; width:8rem; letter-spacing: 4px; height:3rem; padding:0.5rem">TEAM UP</p>
                     <div class="heading">Team up without the chaos</div>
                     <p id="not-hurderls">No hurdle,
                         no hassle. Have the
@@ -647,7 +664,7 @@
                         <p>Our simple and easy process</p>
                         <br>
                         <span>Well-planned workflow with seamless design process executions.</span><br>
-                        <button class="btn-why-rcs">Our work 
+                        <button class="btn-why-rcs">Our work
                             <span><img src="./img/whyRCS/Icon ionic-ios-arrow-back.svg"></span>
                         </button>
                     </div>
@@ -658,9 +675,10 @@
                 <div class="right-box">
                     <div>
                         <img src="./img/whyRCS/Group 11055.svg">
-                        <p>Going beyond 
+                        <p>Going beyond
                             what’s possible</p>
-                            <span>Raw Cavas Studio doesn’t do cookie-cutter solutions. Every project involves stages of target audience research and prototype testing.</span>
+                        <span>Raw Cavas Studio doesn’t do cookie-cutter solutions. Every project involves stages of
+                            target audience research and prototype testing.</span>
                     </div>
                 </div>
             </div>
@@ -675,13 +693,13 @@
                         <button class="btn-why-rcs">Contact Us
                             <span><img id="arow2" src="./img/whyRCS/Icon ionic-ios-arrow-back.svg"></span>
                         </button>
-                            
+
                     </div>
                 </div>
                 <div class="left-box">
                     <!-- <img src="./img/whyRCS/Group 11054.svg"> -->
                     <div class="why-rcs-content2">
-                        <p>Design-driven development 
+                        <p>Design-driven development
                             of your web product</p>
                         <br>
                         <span>Let's look at roadmap</span><br>
@@ -693,7 +711,7 @@
                         <img class="whyrcs1-img2" src="./img/whyRCS/Group 11054.svg">
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -788,7 +806,7 @@
         </div>
 
 
-        
+
 
 
 
@@ -833,7 +851,7 @@
                         <img class="imgarea_11" src="./img/branding.png" alt="">
                     </div>
                     <div>3D Animation</div>
-                    <p>Production for more intuitive 
+                    <p>Production for more intuitive
                         and Dynamic content</p>
                 </div>
                 <div class="imgarea1">
@@ -841,7 +859,7 @@
                         <img class="imgarea_11" src="./img/mobile_apps1.png" alt="">
                     </div>
                     <div>AR/VR Design</div>
-                    <p>Design  for the future 
+                    <p>Design for the future
                         ahead Of time</p>
                 </div>
                 <div class="imgarea1">
@@ -866,7 +884,7 @@
 
 
         <div onmouseover="mouseBgHover(0)" id="arr9">
-            <div class="arr9_1" >
+            <div class="arr9_1">
                 <div>202</div>
                 <p>Projects</p>
             </div>
@@ -1164,7 +1182,7 @@
 
     <!-- <div id="circle" class="circle"></div> -->
 
-    
+
 
 
 
@@ -1172,25 +1190,25 @@
     <script src="script.js"></script>
     <!-- aos is here jwala -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-   <script>
-      AOS.init({
-         offset: 120,
-         duration: 400,
-         disable: function () {
-            var maxWidth = 800;
-            return window.innerWidth < maxWidth;
-         }
-      });
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 400,
+            disable: function () {
+                var maxWidth = 800;
+                return window.innerWidth < maxWidth;
+            }
+        });
 
-   </script>
+    </script>
     <script src="smooth-scrollbar.js"></script>
     <script>
-        
+
         //SMOOTH SCROLL MOMENTUM JS
 
         var Scrollbar = window.Scrollbar;
-        const options= {
-            'damping':0.06
+        const options = {
+            'damping': 0.06
         }
         Scrollbar.init(document.querySelector('body'), options);
     </script>

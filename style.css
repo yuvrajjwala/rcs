@@ -249,7 +249,7 @@ p {
     opacity: 0;
 }
 .overlay-scroll-container{
-    background-color: rgba(0, 0, 0, 0.311);
+    background-color: rgba(255, 255, 255, 0.311);
     width: 100vw;
     height: 100vh;
     z-index: 99;
@@ -269,24 +269,20 @@ p {
     padding:26vh 100px;
     height: 100vh;
    top: 0;
-   
-   /* right: -45vw; */
-   /* left: -45vw; */
    transition-duration: 1s;
    justify-content: left;
-   font-family: 'gilroy-semi-bold';
+   font-family: 'gilroy-medium';
 }
 #menu-scroll-container{
-   
     right: -45vw;
-    /* right: 0px; */
 }
 .menu-scroll-navagition{
-    font-size: 3.3rem;
+    font-size: 2.3rem;
 }
 .menu-scroll-navagition ul {
     list-style: none;
-    margin-left: 80px;
+    margin-left: 9vw;
+    line-height: 60px;
 }
 .menu-scroll-navagition ul li, .menu-scroll-social ul li {
     cursor: pointer;
@@ -302,11 +298,12 @@ p {
 .menu-scroll-social{
     font-size: 1.2rem;
     font-family: 'gilroy-regular';
-    line-height: 41px;
+    line-height: 47px;
+    padding-left: 1vw;
 }
 .menu-scroll-social span, .menu-scroll-navagition span {
     font-size: 1rem;
-    opacity: 0.6;
+    color:#B2B1B2;
     font-family: 'gilroy-regular';
 }
 #_000 {
@@ -695,19 +692,39 @@ p {
 }
 .email-sidebar{
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     font-family: 'gilroy-semi-bold';
 }
 #light{
-    opacity: 0.6;
+    color: #B2B1B2;
+    font-family: 'gilroy-semi-bold';
+    font-size: 1.2rem;
 }
 .email-rcs{
     cursor: pointer;
-    border-bottom: 1px solid rgb(196, 196, 196);
+    font-family: 'gilroy-regular';
+    font-size: 1.15rem;
+    /* border-bottom: 1px solid rgb(196, 196, 196); */
 }
 .email-rcs:hover{
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
+    font-family: 'gilroy-medium';
     transition-duration: 1s;
+}
+#email-bottom-1,#email-bottom-11{
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    height: 2px;
+}
+#email-bottm-2,#email-bottm-22{
+    background-color: black;
+    width: 10%;
+    height: 100%;
+    transition-duration: 1s;
+}
+.telegram-div-sidbar{
+    margin-left: 5vw;
 }
 .text .heading {
     font-size: 2.5rem;
