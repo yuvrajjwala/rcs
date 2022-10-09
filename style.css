@@ -244,7 +244,71 @@ p {
     transform: scale(0.8);
 
 }
-
+#overlay-sidebar{
+    transition-duration: 1s;
+    opacity: 0;
+}
+.overlay-scroll-container{
+    background-color: rgba(0, 0, 0, 0.311);
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    
+    overflow: hidden;
+    overflow: none;
+    min-height: 850px;
+}
+.menu-scroll-container{
+    background-color: rgb(255, 255, 255);
+    width: 45vw;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    padding:26vh 100px;
+    height: 100vh;
+   top: 0;
+   
+   /* right: -45vw; */
+   /* left: -45vw; */
+   transition-duration: 1s;
+   justify-content: left;
+   font-family: 'gilroy-semi-bold';
+}
+#menu-scroll-container{
+   
+    right: -45vw;
+    /* right: 0px; */
+}
+.menu-scroll-navagition{
+    font-size: 3.3rem;
+}
+.menu-scroll-navagition ul {
+    list-style: none;
+    margin-left: 80px;
+}
+.menu-scroll-navagition ul li, .menu-scroll-social ul li {
+    cursor: pointer;
+    /* transition-duration: 0.5s; */
+}
+.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
+    transform: scale(1.1);
+}
+#line-span-menu{
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+.menu-scroll-social{
+    font-size: 1.2rem;
+    font-family: 'gilroy-regular';
+    line-height: 41px;
+}
+.menu-scroll-social span, .menu-scroll-navagition span {
+    font-size: 1rem;
+    opacity: 0.6;
+    font-family: 'gilroy-regular';
+}
 #_000 {
     display: none;
     position: absolute;
@@ -258,7 +322,9 @@ p {
 
     animation: anim1 2s ease-in-out;
 }
-
+.menu-scroll-social ul{
+    list-style: none;
+}
 #_0000 {
     display: none;
     position: absolute;
@@ -609,6 +675,10 @@ p {
     margin-left: 2rem;
     width: 30vw;
 }
+#style-no{
+    text-decoration: none;
+    color: black;
+}
 
 #c1 .text {
     margin-left: 5rem;
@@ -623,7 +693,22 @@ p {
     padding: 5rem 5rem;
     /* margin-bottom: 6rem; */
 }
-
+.email-sidebar{
+    position: absolute;
+    bottom: 50px;
+    font-family: 'gilroy-semi-bold';
+}
+#light{
+    opacity: 0.6;
+}
+.email-rcs{
+    cursor: pointer;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+.email-rcs:hover{
+    border-bottom: 1px solid #000;
+    transition-duration: 1s;
+}
 .text .heading {
     font-size: 2.5rem;
     font-family: gilroy-semi-bold;
@@ -2392,6 +2477,21 @@ i {
 
     #arr4 .cards img {
         height: auto;
+    }
+
+    .menu-scroll-container{
+        width: 100vw;
+        padding: 26vh 0px;
+    }
+    .menu-scroll-social{
+        display: none;
+    }
+    .menu-scroll-navagition {
+        font-size: 3rem;
+        line-height: 65px;
+    }   
+    #ham {
+        right: 5px;
     }
 }
 
