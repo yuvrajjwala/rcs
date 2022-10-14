@@ -1,0 +1,243 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: gilroy-bold;
+   src: url('../fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+   font-family: gilroy-semi-bold;
+   src: url('../fonts//Gilroy-SemiBold.ttf');
+}
+
+@font-face {
+   font-family: gilroy-regular;
+   src: url('../fonts/Gilroy-Regular.ttf');
+}
+
+@font-face {
+   font-family: gilroy-medium;
+   src: url('../fonts/Gilroy-Medium.ttf');
+}
+
+@font-face {
+   font-family: gilroy-light;
+   src: url('../fonts/Gilroy-Light.ttf');
+}
+
+:root {
+   --pos_x_init: 0px;
+   --pos_y_init: 0px;
+   --pos_x_final: 0px;
+   --pos_y_final: 0px;
+   --top_pos: 0s;
+}
+
+p {
+   line-height: 2.25rem;
+}
+
+i {
+   font-size: 1.5rem;
+}
+
+/* Navbar */
+
+
+#nav {
+   padding: 1vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 2;
+}
+
+#logo svg {
+   margin-top: 30px;
+   margin-left: 72px;
+}
+
+#menu {
+   display: flex;
+   flex-direction: row;
+}
+
+#menu #men {
+   margin-top: 76px;
+   margin-right: 21px;
+   height: 2vh;
+   font-family: gilroy-light;
+   font-size: 1.5rem;
+}
+#ham {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 62px;
+   margin-right: 86px;
+   height: 63px;
+   width: 63px;
+   border-radius: 50%;
+   transition-duration: 0.25s;
+   background-color: transparent;
+   /* overflow: hidden;*/
+}
+#ham::before{
+   position: absolute;
+   content: '';
+   height:1px;
+   width: 1px;
+   top: 37px;
+   left: 37px;
+   background: black;
+   /* transform: translate(50%,50%); */
+   border-radius: 50%;
+   transition-duration: 0.25s;
+   z-index: -1;
+   background-color: transparent;
+}
+
+#ham:hover::before{
+   transform: scale(63);
+   background-color: black;
+   margin: auto;
+}
+
+
+@keyframes hov {
+   0% {
+       background: radial-gradient(transparent, transparent, transparent, transparent, transparent);
+   }
+
+   20% {
+       background: radial-gradient(#000, transparent, transparent, transparent, transparent);
+   }
+
+   40% {
+       background: radial-gradient(#000, #000, transparent, transparent, transparent);
+   }
+
+   60% {
+       background: radial-gradient(#000, #000, #000, transparent, transparent);
+   }
+
+   80% {
+       background: radial-gradient(#000, #000, #000, #000, transparent);
+   }
+
+   100% {
+       background: radial-gradient(#000, #000, #000, #000, #000);
+   }
+
+}
+
+#ham:hover #_1,
+#ham:hover #_2 {
+   background-color: white;
+}
+
+/* #one .container div{
+   height: 100vh;
+   width: 100vh;
+} */
+#one{
+   height: 100vh;
+   min-height: 850px;
+}
+#_1,
+#_2 {
+   width: 1.75vw;
+   height: 0.3vh;
+   background-color: #000000;
+}
+
+#_1 {
+   margin-bottom: 0.4rem;
+}
+
+
+#contact-heading{
+   font-size: 5rem;
+   /* font-size: 80px; */
+    font-family: 'gilroy-regular';
+    margin-left: 11vw;
+    line-height: 120px;
+    margin-top: 50px;
+}
+.intrested-contact{
+   opacity: 0.3;
+   font-family: 'gilroy-regular';
+   font-size: 2.1rem;
+   margin-left: 11vw;
+   line-height: 140px;
+
+}
+.contact-btn-containers{
+   display: flex;
+   margin-left: 11vw;
+   flex-wrap: wrap;
+   max-width: 1200px;
+}
+
+.btn-contact-choose{
+   font-family: 'gilroy-medium';
+    font-size: 24px;
+    border: 1.5px solid #E5E5E5;
+    padding: 26px 47px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.btn-contact-choose:hover{
+    border: 1.5px solid #000000;
+    color: white;
+    background-color: #000;
+}
+.form-below-line-contaner{
+   width: 70vw;
+   max-width: 1200px;
+   background-color: #707070;
+   height: 2px;
+   opacity: 0.3;
+   margin-bottom: 100px;
+}
+.form-container{
+   margin-left: 11vw;
+   margin-top: 50px;
+   padding-top: 50px;
+}
+.form-container input{
+   border: none;
+   width: 100%;
+   outline: none;
+   padding-top: 30px;
+   padding-bottom: 50px;
+}
+.form-container input::placeholder{
+   font-size: 30px;
+   color: black;
+   opacity: 0.3;
+   font-family: 'gilroy-regular';
+}
+.submit-contact-form button{
+   background-color: transparent;
+   border: none;
+   color: black;
+   opacity: 0.3;
+   font-size: 38px;
+   border-bottom: 1.5px solid rgba(0, 0, 0, 0.299);
+   margin-bottom: 100px;
+   padding-bottom: 20px;
+   font-family: 'gilroy-regular';
+}
+
+
+
+/* FOOTER CSS */
