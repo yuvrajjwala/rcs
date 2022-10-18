@@ -513,6 +513,7 @@ i {
 .heading1 div {
     font-size: 4rem;
     width: 36vw;
+    margin-left: 4vw;
     margin-right: auto;
     font-family: gilroy-medium;
     line-height: 100px;
@@ -526,20 +527,34 @@ i {
     font-family: gilroy-medium;
     color: #707070;
     flex-wrap: wrap;
+    margin-left: 4vw;
 }
 
 .heading1 ul li {
     margin: 0px 2rem;
     cursor: pointer;
+    border: 0.5px solid #707070;
+    padding: 10px 26px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 27px;
+    font-family: 'gilroy-medium';
+    position: relative;
+    border-bottom: 0.5px solid #707070 !important ;
 }
 
 .heading1 ul li:first-child {
     margin-left: 0px;
+   
 }
 
 .active {
-    color: black;
-    border-bottom: 2px solid black;
+    margin-left: 0px;
+    background-image: linear-gradient(to right,#C9F9B8,#62BEB7);
+    border: none !important;
+    color: #33534A !important; 
+    border-bottom: none !important;
+    
 }
 
 #photosarea {
@@ -551,9 +566,10 @@ i {
 }
 
 #photosarea img {
-    width: 440px;
+    width: 420px;
     margin: 0.8rem;
     margin-left: 0px;
+
 }
 
 .imgdiv {
