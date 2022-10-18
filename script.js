@@ -963,3 +963,7 @@ function fullWidth(a){
     document.getElementById('email-bottm-2').style.width="10%";
 }
 
+function scrolltop(){
+    // window.location.reload();
+    document.getElementByClassName('scroll-content')[0].style.transform='translate3d(0px, 0px, 0px);';
+}

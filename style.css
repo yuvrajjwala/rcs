@@ -125,7 +125,7 @@ p {
 
 #ham:hover::before {
     transform: scale(63);
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     margin: auto;
 }
 
@@ -159,7 +159,10 @@ p {
 
 #ham:hover #_1,
 #ham:hover #_2 {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 /* #one .container div{
@@ -286,14 +289,26 @@ p {
 }
 .menu-scroll-navagition ul li, .menu-scroll-social ul li {
     cursor: pointer;
+    transition-duration: 0.5s;
     /* transition-duration: 0.5s; */
 }
 .menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
     transform: scale(1.1);
 }
+.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
+    transform: scale(1.05);
+}
 #line-span-menu{
     line-height: 18px;
     padding-bottom: 10px;
+}
+#area1 ul li{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    
+}
+#area1 ul li:hover{
+    transform: scale(1.05);
 }
 .menu-scroll-social{
     font-size: 1.2rem;
@@ -1267,14 +1282,13 @@ i {
 }
 
 .imgarea div:first-child {
-    height: 115px;
-    width: 115px;
+    height: 80px;
+    width: 80px;
     display: flex;
     transform: scale(0.9);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* transform: scale(0.6); */
 }
 
 .imgarea img {
@@ -1373,7 +1387,7 @@ i {
 
 #arr8 .text .heading {
     width: 100%;
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-family: gilroy-medium;
 }
 
@@ -3000,6 +3014,7 @@ i {
     .imgarea1 {
         margin: 2rem 0px;
         transform: scale(1);
+        width: 40vw;
     }
 
     #arr8 .btn {
@@ -3241,6 +3256,57 @@ i {
         padding-top: 1rem;
         /* width: 100vw; */
     }
+
+    .left-box {
+        width: 100vw;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .why-rcs-content1 {
+        width: 101%;
+        padding: 30px 20px;
+    }
+    .why-rcs {
+        text-align: center;
+        font-size: 2.35rem;
+        line-height: 45px;
+    }
+    .why-rcs-boxes{
+        width: 90vw;
+    }
+    .right-box{
+        height: auto;
+        width: 100%;
+        padding-left: 20px;
+    }
+    .why-rcs-content2 {
+        width: 140%;
+        padding: 30px 20px;
+    }
+    .round-head{
+        color: #62BEB7;
+        width: 8rem;
+        letter-spacing: 3px !important;
+        height: 2.1rem !important;
+        padding: 0.5rem !important;
+        padding-top: 11px !important;
+        margin-bottom: 20px !important;
+    }
+    #arrow-button {
+        height: 3.25rem !important;
+        cursor: pointer;
+        font-size: 1.15rem;
+        transition-duration: 0.1s;
+        background: transparent;
+        padding: 10px 37px !important;
+        width: auto !important;
+    }
+    #round-head-id{
+        height: 2.8rem !important;
+    }
+
+
+
 }
 
 footer {
