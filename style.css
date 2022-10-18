@@ -628,19 +628,30 @@ p {
 
 #arr2 {
     /* margin-top: 5rem; */
+    position: relative;
+    background-image: url(./img/MaskGroup10.png);
     height: 100vh;
     min-height: 850px;
     max-height: 1000px;
-    background: url(./img/Group\ 10888.png);
     background-position: center;
     background-size: 110vw 101vh;
+}
+
+#arr2::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right,#62BEB7,#C9F9B8);
+    top: 0px;
+    z-index: -1;
 }
 
 #arr2 .h2 {
     font-size: 3.4rem;
     /* font-weight: 500; */
     font-family: gilroy-medium;
-    color: white;
+    color: #33534A;
     width: 43vw;
     line-height: 73px;
     text-align: center;
@@ -2146,8 +2157,9 @@ i {
 
     #arr2 {
         height: 100vh;
-        min-height: 850px;
-        background: url(./img/Group\ 10888.png);
+        min-height: 850px;   
+        position: relative;
+        background-image: url(./img/MaskGroup10.png);
         background-position: center;
         background-size: 110vw 950px;
     }
@@ -3450,7 +3462,7 @@ footer {
 }
 
 .btn:hover::before {
-    top: -13.5rem;
+    top: -11.5rem;
     transition-duration: 0.5s;
 }
 
@@ -3540,4 +3552,19 @@ footer {
 body{
     height: 100vh;
     width: 100%;
+}
+
+#let{
+    color: #33534A;
+    border: 1px solid #33534A;
+}
+
+
+#arr2{
+    position: relative;
+}
+
+
+.btn{
+    position: relative;
 }

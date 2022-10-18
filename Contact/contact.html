@@ -79,11 +79,106 @@
                </g>
             </svg>
          </div>
+
+
+
+
+
+
+
+
+
+
+
+         <div id="overlay-sidebar" class="overlay-scroll-container">
+            <div id="menu-scroll-container" class="menu-scroll-container">
+                <div class="menu-scroll-social">
+                    <ul>
+                        <li><span>Social</span></li>
+                        <li class="magnetic">LinkedIn</li>
+                        <li class="magnetic">Behance</li>
+                        <li class="magnetic">Dribble</li>
+                        <li class="magnetic">Instagram</li>
+                        <li class="magnetic">Twitter</li>
+                        <li class="magnetic">Github</li>
+                    </ul>
+                </div>
+                <div class="menu-scroll-navagition">
+                    <ul>
+                        <li id="line-span-menu"><span>Menu</span></li>
+                        <li class="magnetic"> <a id="style-no" href="./work/work.html">Home</a></li>
+                        <li class="magnetic"> <a id="style-no" href="./work/work.html">Work</a></li>
+                        <!-- <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li> -->
+                        <li class="magnetic"><a id="style-no" href="./services/services.html">Services</a></li>
+                        <li class="magnetic"><a id="style-no" href="./process/process.html">Our Process</a></li>
+                        </li>
+                        <li class="magnetic">Contacts</li>
+                    </ul>
+                </div>
+                <div class="email-sidebar">
+                    <p id="light">Contact</p>
+                    <div style="display: flex;">
+                        <div>
+                    <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
+                        Rawcanvasstudio1@gmail.com</p>
+                    <div id="email-bottom-1">
+                        <div id="email-bottm-2"></div>
+                    </div>
+                </div>
+                <div class="telegram-div-sidbar">
+                        <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram</p>
+                        <div id="email-bottom-11">
+                            <div id="email-bottm-22"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+        <script>
+         let a = 0;
+         function siderBarOpen() {
+
+             if (a % 2 != 0) {
+                 a++;
+                 document.getElementById('overlay-sidebar').style.opacity = 0;
+                 document.getElementById('menu-scroll-container').style.right = "-45vw";
+             }
+             else {
+                 a++;
+                 document.getElementById('overlay-sidebar').style.opacity = 1;
+                 document.getElementById('menu-scroll-container').style.right = "0vw";
+             }
+         }
+     </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          <div id="menu">
             <div id="men">
                menu
             </div>
-            <div id="ham">
+            <div onclick="siderBarOpen()" id="ham">
                <div id="_1"></div>
                <div id="_2"></div>
             </div>
