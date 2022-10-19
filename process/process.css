@@ -1377,6 +1377,9 @@ i {
 }
 
 @media only screen and (max-width:1400px) {
+    #pro{
+        width: 85vw;
+    }
     #arr11 #img11_2 {
         position: absolute;
         left: calc(100vw - 283px);
