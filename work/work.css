@@ -179,8 +179,8 @@ i {
 #_01 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+    left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
     rotate: -53deg;
@@ -190,8 +190,8 @@ i {
 #_02 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
     rotate: -53deg;
@@ -201,8 +201,8 @@ i {
 #_03 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
     rotate: -53deg;
@@ -212,8 +212,8 @@ i {
 #_04 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px;
      */
@@ -224,8 +224,8 @@ i {
 #_00 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
     rotate: -53deg;
@@ -404,8 +404,8 @@ i {
 
 @keyframes anim0 {
     from {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init)
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
     }
 
     to {
@@ -416,8 +416,8 @@ i {
 
 @keyframes anim1 {
     0% {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init);
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
         transform: scale(0);
     }
 
@@ -436,8 +436,8 @@ i {
 
 @keyframes anim2 {
     0% {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init);
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
         transform: scale(0);
     }
 
@@ -456,8 +456,8 @@ i {
 
 @keyframes anim3 {
     0% {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init);
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
         transform: scale(0);
     }
 
