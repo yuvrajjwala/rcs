@@ -628,19 +628,30 @@ p {
 
 #arr2 {
     /* margin-top: 5rem; */
+    position: relative;
+    background-image: url(./img/MaskGroup10.png);
     height: 100vh;
     min-height: 850px;
     max-height: 1000px;
-    background: url(./img/Group\ 10888.png);
     background-position: center;
     background-size: 110vw 101vh;
+}
+
+#arr2::before{
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right,#62BEB7,#C9F9B8);
+    top: 0px;
+    z-index: -1;
 }
 
 #arr2 .h2 {
     font-size: 3.4rem;
     /* font-weight: 500; */
     font-family: gilroy-medium;
-    color: white;
+    color: #33534A;
     width: 43vw;
     line-height: 73px;
     text-align: center;
@@ -1660,7 +1671,7 @@ i {
 
 #arr11 {
     /* display: flex; */
-    background-color: #321AC1;
+    background-color: #62BEB7;
     height: 80vh;
     min-height: 700px;
     max-height: 900px;
@@ -1770,7 +1781,7 @@ i {
 
 #arr11 #center #second div {
     z-index: -1;
-    background-color: #321BC1;
+    background-color: #62BEB7;
     width: 100%;
     height: 2vh;
     position: relative;
@@ -2146,8 +2157,9 @@ i {
 
     #arr2 {
         height: 100vh;
-        min-height: 850px;
-        background: url(./img/Group\ 10888.png);
+        min-height: 850px;   
+        position: relative;
+        background-image: url(./img/MaskGroup10.png);
         background-position: center;
         background-size: 110vw 950px;
     }
@@ -2258,7 +2270,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: #000000;
         color: white;
         padding: 1rem 4rem;
         height: 100vh;
@@ -2438,7 +2450,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: #000000;
         color: white;
         padding: 1rem 3rem;
         height: 100vh;
@@ -2561,7 +2573,7 @@ i {
 
     #MainHead .heading {
         font-size: 2rem;
-        width: 100%;
+        width: 95%;
         font-family: gilroy-semi-bold;
         margin-top: 1rem;
         line-height: 50px;
@@ -2598,7 +2610,7 @@ i {
         margin-top: 0px;
         background-size: 850px 540px;
         background-repeat: no-repeat;
-        background-color: #1C171D;
+        background-color: #ffffff;
         background-position: -220px bottom;
         min-height: 550px;
         height: 75vh;
@@ -2645,8 +2657,8 @@ i {
 
     #arr3 .cards .text .heading {
         line-height: 40px;
-        font-size: 1.65rem;
-        width: 78%;
+        font-size: 1.72rem;
+        width: 82%;
     }
 
     #c1 .text {
@@ -2662,13 +2674,13 @@ i {
     #arr3 .cards .text p:nth-child(3) {
         width: 90%;
         line-height: 1.5rem;
-        font-family: gilroy-medium;
-        font-size: 0.75rem;
+        font-family: 'gilroy-medium';
+        font-size: 0.82rem;
         letter-spacing: 0.6px;
     }
 
     #arr3 #c2 .text p:nth-child(3) {
-        width: 95%;
+        width: 95% !important;
     }
 
     #c1 div button {
@@ -2683,14 +2695,15 @@ i {
 
     #c2 div button {
         margin-top: 1.5rem;
-        width: 9rem;
-        height: 2.5rem;
+    width: 8rem;
+    height: 2.3rem;
     }
 
     #arr3 .cards .text p:nth-child(1) {
         margin: 0px 0px;
         font-size: 0.7rem;
         line-height: 0.9rem;
+        width: 6rem !important;
     }
 
     #side-line {
@@ -2700,6 +2713,7 @@ i {
     #arr4 {
         padding: 1px 0px;
         min-height: 800px;
+        margin-top: 130px;
     }
 
     #arr4 .cards ul {
@@ -2713,9 +2727,11 @@ i {
     }
 
     #arr4 .text .heading {
-        font-size: 1.5rem;
-        width: 75vw;
-        font-family: 'gilroy-bold';
+        font-size: 2rem;
+        width: 82vw;
+        margin-top: 10px;
+        margin-bottom: 14px;
+        font-family: 'gilroy-semi-bold';
         line-height: 31px;
     }
 
@@ -2810,7 +2826,12 @@ i {
 
     #arr6_1 .text p:first-child {
         font-size: 0.8rem;
-        line-height: 1rem;
+    /* line-height: 11px; */
+    width: 131px;
+    padding-top: 8px !important;
+    /* background: red; */
+    margin-top: 100px;
+    letter-spacing: 1px !important;
     }
 
     #arr6_1 .text .heading {
@@ -2881,7 +2902,7 @@ i {
     }
 
     #arr7 {
-        padding-top: 4rem;
+        padding-top: 0rem;
         padding-bottom: 3rem;
     }
 
@@ -3032,7 +3053,7 @@ i {
 
     .arr9_1 div {
         font-size: 3rem;
-        font-family: 'gilroy-extra-bold';
+        font-family: 'gilroy-semi-bold';
     }
 
     .arr9_1 p {
@@ -3133,7 +3154,7 @@ i {
 
     #arr11 #center #second div {
         z-index: -1;
-        background-color: #321BC1;
+        background-color: #62BEB7;
         width: 100%;
         height: 2vh;
         position: absolute;
@@ -3261,6 +3282,32 @@ i {
         width: 100vw;
         flex-wrap: wrap;
         height: auto;
+        border-radius: 40px;
+        padding: 10px;
+        padding-top: 25px;
+        margin-bottom: 25px;
+    }
+    .btn-why-rcs {
+        border: none;
+        background-color: #62BEB7;
+        color: white;
+        border-radius: 20px;
+        padding: 7px 30px;
+    }
+    .right-box p {
+        height: auto;
+        width: 100%;
+        padding-left: 0px;
+        font-size: 2.05rem;
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .whyrcs1-img{
+        right: 16px;
+    }
+    .left-box p{
+        font-size: 2.2rem;
     }
     .why-rcs-content1 {
         width: 101%;
@@ -3268,8 +3315,9 @@ i {
     }
     .why-rcs {
         text-align: center;
-        font-size: 2.35rem;
+        font-size: 2.09rem;
         line-height: 45px;
+        margin-bottom: 40px;
     }
     .why-rcs-boxes{
         width: 90vw;
@@ -3277,7 +3325,14 @@ i {
     .right-box{
         height: auto;
         width: 100%;
+        margin-bottom: 20px;
         padding-left: 20px;
+    }
+    .whyrcs1-img2 {
+        width: 161%;
+        position: relative;
+        bottom: 30px;
+        right: 186px;
     }
     .why-rcs-content2 {
         width: 140%;
@@ -3302,7 +3357,14 @@ i {
         width: auto !important;
     }
     #round-head-id{
-        height: 2.8rem !important;
+        height: 2rem !important;
+        width: 100px;
+        padding-top: 9px !important;
+        font-size: 0.75rem;
+        letter-spacing: 1px !important;
+        letter-spacing: 0px;
+        height: 10px;
+        /* background: red;*/
     }
 
 
@@ -3450,7 +3512,7 @@ footer {
 }
 
 .btn:hover::before {
-    top: -13.5rem;
+    top: -11.5rem;
     transition-duration: 0.5s;
 }
 
@@ -3540,4 +3602,19 @@ footer {
 body{
     height: 100vh;
     width: 100%;
+}
+
+#let{
+    color: #33534A;
+    border: 1px solid #33534A;
+}
+
+
+#arr2{
+    position: relative;
+}
+
+
+.btn{
+    position: relative;
 }

@@ -350,8 +350,10 @@ function populate(arr, count, text, ids, dec, numb, numb1,numb2) {
         document.querySelectorAll('.imgdiv').forEach(ele => {
             ele.style.color = 'white';
         })
+        console.log('nft');
 
         for (let i = 0; i <= 4; i++) {
+            console.log(i);
             document.querySelector('#_00' + i + ' g path').setAttribute('stroke', '#1C171D')
             document.querySelector('#_000' + i + ' g path').setAttribute('stroke', '#1C171D')
             document.querySelector('#_0000' + i + ' g path').setAttribute('stroke', '#1C171D')
@@ -359,8 +361,10 @@ function populate(arr, count, text, ids, dec, numb, numb1,numb2) {
             document.querySelectorAll('#_0' + i + ' g defs linearGradient stop')[1].style.stopColor = '#DE26FA'
             document.querySelector('#_0' + i + ' g defs linearGradient').setAttribute('x2', '110%')
             document.querySelector('#_0' + i + ' g defs linearGradient').setAttribute('y2', '0%')
+            document.getElementById('l'+(i+1)).style.background = 'transparent';
+            document.getElementById('l'+(i+1)).style.color = 'white';
         }
-
+        document.getElementById(ids).style.background = 'linear-gradient(to right, #52B7FC, #CF36FB)';
 
         document.getElementById('ham').addEventListener('mouseenter', () => {
             document.getElementById('_1').style.backgroundColor = 'white'
@@ -396,9 +400,11 @@ function populate(arr, count, text, ids, dec, numb, numb1,numb2) {
             document.querySelectorAll('#_0' + i + ' g defs linearGradient stop')[0].style.stopColor = 'rgb(194, 229, 156)'
             document.querySelectorAll('#_0' + i + ' g defs linearGradient stop')[1].style.stopColor = 'rgb(98, 190, 183)'
             document.querySelector('#_0' + i + ' g defs linearGradient').setAttribute('x2', '0%')
+            document.getElementById('l'+(i+1)).style.background = 'none';
+            document.getElementById('l'+(i+1)).style.color = 'black';
             document.querySelector('#_0' + i + ' g defs linearGradient').setAttribute('y2', '100%')
         }
-
+        document.getElementById(ids).style.background = 'linear-gradient(to right, #C9F9B8, #62BEB7)';
         document.getElementById('ham').addEventListener('mouseenter', () => {
             document.getElementById('_1').style.backgroundColor = 'white'
             document.getElementById('_2').style.backgroundColor = 'white'
@@ -2225,3 +2231,18 @@ populate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 0, ['R
 // M.914,243.969c-7.151,56.763,29.154,103.645,57.862,140.716,78.955,101.958,162.1,92.978,239.886,188.856,68.722,84.7,39.074,135.146,122.349,166.925,38.974,14.873,104.465,26.338,154.906,8.6,45.3-15.931,58.292-48.323,62.684-59.99,24.572-65.288,29.326-132.857,4.648-185.174C576.519,362.435,831.342,292.777,783.255,155.1,753.73,70.562,595.192,9.508,456.576,1.049,219.172-13.437,15.918,124.87.914,243.969
 
 
+
+
+
+
+
+function fullWidth(a){
+    if(a===1)
+    document.getElementById('email-bottm-2').style.width="100%";
+    else if(a===2)
+    document.getElementById('email-bottm-22').style.width="10%";
+    else if(a===3)
+    document.getElementById('email-bottm-22').style.width="100%";
+    else
+    document.getElementById('email-bottm-2').style.width="10%";
+}

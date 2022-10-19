@@ -82,6 +82,7 @@ i {
     margin-top: 62px;
     margin-right: 86px;
     height: 63px;
+    z-index: 999;
     width: 63px;
     border-radius: 50%;
     transition-duration: 0.25s;
@@ -1678,4 +1679,134 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
+}
+
+
+
+
+
+
+
+
+#overlay-sidebar{
+    transition-duration: 1s;
+    opacity: 0;
+}
+.overlay-scroll-container{
+    background-color: rgba(255, 255, 255, 0.311);
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    
+    overflow: hidden;
+    overflow: none;
+    min-height: 850px;
+}
+.menu-scroll-container{
+    background-color: rgb(255, 255, 255);
+    width: 45vw;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    padding:26vh 100px;
+    height: 100vh;
+   top: 0;
+   transition-duration: 1s;
+   justify-content: left;
+   font-family: 'gilroy-medium';
+}
+#menu-scroll-container{
+    right: -45vw;
+}
+.menu-scroll-navagition{
+    font-size: 2.3rem;
+}
+.menu-scroll-navagition ul {
+    list-style: none;
+    margin-left: 9vw;
+    line-height: 60px;
+}
+.menu-scroll-navagition ul li, .menu-scroll-social ul li {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    /* transition-duration: 0.5s; */
+}
+.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
+    transform: scale(1.1);
+}
+.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
+    transform: scale(1.05);
+}
+#line-span-menu{
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+#area1 ul li{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    
+}
+#area1 ul li:hover{
+    transform: scale(1.05);
+}
+.menu-scroll-social{
+    font-size: 1.2rem;
+    font-family: 'gilroy-regular';
+    line-height: 47px;
+    padding-left: 1vw;
+}
+.menu-scroll-social span, .menu-scroll-navagition span {
+    font-size: 1rem;
+    color:#B2B1B2;
+    font-family: 'gilroy-regular';
+}
+
+.menu-scroll-social ul{
+    list-style: none;
+}
+
+
+#style-no{
+    text-decoration: none;
+    color: black;
+}
+
+
+.email-sidebar{
+    position: absolute;
+    bottom: 70px;
+    font-family: 'gilroy-semi-bold';
+}
+#light{
+    color: #B2B1B2;
+    font-family: 'gilroy-semi-bold';
+    font-size: 1.2rem;
+}
+.email-rcs{
+    cursor: pointer;
+    font-family: 'gilroy-regular';
+    font-size: 1.15rem;
+    /* border-bottom: 1px solid rgb(196, 196, 196); */
+}
+.email-rcs:hover{
+    /* border-bottom: 1px solid #000; */
+    font-family: 'gilroy-medium';
+    transition-duration: 1s;
+}
+#email-bottom-1,#email-bottom-11{
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    height: 2px;
+}
+#email-bottm-2,#email-bottm-22{
+    background-color: black;
+    width: 10%;
+    height: 100%;
+    transition-duration: 1s;
+}
+.telegram-div-sidbar{
+    margin-left: 5vw;
 }

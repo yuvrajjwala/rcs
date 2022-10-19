@@ -261,3 +261,18 @@ document.getElementById('foot12').addEventListener('mouseleave', ()=>{
     document.getElementById('bottom2').style.width = '10%'
 
 });
+
+
+
+
+
+function fullWidth(a){
+    if(a===1)
+    document.getElementById('email-bottm-2').style.width="100%";
+    else if(a===2)
+    document.getElementById('email-bottm-22').style.width="10%";
+    else if(a===3)
+    document.getElementById('email-bottm-22').style.width="100%";
+    else
+    document.getElementById('email-bottm-2').style.width="10%";
+}
