@@ -161,6 +161,9 @@ i {
     margin-bottom: 0.4rem;
 }
 
+#l1,#l2,#l3,#l4,#l5{
+    z-index:100;
+}
 
 
 #one .container {
@@ -2443,6 +2446,7 @@ i {
 #overlay-sidebar{
     transition-duration: 1s;
     opacity: 0;
+    display: none;
 }
 .overlay-scroll-container{
     background-color: rgba(255, 255, 255, 0.311);

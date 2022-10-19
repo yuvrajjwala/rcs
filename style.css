@@ -250,6 +250,7 @@ p {
 #overlay-sidebar{
     transition-duration: 1s;
     opacity: 0;
+    display: none;
 }
 .overlay-scroll-container{
     background-color: rgba(255, 255, 255, 0.311);
@@ -2912,8 +2913,8 @@ i {
     }
 
     .imgarea div:first-child {
-        height: 80px;
-        width: 80px;
+        height: 65px;
+        width: 65px;
     }
 
     .imgarea img {
@@ -2931,7 +2932,7 @@ i {
     }
 
     .imgarea div {
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin: 0px;
     }
 
@@ -3008,7 +3009,7 @@ i {
     }
 
     .imgarea1 div {
-        font-size: 0.8rem;
+        font-size: 0.95rem;
         margin: 10px 0px;
         font-family: gilroy-bold;
     }
@@ -3088,7 +3089,7 @@ i {
         text-align: center;
         font-size: 2.5rem;
         margin: 0px;
-        font-family: 'gilroy-bold';
+        font-family: 'gilroy-semi-bold';
     }
 
     #arr10 .cards div:last-child {
@@ -3285,7 +3286,7 @@ i {
         border-radius: 40px;
         padding: 10px;
         padding-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
     .btn-why-rcs {
         border: none;
@@ -3325,7 +3326,7 @@ i {
     .right-box{
         height: auto;
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
         padding-left: 20px;
     }
     .whyrcs1-img2 {
@@ -3341,7 +3342,7 @@ i {
     .round-head{
         color: #62BEB7;
         width: 8rem;
-        letter-spacing: 3px !important;
+        letter-spacing: 2px !important;
         height: 2.1rem !important;
         padding: 0.5rem !important;
         padding-top: 11px !important;

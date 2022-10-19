@@ -482,11 +482,13 @@
                     if (a % 2 != 0) {
                         a++;
                         document.getElementById('overlay-sidebar').style.opacity = 0;
+                        document.getElementById('overlay-sidebar').style.display = "none";
                         document.getElementById('menu-scroll-container').style.right = "-45vw";
                     }
                     else {
                         a++;
                         document.getElementById('overlay-sidebar').style.opacity = 1;
+                        document.getElementById('overlay-sidebar').style.display = "block";
                         document.getElementById('menu-scroll-container').style.right = "0vw";
                     }
                 }
