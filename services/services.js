@@ -19,15 +19,15 @@ root.style.setProperty('--pos_y_final', '-300px');
 
 //animation addition
 e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.85);')
-e1.setAttribute('style', 'display: block ; position: absolute;top:-350px;left:calc(50vw - 550px);  height: 1000px;  width: 1000px; animation : anim1 2s ease-in-out ;')
-e2.setAttribute('style', 'display: block ; position: absolute;top:-350px;left:calc(50vw - 550px);  height: 1000px;  width: 1000px; animation : anim2 2s ease-in-out ;')
-e3.setAttribute('style', 'display: block ; position: absolute;top:-350px;left:calc(50vw - 550px);  height: 1000px;  width: 1000px;animation : anim3 2s ease-in-out ;')
+e1.setAttribute('style', 'display: block ; position: absolute;top:-450px;left:calc(50vw - 500px);  height: 1000px;  width: 1000px; animation : anim1 2s ease-in-out ;')
+e2.setAttribute('style', 'display: block ; position: absolute;top:-450px;left:calc(50vw - 500px);  height: 1000px;  width: 1000px; animation : anim2 2s ease-in-out ;')
+e3.setAttribute('style', 'display: block ; position: absolute;top:-500px;left:calc(50vw - 500px);  height: 1000px;  width: 1000px;animation : anim3 2s ease-in-out ;')
 
 
 setTimeout(() => {
     e1.style.transform = 'scale(0.9)';
-        e2.style.transform = 'scale(1.25)';
-        e3.style.transform = 'scale(1.65)';
+        e2.style.transform = 'scale(1)';
+        e3.style.transform = 'scale(1.25)';
 }, 2000);
 
 

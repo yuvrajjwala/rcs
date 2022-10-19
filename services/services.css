@@ -434,7 +434,7 @@ i {
 
     100% {
 
-        transform: scale(1.15);
+        transform: scale(0.9);
     }
 
 }
@@ -454,7 +454,7 @@ i {
 
     100% {
 
-        transform: scale(1.5);
+        transform: scale(1);
     }
 
 }
@@ -474,7 +474,7 @@ i {
 
     100% {
 
-        transform: scale(1.75);
+        transform: scale(1.25);
     }
 
 }
@@ -556,6 +556,11 @@ i {
     padding: 0rem 8rem;
     align-items: center;
     justify-content: space-between;
+}
+
+
+.textarea img{
+    height: 400px;
 }
 
 .text1 {
@@ -2831,3 +2836,4 @@ footer{
 #wrap{
     margin-bottom: 500px;
 }
+
