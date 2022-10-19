@@ -740,7 +740,7 @@
             <div id="arr7_1">
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11055.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11058.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img id="chess" class="imgarea_1" src="./img/Iconawesome-chess.png" alt=""> -->
                     </div>
                     <br>
@@ -749,7 +749,7 @@
                 </div>
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11056.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11055.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img class="imgarea_1" src="./img/pen-ruler-solid.png" alt=""> -->
                     </div>
                     <br>
@@ -758,7 +758,7 @@
                 </div>
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11057.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11056.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img class="imgarea_1" src="./img/file-code-solid.png" alt=""> -->
                     </div>
                     <br>
@@ -767,7 +767,7 @@
                 </div>
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11058.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11057.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img class="imgarea_1" src="./img/microscope-solid.png" alt=""> -->
                     </div>
                     <br>
@@ -1164,7 +1164,7 @@
             height: 8px;
             border-radius: 100%;
             background-color: #000000cb;
-            transition-timing-function: ease-out;
+            /* transition-timing-function: linear; */
             top: 49%;
             left: 48.85%;
             transition-duration: 0.2s;
@@ -1178,21 +1178,21 @@
     </style>
     <script type="text/javascript">
         window.onload = function () {
-            // var bsDiv = document.getElementById("box-shadow-div");
-            // var x, y;
-            // window.addEventListener('mousemove', function (event) {
-            //     x = event.clientX;
-            //     y = event.clientY;
-            //     if (typeof x !== 'undefined') {
-            //         bsDiv.style.left = x + "px";
-            //         bsDiv.style.top = y + "px";
-            //     }
-            // }, false);
+            var bsDiv = document.getElementById("box-shadow-div");
+            var x, y;
+            window.addEventListener('mousemove', function (event) {
+                x = event.clientX;
+                y = event.clientY;
+                if (typeof x !== 'undefined') {
+                    bsDiv.style.left = x + "px";
+                    bsDiv.style.top = y + "px";
+                }
+            }, false);
         }
     </script>
     </head>
 
-    <!-- <div id="box-shadow-div"></div> -->
+    <div id="box-shadow-div"></div>
 
     <!-- <div id="circle" class="circle"></div> -->
 
@@ -1215,7 +1215,7 @@
         });
 
     </script>
-    <script src="smooth-scrollbar.js"></script>
+    <!-- <script src="smooth-scrollbar.js"></script>
     <script>
 
         //SMOOTH SCROLL MOMENTUM JS
@@ -1225,7 +1225,7 @@
             'damping': 0.06
         }
         Scrollbar.init(document.querySelector('body'), options);
-    </script>
+    </script> -->
 </body>
 
 </html>

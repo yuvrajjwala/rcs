@@ -939,8 +939,8 @@ function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
-    // var bottom = scrolled-95.74
-    var bottom = scrolled-90.74
+    var bottom = scrolled-95.74
+    // var bottom = scrolled-90.74
 
     if(bottom>=0){
         document.getElementById('arr12').style.transform = 'translateY('+(60-(bottom*14.1))+'%)';

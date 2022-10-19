@@ -2813,3 +2813,21 @@ i {
 .telegram-div-sidbar{
     margin-left: 5vw;
 }
+
+
+
+
+
+footer{
+    z-index: -100;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 500px;
+}
+
+
+#wrap{
+    margin-bottom: 500px;
+}
