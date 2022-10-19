@@ -33,7 +33,7 @@
                         id="_00">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -98,7 +98,7 @@
                         id="_01">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient1" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -163,7 +163,7 @@
                         id="_02">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient2" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -228,7 +228,7 @@
                         id="_03">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient3" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient3" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -293,7 +293,7 @@
                         id="_04">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient4" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient4" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -444,22 +444,23 @@
                             <p id="light">Contact</p>
                             <div style="display: flex;">
                                 <div>
-                            <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
-                                Rawcanvasstudio1@gmail.com</p>
-                            <div id="email-bottom-1">
-                                <div id="email-bottm-2"></div>
-                            </div>
-                        </div>
-                        <div class="telegram-div-sidbar">
-                                <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram</p>
-                                <div id="email-bottom-11">
-                                    <div id="email-bottm-22"></div>
+                                    <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
+                                        Rawcanvasstudio1@gmail.com</p>
+                                    <div id="email-bottom-1">
+                                        <div id="email-bottm-2"></div>
+                                    </div>
+                                </div>
+                                <div class="telegram-div-sidbar">
+                                    <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram
+                                    </p>
+                                    <div id="email-bottom-11">
+                                        <div id="email-bottm-22"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
-                    
+
                 </div>
 
 
@@ -479,17 +480,26 @@
                 let a = 0;
                 function siderBarOpen() {
 
+                    document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
+                        if(a%2==0){
+                            document.getElementById('overlay-sidebar').style.display = "none";
+                        }
+                        else return ;
+                    });
+
                     if (a % 2 != 0) {
                         a++;
                         document.getElementById('overlay-sidebar').style.opacity = 0;
-                        document.getElementById('overlay-sidebar').style.display = "none";
                         document.getElementById('menu-scroll-container').style.right = "-45vw";
+
                     }
                     else {
                         a++;
-                        document.getElementById('overlay-sidebar').style.opacity = 1;
                         document.getElementById('overlay-sidebar').style.display = "block";
-                        document.getElementById('menu-scroll-container').style.right = "0vw";
+                        setTimeout(() => {
+                            document.getElementById('overlay-sidebar').style.opacity = 1;
+                            document.getElementById('menu-scroll-container').style.right = "0vw"                           
+                        }, 5);
                     }
                 }
             </script>
@@ -527,7 +537,8 @@
             <div class="cards" id="c1">
                 <div class="text">
                     <p class="round-head"
-                        style="color: #62BEB7; width:8rem; letter-spacing: 3px; height:3.1rem; padding:0.5rem">WHY US</p>
+                        style="color: #62BEB7; width:8rem; letter-spacing: 3px; height:3.1rem; padding:0.5rem">WHY US
+                    </p>
                     <div class="heading">Get your top quality & dedicated talent</div>
                     <p>Our
                         swift-paced team is capable
@@ -542,7 +553,8 @@
             <div class="cards" id="c2">
                 <div class="text">
                     <p class="round-head"
-                        style="color: #62BEB7; width:7.95rem; letter-spacing: 3px; height:3rem; padding:0.5rem">TEAM UP</p>
+                        style="color: #62BEB7; width:7.95rem; letter-spacing: 3px; height:3rem; padding:0.5rem">TEAM UP
+                    </p>
                     <div class="heading">Team up without the chaos</div>
                     <p id="not-hurderls">No hurdle,
                         no hassle. Have the
@@ -1139,7 +1151,7 @@
             </div>
         </div>
         <div id="area2">
-            <div onclick="scrolltop()" ><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+            <div onclick="scrolltop()"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
         </div>
         <div id="area3">© 2022 Raw Canvas studio. All right reserved</div>
     </footer>
