@@ -2240,6 +2240,39 @@ populate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 0, ['R
 
 
 
+const footer = new IntersectionObserver(footer => {
+
+    //    console.log(entries)
+    if (footer[0].isIntersecting) {
+        document.getElementById('arr12').style.display = 'flex'
+    }
+    else {
+        document.getElementById('arr12').style.display = 'none'
+    }
+}
+)
+
+footer.observe(document.getElementById('arr11'));
+
+
+
+function myFunction() {
+    console.log('this is the footer function')
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    var bottom = scrolled-89.89
+    // var bottom = scrolled-90.74
+
+    if(bottom>=0){
+        document.getElementById('arr12').style.transform = 'translateY('+(45.5-(bottom*4.5))+'%)';
+        
+    }
+    console.log(bottom)
+}
+
+window.onscroll = function() {myFunction()};
+
 
 
 
