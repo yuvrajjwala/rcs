@@ -146,17 +146,26 @@
          let a = 0;
          function siderBarOpen() {
 
-            if (a % 2 != 0) {
+            document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
+                        if(a%2==0){
+                            document.getElementById('overlay-sidebar').style.display = "none";
+                        }
+                        else return ;
+                    });
+
+                    if (a % 2 != 0) {
                         a++;
                         document.getElementById('overlay-sidebar').style.opacity = 0;
-                        document.getElementById('overlay-sidebar').style.display = "none";
                         document.getElementById('menu-scroll-container').style.right = "-45vw";
+
                     }
                     else {
                         a++;
-                        document.getElementById('overlay-sidebar').style.opacity = 1;
                         document.getElementById('overlay-sidebar').style.display = "block";
-                        document.getElementById('menu-scroll-container').style.right = "0vw";
+                        setTimeout(() => {
+                            document.getElementById('overlay-sidebar').style.opacity = 1;
+                            document.getElementById('menu-scroll-container').style.right = "0vw"                           
+                        }, 5);
                     }
                   }
      </script>
@@ -261,6 +270,212 @@
 
 
    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   <div id="arr9">
+      <div class="arr9_1">
+          <div>202</div>
+          <p>Projects</p>
+      </div>
+      <div class="arr9_1">
+          <div>76</div>
+          <p>Happy Clients</p>
+      </div>
+      <div class="arr9_1">
+          <div>14</div>
+          <p>Countries</p>
+      </div>
+      <div class="arr9_1">
+          <div>80</div>
+          <p>Services</p>
+      </div>
+  </div>
+
+
+  <div id="arr10">
+
+      <!-- <div class="text">
+          <p>THE PROCESS</p>
+          <div class="heading">Our simple and easy process</div>
+          <p>Well-planned workflow with seamless design process executions.</p>
+      </div> -->
+
+      <div class="cards">
+          <div>
+              <ul>
+                  <li id="l11" class="accordion">
+                      <div class="text">
+                          <div style="display: flex ;">
+                              <div class="heading">Why Raw Canvas Studio?</div><i id="i1"
+                                  class="fas fa-minus-circle"></i>
+                          </div>
+                          <p class="show" id="p11">Raw Canvas Studio is a team of designers. RCS is a design and
+                              development agency that’s building websites and apps since 2017. This initiative is our
+                              way of giving back to the community. Having launched our own startups and with 200+
+                              successful projects on our resume, we know exactly how to make ideas shine. The world is
+                              full of ideas that stay undiscovered. RCS is on a mission to give them wings. And drop
+                              shadows.</p>
+                      </div>
+
+
+                  </li>
+                  <li id="l22">
+                      <div class="text">
+                          <div style="display: flex ;">
+                              <div class="heading">What could be the ball park cost / preliminary estimation and the
+                                  timelines for our project? </div><i id="i2" class="fas fa-plus-circle"></i>
+                          </div>
+                          <p class="hidden" id="p22">To start the project, it’s enough to fill out our brief, to
+                              hold
+                              the meeting or have a call. Agency can start a project at any stage, whether it’s
+                              the
+                              idea or an already formed vision. Ideally, but not necessarily if the customer has
+                              an
+                              idea of how the project should look like. The vision of the customer helps to
+                              understand
+                              the expectations. Usually, everything becomes clear after the first meeting Read
+                              more on
+                              https://rondesign.agency/faq/</p>
+                      </div>
+
+                  </li>
+                  <li id="l33">
+                      <div class="text">
+                          <div style="display: flex ;">
+                              <div class="heading">I already have some materials ( wireframes / mockups / templates)
+                                  can
+                                  you use and improve them rather then to create from scratch?</div><i id="i3"
+                                  class="fas fa-plus-circle"></i>
+                          </div>
+                          <p class="hidden" id="p33">Sure — the more materials and information we receive from you,
+                              the less work we will need to do in the project. For example, we can take your
+                              wireframes and make the necessary improvements. And then create the UI design based on
+                              them. </p>
+                      </div>
+
+                  </li>
+                  <li id="l44">
+                      <div class="text">
+                          <div style="display: flex ;">
+                              <div class="heading">What would be the deliverables I will get? </div><i id="i4"
+                                  class="fas fa-plus-circle"></i>
+                          </div>
+                          <p class="hidden" id="p44">If to day about the design, you can see the more thorough list is
+                              available on this page. We will send you all the source files for design and development
+                              (code). Also you’re always able to download all the files from our server using your
+                              personal link. And you can continue using the prototype we created during the project.
+                          </p>
+                      </div>
+
+                  </li>
+                  <li id="l55">
+                      <div class="text">
+                          <div style="display: flex ;">
+                              <div class="heading">Will you sign an NDA?</div><i id="i5"
+                                  class="fas fa-plus-circle"></i>
+                          </div>
+                          <p class="hidden" id="p55">Yes Of course, we understand that you as a brand may want to keep
+                              everything confidential. So we are open to create a Contract before we begin our design
+                              process.
+
+                          </p>
+                      </div>
+
+                  </li>
+              </ul>
+          </div>
+
+          <div class="text">
+              <div class="heading">FAQ's</div>
+              <p style="margin-bottom: 4rem; color: white;" id="faq-text">What are your curiosities ?</p>
+              <button style="margin-left: 0px;" class="btn dark transparent">Let's Talk</button>
+          </div>
+          <!-- <img src="./img/628df8040afc12127ab2ce50_img-process-1.png" alt="" id="listImg"> -->
+      </div>
+
+  </div>
+
+
+
+  <div id="arr11">
+      <!-- <div id="backhov">
+      </div> -->
+      <img src="../img/topleft.png" alt="" id="img11_1">
+      <img src="../img/topright.png" alt="" id="img11_2">
+      <img src="../img/bottomleft.png" alt="" id="img11_3">
+      <img src="../img/bottomright.png" alt="" id="img11_4">
+      <div id="center">
+          <div id="first">Ready to discuss your project ?</div>
+          <div id="second">CONTACT US <div></div>
+          </div>
+      </div>
+  </div>
+
+
+
+  <footer id="arr12">
+      <div id="area1">
+          <div id="foot1">
+              <div id="foot11">
+                  <div>Raw Canvas Studio</div>
+                  <p>400090 BANDRA, MUMBAI, INDIA</p>
+              </div>
+              <div id="foot12">info@studiorawcanvas.com</div>
+              <div id="bottom1">
+                  <div id="bottom2"></div>
+              </div>
+          </div>
+          <div id="foot2">
+              <div id="foot21">
+                  <ul>
+                      <li>Dribbble</li>
+                      <li>Behance</li>
+                      <li>Instagram</li>
+                  </ul>
+              </div>
+              <div id="foot22">
+                  <ul>
+                      <li>LinkedIn</li>
+                      <li>Telegram</li>
+                      <li>Facebook</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div id="area2">
+          <div><i class="fas fa-arrow-up"></i></div>
+      </div>
+      <div id="area3">© 2022 Raw Canvas studio. All right reserved</div>
+  </footer>
+
 
 
    

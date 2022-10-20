@@ -162,7 +162,8 @@ i {
 }
 
 #l1,#l2,#l3,#l4,#l5{
-    z-index:100;
+    padding: 18px 45px;
+    margin-right: 1rem;
 }
 
 
@@ -179,56 +180,56 @@ i {
 #_01 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+    left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
-    rotate: -53deg;
+    /* rotate: -53deg; */
     transform: scale(0.8);
 }
 
 #_02 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
-    rotate: -53deg;
+    /* rotate: -53deg; */
     transform: scale(0.8);
 }
 
 #_03 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
-    rotate: -53deg;
+    /* rotate: -53deg; */
     transform: scale(0.8);
 }
 
 #_04 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px;
      */
-    rotate: -53deg;
+    /* rotate: -53deg; */
     transform: scale(0.8);
 }
 
 #_00 {
     display: none;
     position: relative;
-    top: var(--pos_x_init);
-    left: var(--pos_y_init);
+    top: var(--pos_y_final);
+        left: var(--pos_x_final);
     /* height: 1000px;
     width: 1000px; */
-    rotate: -53deg;
+    /* rotate: -53deg; */
     transform: scale(0.8);
 
 }
@@ -243,7 +244,7 @@ i {
     left: 0px;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     animation: anim1 2s ease-in-out;
 }
 
@@ -252,7 +253,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
 
@@ -264,7 +265,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim3 2s ease-in-out;
@@ -275,7 +276,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim1 2s ease-in-out;
@@ -286,7 +287,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim2 2s ease-in-out;
@@ -297,7 +298,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim3 2s ease-in-out;
@@ -308,7 +309,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim1 2s ease-in-out;
@@ -319,7 +320,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim2 2s ease-in-out;
@@ -330,7 +331,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim3 2s ease-in-out;
@@ -341,7 +342,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim1 2s ease-in-out;
@@ -352,7 +353,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim2 2s ease-in-out;
@@ -363,7 +364,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim3 2s ease-in-out;
@@ -374,7 +375,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim1 2s ease-in-out;
@@ -385,7 +386,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim2 2s ease-in-out;
@@ -396,7 +397,7 @@ i {
     position: absolute;
     height: 1000px;
     width: 1000px;
-    rotate: -53deg;
+    /* rotate: -53deg; */
     top: 0px;
     left: 0px;
     animation: anim3 2s ease-in-out;
@@ -404,8 +405,8 @@ i {
 
 @keyframes anim0 {
     from {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init)
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
     }
 
     to {
@@ -416,8 +417,8 @@ i {
 
 @keyframes anim1 {
     0% {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init);
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
         transform: scale(0);
     }
 
@@ -436,8 +437,8 @@ i {
 
 @keyframes anim2 {
     0% {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init);
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
         transform: scale(0);
     }
 
@@ -456,8 +457,8 @@ i {
 
 @keyframes anim3 {
     0% {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init);
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
         transform: scale(0);
     }
 
@@ -480,6 +481,9 @@ i {
     /* justify-content: flex-end; */
     align-items: center;
     flex-direction: column;
+    width: 79vw;
+    margin: auto;
+    justify-content: center;
     /* height: 73vh; */
     color: #181919;
 }
@@ -513,13 +517,13 @@ i {
 
 .heading1 {
     width: 100%;
-    padding: 1rem 12rem;
+    padding: 1rem 0rem;
 }
 
 .heading1 div {
     font-size: 4rem;
     width: 36vw;
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
     margin-right: auto;
     font-family: gilroy-medium;
     line-height: 100px;
@@ -533,20 +537,20 @@ i {
     font-family: gilroy-medium;
     color: #707070;
     flex-wrap: wrap;
-    margin-left: 4vw;
+    /* margin-left: 4vw; */
 }
 
 .heading1 ul li {
     margin: 0px 2rem;
     cursor: pointer;
     border: 0.5px solid #707070;
-    padding: 10px 26px;
+    padding: 18px 30px;
     position: relative;
     bottom: 10px;
     border-radius: 27px;
     font-family: 'gilroy-medium';
     position: relative;
-    border-bottom: 0.5px solid #707070 !important;
+    border-bottom: 0.5px solid #707070 ;
 }
 
 .heading1 ul li:first-child {
@@ -566,9 +570,10 @@ i {
 #photosarea {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 11rem;
+    /* margin-left: 11rem; */
     align-items: center;
-    width: 80vw;
+    justify-content: center;
+    /* width: 80vw; */
 }
 
 #photosarea img {
@@ -643,12 +648,12 @@ i {
 
 
 #arr9 {
-    background-color: #62BEB7;
+    /* background-color: #62BEB7; */
     height: 40vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: white;
+    color: black;
 }
 
 .arr9_1 {
@@ -660,7 +665,7 @@ i {
 
 .arr9_1 div {
     font-size: 5rem;
-    font-family: gilroy-regular;
+    font-family: gilroy-semi-bold;
 }
 
 .arr9_1 p {
@@ -670,7 +675,7 @@ i {
 }
 
 #arr10 {
-    background-color: #1C171D;
+    background-color: black;
     color: white;
     padding: 1rem 6rem;
     height: 100vh;
@@ -786,7 +791,7 @@ i {
 }
 
 #arr11 {
-    background-color: #321AC1;
+    background-color: #62BEB7;
     height: 100vh;
     min-height: 850px;
     position: relative;
@@ -878,7 +883,7 @@ i {
 
 #arr11 #center #second div {
     z-index: -1;
-    background-color: #321BC1;
+    background-color: #62BEB7;
     width: 100%;
     height: 2vh;
     position: relative;
@@ -896,7 +901,7 @@ i {
 
 #arr11 {
     /* display: flex; */
-    background-color: #321AC1;
+    background-color: #62BEB7;
     height: 80vh;
     min-height: 700px;
     max-height: 900px;
@@ -1006,7 +1011,7 @@ i {
 
 #arr11 #center #second div {
     z-index: -1;
-    background-color: #321BC1;
+    background-color: #62BEB7;
     width: 100%;
     height: 2vh;
     position: relative;
@@ -1212,67 +1217,6 @@ i {
     }
 }
 
-@media screen and (max-width: 710px) {
-    #photosarea img {
-        width: 80vw;
-        margin: 0rem;
-        margin-left: 0px;
-        margin-bottom: 10px;
-    }
-
-    .heading1 {
-        width: 96%;
-        padding: 1rem 0rem;
-    }
-
-    #photosarea {
-        display: flex;
-        flex-wrap: wrap;
-        /* margin-left: 11rem; */
-        margin-left: 0px;
-        align-items: center;
-        justify-content: center;
-        width: 98vw;
-        /* border: 2px solid; */
-    }
-
-    .heading1 div {
-        font-size: 1.5rem;
-        width: 100%;
-        text-align: center;
-        margin-right: auto;
-        font-family: gilroy-medium;
-        line-height: 41px;
-    }
-
-    .imgdiv {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0px;
-        margin-right: 0rem;
-        font-family: gilroy-medium;
-        font-size: 1.15rem;
-        margin-bottom: 3rem;
-        text-align: center;
-    }
-
-    .heading1 ul li:first-child {
-        margin-left: 10px;
-    }
-
-    .heading1 ul {
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-
-    .bottom-text-new {
-        font-size: 1.5rem;
-        margin: 3rem auto;
-        font-family: 'gilroy-medium';
-        width: 100%;
-        text-align: center;
-    }
-}
 
 @media only screen and (max-width:1650px) {
 
@@ -1435,7 +1379,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: black;
         color: white;
         padding: 1rem 4rem;
         height: 100vh;
@@ -1533,7 +1477,7 @@ i {
         border-radius: 27px;
         font-family: 'gilroy-medium';
         position: relative;
-        border-bottom: 0.5px solid #707070 !important;
+        /* border-bottom: 0.5px solid #707070 !important; */
     }
 }
 
@@ -1674,7 +1618,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: black;
         color: white;
         padding: 1rem 3rem;
         height: 100vh;
@@ -1777,6 +1721,10 @@ i {
         font-size: 4rem;
         width: 44vw;
     }
+    #l1,#l2,#l3,#l4,#l5{
+        padding: 18px 30px;
+        margin-right: 0.5rem;
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -1796,6 +1744,7 @@ i {
     #arr4 .cards img {
         height: auto;
     }
+  
 }
 
 
@@ -2156,8 +2105,8 @@ i {
     }
 
     .arr9_1 div {
-        font-size: 2.5rem;
-        font-family: 'gilroy-bold';
+        font-size: 3rem;
+        font-family: 'gilroy-semi-bold';
     }
 
     .arr9_1 p {
@@ -2240,7 +2189,7 @@ i {
 
     #arr11 #center #second div {
         z-index: -1;
-        background-color: #321BC1;
+        background-color: #62BEB7;
         width: 100%;
         height: 2vh;
         position: absolute;
@@ -2375,7 +2324,7 @@ i {
 
     #arr11 #center #second div {
         z-index: -1;
-        background-color: #321BC1;
+        background-color: #62BEB7;
         width: 100%;
         height: 2vh;
         position: absolute;
@@ -2428,6 +2377,79 @@ i {
         left: calc(100vw - 250px);
         top: 500px;
         transform: scale(0.5);
+    }
+}
+
+
+
+
+@media screen and (max-width: 710px) {
+    #photosarea img {
+        width: 80vw;
+        margin: 0rem;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .heading1 {
+        width: 96%;
+        padding: 1rem 0rem;
+    }
+
+    #photosarea {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 11rem; */
+        margin-left: 0px;
+        align-items: center;
+        justify-content: center;
+        width: 98vw;
+        /* border: 2px solid; */
+    }
+
+    .heading1 div {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+        margin-right: auto;
+        font-family: gilroy-medium;
+        line-height: 41px;
+    }
+
+    .imgdiv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0rem;
+        font-family: gilroy-medium;
+        font-size: 1.15rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .heading1 ul li:first-child {
+        margin-left: 10px;
+    }
+
+    .heading1 ul li{
+        margin: 0.5rem 0.5rem;
+    }
+
+    .heading1 ul {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .bottom-text-new {
+        font-size: 1.5rem;
+        margin: 3rem auto;
+        font-family: 'gilroy-medium';
+        width: 100%;
+        text-align: center;
+    }
+
+    #arr1{
+        width: 95%;
     }
 }
 
@@ -2564,4 +2586,18 @@ i {
 }
 .telegram-div-sidbar{
     margin-left: 5vw;
+}
+
+footer{
+    z-index: -100;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 500px;
+}
+
+
+#wrap{
+    margin-bottom: 500px;
 }

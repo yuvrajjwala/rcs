@@ -840,11 +840,20 @@ function populate(arr, count, text, ids, dec) {
 
     const ImgArea = document.getElementById('photosarea');
     ImgArea.innerHTML = '';
-
+    let a=1;
     arr.forEach(item => {
         const div = document.createElement('div');
         div.classList.add('imgdiv');
+        div.setAttribute('data-aos',"fade-up");
+        div.setAttribute('data-aos-duration',a*300);
         const img = document.createElement('img');
+        if(a==3){
+            a=1;   
+        }
+        else{
+            a++;
+        }
+        
         // console.log(item)
         img.setAttribute('src', './img/work/page1/' + item + '.png')
         ImgArea.appendChild(div);
@@ -939,8 +948,8 @@ function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
-    // var bottom = scrolled-95.74
-    var bottom = scrolled-90.74
+    var bottom = scrolled-95.74
+    // var bottom = scrolled-90.74
 
     if(bottom>=0){
         document.getElementById('arr12').style.transform = 'translateY('+(60-(bottom*14.1))+'%)';

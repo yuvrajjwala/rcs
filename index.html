@@ -33,7 +33,7 @@
                         id="_00">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -98,7 +98,7 @@
                         id="_01">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient1" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -163,7 +163,7 @@
                         id="_02">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient2" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -228,7 +228,7 @@
                         id="_03">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient3" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient3" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -293,7 +293,7 @@
                         id="_04">
                         <g transform="translate(131.05635833740234, -3.5839157104492188)">
                             <defs>
-                                <linearGradient id="gradient4" x1="0%" y1="0%" x2="0%" y2="120%">
+                                <linearGradient id="gradient4" x1="40%" y1="-30%" x2="120%" y2="80%">
                                     <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
                                     <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
                                 </linearGradient>
@@ -444,22 +444,23 @@
                             <p id="light">Contact</p>
                             <div style="display: flex;">
                                 <div>
-                            <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
-                                Rawcanvasstudio1@gmail.com</p>
-                            <div id="email-bottom-1">
-                                <div id="email-bottm-2"></div>
-                            </div>
-                        </div>
-                        <div class="telegram-div-sidbar">
-                                <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram</p>
-                                <div id="email-bottom-11">
-                                    <div id="email-bottm-22"></div>
+                                    <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
+                                        Rawcanvasstudio1@gmail.com</p>
+                                    <div id="email-bottom-1">
+                                        <div id="email-bottm-2"></div>
+                                    </div>
+                                </div>
+                                <div class="telegram-div-sidbar">
+                                    <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram
+                                    </p>
+                                    <div id="email-bottom-11">
+                                        <div id="email-bottm-22"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        </div>
                     </div>
-                    
+
                 </div>
 
 
@@ -479,34 +480,43 @@
                 let a = 0;
                 function siderBarOpen() {
 
+                    document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
+                        if(a%2==0){
+                            document.getElementById('overlay-sidebar').style.display = "none";
+                        }
+                        else return ;
+                    });
+
                     if (a % 2 != 0) {
                         a++;
                         document.getElementById('overlay-sidebar').style.opacity = 0;
-                        document.getElementById('overlay-sidebar').style.display = "none";
                         document.getElementById('menu-scroll-container').style.right = "-45vw";
+
                     }
                     else {
                         a++;
-                        document.getElementById('overlay-sidebar').style.opacity = 1;
                         document.getElementById('overlay-sidebar').style.display = "block";
-                        document.getElementById('menu-scroll-container').style.right = "0vw";
+                        setTimeout(() => {
+                            document.getElementById('overlay-sidebar').style.opacity = 1;
+                            document.getElementById('menu-scroll-container').style.right = "0vw"                           
+                        }, 5);
                     }
                 }
             </script>
 
             <div id="arr1">
                 <div id="MainHead">
-                    <div class="heading">
+                    <div class="heading"  data-aos="fade-up" data-aos-duration="1000">
                         For those who are striving for quality at all stages
                     </div>
-                    <p>RawCanvasStudio was born in 2017. Since then we’ve worked with over a hundred digital products to
+                    <p data-aos="fade-up" data-aos-duration="1500">RawCanvasStudio was born in 2017. Since then we’ve worked with over a hundred digital products to
                         create
                         better experiences. We’ve formed a practical design experience by working with leading product
                         teams,
                         and use it to this day to help them become design-driven and create a measurable impact.</p>
                     <div>
-                        <button class="btn dark magnetic">Let's talk</button>
-                        <button class="btn magnetic">Our Work</button>
+                        <button data-aos="fade-up" data-aos-duration="1000" class="btn dark magnetic">Let's talk</button>
+                        <button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="btn magnetic">Our Work</button>
                     </div>
                 </div>
 
@@ -527,7 +537,8 @@
             <div class="cards" id="c1">
                 <div class="text">
                     <p class="round-head"
-                        style="color: #62BEB7; width:8rem; letter-spacing: 3px; height:3.1rem; padding:0.5rem">WHY US</p>
+                        style="color: #62BEB7; width:8rem; letter-spacing: 3px; height:3.1rem; padding:0.5rem">WHY US
+                    </p>
                     <div class="heading">Get your top quality & dedicated talent</div>
                     <p>Our
                         swift-paced team is capable
@@ -542,7 +553,8 @@
             <div class="cards" id="c2">
                 <div class="text">
                     <p class="round-head"
-                        style="color: #62BEB7; width:7.95rem; letter-spacing: 3px; height:3rem; padding:0.5rem">TEAM UP</p>
+                        style="color: #62BEB7; width:7.95rem; letter-spacing: 3px; height:3rem; padding:0.5rem">TEAM UP
+                    </p>
                     <div class="heading">Team up without the chaos</div>
                     <p id="not-hurderls">No hurdle,
                         no hassle. Have the
@@ -728,7 +740,7 @@
             <div id="arr7_1">
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11055.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11058.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img id="chess" class="imgarea_1" src="./img/Iconawesome-chess.png" alt=""> -->
                     </div>
                     <br>
@@ -737,7 +749,7 @@
                 </div>
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11056.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11055.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img class="imgarea_1" src="./img/pen-ruler-solid.png" alt=""> -->
                     </div>
                     <br>
@@ -746,7 +758,7 @@
                 </div>
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11057.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11056.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img class="imgarea_1" src="./img/file-code-solid.png" alt=""> -->
                     </div>
                     <br>
@@ -755,7 +767,7 @@
                 </div>
                 <div class="imgarea">
                     <div
-                        style="background: url('./img/Group11058.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        style="background: url('./img/Group11057.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
                         <!-- <img class="imgarea_1" src="./img/microscope-solid.png" alt=""> -->
                     </div>
                     <br>
@@ -1139,7 +1151,7 @@
             </div>
         </div>
         <div id="area2">
-            <div onclick="scrolltop()" ><a href="#"><i class="fas fa-arrow-up"></i></a></div>
+            <div onclick="scrolltop()"><a href="#"><i class="fas fa-arrow-up"></i></a></div>
         </div>
         <div id="area3">© 2022 Raw Canvas studio. All right reserved</div>
     </footer>
@@ -1152,7 +1164,7 @@
             height: 8px;
             border-radius: 100%;
             background-color: #000000cb;
-            transition-timing-function: ease-out;
+            /* transition-timing-function: linear; */
             top: 49%;
             left: 48.85%;
             transition-duration: 0.2s;
@@ -1166,21 +1178,21 @@
     </style>
     <script type="text/javascript">
         window.onload = function () {
-            // var bsDiv = document.getElementById("box-shadow-div");
-            // var x, y;
-            // window.addEventListener('mousemove', function (event) {
-            //     x = event.clientX;
-            //     y = event.clientY;
-            //     if (typeof x !== 'undefined') {
-            //         bsDiv.style.left = x + "px";
-            //         bsDiv.style.top = y + "px";
-            //     }
-            // }, false);
+            var bsDiv = document.getElementById("box-shadow-div");
+            var x, y;
+            window.addEventListener('mousemove', function (event) {
+                x = event.clientX;
+                y = event.clientY;
+                if (typeof x !== 'undefined') {
+                    bsDiv.style.left = x + "px";
+                    bsDiv.style.top = y + "px";
+                }
+            }, false);
         }
     </script>
     </head>
 
-    <!-- <div id="box-shadow-div"></div> -->
+    <div id="box-shadow-div"></div>
 
     <!-- <div id="circle" class="circle"></div> -->
 
@@ -1203,7 +1215,7 @@
         });
 
     </script>
-    <script src="smooth-scrollbar.js"></script>
+    <!-- <script src="smooth-scrollbar.js"></script>
     <script>
 
         //SMOOTH SCROLL MOMENTUM JS
@@ -1213,7 +1225,7 @@
             'damping': 0.06
         }
         Scrollbar.init(document.querySelector('body'), options);
-    </script>
+    </script> -->
 </body>
 
 </html>
