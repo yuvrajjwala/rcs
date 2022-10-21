@@ -1438,7 +1438,7 @@ i {
     /* margin-left: 11rem; */
     align-items: center;
     width: 80vw;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: auto;
 }
 
@@ -2576,7 +2576,7 @@ i {
     }
 
     #ham {
-        margin-top: 20px;
+        margin-top: -5px;
         margin-right: 15px;
     }
 
@@ -2605,7 +2605,7 @@ i {
     }
 
     #MainHead p {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
         line-height: 1.18rem;
         margin-top: 0.75rem;
     }
@@ -2707,7 +2707,15 @@ i {
     }
 
     #arr3 #c2 .text p:nth-child(3) {
-        width: 95% !important;
+        width: 77% !important;
+    }
+    #arr5 .round-head {
+        height: 4rem;
+        text-align: center;
+        font-size: 0.8rem !important;
+    }
+    #arr5 .text .heading {
+        font-size: 2.5rem;
     }
 
     #c1 div button {
@@ -2775,9 +2783,14 @@ i {
         margin: 1rem 0px;
     }
 
+    .text{
+        margin-left: 2.5rem;
+    }
+
     #arr4 .cards img {
-        height: 220px;
-        width: 346px;
+        /* height: 220px; */
+        /* width: 346px; */
+        width: 88vw;
         margin-top: 10px;
     }
 
@@ -3437,11 +3450,11 @@ footer {
 .imgdiv {
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
+    /* margin-left: 0px; */
     /* margin-right: 1rem; */
     font-family: gilroy-medium;
     font-size: 1.15rem;
-    margin-bottom: 1.2rem;
+    margin: 1.2vw;
 }
 
 .bottom-text {
