@@ -1968,6 +1968,7 @@ i {
     background: url('./img/back-foot.png');
     color: white;
     /* height: 60vh; */
+    height: 500px;
     background-color: black;
     display: flex;
     padding: 2rem;
