@@ -755,6 +755,22 @@ footer.observe(document.getElementById('arr11'));
 
 
 
+const footer12 = new IntersectionObserver(footer => {
+
+    //    console.log(entries)
+    if (footer[0].isIntersecting) {
+        document.getElementById('arr12').style.zIndex = '1'
+    }
+    else {
+        document.getElementById('arr12').style.zIndex = '-1'
+    }
+},
+{
+    threshold: 0.9
+}
+)
+
+footer12.observe(document.getElementById('arr12'));
 
 
 
