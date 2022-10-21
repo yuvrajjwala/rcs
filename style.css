@@ -2632,6 +2632,7 @@ i {
     }
 
     #arr2 {
+        width: 100vw;
         margin-top: 0px;
         background-size: 850px 540px;
         background-repeat: no-repeat;
@@ -2642,7 +2643,7 @@ i {
     }
 
     #arr2 .h2 {
-        width: 75%;
+        width: 85%;
         line-height: 2.75rem;
         padding-top: 3rem;
         font-size: 2.1rem;
