@@ -2125,6 +2125,15 @@ i {
 #not-hurderls {
     width: 84% !important;
 }
+.imgdiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 1rem;
+    font-family: gilroy-medium;
+    font-size: 1.15rem;
+    margin-bottom: 1.2rem;
+}
 
 @media only screen and (max-width:1650px) {
 
@@ -2568,6 +2577,15 @@ i {
 
 
 @media only screen and (max-width:900px) {
+    .imgdiv {
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 0px; */
+        /* margin-right: 1rem; */
+        font-family: gilroy-medium;
+        font-size: 1.15rem;
+        margin-bottom: 1.2vw;
+    }
     #logo svg {
         margin-top: 19px;
         margin-left: 30px;
@@ -3447,15 +3465,6 @@ footer {
 
 
 
-.imgdiv {
-    display: flex;
-    flex-direction: column;
-    /* margin-left: 0px; */
-    /* margin-right: 1rem; */
-    font-family: gilroy-medium;
-    font-size: 1.15rem;
-    margin: 1.2vw;
-}
 
 .bottom-text {
     font-size: 3rem;
