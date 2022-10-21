@@ -628,14 +628,15 @@ p {
 }
 
 #arr2 {
-    /* margin-top: 5rem; */
-    position: relative;
-    background-image: url(./img/MaskGroup10.png);
     height: 100vh;
-    min-height: 850px;
-    max-height: 1000px;
-    background-position: center;
-    background-size: 110vw 101vh;
+    box-sizing: border-box;
+    width: 80vw;
+    margin: auto;
+    min-height: 700px;   
+    position: relative;
+    background-image: url(./img/newImg.svg);
+    /* background-position: center; */
+    background-size: 80vw 1120px;
 }
 
 #arr2::before{
@@ -643,7 +644,7 @@ p {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom right,#62BEB7,#C9F9B8);
+    /* background: linear-gradient(to bottom right,#62BEB7,#C9F9B8); */
     top: 0px;
     z-index: -1;
 }
@@ -2173,11 +2174,13 @@ i {
 
     #arr2 {
         height: 100vh;
-        min-height: 850px;   
+        width: 80vw;
+        margin: auto;
+        min-height: 700px;   
         position: relative;
-        background-image: url(./img/MaskGroup10.png);
-        background-position: center;
-        background-size: 110vw 950px;
+        background-image: url(./img/newImg.svg);
+        /* background-position: center; */
+        background-size: 80vw 982px;
     }
 
     #arr2 {
@@ -2330,6 +2333,9 @@ i {
 }
 
 @media only screen and (max-width:1400px) {
+    .why-rcs-boxes {
+        width: 95vw;
+    }
     #one {
         overflow: hidden;
         padding-bottom: 0rem;
@@ -2552,6 +2558,8 @@ i {
     #ham {
         right: 5px;
     }
+
+
 }
 
 
