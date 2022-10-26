@@ -953,6 +953,7 @@ i {
     flex-wrap: wrap;
     padding: 2rem;
     flex-direction: column;
+    z-index: -1;
 }
 
 #area1 {
@@ -2691,6 +2692,7 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
+    z-index: -1;
 }
 
 

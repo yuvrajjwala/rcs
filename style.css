@@ -1973,6 +1973,8 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
+    z-index: -999;
+    display: none;
 }
 
 #area1 {
@@ -3435,6 +3437,12 @@ i {
         /* background: red;*/
     }
 
+    #wrap {
+        position: relative;
+        height: 100%;
+        margin-bottom: 450px;
+        /* overflow-y: scroll; */
+    }
 
 
 }
@@ -3452,7 +3460,7 @@ footer {
 #wrap {
     position: relative;
     height: 100%;
-    margin-bottom: 450px;
+    margin-bottom: 500px;
     /* overflow-y: scroll; */
 }
 
