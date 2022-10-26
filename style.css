@@ -470,7 +470,14 @@ p {
     left: 0px;
     animation: anim1 2s ease-in-out;
 }
-
+.menu-scroll-social ul li a{
+    text-decoration: none;
+    color: black;
+}
+#foot2 a{
+    color: white;
+    text-decoration: none;
+}
 #_0004 {
     display: none;
     position: absolute;
@@ -598,6 +605,13 @@ p {
 
 #MainHead div {
     margin-top: 3rem;
+}
+.imgdiv img:hover{
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+.imgdiv img{
+    transition-duration: 0.5s;
 }
 
 .btn {
@@ -2127,6 +2141,7 @@ i {
 #not-hurderls {
     width: 84% !important;
 }
+
 .imgdiv {
     display: flex;
     flex-direction: column;
@@ -2135,15 +2150,10 @@ i {
     font-family: gilroy-medium;
     font-size: 1.15rem;
     margin-bottom: 1.2rem;
+    transition-duration: 0.5s;
 }
-.imgdiv {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0px;
-    margin-right: 1rem;
-    font-family: gilroy-medium;
-    font-size: 1.15rem;
-    margin-bottom: 1.2rem;
+.imgdiv:hover{
+    transform: scale(1.05);
 }
 
 @media only screen and (max-width:1650px) {

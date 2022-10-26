@@ -90,6 +90,10 @@ i {
     background-color: transparent;
     /* overflow: hidden;*/
 }
+.menu-scroll-social ul li a{
+    text-decoration: none;
+    color: black;
+}
 
 #ham::before {
     position: absolute;
@@ -617,7 +621,13 @@ i {
 /* Utilities */
 
 
-
+.imgdiv img:hover{
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+.imgdiv img{
+    transition-duration: 0.5s;
+}
 
 
 

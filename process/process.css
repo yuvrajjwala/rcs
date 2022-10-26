@@ -162,7 +162,10 @@ i {
     margin-bottom: 0.4rem;
 }
 
-
+.menu-scroll-social ul li a{
+    text-decoration: none;
+    color: black;
+}
 
 #one .container {
     overflow-x: hidden;

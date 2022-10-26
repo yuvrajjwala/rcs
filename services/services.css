@@ -113,6 +113,10 @@ i {
     background-color: black;
     margin: auto;
 }
+.menu-scroll-social ul li a{
+    text-decoration: none;
+    color: black;
+}
 
 @keyframes hov {
     0% {
