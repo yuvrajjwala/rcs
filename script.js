@@ -745,7 +745,7 @@ const footer = new IntersectionObserver(footer => {
     else {
         document.getElementById('arr12').style.display = 'none'
     }
-}
+},
 )
 
 footer.observe(document.getElementById('arr11'));
@@ -754,7 +754,27 @@ footer.observe(document.getElementById('arr11'));
 
 
 
+let ar = 0;
+const footer12 = new IntersectionObserver(footer => {
 
+    //    console.log(entries)
+    if (footer[0].isIntersecting) {
+        document.getElementById('arr12').style.zIndex = '0'
+        if(ar==0){
+            document.getElementById('arr12').style.zIndex = '-1'
+            ar++
+        }
+    }
+    else {
+        document.getElementById('arr12').style.zIndex = '-1'
+    }
+},
+{
+    threshold: 1
+}
+)
+
+footer12.observe(document.getElementById('arr12'));
 
 
 

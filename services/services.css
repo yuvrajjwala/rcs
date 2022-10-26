@@ -953,6 +953,7 @@ i {
     flex-wrap: wrap;
     padding: 2rem;
     flex-direction: column;
+    z-index: -1;
 }
 
 #area1 {
@@ -2691,6 +2692,7 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
+    z-index: -1;
 }
 
 
@@ -2739,7 +2741,7 @@ i {
 }
 .menu-scroll-navagition ul li, .menu-scroll-social ul li {
     cursor: pointer;
-    transition-duration: 0.5s;
+    /* transition-duration: 0.5s; */
     /* transition-duration: 0.5s; */
 }
 .menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {

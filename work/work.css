@@ -162,7 +162,7 @@ i {
 }
 
 #l1,#l2,#l3,#l4,#l5{
-    padding: 18px 45px;
+    padding: 18px 49px;
     margin-right: 1rem;
 }
 
@@ -1039,6 +1039,7 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
+    z-index: -1;
 }
 
 #area1 {
@@ -1188,34 +1189,6 @@ i {
     }
 }
 
-@media screen and (max-width: 1100px) {
-    .heading1 ul li {
-        margin: 0px 11px;
-        cursor: pointer;
-        margin-bottom: 15px;
-        font-size: 13px;
-    }
-
-    .heading1 div {
-        font-size: 3rem;
-        width: 70vw;
-        margin-right: auto;
-        font-family: gilroy-medium;
-        line-height: 85px;
-    }
-
-    .heading1 ul {
-        padding-left: 10%;
-    }
-
-    #photosarea img {
-        width: 275px;
-        margin: 0.8rem;
-        margin-left: 0px;
-        margin: auto !important;
-        margin-bottom: 20px !important;
-    }
-}
 
 
 @media only screen and (max-width:1650px) {
@@ -1239,6 +1212,10 @@ i {
 
 
 @media only screen and (max-width:1600px) {
+    #l1,#l2,#l3,#l4,#l5{
+        padding: 18px 59px;
+        margin-right: 1rem;
+    }
     #one {
         overflow: hidden;
         padding-bottom: 0rem;
@@ -1746,6 +1723,47 @@ i {
     }
   
 }
+
+@media screen and (max-width: 1100px) {
+
+    #l1,#l2,#l3,#l4,#l5{
+        padding: 10px 10px;
+        text-align: center;
+        /* margin-right: 1rem; */
+        width: 39vw;
+        height: 40px;
+        font-size: 15px;
+    }
+
+
+    .heading1 ul li {
+        margin: 0px 11px;
+        cursor: pointer;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .heading1 div {
+        font-size: 3rem;
+        width: 70vw;
+        margin-right: auto;
+        font-family: gilroy-medium;
+        line-height: 85px;
+    }
+
+    .heading1 ul {
+        padding-left: 10%;
+    }
+
+    #photosarea img {
+        width: 275px;
+        margin: 0.8rem;
+        margin-left: 0px;
+        margin: auto !important;
+        margin-bottom: 20px !important;
+    }
+}
+
 
 
 
@@ -2461,6 +2479,7 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
+    z-index: -1;
 }
 
 
@@ -2508,7 +2527,7 @@ i {
 }
 .menu-scroll-navagition ul li, .menu-scroll-social ul li {
     cursor: pointer;
-    transition-duration: 0.5s;
+    /* transition-duration: 0.5s; */
     /* transition-duration: 0.5s; */
 }
 .menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
@@ -2601,3 +2620,6 @@ footer{
 #wrap{
     margin-bottom: 500px;
 }
+
+
+
