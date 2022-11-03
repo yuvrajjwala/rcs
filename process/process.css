@@ -56,9 +56,11 @@ i {
     z-index: 2;
 }
 
-#logo svg {
-    margin-top: 30px;
+#logo img {
+    margin-top: 72px;
     margin-left: 72px;
+    /* height: 15.5vh;
+    width: 14.5vw; */
 }
 
 #menu {
@@ -2466,6 +2468,11 @@ i {
     #MainHead {
         width: 90%;
         margin: auto;
+    }
+    #logo img {
+        margin-top: 30px;
+        margin-left: 40px;
+        height: 55px;
     }
 
     #MainHead .heading {

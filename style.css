@@ -764,12 +764,13 @@ p {
     position: absolute;
     bottom: 70px;
     font-family: 'gilroy-semi-bold';
+    left: 118px;
 }
 
 #light {
     color: #B2B1B2;
     font-family: 'gilroy-semi-bold';
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .email-rcs {
@@ -2231,6 +2232,20 @@ i {
 
 }
 
+
+@media only screen and (max-height:700px){
+    .menu-scroll-navagition ul{
+        font-size: 30px;
+        transform: scale(0.8);
+    }
+    .menu-scroll-social{
+        transform: scale(0.8);
+    }
+    .email-sidebar{
+        transform: scale(0.8);
+        left: 85px;
+    }
+}
 
 
 

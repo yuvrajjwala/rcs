@@ -56,11 +56,12 @@ i {
     z-index: 2;
 }
 
-#logo svg {
-    margin-top: 30px;
+#logo img {
+    margin-top: 72px;
     margin-left: 72px;
+    /* height: 15.5vh;
+    width: 14.5vw; */
 }
-
 #menu {
     display: flex;
     flex-direction: row;
@@ -1788,7 +1789,7 @@ i {
     }
 
     #ham {
-        margin-top: 54px;
+        margin-top: 40px;
         margin-right: 31px;
     }
 
@@ -1796,6 +1797,11 @@ i {
     #_2 {
         width: 28px;
         height: 2px;
+    }
+    #logo img {
+        margin-top: 30px;
+        margin-left: 40px;
+        height: 55px;
     }
 
     #menu #men {
@@ -2405,6 +2411,29 @@ i {
         left: calc(100vw - 250px);
         top: 500px;
         transform: scale(0.5);
+    }
+    /* siebar css */
+    .email-sidebar {
+        position: absolute;
+        bottom: 10%;
+        margin: 20px;
+        margin-left: 15%;
+        font-family: 'gilroy-semi-bold';
+    }
+    .menu-scroll-social {
+        display: none;
+    }
+    .menu-scroll-container {
+        width: 100vw;
+        padding: 24vh 0px;
+    }
+    .menu-scroll-container {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        position: absolute;
+        display: flex;
+        overflow: hidden;
+        padding: 24vh 20px;
     }
 }
 
