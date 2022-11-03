@@ -2477,8 +2477,12 @@ i {
 
     .why-rcs-boxes {
         width: 95vw;
+        transform: scale(0.84);
     }
-
+    #why1{
+        position: relative;
+        bottom: 50px;
+    }
     #one {
         overflow: hidden;
         padding-bottom: 0rem;
