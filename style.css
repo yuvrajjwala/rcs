@@ -2442,6 +2442,30 @@ i {
 }
 
 @media only screen and (max-width:1400px) {
+    #logo img {
+        margin-top: 40px;
+        margin-left: 72px;
+        /* height: 15.5vh;
+        width: 14.5vw; */
+    }
+    #ham {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+        right: -33px;
+        margin-right: 86px;
+        top: 36px;
+        height: 63px;
+        z-index: 999;
+        width: 63px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+        background-color: transparent;
+        /* overflow: hidden;*/
+    }
     .why-rcs-boxes {
         width: 95vw;
     }
@@ -2455,6 +2479,10 @@ i {
         padding-bottom: 0rem;
         height: 100vh;
         min-height: 850px;
+    }
+    #MainHead {
+        /* margin-top: 3vh; */
+        margin-left: 8vw;
     }
 
     #MainHead .heading {
@@ -2485,6 +2513,7 @@ i {
 
     #arr6 #arr6_1 {
         width: 50vw;
+        margin-left: 3rem;
     }
 
     #arr6_1 .text p {
@@ -2502,9 +2531,10 @@ i {
     }
 
     #arr6 {
-        padding-top: 3rem;
+        /* padding-top: 3rem; */
         height: 110vh;
-        padding-bottom: 3rem;
+        /* padding-bottom: 3rem; */
+        padding: 3rem 1rem;
     }
 
     .imgarea div {
@@ -2613,8 +2643,8 @@ i {
     }
 
     .btn {
-        width: 12rem;
-        height: 3rem;
+        width: 10rem;
+        height: 3.5rem;
         font-size: 1.05rem;
     }
 
@@ -2636,7 +2666,23 @@ i {
     }
 
     #arr4 {
-        padding: 5rem 5rem;
+        padding: 5rem 2rem;
+    }
+    #arr2{
+        width: 85vw;
+        margin-top: 0px;
+    }
+    #c1,#c2{
+        justify-content: space-evenly;
+    }
+    #arr3{
+        padding: 5rem 1rem;
+    }
+    #arr4 .cards img{
+        width: 43vw;
+    }
+    .heading-our-text{
+        margin-left: 4%;
     }
 }
 
@@ -3604,6 +3650,7 @@ footer {
     right: 0;
     z-index: -999;
     height: 500px;
+    transform: translateY(59.999%);
 }
 
 #wrap {
@@ -3618,6 +3665,7 @@ footer {
 
 #arr5 .round-head {
     font-size: 1.15rem;
+    letter-spacing: 3px;
 }
 
 
@@ -3758,11 +3806,14 @@ footer {
     overflow: hidden;
     /* transition-duration: 0s; */
 }
+#round-head-id{
+    letter-spacing: 3px;
+}
 
 #arrow-button {
     /* position: relative; */
     width: 10.5vw;
-    height: 4.25rem;
+    height: 3.5rem;
     border-radius: 2rem;
     margin-right: 2rem;
     border: 1px solid black;
@@ -3820,6 +3871,9 @@ footer {
 #let {
     color: #33534A;
     border: 1px solid #33534A;
+}
+#let:hover{
+    color: white;
 }
 
 

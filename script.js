@@ -28,14 +28,20 @@ else {
 // root.style.setProperty('--pos_y_final', Math.floor(Math.random() * (-250 - (-300) + 1) + (-300)) + 'px');
 
 //animation addition
-if (w > 900) {
-    e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.8);')
+if(w>900&&w<1300){
+    e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.6);filter:brightness(1.14);')
+    e1.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px; animation : anim1 2s ease-in-out ;')
+    e2.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px; animation : anim2 2s ease-in-out ;')
+    e3.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px;animation : anim3 2s ease-in-out ;')
+}
+else if (w > 900) {
+    e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.8);filter:brightness(1.14);')
     e1.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px; animation : anim1 2s ease-in-out ;')
     e2.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px; animation : anim2 2s ease-in-out ;')
     e3.setAttribute('style', 'display: block ; position: absolute;top: calc(' + es.getPropertyValue('--pos_y_final') + ' + 50px);left:calc(50vw - 510px);  height: 1000px;  width: 1000px;animation : anim3 2s ease-in-out ;')
 }
 else {
-    e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.4);')
+    e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.4);filter:brightness(1.14);')
     e1.setAttribute('style', 'display: block ; position: absolute;top:' + es.getPropertyValue('--pos_y_final') + ';left:-230px;  height: 1000px;  width: 1000px; animation : anim1 2s ease-in-out ;')
     e2.setAttribute('style', 'display: block ; position: absolute;top:' + es.getPropertyValue('--pos_y_final') + ';left:-230px;  height: 1000px;  width: 1000px; animation : anim2 2s ease-in-out ;')
     e3.setAttribute('style', 'display: block ; position: absolute;top:' + es.getPropertyValue('--pos_y_final') + ';left:-230px;  height: 1000px;  width: 1000px;animation : anim3 2s ease-in-out ;')
