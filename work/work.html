@@ -406,6 +406,7 @@
 
         <script>
             let a = 0;
+            // let w = window.innerWidth;
             function siderBarOpen() {
 
                
@@ -427,7 +428,8 @@
                         document.getElementById('overlay-sidebar').style.display = "block";
                         setTimeout(() => {
                             document.getElementById('overlay-sidebar').style.opacity = 1;
-                            document.getElementById('menu-scroll-container').style.right = "0vw"                           
+                            
+                                document.getElementById('menu-scroll-container').style.right = "0vw"                           
                         }, 5);
                     }
             }

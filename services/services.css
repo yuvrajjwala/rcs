@@ -1186,6 +1186,9 @@ i {
     transform: scale(0.85);
     transition-duration: 1s;
 }
+.email-sidebar{
+    left: 0;
+}
 
 #arr11 #center:hover #second {
     transform: scale(0.85);
@@ -2848,3 +2851,20 @@ footer{
     margin-bottom: 500px;
 }
 
+
+
+@media only screen and (max-width:900px) {
+    #menu-scroll-container{
+        width: 100vw;
+        padding: 26vh 65px;
+    }
+    .telegram-div-sidbar{
+        margin-left: 0;
+    }
+    .menu-scroll-social{
+        display: none;
+    }
+    .email-sidebar{
+        margin-left: 15%;
+    }
+}

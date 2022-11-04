@@ -2449,7 +2449,9 @@ i {
         height: 80px;
         width: 49px;
     }
-
+    .email-sidebar{
+        left: 0;
+    }
     #ham {
         margin-top: 54px;
         margin-right: 31px;
@@ -3363,4 +3365,22 @@ footer{
 
 #wrap{
     margin-bottom: 500px;
+}
+
+
+
+@media only screen and (max-width:900px) {
+    #menu-scroll-container{
+        width: 100vw;
+        padding: 26vh 65px;
+    }
+    .telegram-div-sidbar{
+        margin-left: 0;
+    }
+    .menu-scroll-social{
+        display: none;
+    }
+    .email-sidebar{
+        margin-left: 15%;
+    }
 }

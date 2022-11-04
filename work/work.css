@@ -2418,6 +2418,7 @@ i {
         bottom: 10%;
         margin: 20px;
         margin-left: 15%;
+        left: 0;
         font-family: 'gilroy-semi-bold';
     }
     .menu-scroll-social {
@@ -2660,5 +2661,14 @@ footer{
     margin-bottom: 500px;
 }
 
+
+@media only screen and (max-width:900px) {
+    #menu-scroll-container{
+        width: 100vw;
+    }
+    .telegram-div-sidbar{
+        margin-left: 0;
+    }
+}
 
 
