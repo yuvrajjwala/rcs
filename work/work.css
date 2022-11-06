@@ -69,6 +69,9 @@ i {
 
 #menu #men {
     margin-top: 76px;
+
+    position: relative;
+    right: 75px;
     margin-right: 21px;
     height: 2vh;
     font-family: gilroy-light;
@@ -76,7 +79,7 @@ i {
 }
 
 #ham {
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2554,7 +2557,7 @@ i {
 .menu-scroll-container{
     background-color: rgb(255, 255, 255);
     width: 45vw;
-    position: absolute;
+    position: fixed;
     display: flex;
     overflow: hidden;
     padding:26vh 100px;
@@ -2687,4 +2690,22 @@ footer{
         width: 100vw;
         padding: 24vh 8vw;
     }
+}
+
+#loader{
+    position: fixed;
+    background: linear-gradient(to right,rgb(116, 204, 159),rgb(98, 190, 183));
+    z-index: 999;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#loader img{
+    height: 50vw;
+    width: 50vw;
 }

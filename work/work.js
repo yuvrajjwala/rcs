@@ -307,10 +307,10 @@ document.getElementById('foot12').addEventListener('mouseleave', () => {
 // Photos Population
 
 function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
-
+    document.getElementById('loader').style.display = 'flex'
     function svg() {
         document.getElementsByClassName('container')[0].outerHTML = innerhtml[numb]
-        console.log(innerhtml[numb])
+        // console.log(innerhtml[numb])
         set(numb1, numb2, rotate1)
         return
     }
@@ -341,7 +341,7 @@ function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
         const div = document.createElement('div');
         div.classList.add('imgdiv');
         const img = document.createElement('img');
-        // console.log(item)
+        img.id = 'imgPhoto'+count;        // console.log(item)
         div.setAttribute('data-aos',"fade-up");
         div.setAttribute('data-aos-duration',a*300);
         if(a==3){
@@ -356,6 +356,7 @@ function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
         div.appendChild(document.createTextNode(text[count]))
         count++;
     })
+    // console.log(count)
     const div = document.createElement('div');
     div.classList.add('bottom-text')
     // div.appendChild(document.createTextNode('and more ...'))
@@ -443,9 +444,13 @@ function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
         //     document.getElementById('_2').style.backgroundColor = 'black'
         // })
     }
-
+        document.getElementById('imgPhoto'+(count-1)).addEventListener('load',()=>{
+            document.getElementById('loader').style.display = 'none';
+            console.log(count)
+        })
 
 }
+
 
 
 
