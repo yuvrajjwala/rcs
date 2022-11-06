@@ -368,8 +368,8 @@ function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
         document.querySelector('body').style.backgroundColor = '#1C171D';
         document.getElementById('logo').style.filter = 'invert(1)';
         document.getElementById('nav').style.color = 'white';
-        document.getElementById('_1').style.backgroundColor = 'white';
-        document.getElementById('_2').style.backgroundColor = 'white';
+        // document.getElementById('_1').style.backgroundColor = 'white';
+        // document.getElementById('_2').style.backgroundColor = 'white';
         document.querySelector('.heading1 div').style.color = 'white';
         document.getElementsByClassName('active')[0].style.color = '#CA3BFA';
         // document.getElementsByClassName('active')[0].style.borderBottom = '2px solid #CA3BFA';
@@ -395,14 +395,14 @@ function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
         }
         document.getElementById(ids).style.background = 'linear-gradient(to right, #52B7FC, #CF36FB)';
 
-        document.getElementById('ham').addEventListener('mouseenter', () => {
-            document.getElementById('_1').style.backgroundColor = 'white'
-            document.getElementById('_2').style.backgroundColor = 'white'
-        })
-        document.getElementById('ham').addEventListener('mouseleave', () => {
-            document.getElementById('_1').style.backgroundColor = 'white'
-            document.getElementById('_2').style.backgroundColor = 'white'
-        })
+        // document.getElementById('ham').addEventListener('mouseenter', () => {
+        //     document.getElementById('_1').style.backgroundColor = 'white'
+        //     document.getElementById('_2').style.backgroundColor = 'white'
+        // })
+        // document.getElementById('ham').addEventListener('mouseleave', () => {
+        //     document.getElementById('_1').style.backgroundColor = 'white'
+        //     document.getElementById('_2').style.backgroundColor = 'white'
+        // })
 
 
 
@@ -434,14 +434,14 @@ function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
             document.querySelector('#_0' + i + ' g defs linearGradient').setAttribute('y2', '100%')
         }
         document.getElementById(ids).style.background = 'linear-gradient(to right, #C9F9B8, #62BEB7)';
-        document.getElementById('ham').addEventListener('mouseenter', () => {
-            document.getElementById('_1').style.backgroundColor = 'white'
-            document.getElementById('_2').style.backgroundColor = 'white'
-        })
-        document.getElementById('ham').addEventListener('mouseleave', () => {
-            document.getElementById('_1').style.backgroundColor = 'black'
-            document.getElementById('_2').style.backgroundColor = 'black'
-        })
+        // document.getElementById('ham').addEventListener('mouseenter', () => {
+        //     document.getElementById('_1').style.backgroundColor = 'white'
+        //     document.getElementById('_2').style.backgroundColor = 'white'
+        // })
+        // document.getElementById('ham').addEventListener('mouseleave', () => {
+        //     document.getElementById('_1').style.backgroundColor = 'black'
+        //     document.getElementById('_2').style.backgroundColor = 'black'
+        // })
     }
 
 

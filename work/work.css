@@ -42,7 +42,7 @@ p {
 }
 
 i {
-    font-size: 1.5rem;
+    font-size: 1.05rem;
 }
 
 /* Navbar */
@@ -89,14 +89,22 @@ i {
     border-radius: 50%;
     transition-duration: 0.25s;
     background-color: transparent;
+    transition-duration: 0.5s;
     /* overflow: hidden;*/
 }
+
+/* #_1,#_2{
+    position: fixed;
+}
+#_2{
+    top: 5px;
+} */
 .menu-scroll-social ul li a{
     text-decoration: none;
     color: black;
 }
 
-#ham::before {
+/* #ham::before {
     position: absolute;
     content: '';
     height: 1px;
@@ -104,7 +112,6 @@ i {
     top: 37px;
     left: 37px;
     background: black;
-    /* transform: translate(50%,50%); */
     border-radius: 50%;
     transition-duration: 0.25s;
     z-index: -1;
@@ -115,7 +122,7 @@ i {
     transform: scale(63);
     background-color: black;
     margin: auto;
-}
+} */
 
 
 @keyframes hov {
@@ -147,7 +154,8 @@ i {
 
 #ham:hover #_1,
 #ham:hover #_2 {
-    background-color: white;
+    scale: 1.2;
+    transition-duration: 0.5s;
 }
 
 /* #one .container div{
@@ -802,7 +810,8 @@ i {
 }
 
 #arr11 {
-    background-color: #62BEB7;
+    /* background-color: #62BEB7; */
+    background: linear-gradient(to right,rgb(116, 204, 159),rgb(98, 190, 183),rgb(98, 190, 183));
     height: 100vh;
     min-height: 850px;
     position: relative;
@@ -912,7 +921,8 @@ i {
 
 #arr11 {
     /* display: flex; */
-    background-color: #62BEB7;
+    /* background-color: #62BEB7; */
+    background: linear-gradient(to right,rgb(116, 204, 159),rgb(98, 190, 183),rgb(98, 190, 183));
     height: 80vh;
     min-height: 700px;
     max-height: 900px;
@@ -2672,3 +2682,9 @@ footer{
 }
 
 
+@media only screen and (max-width: 900px){
+    .menu-scroll-container {
+        width: 100vw;
+        padding: 24vh 8vw;
+    }
+}
