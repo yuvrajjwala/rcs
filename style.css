@@ -1426,7 +1426,7 @@ i {
 }
 
 #arr7 .btn {
-    width: 14rem;
+    width: 12rem;
     height: 4rem;
 }
 
@@ -2181,6 +2181,7 @@ i {
 
 #arr3 .cards .text p:nth-child(3) {
     width: 98%;
+    opacity: 0.65;
     max-width: 480px;
     font-family: gilroy-medium;
     font-size: 1.35rem;
@@ -3713,7 +3714,7 @@ footer {
     padding: 1.25rem;
     text-align: center;
     width: 10rem;
-    height: 4rem;
+    height: 3.8rem;
     border-radius: 50px;
     background-color: rgb(231, 242, 243);
     color: #62BEB7;
