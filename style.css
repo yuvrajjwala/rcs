@@ -70,6 +70,8 @@ p {
 #logo img {
     margin-top: 72px;
     margin-left: 72px;
+    height:84px;
+    filter: brightness(0);
     /* height: 15.5vh;
     width: 14.5vw; */
 }
@@ -175,6 +177,7 @@ p {
     width: 1.75vw;
     height: 0.3vh;
     background-color: #000000;
+    border-radius: 20px;
 }
 
 #_1 {
@@ -2042,7 +2045,7 @@ i {
 
 
 #arr12 {
-    background: url('./img/back-foot.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('./img/back-foot.png');
     color: white;
     /* height: 60vh; */
     height: 500px;

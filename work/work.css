@@ -59,6 +59,8 @@ i {
 #logo img {
     margin-top: 72px;
     margin-left: 72px;
+    height: 84px;
+    filter: brightness(0);
     /* height: 15.5vh;
     width: 14.5vw; */
 }
@@ -178,8 +180,9 @@ i {
 }
 
 #l1,#l2,#l3,#l4,#l5{
-    padding: 18px 49px;
+    padding: 18px 37px;
     margin-right: 1rem;
+    font-size: 1.1rem;
 }
 
 
@@ -1127,7 +1130,6 @@ i {
 #foot11 div {
     font-size: 2.5rem;
     font-family: 'gilroy-medium';
-    padding-left: 1rem;
 }
 
 #foot11 p {
@@ -1237,7 +1239,7 @@ i {
 
 @media only screen and (max-width:1600px) {
     #l1,#l2,#l3,#l4,#l5{
-        padding: 18px 59px;
+        padding: 18px 38px;
         margin-right: 1rem;
     }
     #one {

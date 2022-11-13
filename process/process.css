@@ -59,6 +59,8 @@ i {
 #logo img {
     margin-top: 72px;
     margin-left: 72px;
+    height: 84px;
+    filter: brightness(0);
     /* height: 15.5vh;
     width: 14.5vw; */
 }
@@ -1015,7 +1017,7 @@ i {
 #foot11 div {
     font-size: 2.5rem;
     font-family: 'gilroy-medium';
-    padding-left: 1rem;
+ 
 }
 
 #foot11 p {
