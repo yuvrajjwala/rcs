@@ -684,6 +684,8 @@ i {
     color: white;
     padding: 1rem 6rem;
     height: 100vh;
+    z-index: 11;
+    position: relative;
 }
 
 #arr10 .cards {

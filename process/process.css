@@ -744,6 +744,8 @@ i {
     padding: 1rem 6rem;
     height: 100vh;
     min-height: 850px;
+    z-index: 11;
+    position: relative;
 }
 
 #arr10 .cards {
@@ -2477,6 +2479,7 @@ i {
     #ham {
         margin-top: 54px;
         margin-right: 31px;
+        display: block;
     }
 
     #_1,
@@ -3404,6 +3407,10 @@ footer{
     }
     .email-sidebar{
         margin-left: 15%;
+    }
+    .menu-scroll-container {
+        width: 100vw;
+        padding: 18vh 8vw;
     }
 }
 

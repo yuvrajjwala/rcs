@@ -777,7 +777,7 @@ p {
 
 #light {
     color: #B2B1B2;
-    font-family: 'gilroy-semi-bold';
+    font-family: 'gilroy-regular';
     font-size: 1rem;
 }
 
@@ -1564,20 +1564,29 @@ i {
 
 .imgarea1 {
     transform: scale(0.8);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
+    cursor: pointer;
 }
 
 .imgarea1:hover p {
     letter-spacing: 0.25px;
     transition-duration: 0.5s;
+    color: #33534A;
 
 }
 
 .imgarea1:hover div {
     transform: scale(1.07);
     transition-duration: 0.5s;
-
+    color: #33534A;
 }
+.imgarea1:hover{
+    background-image: linear-gradient(to bottom right, #BADEFC, #83DEB0);
+    border-radius: 20px;
+    transition-duration: 1s;
+    z-index: 5;
+}
+
 
 #arr9 {
     background-color: #F9F9FB;
@@ -1615,6 +1624,8 @@ i {
     min-height: 900px;
     max-height: 1000px;
     height: 100vh;
+    z-index: 11;
+    position: relative;
     /*VIEW CHANGE HERE*/
 }
 
@@ -2672,6 +2683,7 @@ i {
         width: 10rem;
         height: 3.5rem;
         font-size: 1.05rem;
+        z-index: 10;
     }
 
     #arr2 .h2 {
@@ -2884,7 +2896,7 @@ i {
     }
     .menu-scroll-container {
         width: 100vw;
-        padding: 24vh 0px;
+        padding: 18vh 0px;
     }
     .telegram-div-sidbar {
         margin-left: 0vw;
@@ -2916,8 +2928,9 @@ i {
 
     #arr3 .cards .text .heading {
         line-height: 40px;
-        font-size: 1.72rem;
-        width: 82%;
+    font-size: 1.72rem;
+    text-align: center;
+    width: 100%;
     }
 
     #c1 .text {
@@ -2931,15 +2944,16 @@ i {
     }
 
     #arr3 .cards .text p:nth-child(3) {
-        width: 90%;
+        width: 100%;
         line-height: 1.5rem;
         font-family: 'gilroy-medium';
         font-size: 0.82rem;
         letter-spacing: 0.6px;
+        text-align: center;
     }
 
     #arr3 #c2 .text p:nth-child(3) {
-        width: 77% !important;
+        width: 100% !important;
     }
 
     #arr5 .round-head {
@@ -2955,9 +2969,11 @@ i {
     }
 
     #c1 div button {
-        margin-top: 1rem;
         width: 8rem;
-        height: 3.2rem;
+    height: 3.2rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
     }
 
     #c2 .text {
@@ -2965,9 +2981,11 @@ i {
     }
 
     #c2 div button {
-        margin-top: 1.5rem;
         width: 8rem;
         height: 3.2rem;
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
     }
 
     #arr3 .cards .text p:nth-child(1) {
@@ -2975,6 +2993,13 @@ i {
         font-size: 0.7rem !important;
         line-height: 0.9rem;
         width: 6rem !important;
+        display: block;
+        margin: auto;
+    }
+    #arr3 #c2 .text .heading {
+        width: 100%;
+        text-align: center;
+        max-width: 330px;
     }
 
     #side-line {
@@ -3214,7 +3239,7 @@ i {
     }
 
     #arr7_1 {
-        margin: 3.5rem 3rem;
+        margin: 3.5rem 2rem;
         margin-top: 2rem;
         justify-content: space-between;
     }
@@ -3232,6 +3257,7 @@ i {
 
     .imgarea {
         margin: 1.25rem 0px;
+        padding: 11px;
     }
 
     .imgarea:hover img {
@@ -3318,6 +3344,7 @@ i {
     .imgarea1:hover div {
         transform: scale(1);
         transition-duration: 0.5s;
+       
 
     }
 
@@ -3326,7 +3353,7 @@ i {
         transform: scale(1);
         width: 40vw;
     }
-
+   
     #arr8 .btn {
         width: 8rem;
         display: block;
@@ -3609,7 +3636,7 @@ i {
 
     .why-rcs {
         text-align: center;
-        font-size: 2.09rem;
+        font-size: 1.75rem;
         line-height: 45px;
         margin-bottom: 40px;
     }
@@ -3816,6 +3843,7 @@ footer {
 
 .btn {
     overflow: hidden;
+    z-index: 100;
     /* transition-duration: 0s; */
 }
 

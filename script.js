@@ -900,9 +900,9 @@ var num = 0;
 
 function left() {
 
-    const testimonials = ["    I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs.Raw                        Cavas   Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing.They erfectly                        Met                        My Expectations — Working With Them Felt Like An Extension Of My In - House Team.    ",   
+    const testimonials = ["After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",   
 
-"   I Gaurav Rai kjsdhfjkhdskfjdjfhjkfhjdk Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs.Raw                        Cavas   Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing.They erfectly                        Met                        My Expectations — Working With Them Felt Like An Extension Of My In - House Team.    "]
+" Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! "]
 
 
     var test1 = document.getElementById('test-1')
@@ -930,9 +930,9 @@ function left() {
 
 function right() {
 
-    const testimonials = ["    I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs.Raw                        Cavas   Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing.They erfectly                        Met                        My Expectations — Working With Them Felt Like An Extension Of My In - House Team.    ",   
+    const testimonials = ["After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",   
 
-"   I Gaurav Rai kjsdhfjkhdskfjdjfhjkfhjdk Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs.Raw                        Cavas   Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing.They erfectly                        Met                        My Expectations — Working With Them Felt Like An Extension Of My In - House Team.    "]
+"  Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job!"]
 
 
     var test1 = document.getElementById('test-1')
