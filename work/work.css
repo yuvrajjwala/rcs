@@ -1064,7 +1064,7 @@ i {
 
 
 #arr12 {
-    background: #000000;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('./img/back-foot.png');
     color: white;
     /* height: 60vh; */
     display: flex;
@@ -1818,9 +1818,9 @@ i {
         height: 2px;
     }
     #logo img {
-        margin-top: 30px;
+        margin-top: 41px;
         margin-left: 40px;
-        height: 55px;
+        height: 47px;
     }
 
     #menu #men {
@@ -2436,6 +2436,7 @@ i {
         position: absolute;
         bottom: 10%;
         margin: 20px;
+        width: 250px;
         margin-left: 15%;
         left: 0;
         font-family: 'gilroy-semi-bold';
@@ -2531,10 +2532,11 @@ i {
 }
 
 #arr12 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('./img/back-foot.png');
+    background-color: black;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('../img/back-foot.png');
     color: white;
     /* height: 60vh; */
-    background-color: black;
+
     display: flex;
     padding: 2rem;
     flex-direction: column;
@@ -2636,8 +2638,8 @@ i {
 }
 #light{
     color: #B2B1B2;
-    font-family: 'gilroy-semi-bold';
-    font-size: 1.2rem;
+    font-family: 'gilroy-regular';
+    font-size: 1rem;
 }
 .email-rcs{
     cursor: pointer;

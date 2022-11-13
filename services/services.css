@@ -578,9 +578,6 @@ i {
 }
 
 
-.textarea img{
-    height: 400px;
-}
 
 .text1 {
     width: 27vw;
@@ -965,7 +962,7 @@ i {
 
 
 #arr12 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('./img/back-foot.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('../img/back-foot.png');
     color: white;
     /* height: 60vh; */
     display: flex;
@@ -1108,16 +1105,6 @@ i {
     overflow: hidden;
     /* z-index: -2; */
 }
-
-/* #backhov{
-    position: absolute;
-    height: 50vh;
-    width: 50vh;
-    border-radius: 50%;
-    margin: 22.2vh 37.8vw;
-    background: #62BEB7;
-    z-index: 1;
-} */
 
 #arr11 #img11_1 {
     position: relative;
@@ -1735,6 +1722,7 @@ i {
     }
     .textarea {
         padding: 0rem 10px;
+        padding-right: 15px;
     }
     .textarea img {
         width: 90vw;
@@ -1870,77 +1858,6 @@ i {
         transform: scale(0.5);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2334,9 +2251,9 @@ i {
         height: 2px;
     }
     #logo img {
-        margin-top: 30px;
+        margin-top: 41px;
         margin-left: 40px;
-        height: 55px;
+        height: 47px;
     }
 
     #menu #men {
@@ -2713,7 +2630,7 @@ i {
 
 
 #arr12 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('./img/back-foot.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('../img/back-foot.png');
     color: white;
     /* height: 60vh; */
     background-color: black;

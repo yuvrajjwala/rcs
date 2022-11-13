@@ -207,10 +207,18 @@ i {
 .form-below-line-contaner{
    width: 70vw;
    max-width: 1200px;
-   background-color: #707070;
-   height: 1px;
-   opacity: 0.3;
+   background-color: #c0c0c0;
+   height: 2px;
    margin-bottom: 100px;
+}
+.form-below-line{
+    transition-duration: 1.5s;
+    width: 0%;
+}
+.line-hover:hover>.form-below-line-contaner>.form-below-line{
+    width: 100%;
+    background-color: black;
+    height: 100%;
 }
 .form-container{
    margin-left: 11vw;
@@ -236,13 +244,16 @@ i {
    background-color: transparent;
    border: none;
    color: black;
-   opacity: 0.3;
    font-size: 38px;
-   border-bottom: 1.5px solid rgba(0, 0, 0, 0.299);
+
    margin-bottom: 100px;
    padding-bottom: 20px;
    font-family: 'gilroy-regular';
    cursor: pointer;
+}
+#submitform{
+    opacity: 0.3;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.299);
 }
 
 
@@ -2147,6 +2158,7 @@ i {
    }
    .email-sidebar{
     left: 0;
+    width: 250px;
    }
    #ham {
        margin-top: 54px;
@@ -2713,9 +2725,9 @@ i {
         cursor: pointer;
     }
     #logo img {
-        margin-top: 55px;
-        margin-left: 35px;
-        height: 50px;
+        margin-top: 41px;
+        margin-left: 40px;
+        height: 47px;
     }
     .email-rcs{
         padding-top: 15px;

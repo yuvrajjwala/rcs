@@ -166,21 +166,42 @@
                   }
 
 
-                  async function sendmail(){
-                   
-                   await takevalue();
-
-                  const serviceID="service_mesvu1r";
-                  const templateID="template_vc3dvqg";
-
-                  emailjs.send(serviceID,templateID,params)
-                  .then(
-                    res =>{
-                        alert('message sent successfully!');
-                    })
-                    .catch(err=>console.log(err));
-
+                  function buttoncolor(){
+                    if(document.getElementById('name').value=="" || document.getElementById('email').value=="" ){
+                        console.log("Please fill name and email");
+                    }
+                    else{
+                        document.getElementById("submitform").style.opacity="1";
+                        document.getElementById("submitform").style.borderBottom="2px solid black";
+                    }
                   }
+
+
+                  async function sendmail(){
+                   if(document.getElementById('name').value=="" || document.getElementById('email').value=="" ){
+                    document.getElementById('line2').style.background="red";
+                    document.getElementById('line1').style.background="red";
+                    
+                   }
+                   else{
+                    document.getElementById('line2').style.background="#c0c0c0";
+                    document.getElementById('line1').style.background="#c0c0c0";
+                    await takevalue();
+
+                            const serviceID="service_mesvu1r";
+                            const templateID="template_vc3dvqg";
+
+                            emailjs.send(serviceID,templateID,params)
+                            .then(
+                            res =>{
+                                alert('message sent successfully!');
+                            })
+                            .catch(err=>console.log(err));
+
+                            }
+                   }
+                   
+                  
                   
      </script>
 
@@ -256,31 +277,38 @@
 
       <div class="form-container">
          <form>
-            <input type="text" id="name" name="name" placeholder="Your Name*">
-            <div class="form-below-line-contaner">
-               <div class="form-below-line"></div>
+            <div class="line-hover">
+            <input onchange="buttoncolor()" type="text" id="name" name="name" placeholder="Your Name*">
+            <div id="line1" class="form-below-line-contaner">
+               <div  class="form-below-line"></div>
+            </div>
+            </div>
+            <div  class="line-hover">
+            <input onchange="buttoncolor()" type="text" id="email" name="email" placeholder="Your Email*">
+            <div id="line2" class="form-below-line-contaner">
+               <div  class="form-below-line"></div>
+            </div>
             </div>
 
-            <input type="text" id="email" name="email" placeholder="Your Email*">
-            <div class="form-below-line-contaner">
-               <div class="form-below-line"></div>
-            </div>
-
+            <div class="line-hover">
             <input type="text" id="project" name="project" placeholder="Tell us about your Project">
             <div class="form-below-line-contaner">
                <div class="form-below-line"></div>
             </div>
+            </div>
 
+            <div class="line-hover">
             <input type="text" id="budget" name="budget" placeholder="Project budget (USD)">
             <div class="form-below-line-contaner">
                <div class="form-below-line"></div>
-            </div>  
+            </div> 
+            </div> 
           
                
          </form>
           
          <div class="submit-contact-form">
-            <button  onclick="sendmail()">Send Request</button>
+            <button id="submitform"  onclick="sendmail()">Send Request</button>
          </div>
       </div>
 
