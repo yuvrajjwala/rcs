@@ -655,6 +655,11 @@ p {
     font-size: 1.15rem;
     transition-duration: 0.1s;
     background: transparent;
+    z-index: 2;
+    
+}
+.magnetic{
+    z-index: 2;
 }
 
 .dark {

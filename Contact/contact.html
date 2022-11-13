@@ -14,7 +14,12 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
    <script src="./dist/kinet.min.js"></script>
    <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
-
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
+   <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+   <script src="./dist/kinet.min.js"></script>
+   <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
    <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
@@ -38,16 +43,6 @@
         <div id="logo">
             <img src="../img/rcs.png" />
         </div>
-
-
-
-
-
-
-
-
-
-
 
          <div id="overlay-sidebar" class="overlay-scroll-container">
             <div id="menu-scroll-container" class="menu-scroll-container">
@@ -79,7 +74,7 @@
                     <div style="display: flex; flex-wrap: wrap;">
                         <div>
                     <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
-                        Rawcanvasstudio1@gmail.com</p>
+                        </p>
                     <div id="email-bottom-1">
                         <div id="email-bottm-2"></div>
                     </div>
@@ -96,12 +91,8 @@
             
         </div>
 
-
-
-
-
-
         <script>
+             let arr=['site from scratch', 'app from scratch', 'ui/ux','branding','crypto','web development','nft art','graphics desing']
          let a = 0;
          function siderBarOpen() {
 
@@ -130,22 +121,40 @@
                   let service='';
                   function serviceChoose(index){
                     
-                    let arr=['site from scratch', 'app from scratch', 'ui/ux','branding','crypto','web development','nft art','graphics desing']
+                   
                     for(let i=1;i<9;i++){
                         if(i==index){
-                            document.getElementById('choose'+i).style.background="black";
-                            document.getElementById('choose'+i).style.color="white";
-                            service=arr[i-1];
-
+                            if(document.getElementById('choose'+i).style.background!="black"){
+                                document.getElementById('choose'+i).style.background="black";
+                                document.getElementById('choose'+i).style.color="white";
+                            }
+                            
+                            else{
+                                document.getElementById('choose'+i).style.background="white";
+                                document.getElementById('choose'+i).style.color="black";
+                            }
+                                                        
+                            ;
                         }
-                        else{
-                            document.getElementById('choose'+i).style.background="white";
-                            document.getElementById('choose'+i).style.color="black";
-                        }
+                        // else{
+                        //     document.getElementById('choose'+i).style.background="white";
+                        //     document.getElementById('choose'+i).style.color="black";
+                        // }
                     }
                   }
+
                   var params;
                   function takevalue(){
+                    for(let i=1;i<9;i++){
+                       if(document.getElementById('choose'+i).style.background=="black"){
+                            service+=' '+arr[i-1];
+                           
+                            
+                       }
+                       else{
+                        // alert(document.getElementById('choose'+i).style.background);
+                       }
+                  }
                     params ={
                         name: document.getElementById('name').value,
                         email:  document.getElementById('email').value,
@@ -211,7 +220,7 @@
          I’m interested in…
       </div>
 
-      <div class="contact-btn-containers">
+      <div class="contact-btn-containers ">
          <div onclick="serviceChoose(1)" class="btn-contact-choose magnetic" id="choose1">
             Site from scratch
          </div>

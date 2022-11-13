@@ -76,6 +76,9 @@ i {
     height: 2vh;
     font-family: gilroy-light;
     font-size: 1.5rem;
+    right: 74px;
+    top: 9px;
+    position: relative;
 }
 
 #ham {
@@ -94,26 +97,29 @@ i {
     background-color: transparent;
     /* overflow: hidden;*/
 }
-
-#ham::before {
+#ham::before{
     position: absolute;
     content: '';
-    height: 1px;
+    height:1px;
     width: 1px;
     top: 37px;
     left: 37px;
-    background: black;
+    
     /* transform: translate(50%,50%); */
     border-radius: 50%;
     transition-duration: 0.25s;
     z-index: -1;
     background-color: transparent;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
-#ham:hover::before {
+#ham:hover::before{
     transform: scale(63);
-    background-color: black;
+    color: black;
     margin: auto;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 .menu-scroll-social ul li a{
     text-decoration: none;
@@ -149,7 +155,7 @@ i {
 
 #ham:hover #_1,
 #ham:hover #_2 {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 /* #one .container div{
@@ -169,13 +175,17 @@ i {
     width: 1.75vw;
     height: 0.3vh;
     background-color: #000000;
+    border-radius: 20px;
 }
 
 #_1 {
     margin-bottom: 0.4rem;
 }
 
-
+#o img{
+    height: 3rem;
+    margin: 0px 2px;
+}
 
 #one .container {
     overflow-x: hidden;
@@ -501,6 +511,7 @@ i {
     height: 4rem;
     border-radius: 2rem;
     margin-right: 2rem;
+    scale: 0.95;
     border: 1px solid rgba(24, 25, 25, 0.3);
     font-family: gilroy-medium;
     cursor: pointer;
@@ -527,6 +538,7 @@ i {
     color: white;
     margin-top: 2rem;
     transform: rotate(45deg);
+    scale: 0.8;
 }
 
 #arr1 div:last-child i {
@@ -550,7 +562,7 @@ i {
 .heading1 {
     text-align: center;
     font-size: 3.5rem;
-    margin: 6rem 0px;
+    margin: 9rem 0px;
     margin-top: 0px;
     font-family: 'gilroy-medium';
     color: #181919;
@@ -561,6 +573,7 @@ i {
     flex-wrap: wrap;
     padding: 0rem 8rem;
     align-items: center;
+    margin-left: 4vw;
     justify-content: space-between;
 }
 
@@ -591,11 +604,11 @@ i {
 }
 
 #arr3 .textarea {
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 
 #arr5 .textarea {
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 
 #last-btn {
@@ -660,7 +673,7 @@ i {
 
 .arr9_1 div {
     font-size: 5rem;
-    font-family: gilroy-regular;
+    font-family: gilroy-semi-bold;
 }
 
 .arr9_1 p {
@@ -670,7 +683,7 @@ i {
 }
 
 #arr10 {
-    background-color: #1C171D;
+    background-color: #000000;
     color: white;
     padding: 1rem 6rem;
     height: 100vh;
@@ -713,7 +726,7 @@ i {
 }
 
 #arr10 .cards div ul li .text .heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: gilroy-bold;
     width: 90%;
 }
@@ -722,7 +735,7 @@ i {
     font-size: 1.05rem;
     font-family: gilroy-medium;
     color: rgb(112, 112, 112, 1);
-    width: 100%;
+    width: 95%;
     line-height: 1.75rem;
 }
 
@@ -952,7 +965,7 @@ i {
 
 
 #arr12 {
-    background: #000000;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('./img/back-foot.png');
     color: white;
     /* height: 60vh; */
     display: flex;
@@ -1081,11 +1094,13 @@ i {
     font-family: gilroy-regular;
 }
 
-
+#yellow {
+    color: #F4D9B4;
+}
 
 #arr11 {
     /* display: flex; */
-    background-color: #62BEB7;
+    background: linear-gradient(to right,rgb(116, 204, 159),rgb(98, 190, 183),rgb(98, 190, 183));
     height: 80vh;
     min-height: 700px;
     max-height: 900px;
@@ -1326,7 +1341,7 @@ i {
     }
 
     #arr10 .cards div ul li .text .heading {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: gilroy-medium;
         width: 100%;
         line-height: 1.5rem;
@@ -1363,7 +1378,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: #000000;
         color: white;
         padding: 1rem 4rem;
         height: 100vh;
@@ -1649,7 +1664,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: #000000;
         color: white;
         padding: 1rem 3rem;
         height: 100vh;
@@ -2043,7 +2058,7 @@ i {
     }
 
     #arr10 .cards div ul li .text .heading {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: gilroy-medium;
         width: 100%;
         line-height: 1.5rem;
@@ -2083,7 +2098,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: #000000;
         color: white;
         padding: 1rem 4rem;
         height: 100vh;
@@ -2246,7 +2261,7 @@ i {
     }
 
     #arr10 {
-        background-color: #1C171D;
+        background-color: #000000;
         color: white;
         padding: 1rem 3rem;
         height: 100vh;
@@ -2698,7 +2713,7 @@ i {
 
 
 #arr12 {
-    background: url('../img/back-foot.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('./img/back-foot.png');
     color: white;
     /* height: 60vh; */
     background-color: black;
@@ -2868,4 +2883,54 @@ footer{
     .email-sidebar{
         margin-left: 15%;
     }
+}
+
+
+
+
+
+
+#foot21 ul,
+#foot22 ul {
+    display: flex;
+}
+
+#foot21 ul li,
+#foot22 ul li {
+    list-style: none;
+    font-size: 1.25rem;
+    font-family: gilroy-regular;
+    margin: 2rem 6rem;
+}
+
+#foot21 ul li:first-child,
+#foot22 ul li:first-child {
+    margin-left: 0%;
+}
+
+#foot1 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+#foot11 div {
+    font-size: 2.5rem;
+    font-family: 'gilroy-semi-bold';
+    /* padding-left: 1rem; */
+}
+
+#foot11 p {
+    font-size: 1.01rem;
+    font-family: gilroy-regular;
+    margin-top: 0.5rem;
+}
+
+#foot12 {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    font-family: gilroy-regular;
+}
+
+#foot12:hover {
+    font-family: gilroy-medium;
 }

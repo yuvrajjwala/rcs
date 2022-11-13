@@ -622,11 +622,11 @@
         <img src="../img/topright.png" alt="" id="img11_2">
         <img src="../img/bottomleft.png" alt="" id="img11_3">
         <img src="../img/bottomright.png" alt="" id="img11_4">
-        <div id="center">
-            <div id="first">Ready to discuss your project ?</div>
-            <div id="second">CONTACT US <div></div>
+        <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="center">
+            <div id="first">Ready to discuss <span id="yellow">your
+                    project ?</span> </div>
+            <a href="./Contact/contact.html" style="text-decoration: none; color:white;"> <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="second">CONTACT US<div></div></a>
             </div>
-        </div>
     </div>
 </div>
 
@@ -670,9 +670,10 @@
     <style type="text/css">
         #box-shadow-div {
             position: fixed;
-            width: 12px;
-            height: 12px;
+            width: 8px;
+            height: 8px;
             border-radius: 100%;
+            z-index: 1;
             /* box-shadow: 0px 0px 1px 1px rgb(81, 81, 81); */
             background-color: rgba(0, 0, 0, 0.795);
             transition-duration: 0.1s;
