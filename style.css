@@ -255,6 +255,7 @@ p {
     transition-duration: 1s;
     opacity: 0;
     display: none;
+    z-index: 102;
 }
 
 .overlay-scroll-container {
