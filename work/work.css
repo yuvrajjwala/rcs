@@ -2708,7 +2708,7 @@ footer{
 
 #loader{
     position: fixed;
-    background: linear-gradient(to right,rgb(116, 204, 159),rgb(98, 190, 183));
+    background: black;
     z-index: 999;
     top: 0;
     height: 100vh;
