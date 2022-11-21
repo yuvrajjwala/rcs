@@ -35,8 +35,8 @@ function set(left1, top2, rotate1) {
 
         e.setAttribute('style', 'display: block;position: relative;top:' + es.getPropertyValue('--pos_y_final') + ';left:' + es.getPropertyValue('--pos_x_final') + ';animation : anim0 1s ease-in-out; z-index:2;transform: scale(0.8); rotate:' + rotate1 + 'deg')
         e1.setAttribute('style', 'display: block ; position: absolute;top:' + (top2 + 140) + 'px;left:' + (left1 + 130) + 'px;  animation : anim1 2s ease-in-out ; rotate:' + rotate1 + 'deg')
-        e2.setAttribute('style', 'display: block ; position: absolute;top:' + (top2 + 180) + 'px;left:' + (left1 + 180) + 'px;  animation : anim2 2s ease-in-out ; rotate:' + rotate1 + 'deg')
-        e3.setAttribute('style', 'display: block ; position: absolute;top:' + (top2 + 221) + 'px;left:' + (left1 + 221) + 'px; animation : anim3 2s ease-in-out ; rotate:' + rotate1 + 'deg')
+        e2.setAttribute('style', 'display: block ; position: absolute;top:' + (top2 + 220) + 'px;left:' + (left1 + 180) + 'px;  animation : anim2 2s ease-in-out ; rotate:' + rotate1 + 'deg')
+        e3.setAttribute('style', 'display: block ; position: absolute;top:' + (top2 + 301) + 'px;left:' + (left1 + 221) + 'px; animation : anim3 2s ease-in-out ; rotate:' + rotate1 + 'deg')
 
     }
 
@@ -47,7 +47,7 @@ function set(left1, top2, rotate1) {
 
     setTimeout(() => {
         e1.style.transform = 'scale(1.15)';
-        e2.style.transform = 'scale(1.5)';
+        e2.style.transform = 'scale(1.45)';
         e3.style.transform = 'scale(1.75)';
     }, 2000);
     return
