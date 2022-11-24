@@ -2070,7 +2070,7 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
-    z-index: -999;
+    /* z-index: -999; */
     display: none;
 }
 
@@ -3712,7 +3712,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: -999;
+    /* z-index: -999; */
     height: 500px;
     transform: translateY(59.999%);
 }

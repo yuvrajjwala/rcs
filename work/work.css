@@ -98,6 +98,8 @@ i {
     transition-duration: 0.25s;
     background-color: transparent;
     transition-duration: 0.5s;
+    top: 36px;
+    right: -33px;
     /* overflow: hidden;*/
 }
 
@@ -708,7 +710,7 @@ i {
     color: white;
     padding: 1rem 6rem;
     height: 100vh;
-    min-height: 850px;
+    min-height: 900px;
     z-index: 11;
     position: relative;
 }
@@ -717,7 +719,7 @@ i {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-top: 5rem;
+    margin: 4rem 2rem;
 }
 
 #arr10 .cards div:first-child {
@@ -725,21 +727,23 @@ i {
 }
 
 #arr10 .cards div:last-child {
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     margin-top: 2rem;
 }
 
 #arr10 .cards div:last-child div {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 #arr10 .cards div:last-child p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
+    /* margin-top: 0; */
 }
 
 #arr10 .cards ul {
     height: 80vh;
+    padding-left: 2rem;
 }
 
 
@@ -752,19 +756,21 @@ i {
     font-size: 1.3rem;
     font-family: gilroy-bold;
     width: 90%;
+    line-height: 35px;
+    /* margin-bottom: 1rem; */
 }
 
 #arr10 .cards div ul li .text p {
     font-size: 1.05rem;
     font-family: gilroy-medium;
     color: rgb(112, 112, 112, 1);
-    width: 100%;
+    width: 95%;
     line-height: 1.75rem;
 }
 
 #arr10 .cards div ul li {
     list-style: none;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
     margin-top: 2rem;
     cursor: default;
 }
@@ -777,13 +783,13 @@ i {
 
     overflow: hidden;
     height: 0px;
-    margin: 0;
+    /* margin: 0; */
     animation: hide 0.5s ease-in-out;
 }
 
 @keyframes hide {
     0% {
-        height: 100px;
+        height: 200px;
     }
 
     100% {
@@ -792,7 +798,7 @@ i {
 }
 
 #arr10 .cards div ul li .show {
-    height: auto;
+    height: 200px;
     overflow: hidden;
     animation: show 0.5s ease-in-out;
 }
@@ -802,7 +808,7 @@ i {
 
 @keyframes hide {
     0% {
-        height: 100px;
+        height: 200px;
     }
 
     100% {
@@ -817,7 +823,7 @@ i {
     }
 
     100% {
-        height: 100px;
+        height: 200px;
     }
 }
 
@@ -1087,7 +1093,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 2rem 8rem;
+    padding: 2rem 3rem;
 }
 
 #area2 div {
@@ -1120,7 +1126,7 @@ i {
     list-style: none;
     font-size: 1.25rem;
     font-family: gilroy-regular;
-    margin: 2rem 8rem;
+    margin: 2rem 6rem;
 }
 
 #foot21 ul li:first-child,
@@ -2302,6 +2308,7 @@ i {
     #foot21 ul,
     #foot22 ul {
         flex-wrap: wrap;
+        margin: 1.5rem 0;
     }
 
     #area1 {
@@ -2313,7 +2320,7 @@ i {
     }
 
     #foot11 div {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         text-align: center;
         width: 83vw;
     }
@@ -2326,29 +2333,39 @@ i {
 
     #foot12 {
         text-align: center;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        margin-top: 2.75rem;
     }
 
     #bottom1 {
         margin: auto;
-        width: 81%;
+        width: 64%;
     }
 
     #foot21 ul,
     #foot22 ul {
         width: 80vw;
         justify-content: space-between;
-        margin: 2rem 0px;
+        margin: 1.5rem 0px;
     }
-
+    #area3{
+        margin-top: 0;
+        padding-top: 1rem;
+    }
     #foot21 ul li,
     #foot22 ul li {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin: 5px;
     }
 
     #foot2 {
         width: 100%;
         margin: 2rem 0px;
+    }
+
+    footer{
+        justify-content: space-evenly;
     }
 
     #area2 {
@@ -2391,6 +2408,12 @@ i {
         height: 5vh;
         top: -25%;
         transition-duration: 1s;
+    }
+
+    #foot11 p {
+        font-size: 0.7rem;
+        font-family: gilroy-regular;
+        margin-top: 0.5rem;
     }
 
     #arr11 #center #second {
@@ -2730,40 +2753,40 @@ footer{
     display: flex;
 }
 
-#foot21 ul li,
+/* #foot21 ul li,
 #foot22 ul li {
     list-style: none;
     font-size: 1.25rem;
     font-family: gilroy-regular;
     margin: 2rem 6rem;
-}
+} */
 
-#foot21 ul li:first-child,
+/* #foot21 ul li:first-child,
 #foot22 ul li:first-child {
     margin-left: 0%;
-}
+} */
 
-#foot1 {
+/* #foot1 {
     padding-left: 2rem;
     padding-top: 1rem;
-}
+} */
 
-#foot11 div {
+/* #foot11 div {
     font-size: 2.5rem;
     font-family: 'gilroy-semi-bold';
-    /* padding-left: 1rem; */
-}
+} */
 
-#foot11 p {
-    font-size: 1.01rem;
+/* #foot11 p {
+    font-size: 0.7rem;
     font-family: gilroy-regular;
     margin-top: 0.5rem;
-}
+} */
 
 #foot12 {
-    margin-top: 4rem;
+    /* margin-top: 4rem;
     font-size: 1.25rem;
-    font-family: gilroy-regular;
+    font-family: gilroy-regular; */
+    
 }
 
 #foot12:hover {
