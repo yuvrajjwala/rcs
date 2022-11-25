@@ -900,21 +900,23 @@ var num = 0;
 
 function left() {
 
-    const testimonials = ["After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
+    const testimonials = [ "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
+        "I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs. Raw Cavas Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing. They Perfectly Met My Expectations — Working With Them Felt Like An Extension Of My In-House Team.",
 
-        " Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! "]
+        " Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! ", "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again."
+   ]
 
-    const name1 = ['Södra Jumkils Fiberförening', 'Södra Fiberförening']
-    const post = ['CEO of</span> Glance Tech Inc, Sweden', 'CEO of</span> Glance Tech Inc, India']
+    const name1 = ['Pranav Sharma','Södra Jumkils Fiberförening', 'Steffen Konrath']
+    const post = ['Founding Partner -</span> Woodstock VC Fund','CEO of</span> Glance Tech Inc, Sweden', 'CEO & Founder of</span> Evai-Intelligence']
 
 
     var test1 = document.getElementById('test-1')
     var test11 = document.getElementById('arr6_1_p')
     var test12 = document.getElementById('arr6_1_p1')
     test1.style.opacity = 0;
-    setTimeout(() => {
+    setTimeout(() => {  
         if (num == 0) {
-            num = testimonials.length;
+            num = testimonials.length-1;
         }
         num--;
         test1.innerHTML = testimonials[num]
@@ -932,22 +934,31 @@ function left() {
     }, 500);
 
 }
-
+var s=0;
 function right() {
 
-    const testimonials = ["After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
+    const testimonials = ["I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs. Raw Cavas Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing. They Perfectly Met My Expectations — Working With Them Felt Like An Extension Of My In-House Team.",
 
-        "  Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job!"]
-    const name1 = ['Södra Jumkils Fiberförening', 'Södra Fiberförening']
-    const post = ['CEO of</span> Glance Tech Inc, Sweden', 'CEO of</span> Glance Tech Inc, India']
+    " Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! ", "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
+"After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again."]
+const name1 = ['Södra Jumkils Fiberförening', 'Steffen Konrath','Pranav Sharma']
+const post = ['CEO of</span> Glance Tech Inc, Sweden', 'CEO & Founder of</span> Evai-Intelligence','Founding Partner -</span> Woodstock VC Fund']
+
 
     var test1 = document.getElementById('test-1')
     var test11 = document.getElementById('arr6_1_p')
     var test12 = document.getElementById('arr6_1_p1')
     test1.style.opacity = 0;
+   
     setTimeout(() => {
-        if (num == testimonials.length - 1) {
+        if (num == testimonials.length - 2 ) {
+         
             num = -1;
+           
+        }
+        if(num==0 && s==0){
+            num=-1;
+            s++;
         }
         num++;
         test1.innerHTML = testimonials[num]
