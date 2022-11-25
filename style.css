@@ -1575,24 +1575,23 @@ i {
     cursor: pointer;
 }
 
-/* .imgarea1:hover p {
+.imgarea1:hover p {
     letter-spacing: 0.25px;
     transition-duration: 0.5s;
-    color: #33534A;
-
+    
 }
 
 .imgarea1:hover div {
     transform: scale(1.07);
     transition-duration: 0.5s;
-    color: #33534A;
+    
 }
 .imgarea1:hover{
-    background-image: linear-gradient(to bottom right, #BADEFC, #83DEB0);
+   
     border-radius: 20px;
     transition-duration: 1s;
     z-index: 5;
-} */
+}
 
 
 #arr9 {
