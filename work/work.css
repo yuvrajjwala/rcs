@@ -2175,7 +2175,8 @@ i {
     }
 
     .arr9_1 {
-        margin: 1rem 2.5rem;
+        /* margin: 1rem 2.5rem; */
+        width: 50vw;
     }
 
     #arr10 {
@@ -2213,7 +2214,7 @@ i {
     }
 
     #arr10 .cards div:first-child {
-        width: 81vw;
+        width: 85vw;
         margin: 0rem 0px;
     }
 

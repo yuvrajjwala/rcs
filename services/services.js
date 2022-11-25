@@ -26,9 +26,10 @@ e3.setAttribute('style', 'display: block ; position: absolute;top:-500px;left:ca
 
 setTimeout(() => {
     e1.style.transform = 'scale(0.9)';
-        e2.style.transform = 'scale(1)';
-        e3.style.transform = 'scale(1.25)';
+    e2.style.transform = 'scale(1)';
+    e3.style.transform = 'scale(1.25)';
 }, 2000);
+
 
 
 
@@ -55,7 +56,7 @@ l11.addEventListener('click', () => {
     } else {
         l11.classList.add('accordion');
     }
-    
+
     document.getElementById('p11').classList.toggle('hidden');
     document.getElementById('p11').classList.toggle('show');
     document.getElementById('p22').classList.add('hidden');
@@ -72,25 +73,38 @@ l11.addEventListener('click', () => {
     l33.classList.remove('accordion');
     l44.classList.remove('accordion');
     l55.classList.remove('accordion');
-    // l66.classList.remove('accordion');
-    document.getElementById('i1').classList.toggle('fa-plus-circle')
-    document.getElementById('i1').classList.toggle('fa-minus-circle')
-    document.getElementById('i5').classList.add('fa-plus-circle')
-    document.getElementById('i5').classList.remove('fa-minus-circle')
-    document.getElementById('i4').classList.add('fa-plus-circle')
-    document.getElementById('i4').classList.remove('fa-minus-circle')
-    document.getElementById('i3').classList.add('fa-plus-circle')
-    document.getElementById('i3').classList.remove('fa-minus-circle')
-    document.getElementById('i2').classList.add('fa-plus-circle')
-    document.getElementById('i2').classList.remove('fa-minus-circle')
-    // document.getElementById('i6').classList.add('fa-plus-circle')
-    // document.getElementById('i6').classList.remove('fa-minus-circle')
+    document.getElementById('i1').classList.toggle('oo')
+    if (document.getElementById('i1').classList.contains('oo')) {
+        document.getElementById('i1').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+        <path d="M8 12h8"></path>
+      </svg>`;
+    }
+    else {
+        document.getElementById('i1').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+    }
+    let a;
+    for (a = 1; a < 6; a++) {
+        if (a != 1) {
+            console.log(a)
+            document.getElementById('i' + a).innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+            document.getElementById('i' + a).classList.remove('oo')
+        }
+    }
 })
 l22.addEventListener('click', () => {
     // img.setAttribute('src', './img/628df8040afc12127ab2ce50_img-process-1.png');
     if (l22.classList.contains('accordion')) {
         setTimeout(() => {
-        
+
             l22.classList.remove('accordion');
         }, 500);
     } else {
@@ -113,25 +127,35 @@ l22.addEventListener('click', () => {
     l44.classList.remove('accordion');
     l55.classList.remove('accordion');
     // l66.classList.remove('accordion');
-    document.getElementById('i2').classList.toggle('fa-plus-circle')
-    document.getElementById('i2').classList.toggle('fa-minus-circle')
-    document.getElementById('i5').classList.add('fa-plus-circle')
-    document.getElementById('i5').classList.remove('fa-minus-circle')
-    document.getElementById('i4').classList.add('fa-plus-circle')
-    document.getElementById('i4').classList.remove('fa-minus-circle')
-    document.getElementById('i3').classList.add('fa-plus-circle')
-    document.getElementById('i3').classList.remove('fa-minus-circle')
-    // document.getElementById('i6').classList.add('fa-plus-circle')
-    // document.getElementById('i6').classList.remove('fa-minus-circle')
-    document.getElementById('i1').classList.add('fa-plus-circle')
-    document.getElementById('i1').classList.remove('fa-minus-circle')
+    document.getElementById('i2').classList.toggle('oo')
+    if (document.getElementById('i2').classList.contains('oo'))
+        document.getElementById('i2').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+        <path d="M8 12h8"></path>
+      </svg>`;
+    else
+        document.getElementById('i2').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+    for (let a = 1; a < 6; a++) {
+        if (a != 2) {
+            document.getElementById('i' + a).innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+            document.getElementById('i' + a).classList.remove('oo')
+        }
+    }
 })
 
 l33.addEventListener('click', () => {
     // img.setAttribute('src', './img/628df8040afc12127ab2ce50_img-process-1.png');
     if (l33.classList.contains('accordion')) {
         setTimeout(() => {
-        
+
             l33.classList.remove('accordion');
         }, 500);
     } else {
@@ -154,24 +178,34 @@ l33.addEventListener('click', () => {
     l44.classList.remove('accordion');
     l55.classList.remove('accordion');
     // l66.classList.remove('accordion');
-    document.getElementById('i3').classList.toggle('fa-plus-circle')
-    document.getElementById('i3').classList.toggle('fa-minus-circle')
-    document.getElementById('i5').classList.add('fa-plus-circle')
-    document.getElementById('i5').classList.remove('fa-minus-circle')
-    document.getElementById('i4').classList.add('fa-plus-circle')
-    document.getElementById('i4').classList.remove('fa-minus-circle')
-    // document.getElementById('i6').classList.add('fa-plus-circle')
-    // document.getElementById('i6').classList.remove('fa-minus-circle')
-    document.getElementById('i2').classList.add('fa-plus-circle')
-    document.getElementById('i2').classList.remove('fa-minus-circle')
-    document.getElementById('i1').classList.add('fa-plus-circle')
-    document.getElementById('i1').classList.remove('fa-minus-circle')
+    document.getElementById('i3').classList.toggle('oo')
+    if (document.getElementById('i3').classList.contains('oo'))
+        document.getElementById('i3').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+        <path d="M8 12h8"></path>
+      </svg>`;
+    else
+        document.getElementById('i3').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+    for (let a = 1; a < 6; a++) {
+        if (a != 3) {
+            document.getElementById('i' + a).innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+            document.getElementById('i' + a).classList.remove('oo')
+        }
+    }
 })
 l44.addEventListener('click', () => {
     // img.setAttribute('src', './img/628df8040afc12127ab2ce50_img-process-1.png');
     if (l44.classList.contains('accordion')) {
         setTimeout(() => {
-        
+
             l44.classList.remove('accordion');
         }, 500);
     } else {
@@ -194,18 +228,28 @@ l44.addEventListener('click', () => {
     l33.classList.remove('accordion');
     l55.classList.remove('accordion');
     // l66.classList.remove('accordion');
-    document.getElementById('i4').classList.toggle('fa-plus-circle')
-    document.getElementById('i4').classList.toggle('fa-minus-circle')
-    document.getElementById('i5').classList.add('fa-plus-circle')
-    document.getElementById('i5').classList.remove('fa-minus-circle')
-    // document.getElementById('i6').classList.add('fa-plus-circle')
-    // document.getElementById('i6').classList.remove('fa-minus-circle')
-    document.getElementById('i3').classList.add('fa-plus-circle')
-    document.getElementById('i3').classList.remove('fa-minus-circle')
-    document.getElementById('i2').classList.add('fa-plus-circle')
-    document.getElementById('i2').classList.remove('fa-minus-circle')
-    document.getElementById('i1').classList.add('fa-plus-circle')
-    document.getElementById('i1').classList.remove('fa-minus-circle')
+    document.getElementById('i4').classList.toggle('oo')
+    if (document.getElementById('i4').classList.contains('oo'))
+        document.getElementById('i4').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+        <path d="M8 12h8"></path>
+      </svg>`;
+    else
+        document.getElementById('i4').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+    for (let a = 1; a < 6; a++) {
+        if (a != 4) {
+            document.getElementById('i' + a).innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+            document.getElementById('i' + a).classList.remove('oo')
+        }
+    }
 })
 
 l55.addEventListener('click', () => {
@@ -235,30 +279,40 @@ l55.addEventListener('click', () => {
     l33.classList.remove('accordion');
     l44.classList.remove('accordion');
     // l66.classList.remove('accordion');
-    document.getElementById('i5').classList.toggle('fa-plus-circle')
-    document.getElementById('i5').classList.toggle('fa-minus-circle')
-    // document.getElementById('i6').classList.add('fa-plus-circle')
-    // document.getElementById('i6').classList.remove('fa-minus-circle')
-    document.getElementById('i4').classList.add('fa-plus-circle')
-    document.getElementById('i4').classList.remove('fa-minus-circle')
-    document.getElementById('i3').classList.add('fa-plus-circle')
-    document.getElementById('i3').classList.remove('fa-minus-circle')
-    document.getElementById('i2').classList.add('fa-plus-circle')
-    document.getElementById('i2').classList.remove('fa-minus-circle')
-    document.getElementById('i1').classList.add('fa-plus-circle')
-    document.getElementById('i1').classList.remove('fa-minus-circle')
+    document.getElementById('i5').classList.toggle('oo')
+    if (document.getElementById('i5').classList.contains('oo'))
+        document.getElementById('i5').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+        <path d="M8 12h8"></path>
+      </svg>`;
+    else
+        document.getElementById('i5').innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+    for (let a = 1; a < 6; a++) {
+        if (a != 5) {
+            document.getElementById('i' + a).innerHTML = `<svg width="46" height="30" style="position:absolute;" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+            <path d="M12 8v8"></path>
+            <path d="M8 12h8"></path>
+          </svg>`;
+            document.getElementById('i' + a).classList.remove('oo')
+        }
+    }
 })
 
 
 
-document.getElementById('foot12').addEventListener('mouseenter', ()=>{
+document.getElementById('foot12').addEventListener('mouseenter', () => {
     document.getElementById('bottom2').style.width = '100%'
 
 });
 
 
 
-document.getElementById('foot12').addEventListener('mouseleave', ()=>{
+document.getElementById('foot12').addEventListener('mouseleave', () => {
     document.getElementById('bottom2').style.width = '10%'
 
 });
@@ -267,15 +321,15 @@ document.getElementById('foot12').addEventListener('mouseleave', ()=>{
 
 
 
-function fullWidth(a){
-    if(a===1)
-    document.getElementById('email-bottm-2').style.width="100%";
-    else if(a===2)
-    document.getElementById('email-bottm-22').style.width="10%";
-    else if(a===3)
-    document.getElementById('email-bottm-22').style.width="100%";
+function fullWidth(a) {
+    if (a === 1)
+        document.getElementById('email-bottm-2').style.width = "100%";
+    else if (a === 2)
+        document.getElementById('email-bottm-22').style.width = "10%";
+    else if (a === 3)
+        document.getElementById('email-bottm-22').style.width = "100%";
     else
-    document.getElementById('email-bottm-2').style.width="10%";
+        document.getElementById('email-bottm-2').style.width = "10%";
 }
 
 
@@ -304,17 +358,17 @@ function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
-    var bottom = scrolled-89.89
+    var bottom = scrolled - 89.89
     // var bottom = scrolled-90.74
 
-    if(bottom>=0){
-        document.getElementById('arr12').style.transform = 'translateY('+(45.5-(bottom*4.5))+'%)';
-        
+    if (bottom >= 0) {
+        document.getElementById('arr12').style.transform = 'translateY(' + (45.5 - (bottom * 4.5)) + '%)';
+
     }
     console.log(bottom)
 }
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function () { myFunction() };
 
 
 
