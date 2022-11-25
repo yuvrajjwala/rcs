@@ -1575,7 +1575,7 @@ i {
     cursor: pointer;
 }
 
-.imgarea1:hover p {
+/* .imgarea1:hover p {
     letter-spacing: 0.25px;
     transition-duration: 0.5s;
     color: #33534A;
@@ -1592,7 +1592,7 @@ i {
     border-radius: 20px;
     transition-duration: 1s;
     z-index: 5;
-}
+} */
 
 
 #arr9 {
