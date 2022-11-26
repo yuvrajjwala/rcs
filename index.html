@@ -1077,9 +1077,16 @@
 
     </section>
 
+    <script>
+        function mouseBgHoverr(i){
+            if(i==1)
+            document.getElementById('box-shadow-div').style.display='none';
+            else
+            document.getElementById('box-shadow-div').style.display='block';
+        }
+    </script>
 
-
-    <footer onmouseover="mouseBgHover(1)" id="arr12">
+    <footer onmouseover="mouseBgHoverr(1)" onmouseleave="mouseBgHoverr(0)" id="arr12">
         <div id="area1">
             <div id="foot1">
                 <div id="foot11">
