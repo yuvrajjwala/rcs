@@ -2,527 +2,612 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Contact | Raw Canvas</title>
-   <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
-   <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
-   <link rel="stylesheet" href="contact.css">
-   <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
-   <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-   <script src="./dist/kinet.min.js"></script>
-   <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
-   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-   <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
-   <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-   <script src="./dist/kinet.min.js"></script>
-   <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
-   <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init("m2DFirOBZZes1Vdf-");
-    })();
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Raw Canvas</title>
+    <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="./dist/kinet.min.js"></script>
+    <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="./dist/kinet.min.js"></script>
+    <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("m2DFirOBZZes1Vdf-");
+        })();
+    </script>
+    <link rel="stylesheet" href="../style.css">
     
 </head>
 
 <body>
 
+    <div id="wrap">
+
+        <div id="one">
 
 
-   <div id="one">
 
-
-
-      <div id="nav">
-        <div id="logo">
-            <img src="../img/rcs.png" />
-        </div>
-
-         <div id="overlay-sidebar" class="overlay-scroll-container">
-            <div id="menu-scroll-container" class="menu-scroll-container">
-                <div class="menu-scroll-social">
-                    <ul>
-                        <li><span>Social</span></li>
-                        <li class="magnetic">LinkedIn</li>
-                        <li class="magnetic">Behance</li>
-                        <li class="magnetic">Dribble</li>
-                        <li class="magnetic">Instagram</li>
-                        <li class="magnetic">Twitter</li>
-                        <li class="magnetic">Github</li>
-                    </ul>
+            <div id="nav">
+                <div id="logo">
+                    <img src="../img/rcs.png" />
                 </div>
-                <div class="menu-scroll-navagition">
-                    <ul>
-                        <li id="line-span-menu"><span>Menu</span></li>
-                        <li class="magnetic"> <a id="style-no" href="../index.html">Home</a></li>
-                        <li class="magnetic"> <a id="style-no" href="../work/work.html">Work</a></li>
-                        <!-- <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li> -->
-                        <li class="magnetic"><a id="style-no" href="../services/services.html">Services</a></li>
-                        <li class="magnetic"><a id="style-no" href="../process/process.html">Our Process</a></li>
-                        </li>
-                        <li class="magnetic">Contacts</li>
-                    </ul>
-                </div>
-                <div class="email-sidebar">
-                    <p id="light">Contact</p>
-                    <div style="display: flex; flex-wrap: wrap;">
-                        <div>
-                    <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
-                        </p>
-                    <div id="email-bottom-1">
-                        <div id="email-bottm-2"></div>
-                    </div>
-                </div>
-                <div class="telegram-div-sidbar">
-                        <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram</p>
-                        <div id="email-bottom-11">
-                            <div id="email-bottm-22"></div>
+
+                <div id="overlay-sidebar" class="overlay-scroll-container">
+                    <div id="menu-scroll-container" class="menu-scroll-container">
+                        <div class="menu-scroll-social">
+                            <ul>
+                                <li><span>Social</span></li>
+                                <li class="magnetic">LinkedIn</li>
+                                <li class="magnetic">Behance</li>
+                                <li class="magnetic">Dribble</li>
+                                <li class="magnetic">Instagram</li>
+                                <li class="magnetic">Twitter</li>
+                                <li class="magnetic">Github</li>
+                            </ul>
+                        </div>
+                        <div class="menu-scroll-navagition">
+                            <ul>
+                                <li id="line-span-menu"><span>Menu</span></li>
+                                <li class="magnetic"> <a id="style-no" href="../index.html">Home</a></li>
+                                <li class="magnetic"> <a id="style-no" href="../work/work.html">Work</a></li>
+                                <!-- <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li> -->
+                                <li class="magnetic"><a id="style-no" href="../services/services.html">Services</a></li>
+                                <li class="magnetic"><a id="style-no" href="../process/process.html">Our Process</a>
+                                </li>
+                                </li>
+                                <li class="magnetic">Contacts</li>
+                            </ul>
+                        </div>
+                        <div class="email-sidebar">
+                            <p id="light">Contact</p>
+                            <div style="display: flex; flex-wrap: wrap;">
+                                <div>
+                                    <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
+                                    </p>
+                                    <div id="email-bottom-1">
+                                        <div id="email-bottm-2"></div>
+                                    </div>
+                                </div>
+                                <div class="telegram-div-sidbar">
+                                    <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">Telegram
+                                    </p>
+                                    <div id="email-bottom-11">
+                                        <div id="email-bottm-22"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
+
+                <script>
+                    let arr = ['site from scratch', 'app from scratch', 'ui/ux', 'branding', 'crypto', 'web development', 'nft art', 'graphics desing']
+                    let a = 0;
+                    function siderBarOpen() {
+
+                        document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
+                            if (a % 2 == 0) {
+                                document.getElementById('overlay-sidebar').style.display = "none";
+                            }
+                            else return;
+                        });
+
+                        if (a % 2 != 0) {
+                            a++;
+                            document.getElementById('overlay-sidebar').style.opacity = 0;
+                            document.getElementById('menu-scroll-container').style.right = "-45vw";
+
+                        }
+                        else {
+                            a++;
+                            document.getElementById('overlay-sidebar').style.display = "block";
+                            setTimeout(() => {
+                                document.getElementById('overlay-sidebar').style.opacity = 1;
+                                document.getElementById('menu-scroll-container').style.right = "0vw"
+                            }, 5);
+                        }
+                    }
+                    let service = '';
+                    function serviceChoose(index) {
+
+
+                        for (let i = 1; i < 9; i++) {
+                            if (i == index) {
+                                if (document.getElementById('choose' + i).style.background != "black") {
+                                    document.getElementById('choose' + i).style.background = "black";
+                                    document.getElementById('choose' + i).style.color = "white";
+                                }
+
+                                else {
+                                    document.getElementById('choose' + i).style.background = "white";
+                                    document.getElementById('choose' + i).style.color = "black";
+                                }
+
+                                ;
+                            }
+                            // else{
+                            //     document.getElementById('choose'+i).style.background="white";
+                            //     document.getElementById('choose'+i).style.color="black";
+                            // }
+                        }
+                    }
+
+                    var params;
+                    function takevalue() {
+                        for (let i = 1; i < 9; i++) {
+                            if (document.getElementById('choose' + i).style.background == "black") {
+                                service += ' ' + arr[i - 1];
+
+
+                            }
+                            else {
+                                // alert(document.getElementById('choose'+i).style.background);
+                            }
+                        }
+                        params = {
+                            name: document.getElementById('name').value,
+                            email: document.getElementById('email').value,
+                            project: document.getElementById('project').value,
+                            budget: document.getElementById('budget').value,
+                            intrested: service
+                        };
+                        console.log(params);
+                    }
+
+
+                    function buttoncolor() {
+                        if (document.getElementById('name').value == "" || document.getElementById('email').value == "") {
+                            console.log("Please fill name and email");
+                        }
+                        else {
+                            document.getElementById("submitform").style.opacity = "1";
+                            document.getElementById("submitform").style.borderBottom = "2px solid black";
+                        }
+                    }
+
+
+                    async function sendmail() {
+                        if (document.getElementById('name').value == "" || document.getElementById('email').value == "") {
+                            document.getElementById('line2').style.background = "red";
+                            document.getElementById('line1').style.background = "red";
+
+                        }
+                        else {
+                            document.getElementById('line2').style.background = "#c0c0c0";
+                            document.getElementById('line1').style.background = "#c0c0c0";
+                            await takevalue();
+
+                            const serviceID = "service_mesvu1r";
+                            const templateID = "template_vc3dvqg";
+
+                            emailjs.send(serviceID, templateID, params)
+                                .then(
+                                    res => {
+                                        alert('message sent successfully!');
+                                    })
+                                .catch(err => console.log(err));
+
+                        }
+                    }
+
+
+
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id="menu">
+                    <div id="men">
+                        menu
+                    </div>
+                    <div onclick="siderBarOpen()" id="ham">
+                        <div id="_1"></div>
+                        <div id="_2"></div>
+                    </div>
                 </div>
             </div>
-            
+            <div>
+                <h1 id="contact-heading">
+                    Hey! Share your
+                    <br>
+                    Vision with Us!
+                </h1>
+            </div>
+            <div class="intrested-contact">
+                I’m interested in…
+            </div>
+
+            <div class="contact-btn-containers ">
+                <div onclick="serviceChoose(1)" class="btn-contact-choose magnetic" id="choose1">
+                    Site from scratch
+                </div>
+
+                <div onclick="serviceChoose(2)" class="btn-contact-choose magnetic" id="choose2">
+                    App from scratch
+                </div>
+
+                <div onclick="serviceChoose(3)" class="btn-contact-choose magnetic" id="choose3">
+                    UX/UI design
+                </div>
+
+                <div onclick="serviceChoose(4)" class="btn-contact-choose magnetic" id="choose4">
+                    Branding
+                </div>
+
+                <div onclick="serviceChoose(5)" class="btn-contact-choose magnetic" id="choose5">
+                    Crypto Project
+                </div>
+
+                <div onclick="serviceChoose(6)" class="btn-contact-choose magnetic" id="choose6">
+                    Web Development
+                </div>
+
+                <div onclick="serviceChoose(7)" class="btn-contact-choose magnetic" id="choose7">
+                    NFT Art
+                </div>
+
+                <div onclick="serviceChoose(8)" class="btn-contact-choose magnetic" id="choose8">
+                    Graphic Design
+                </div>
+            </div>
+
+            <div class="form-container">
+                <form>
+                    <div class="line-hover">
+                        <input onchange="buttoncolor()" type="text" id="name" name="name" placeholder="Your Name*">
+                        <div id="line1" class="form-below-line-contaner">
+                            <div class="form-below-line"></div>
+                        </div>
+                    </div>
+                    <div class="line-hover">
+                        <input onchange="buttoncolor()" type="text" id="email" name="email" placeholder="Your Email*">
+                        <div id="line2" class="form-below-line-contaner">
+                            <div class="form-below-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="line-hover">
+                        <input type="text" id="project" name="project" placeholder="Tell us about your Project">
+                        <div class="form-below-line-contaner">
+                            <div class="form-below-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="line-hover">
+                        <input type="text" id="budget" name="budget" placeholder="Project budget (USD)">
+                        <div class="form-below-line-contaner">
+                            <div class="form-below-line"></div>
+                        </div>
+                    </div>
+
+
+                </form>
+
+                <div class="submit-contact-form">
+                    <button id="submitform" onclick="sendmail()">Send Request</button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="arr9">
+            <div class="arr9_1">
+                <div>202</div>
+                <p>Projects</p>
+            </div>
+            <div class="arr9_1">
+                <div>76</div>
+                <p>Happy Clients</p>
+            </div>
+            <div class="arr9_1">
+                <div>14</div>
+                <p>Countries</p>
+            </div>
+            <div class="arr9_1">
+                <div>80</div>
+                <p>Services</p>
+            </div>
+        </div>
+
+
+        <div onmouseover="mouseBgHover(1)" id="arr10">
+
+            <!-- <div class="text">
+            <p>THE PROCESS</p>
+            <div class="heading">Our simple and easy process</div>
+            <p>Well-planned workflow with seamless design process executions.</p>
+        </div> -->
+
+            <div class="cards">
+                <div>
+                    <ul>
+                        <li id="l11" class="accordion">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">Why Raw Canvas Studio?</div>
+                                    <div class="oo" id="i1" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="show" id="p11">Raw Canvas Studio is a team of designers. RCS is a design and
+                                    development agency that’s building websites and apps since 2017. This initiative is
+                                    our
+                                    way of giving back to the community. Having launched our own startups and with 200+
+                                    successful projects on our resume, we know exactly how to make ideas shine. The
+                                    world is
+                                    full of ideas that stay undiscovered. RCS is on a mission to give them wings. And
+                                    drop
+                                    shadows.</p>
+                            </div>
+
+
+                        </li>
+                        <li id="l22">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">What could be the ball park cost / preliminary estimation and
+                                        the
+                                        timelines for our project? </div>
+                                    <div id="i2" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p22">To start the project, it’s enough to fill out our brief, to
+                                    hold
+                                    the meeting or have a call. Agency can start a project at any stage, whether it’s
+                                    the
+                                    idea or an already formed vision. Ideally, but not necessarily if the customer has
+                                    an
+                                    idea of how the project should look like. The vision of the customer helps to
+                                    understand
+                                    the expectations. Usually, everything becomes clear after the first meeting Read
+                                    more on
+                                    https://rondesign.agency/faq/</p>
+                            </div>
+
+                        </li>
+                        <li id="l33">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">I already have some materials ( wireframes / mockups /
+                                        templates)
+                                        can
+                                        you use and improve them rather then to create from scratch?</div>
+                                    <div id="i3" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p33">Sure — the more materials and information we receive from
+                                    you,
+                                    the less work we will need to do in the project. For example, we can take your
+                                    wireframes and make the necessary improvements. And then create the UI design based
+                                    on
+                                    them. </p>
+                            </div>
+
+                        </li>
+                        <li id="l44">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">What would be the deliverables I will get? </div>
+                                    <div id="i4" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p44">If to day about the design, you can see the more thorough
+                                    list is
+                                    available on this page. We will send you all the source files for design and
+                                    development
+                                    (code). Also you’re always able to download all the files from our server using your
+                                    personal link. And you can continue using the prototype we created during the
+                                    project.
+                                </p>
+                            </div>
+
+                        </li>
+                        <li id="l55">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">Will you sign an NDA?</div>
+                                    <div id="i5" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p55">Yes Of course, we understand that you as a brand may want to
+                                    keep
+                                    everything confidential. So we are open to create a Contract before we begin our
+                                    design
+                                    process.
+
+                                </p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text">
+                    <div class="heading" style="line-height: 58px;">FAQ's</div>
+                    <p style="margin-bottom: 4rem; color: white;" id="faq-text">What are your curiosities ?</p>
+                    <a href="./Contact/contact.html" style="text-decoration: none; display: none;"> <button
+                            style="margin-left: 0px;" class="btn dark transparent magnetic">Let's Talk</button> </a>
+                </div>
+                <!-- <img src="./img/628df8040afc12127ab2ce50_img-process-1.png" alt="" id="listImg"> -->
+            </div>
+
         </div>
 
         <script>
-             let arr=['site from scratch', 'app from scratch', 'ui/ux','branding','crypto','web development','nft art','graphics desing']
-         let a = 0;
-         function siderBarOpen() {
+            function contactEleHoverEffect() {
 
-            document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
-                        if(a%2==0){
-                            document.getElementById('overlay-sidebar').style.display = "none";
-                        }
-                        else return ;
-                    });
+                document.getElementById('img11_1').style.scale = '1.1';
+                document.getElementById('img11_1').style.transitionDuration = '1s';
 
-                    if (a % 2 != 0) {
-                        a++;
-                        document.getElementById('overlay-sidebar').style.opacity = 0;
-                        document.getElementById('menu-scroll-container').style.right = "-45vw";
+                document.getElementById('img11_2').style.scale = '1.1';
+                document.getElementById('img11_2').style.transitionDuration = '1s';
 
-                    }
-                    else {
-                        a++;
-                        document.getElementById('overlay-sidebar').style.display = "block";
-                        setTimeout(() => {
-                            document.getElementById('overlay-sidebar').style.opacity = 1;
-                            document.getElementById('menu-scroll-container').style.right = "0vw"                           
-                        }, 5);
-                    }
-                  }
-                  let service='';
-                  function serviceChoose(index){
-                    
-                   
-                    for(let i=1;i<9;i++){
-                        if(i==index){
-                            if(document.getElementById('choose'+i).style.background!="black"){
-                                document.getElementById('choose'+i).style.background="black";
-                                document.getElementById('choose'+i).style.color="white";
-                            }
-                            
-                            else{
-                                document.getElementById('choose'+i).style.background="white";
-                                document.getElementById('choose'+i).style.color="black";
-                            }
-                                                        
-                            ;
-                        }
-                        // else{
-                        //     document.getElementById('choose'+i).style.background="white";
-                        //     document.getElementById('choose'+i).style.color="black";
-                        // }
-                    }
-                  }
+                document.getElementById('img11_3').style.scale = '1.1';
+                document.getElementById('img11_3').style.transitionDuration = '1s';
 
-                  var params;
-                  function takevalue(){
-                    for(let i=1;i<9;i++){
-                       if(document.getElementById('choose'+i).style.background=="black"){
-                            service+=' '+arr[i-1];
-                           
-                            
-                       }
-                       else{
-                        // alert(document.getElementById('choose'+i).style.background);
-                       }
-                  }
-                    params ={
-                        name: document.getElementById('name').value,
-                        email:  document.getElementById('email').value,
-                        project:  document.getElementById('project').value,
-                        budget:  document.getElementById('budget').value,
-                        intrested: service
-                    };
-                 console.log(params);
-                  }
-
-
-                  function buttoncolor(){
-                    if(document.getElementById('name').value=="" || document.getElementById('email').value=="" ){
-                        console.log("Please fill name and email");
-                    }
-                    else{
-                        document.getElementById("submitform").style.opacity="1";
-                        document.getElementById("submitform").style.borderBottom="2px solid black";
-                    }
-                  }
-
-
-                  async function sendmail(){
-                   if(document.getElementById('name').value=="" || document.getElementById('email').value=="" ){
-                    document.getElementById('line2').style.background="red";
-                    document.getElementById('line1').style.background="red";
-                    
-                   }
-                   else{
-                    document.getElementById('line2').style.background="#c0c0c0";
-                    document.getElementById('line1').style.background="#c0c0c0";
-                    await takevalue();
-
-                            const serviceID="service_mesvu1r";
-                            const templateID="template_vc3dvqg";
-
-                            emailjs.send(serviceID,templateID,params)
-                            .then(
-                            res =>{
-                                alert('message sent successfully!');
-                            })
-                            .catch(err=>console.log(err));
-
-                            }
-                   }
-                   
-                  
-                  
-     </script>
+                document.getElementById('img11_4').style.scale = '1.1';
+                document.getElementById('img11_4').style.transitionDuration = '1s';
 
 
 
+            }
+            function leveeffect() {
 
+                document.getElementById('img11_1').style.scale = '1';
+                document.getElementById('img11_1').style.transitionDuration = '2s';
 
+                document.getElementById('img11_2').style.scale = '1';
+                document.getElementById('img11_2').style.transitionDuration = '2s';
 
+                document.getElementById('img11_3').style.scale = '1';
+                document.getElementById('img11_3').style.transitionDuration = '2s';
 
+                document.getElementById('img11_4').style.scale = '1';
+                document.getElementById('img11_4').style.transitionDuration = '2s';
+            }
+        </script>
 
-
-
-
-
-
-
-
-
-         <div id="menu">
-            <div id="men">
-               menu
+        <div id="arr11">
+            <!-- <div id="backhov">
+        </div> -->
+            <img src="../img/topleft.png" alt="" id="img11_1">
+            <img src="../img/topright.png" alt="" id="img11_2">
+            <img src="../img/bottomleft.png" alt="" id="img11_3">
+            <img src="../img/bottomright.png" alt="" id="img11_4">
+            <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="center">
+                <div id="first">Ready to discuss <span id="yellow">your
+                        project ?</span> </div>
+                <a href="./Contact/contact.html" style="text-decoration: none; color:white;">
+                    <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="second">CONTACT US<div>
+                        </div>
+                </a>
             </div>
-            <div onclick="siderBarOpen()" id="ham">
-               <div id="_1"></div>
-               <div id="_2"></div>
+        </div>
+    </div>
+
+
+    <footer id="arr12">
+        <div id="area1">
+            <div id="foot1">
+                <div id="foot11">
+                    <div>Raw Canvas Studio</div>
+                    <p>New Delhi, Delhi, India</p>
+                </div>
+                <div id="foot12">info@studiorawcanvas.com</div>
+                <div id="bottom1">
+                    <div id="bottom2"></div>
+                </div>
             </div>
-         </div>
-      </div>
-      <div>
-         <h1 id="contact-heading">
-            Hey! Share your
-            <br>
-            Vision with Us!
-         </h1>
-      </div>
-      <div class="intrested-contact">
-         I’m interested in…
-      </div>
-
-      <div class="contact-btn-containers ">
-         <div onclick="serviceChoose(1)" class="btn-contact-choose magnetic" id="choose1">
-            Site from scratch
-         </div>
-
-         <div onclick="serviceChoose(2)" class="btn-contact-choose magnetic" id="choose2">
-            App from scratch
-         </div>
-
-         <div onclick="serviceChoose(3)" class="btn-contact-choose magnetic" id="choose3">
-            UX/UI design
-         </div>
-
-         <div onclick="serviceChoose(4)" class="btn-contact-choose magnetic" id="choose4">
-            Branding
-         </div>
-
-         <div onclick="serviceChoose(5)" class="btn-contact-choose magnetic" id="choose5">
-            Crypto Project
-         </div>
-
-         <div onclick="serviceChoose(6)" class="btn-contact-choose magnetic" id="choose6">
-            Web Development
-         </div>
-
-         <div onclick="serviceChoose(7)" class="btn-contact-choose magnetic" id="choose7">
-            NFT Art
-         </div>
-
-         <div onclick="serviceChoose(8)" class="btn-contact-choose magnetic" id="choose8">
-            Graphic Design
-         </div>
-      </div>
-
-      <div class="form-container">
-         <form>
-            <div class="line-hover">
-            <input onchange="buttoncolor()" type="text" id="name" name="name" placeholder="Your Name*">
-            <div id="line1" class="form-below-line-contaner">
-               <div  class="form-below-line"></div>
+            <div id="foot2">
+                <div id="foot21">
+                    <ul>
+                        <li>Dribbble</li>
+                        <li>Behance</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                <div id="foot22">
+                    <ul>
+                        <li>LinkedIn</li>
+                        <li>Telegram</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
             </div>
-            </div>
-            <div  class="line-hover">
-            <input onchange="buttoncolor()" type="text" id="email" name="email" placeholder="Your Email*">
-            <div id="line2" class="form-below-line-contaner">
-               <div  class="form-below-line"></div>
-            </div>
-            </div>
-
-            <div class="line-hover">
-            <input type="text" id="project" name="project" placeholder="Tell us about your Project">
-            <div class="form-below-line-contaner">
-               <div class="form-below-line"></div>
-            </div>
-            </div>
-
-            <div class="line-hover">
-            <input type="text" id="budget" name="budget" placeholder="Project budget (USD)">
-            <div class="form-below-line-contaner">
-               <div class="form-below-line"></div>
-            </div> 
-            </div> 
-          
-               
-         </form>
-          
-         <div class="submit-contact-form">
-            <button id="submitform"  onclick="sendmail()">Send Request</button>
-         </div>
-      </div>
+        </div>
+        <div id="area2">
+            <div><i class="fas fa-arrow-up"></i></div>
+        </div>
+        <div id="area3">© 2022 Raw Canvas studio. All right reserved</div>
+    </footer>
 
 
-   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-   <div id="arr9">
-      <div class="arr9_1">
-          <div>202</div>
-          <p>Projects</p>
-      </div>
-      <div class="arr9_1">
-          <div>76</div>
-          <p>Happy Clients</p>
-      </div>
-      <div class="arr9_1">
-          <div>14</div>
-          <p>Countries</p>
-      </div>
-      <div class="arr9_1">
-          <div>80</div>
-          <p>Services</p>
-      </div>
-  </div>
-
-
-  <div id="arr10">
-
-      <!-- <div class="text">
-          <p>THE PROCESS</p>
-          <div class="heading">Our simple and easy process</div>
-          <p>Well-planned workflow with seamless design process executions.</p>
-      </div> -->
-
-      <div class="cards">
-          <div>
-              <ul>
-                  <li id="l11" class="accordion">
-                      <div class="text">
-                          <div style="display: flex ;">
-                              <div class="heading">Why Raw Canvas Studio?</div><i id="i1"
-                                  class="fas fa-minus-circle"></i>
-                          </div>
-                          <p class="show" id="p11">Raw Canvas Studio is a team of designers. RCS is a design and
-                              development agency that’s building websites and apps since 2017. This initiative is our
-                              way of giving back to the community. Having launched our own startups and with 200+
-                              successful projects on our resume, we know exactly how to make ideas shine. The world is
-                              full of ideas that stay undiscovered. RCS is on a mission to give them wings. And drop
-                              shadows.</p>
-                      </div>
-
-
-                  </li>
-                  <li id="l22">
-                      <div class="text">
-                          <div style="display: flex ;">
-                              <div class="heading">What could be the ball park cost / preliminary estimation and the
-                                  timelines for our project? </div><i id="i2" class="fas fa-plus-circle"></i>
-                          </div>
-                          <p class="hidden" id="p22">To start the project, it’s enough to fill out our brief, to
-                              hold
-                              the meeting or have a call. Agency can start a project at any stage, whether it’s
-                              the
-                              idea or an already formed vision. Ideally, but not necessarily if the customer has
-                              an
-                              idea of how the project should look like. The vision of the customer helps to
-                              understand
-                              the expectations. Usually, everything becomes clear after the first meeting Read
-                              more on
-                              https://rondesign.agency/faq/</p>
-                      </div>
-
-                  </li>
-                  <li id="l33">
-                      <div class="text">
-                          <div style="display: flex ;">
-                              <div class="heading">I already have some materials ( wireframes / mockups / templates)
-                                  can
-                                  you use and improve them rather then to create from scratch?</div><i id="i3"
-                                  class="fas fa-plus-circle"></i>
-                          </div>
-                          <p class="hidden" id="p33">Sure — the more materials and information we receive from you,
-                              the less work we will need to do in the project. For example, we can take your
-                              wireframes and make the necessary improvements. And then create the UI design based on
-                              them. </p>
-                      </div>
-
-                  </li>
-                  <li id="l44">
-                      <div class="text">
-                          <div style="display: flex ;">
-                              <div class="heading">What would be the deliverables I will get? </div><i id="i4"
-                                  class="fas fa-plus-circle"></i>
-                          </div>
-                          <p class="hidden" id="p44">If to day about the design, you can see the more thorough list is
-                              available on this page. We will send you all the source files for design and development
-                              (code). Also you’re always able to download all the files from our server using your
-                              personal link. And you can continue using the prototype we created during the project.
-                          </p>
-                      </div>
-
-                  </li>
-                  <li id="l55">
-                      <div class="text">
-                          <div style="display: flex ;">
-                              <div class="heading">Will you sign an NDA?</div><i id="i5"
-                                  class="fas fa-plus-circle"></i>
-                          </div>
-                          <p class="hidden" id="p55">Yes Of course, we understand that you as a brand may want to keep
-                              everything confidential. So we are open to create a Contract before we begin our design
-                              process.
-
-                          </p>
-                      </div>
-
-                  </li>
-              </ul>
-          </div>
-
-          <div class="text">
-              <div class="heading">FAQ's</div>
-              <p style="margin-bottom: 4rem; color: white;" id="faq-text">What are your curiosities ?</p>
-              <button style="margin-left: 0px;" class="btn dark transparent">Let's Talk</button>
-          </div>
-          <!-- <img src="./img/628df8040afc12127ab2ce50_img-process-1.png" alt="" id="listImg"> -->
-      </div>
-
-  </div>
-
-
-
-  <div id="arr11">
-      <!-- <div id="backhov">
-      </div> -->
-      <img src="../img/topleft.png" alt="" id="img11_1">
-      <img src="../img/topright.png" alt="" id="img11_2">
-      <img src="../img/bottomleft.png" alt="" id="img11_3">
-      <img src="../img/bottomright.png" alt="" id="img11_4">
-      <div id="center">
-          <div id="first">Ready to discuss your project ?</div>
-          <div id="second">CONTACT US <div></div>
-          </div>
-      </div>
-  </div>
-
-
-
-  <footer id="arr12">
-      <div id="area1">
-          <div id="foot1">
-              <div id="foot11">
-                  <div>Raw Canvas Studio</div>
-                  <p>New Delhi, Delhi, India</p>
-              </div>
-              <div id="foot12">info@studiorawcanvas.com</div>
-              <div id="bottom1">
-                  <div id="bottom2"></div>
-              </div>
-          </div>
-          <div id="foot2">
-              <div id="foot21">
-                  <ul>
-                      <li>Dribbble</li>
-                      <li>Behance</li>
-                      <li>Instagram</li>
-                  </ul>
-              </div>
-              <div id="foot22">
-                  <ul>
-                      <li>LinkedIn</li>
-                      <li>Telegram</li>
-                      <li>Facebook</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div id="area2">
-          <div><i class="fas fa-arrow-up"></i></div>
-      </div>
-      <div id="area3">© 2022 Raw Canvas studio. All right reserved</div>
-  </footer>
-
-
-
-   
+    
+    <script src="./contact.js"></script>
 </body>
 
 </html>
