@@ -64,6 +64,7 @@ i {
     margin-left: 72px;
     height: 55px;
     filter: brightness(0);
+    opacity: 0.75;
     /* height: 15.5vh;
     width: 14.5vw; */
 }
