@@ -932,7 +932,43 @@
         </div>
         <div id="area3">© 2022 Raw Canvas studio. All right reserved</div>
     </footer>
+    
+    <style type="text/css">
+        #box-shadow-div {
+            position: fixed;
+            width: 8px;
+            z-index: -1;
+            top: 10px;
+            height: 8px;
+            border-radius: 100%;
+            background-color: #000000cb;
+            /* transition-timing-function: linear; */
+            z-index: 1;
+            transition-duration: 0.2s;
+        }
 
+        @media screen and (max-width: 900px) {
+            #box-shadow-div {
+                display: none;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var bsDiv = document.getElementById("box-shadow-div");
+            var x, y;
+            window.addEventListener('mousemove', function (event) {
+                x = event.clientX;
+                y = event.clientY;
+                if (typeof x !== 'undefined') {
+                    bsDiv.style.left = x + "px";
+                    bsDiv.style.top = y + "px";
+                }
+            }, false);
+        }
+    </script>
+    </head>
+    <div id="box-shadow-div"></div>
 
 
 
