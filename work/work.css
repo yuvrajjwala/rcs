@@ -70,17 +70,21 @@ i {
 #menu {
     display: flex;
     flex-direction: row;
+    width: 180px;
 }
 
 #menu #men {
-    margin-top: 76px;
-
-    position: relative;
-    right: 75px;
+    margin-top: 70px;
     margin-right: 21px;
     height: 2vh;
-    font-family: gilroy-light;
-    font-size: 1.5rem;
+    font-family: gilroy-medium;
+    font-size: 1.34rem;
+    color: #181919;
+}
+@media only screen and (min-width:1600px) {
+    #menu #men {
+        margin-top: 70px;
+    }
 }
 
 #ham {
@@ -680,6 +684,7 @@ i {
 
 #arr9 {
     /* background-color: #62BEB7; */
+    background-color: #F9F9FB;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -1496,6 +1501,28 @@ i {
     }
 }
 
+@media only screen and (max-width:1600px) {
+
+    #ham {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 56px;
+        right: -33px;
+        margin-right: 86px;
+        top: 36px;
+        height: 63px;
+        z-index: 999;
+        width: 63px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+        background-color: transparent;
+        /* overflow: hidden;*/
+    }
+}
+
 @media only screen and (max-width:1400px) {
     #one {
         overflow: hidden;
@@ -1739,6 +1766,28 @@ i {
     #l1,#l2,#l3,#l4,#l5{
         padding: 18px 30px;
         margin-right: 0.5rem;
+    }
+    .imgdiv{
+        max-width: 300px;
+        font-size: 0.9rem;
+    }
+    #ham {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+        right: -33px;
+        margin-right: 86px;
+        top: 36px;
+        height: 63px;
+        z-index: 999;
+        width: 63px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+        background-color: transparent;
+        /* overflow: hidden;*/
     }
 }
 
@@ -2792,4 +2841,18 @@ footer{
 
 #foot12:hover {
     font-family: gilroy-medium;
+}
+
+@media only screen and (max-width:1400px) {
+    #c1 div button {
+        margin-top: 2rem;
+        width: 11.5vw;
+        height: 3.5rem;
+    }
+    #logo img {
+        margin-top: 80px;
+        margin-left: 72px;
+        /* height: 15.5vh;
+        width: 14.5vw; */
+    }
 }

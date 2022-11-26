@@ -68,21 +68,25 @@ i {
 #menu {
     display: flex;
     flex-direction: row;
+    width: 180px;
 }
 
 #menu #men {
-    margin-top: 76px;
-    margin-right: 21px;
+    margin-top: 70px;
+    margin-right: 25px;
     height: 2vh;
-    font-family: gilroy-light;
-    font-size: 1.5rem;
-    right: 74px;
-    top: 9px;
-    position: relative;
+    font-family: gilroy-medium;
+    font-size: 1.34rem;
+    color: #181919;
+}
+@media only screen and (min-width:1600px) {
+    #menu #men {
+        margin-top: 78px;
+    }
 }
 
 #ham {
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,10 +95,14 @@ i {
     margin-right: 86px;
     height: 63px;
     width: 63px;
-    border-radius: 50%;
     z-index: 999;
+    border-radius: 50%;
     transition-duration: 0.25s;
     background-color: transparent;
+    transition-duration: 0.5s;
+    top: 36px;
+    right: -33px;
+    /* overflow: hidden;
     /* overflow: hidden;*/
 }
 #ham::before{
@@ -653,6 +661,7 @@ i {
 
 #arr9 {
     /* background-color: #62BEB7; */
+    background-color: #F9F9FB;
     height: 40vh;
     display: flex;
     flex-wrap: wrap;
@@ -2074,6 +2083,27 @@ i {
         top: 58vh;
     }
 }
+@media only screen and (max-width:1600px) {
+
+    #ham {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 56px;
+        right: -33px;
+        margin-right: 86px;
+        top: 36px;
+        height: 63px;
+        z-index: 999;
+        width: 63px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+        background-color: transparent;
+        /* overflow: hidden;*/
+    }
+}
 
 @media only screen and (max-width:1400px) {
     #one {
@@ -2248,6 +2278,24 @@ i {
 
     .text p {
         font-size: 1.1rem;
+    }
+    #ham {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+        right: -33px;
+        margin-right: 86px;
+        top: 36px;
+        height: 63px;
+        z-index: 999;
+        width: 63px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+        background-color: transparent;
+        /* overflow: hidden;*/
     }
 }
 
@@ -2697,7 +2745,7 @@ i {
 .menu-scroll-container{
     background-color: rgb(255, 255, 255);
     width: 45vw;
-    position: absolute;
+    position: fixed;
     display: flex;
     overflow: hidden;
     padding:26vh 100px;
@@ -2871,4 +2919,19 @@ footer{
 
 body{
     overflow-x: hidden;
+}
+
+@media only screen and (max-width:1400px) {
+    #c1 div button {
+        margin-top: 2rem;
+        width: 11.5vw;
+        height: 3.5rem;
+    }
+    #logo img {
+        margin-top: 80px;
+        margin-left: 72px;
+        /* height: 15.5vh;
+        width: 14.5vw; */
+    }
+
 }
