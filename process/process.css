@@ -3579,6 +3579,27 @@ footer {
     font-family: gilroy-medium;
 }
 
+@media only screen and (max-width:1600px) {
+
+    #ham {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 56px;
+        right: -33px;
+        margin-right: 86px;
+        top: 36px;
+        height: 63px;
+        z-index: 999;
+        width: 63px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+        background-color: transparent;
+        /* overflow: hidden;*/
+    }
+}
 
 
 @media only screen and (max-width:1400px) {
