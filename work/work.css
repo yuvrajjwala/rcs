@@ -1745,6 +1745,28 @@ i {
         padding: 18px 30px;
         margin-right: 0.5rem;
     }
+    .imgdiv{
+        max-width: 300px;
+        font-size: 0.9rem;
+    }
+    #ham {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+        right: -33px;
+        margin-right: 86px;
+        top: 36px;
+        height: 63px;
+        z-index: 999;
+        width: 63px;
+        border-radius: 50%;
+        transition-duration: 0.25s;
+        background-color: transparent;
+        /* overflow: hidden;*/
+    }
 }
 
 @media only screen and (max-width:1200px) {
@@ -2797,4 +2819,18 @@ footer{
 
 #foot12:hover {
     font-family: gilroy-medium;
+}
+
+@media only screen and (max-width:1400px) {
+    #c1 div button {
+        margin-top: 2rem;
+        width: 11.5vw;
+        height: 3.5rem;
+    }
+    #logo img {
+        margin-top: 80px;
+        margin-left: 72px;
+        /* height: 15.5vh;
+        width: 14.5vw; */
+    }
 }
