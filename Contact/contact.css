@@ -69,29 +69,40 @@ i {
 #menu {
    display: flex;
    flex-direction: row;
+   width: 180px;
 }
 
 #menu #men {
-   margin-top: 76px;
-   margin-right: 21px;
-   height: 2vh;
-   font-family: gilroy-light;
-   font-size: 1.5rem;
+    margin-top: 70px;
+    margin-right: 21px;
+    height: 2vh;
+    font-family: gilroy-medium;
+    font-size: 1.34rem;
+    color: #181919;
+}
+@media only screen and (min-width:1600px) {
+    #menu #men {
+        margin-top: 70px;
+    }
 }
 #ham {
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   margin-top: 62px;
-   margin-right: 86px;
-   height: 63px;
-   width: 63px;
-   z-index: 999;
-   border-radius: 50%;
-   transition-duration: 0.25s;
-   background-color: transparent;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+    margin-right: 86px;
+    height: 63px;
+    width: 63px;
+    z-index: 999;
+    border-radius: 50%;
+    transition-duration: 0.25s;
+    background-color: transparent;
+    transition-duration: 0.5s;
+    top: 36px;
+    right: -33px;
+    /* overflow: hidden;
    /* overflow: hidden;*/
 }
 #ham::before{
@@ -288,17 +299,17 @@ i {
    min-height: 850px;
 }
 .menu-scroll-container{
-   background-color: rgb(255, 255, 255);
-   width: 45vw;
-   position: absolute;
-   display: flex;
-   overflow: hidden;
-   padding:26vh 100px;
-   height: 100vh;
-  top: 0;
-  transition-duration: 1s;
-  justify-content: left;
-  font-family: 'gilroy-medium';
+    background-color: rgb(255, 255, 255);
+    width: 45vw;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    padding:26vh 100px;
+    height: 100vh;
+   top: 0;
+   transition-duration: 1s;
+   justify-content: left;
+   font-family: 'gilroy-medium';
 }
 #menu-scroll-container{
    right: -45vw;

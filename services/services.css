@@ -68,21 +68,25 @@ i {
 #menu {
     display: flex;
     flex-direction: row;
+    width: 180px;
 }
 
 #menu #men {
-    margin-top: 76px;
-    margin-right: 21px;
+    margin-top: 70px;
+    margin-right: 25px;
     height: 2vh;
-    font-family: gilroy-light;
-    font-size: 1.5rem;
-    right: 74px;
-    top: 9px;
-    position: relative;
+    font-family: gilroy-medium;
+    font-size: 1.34rem;
+    color: #181919;
+}
+@media only screen and (min-width:1600px) {
+    #menu #men {
+        margin-top: 78px;
+    }
 }
 
 #ham {
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,10 +95,14 @@ i {
     margin-right: 86px;
     height: 63px;
     width: 63px;
-    border-radius: 50%;
     z-index: 999;
+    border-radius: 50%;
     transition-duration: 0.25s;
     background-color: transparent;
+    transition-duration: 0.5s;
+    top: 36px;
+    right: -33px;
+    /* overflow: hidden;
     /* overflow: hidden;*/
 }
 #ham::before{
@@ -2698,7 +2706,7 @@ i {
 .menu-scroll-container{
     background-color: rgb(255, 255, 255);
     width: 45vw;
-    position: absolute;
+    position: fixed;
     display: flex;
     overflow: hidden;
     padding:26vh 100px;

@@ -70,17 +70,21 @@ i {
 #menu {
     display: flex;
     flex-direction: row;
+    width: 180px;
 }
 
 #menu #men {
-    margin-top: 76px;
-
-    position: relative;
-    right: 75px;
+    margin-top: 70px;
     margin-right: 21px;
     height: 2vh;
-    font-family: gilroy-light;
-    font-size: 1.5rem;
+    font-family: gilroy-medium;
+    font-size: 1.34rem;
+    color: #181919;
+}
+@media only screen and (min-width:1600px) {
+    #menu #men {
+        margin-top: 70px;
+    }
 }
 
 #ham {
