@@ -2304,6 +2304,237 @@ i {
 
 
 
+
+
+
+#arr12 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('../img/back-foot.png');
+    color: white;
+    /* height: 60vh; */
+    background-color: black;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    z-index: -1;
+}
+
+
+
+
+
+#overlay-sidebar{
+    transition-duration: 1s;
+    opacity: 0;
+    z-index: 102;
+}
+.overlay-scroll-container{
+    background-color: rgba(255, 255, 255, 0.311);
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    
+    overflow: hidden;
+    overflow: none;
+    min-height: 850px;
+}
+.menu-scroll-container{
+    background-color: rgb(255, 255, 255);
+    width: 45vw;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    padding:26vh 100px;
+    height: 100vh;
+   top: 0;
+   transition-duration: 1s;
+   justify-content: left;
+   font-family: 'gilroy-medium';
+}
+#menu-scroll-container{
+    right: -45vw;
+}
+.menu-scroll-navagition{
+    font-size: 2.3rem;
+}
+.menu-scroll-navagition ul {
+    list-style: none;
+    margin-left: 9vw;
+    line-height: 60px;
+}
+.menu-scroll-navagition ul li, .menu-scroll-social ul li {
+    cursor: pointer;
+    /* transition-duration: 0.5s; */
+    /* transition-duration: 0.5s; */
+}
+.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
+    transform: scale(1.1);
+}
+.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
+    transform: scale(1.05);
+}
+#line-span-menu{
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.menu-scroll-social{
+    font-size: 1.2rem;
+    font-family: 'gilroy-regular';
+    line-height: 47px;
+    padding-left: 1vw;
+}
+.menu-scroll-social span, .menu-scroll-navagition span {
+    font-size: 1rem;
+    color:#B2B1B2;
+    font-family: 'gilroy-regular';
+}
+
+.menu-scroll-social ul{
+    list-style: none;
+}
+
+#style-no{
+    text-decoration: none;
+    color: black;
+}
+
+
+.email-sidebar{
+    position: absolute;
+    bottom: 70px;
+    font-family: 'gilroy-semi-bold';
+}
+#light{
+    color: #B2B1B2;
+    font-family: 'gilroy-semi-bold';
+    font-size: 1.2rem;
+}
+
+#email-bottom-1,#email-bottom-11{
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    height: 2px;
+}
+#email-bottm-2,#email-bottm-22{
+    background-color: black;
+    width: 10%;
+    height: 100%;
+    transition-duration: 1s;
+}
+.telegram-div-sidbar{
+    margin-left: 5vw;
+}
+
+
+
+
+
+footer{
+    z-index: -100;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 500px;
+}
+
+
+#wrap{
+    margin-bottom: 500px;
+    width: 100vw;
+}
+
+
+
+@media only screen and (max-width:900px) {
+    #menu-scroll-container{
+        width: 100vw;
+        padding: 26vh 65px;
+    }
+    .telegram-div-sidbar{
+        margin-left: 0;
+    }
+    .menu-scroll-social{
+        display: none;
+    }
+    .email-sidebar{
+        margin-left: 15%;
+    }
+}
+
+
+
+
+
+
+#foot21 ul,
+#foot22 ul {
+    display: flex;
+}
+
+/* #foot21 ul li,
+#foot22 ul li {
+    list-style: none;
+    font-size: 1.25rem;
+    font-family: gilroy-regular;
+    margin: 2rem 6rem;
+} */
+
+/* #foot21 ul li:first-child,
+#foot22 ul li:first-child {
+    margin-left: 0%;
+} */
+
+/* #foot1 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+} */
+
+/* #foot11 div {
+    font-size: 2.5rem;
+    font-family: 'gilroy-semi-bold';
+} */
+
+/* #foot11 p {
+    font-size: 1.01rem;
+    font-family: gilroy-regular;
+    margin-top: 0.5rem;
+} */
+
+/* #foot12 {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    font-family: gilroy-regular;
+} */
+
+/* #foot12:hover {
+    font-family: gilroy-medium;
+} */
+
+body{
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:1400px) {
+    #c1 div button {
+        margin-top: 2rem;
+        width: 11.5vw;
+        height: 3.5rem;
+    }
+    #logo img {
+        margin-top: 80px;
+        margin-left: 72px;
+        /* height: 15.5vh;
+        width: 14.5vw; */
+    }
+
+}
+
+
+
 @media only screen and (max-width:900px) {
     #logo svg {
         margin-top: 19px;
@@ -2313,8 +2544,8 @@ i {
     }
 
     #ham {
-        margin-top: 54px;
-        margin-right: 31px;
+        margin-top: 0px;
+        margin-right: 50px;
     }
 
     #_1,
@@ -2708,231 +2939,4 @@ i {
     footer{
         justify-content: space-evenly;
     }
-}
-
-
-#arr12 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.12),rgba(0, 0, 0, 0.226)), url('../img/back-foot.png');
-    color: white;
-    /* height: 60vh; */
-    background-color: black;
-    display: flex;
-    padding: 2rem;
-    flex-direction: column;
-    z-index: -1;
-}
-
-
-
-
-
-#overlay-sidebar{
-    transition-duration: 1s;
-    opacity: 0;
-    z-index: 102;
-}
-.overlay-scroll-container{
-    background-color: rgba(255, 255, 255, 0.311);
-    width: 100vw;
-    height: 100vh;
-    z-index: 99;
-    position: absolute;
-    top: 0;
-    
-    overflow: hidden;
-    overflow: none;
-    min-height: 850px;
-}
-.menu-scroll-container{
-    background-color: rgb(255, 255, 255);
-    width: 45vw;
-    position: fixed;
-    display: flex;
-    overflow: hidden;
-    padding:26vh 100px;
-    height: 100vh;
-   top: 0;
-   transition-duration: 1s;
-   justify-content: left;
-   font-family: 'gilroy-medium';
-}
-#menu-scroll-container{
-    right: -45vw;
-}
-.menu-scroll-navagition{
-    font-size: 2.3rem;
-}
-.menu-scroll-navagition ul {
-    list-style: none;
-    margin-left: 9vw;
-    line-height: 60px;
-}
-.menu-scroll-navagition ul li, .menu-scroll-social ul li {
-    cursor: pointer;
-    /* transition-duration: 0.5s; */
-    /* transition-duration: 0.5s; */
-}
-.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
-    transform: scale(1.1);
-}
-.menu-scroll-navagition ul li:hover, .menu-scroll-social ul li:hover {
-    transform: scale(1.05);
-}
-#line-span-menu{
-    line-height: 18px;
-    padding-bottom: 10px;
-}
-
-.menu-scroll-social{
-    font-size: 1.2rem;
-    font-family: 'gilroy-regular';
-    line-height: 47px;
-    padding-left: 1vw;
-}
-.menu-scroll-social span, .menu-scroll-navagition span {
-    font-size: 1rem;
-    color:#B2B1B2;
-    font-family: 'gilroy-regular';
-}
-
-.menu-scroll-social ul{
-    list-style: none;
-}
-
-#style-no{
-    text-decoration: none;
-    color: black;
-}
-
-
-.email-sidebar{
-    position: absolute;
-    bottom: 70px;
-    font-family: 'gilroy-semi-bold';
-}
-#light{
-    color: #B2B1B2;
-    font-family: 'gilroy-semi-bold';
-    font-size: 1.2rem;
-}
-
-#email-bottom-1,#email-bottom-11{
-    width: 100%;
-    background-color: rgb(246, 246, 246);
-    border: none;
-    height: 2px;
-}
-#email-bottm-2,#email-bottm-22{
-    background-color: black;
-    width: 10%;
-    height: 100%;
-    transition-duration: 1s;
-}
-.telegram-div-sidbar{
-    margin-left: 5vw;
-}
-
-
-
-
-
-footer{
-    z-index: -100;
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    height: 500px;
-}
-
-
-#wrap{
-    margin-bottom: 500px;
-    width: 100vw;
-}
-
-
-
-@media only screen and (max-width:900px) {
-    #menu-scroll-container{
-        width: 100vw;
-        padding: 26vh 65px;
-    }
-    .telegram-div-sidbar{
-        margin-left: 0;
-    }
-    .menu-scroll-social{
-        display: none;
-    }
-    .email-sidebar{
-        margin-left: 15%;
-    }
-}
-
-
-
-
-
-
-#foot21 ul,
-#foot22 ul {
-    display: flex;
-}
-
-/* #foot21 ul li,
-#foot22 ul li {
-    list-style: none;
-    font-size: 1.25rem;
-    font-family: gilroy-regular;
-    margin: 2rem 6rem;
-} */
-
-/* #foot21 ul li:first-child,
-#foot22 ul li:first-child {
-    margin-left: 0%;
-} */
-
-/* #foot1 {
-    padding-left: 2rem;
-    padding-top: 1rem;
-} */
-
-/* #foot11 div {
-    font-size: 2.5rem;
-    font-family: 'gilroy-semi-bold';
-} */
-
-/* #foot11 p {
-    font-size: 1.01rem;
-    font-family: gilroy-regular;
-    margin-top: 0.5rem;
-} */
-
-/* #foot12 {
-    margin-top: 4rem;
-    font-size: 1.25rem;
-    font-family: gilroy-regular;
-} */
-
-/* #foot12:hover {
-    font-family: gilroy-medium;
-} */
-
-body{
-    overflow-x: hidden;
-}
-
-@media only screen and (max-width:1400px) {
-    #c1 div button {
-        margin-top: 2rem;
-        width: 11.5vw;
-        height: 3.5rem;
-    }
-    #logo img {
-        margin-top: 80px;
-        margin-left: 72px;
-        /* height: 15.5vh;
-        width: 14.5vw; */
-    }
-
 }
