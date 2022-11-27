@@ -2759,6 +2759,9 @@ i {
 }
 
 @media only screen and (max-width:900px) {
+    .telegram-div-sidbar{
+        margin-top: 15px;
+    }
     #menu-scroll-container{
         width: 100vw;
         padding: 26vh 20px;
