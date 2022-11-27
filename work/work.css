@@ -1864,7 +1864,7 @@ i {
 
 @media screen and (max-width: 710px) {
     #photosarea img {
-        width: 80vw;
+        width: 40vw;
         margin: 0rem;
         margin-left: 0px;
         margin-bottom: 10px;
@@ -1881,7 +1881,7 @@ i {
         /* margin-left: 11rem; */
         margin-left: 0px;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         width: 98vw;
         /* border: 2px solid; */
     }
@@ -1901,9 +1901,10 @@ i {
         margin-left: 0px;
         margin-right: 0rem;
         font-family: gilroy-medium;
-        font-size: 1.15rem;
+        font-size: 0.95rem;
         margin-bottom: 3rem;
         text-align: center;
+        width: 40vw;
     }
 
     .heading1 ul li:first-child {
@@ -2568,8 +2569,13 @@ footer{
 
     #arr10 {
         padding: 2rem 2rem;
-        height: 125vh;
+        height: auto;
+        min-height: auto;
         max-height: 1250px;
+    }
+    #arr10 .cards ul {
+        height: auto;
+        padding-left: 2rem;
     }
 
     #arr10 .cards {
@@ -2867,7 +2873,7 @@ footer{
     .menu-scroll-container {
         background-color: rgb(255, 255, 255);
         width: 100vw;
-        position: absolute;
+        position: fixed;
         display: flex;
         overflow: hidden;
         padding: 24vh 20px;
