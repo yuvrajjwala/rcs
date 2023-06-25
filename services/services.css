@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+
+
+a{
+    text-decoration: none !important;
+} 
+
+#foot2 a li{
+ color: white !important;
+}
+
 @font-face {
     font-family: gilroy-bold;
     src: url('../fonts/Gilroy-Bold.ttf');
@@ -506,11 +516,13 @@ i {
 
 
 #arr1 {
+    position: relative;
+    z-index: 99;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 73vh;
+    height: 80vh;
     padding: 2rem 0px;
     color: #181919;
 }
@@ -2325,13 +2337,13 @@ i {
 #overlay-sidebar{
     transition-duration: 1s;
     opacity: 0;
-    z-index: 102;
+    /* z-index: 102; */
 }
 .overlay-scroll-container{
     background-color: rgba(255, 255, 255, 0.311);
     width: 100vw;
     height: 100vh;
-    z-index: 99;
+    /* z-index: 99; */
     position: absolute;
     top: 0;
     
@@ -2514,8 +2526,9 @@ footer{
     font-family: gilroy-medium;
 } */
 
-body{
+ body{
     overflow-x: hidden;
+    /* scroll-behavior: smooth !important; */
 }
 
 @media only screen and (max-width:1400px) {

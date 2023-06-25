@@ -3,6 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none !important;
+} 
+
+#foot2 a li{
+ color: white !important;
+}
 
 @font-face {
     font-family: gilroy-bold;
