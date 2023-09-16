@@ -11,6 +11,7 @@
 }
 
 
+
 html {
     overflow-x: hidden;
 }
@@ -691,6 +692,7 @@ p {
     margin: auto;
     min-height: 700px;
     max-height: 800px;
+    max-height: 800px;
     position: relative;
     background-image: url(./img/newImg.svg);
     /* background-position: center; */
@@ -1165,10 +1167,17 @@ p {
 
 #foot2{
     z-index: 99;
+    max-height: 900px;
+}
+
+#foot2{
+    z-index: 99;
 }
 
 body {
     overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth; /* Enables smooth scrolling */
     /* position: relative; */
@@ -1844,6 +1853,7 @@ i {
     position: relative;
     left: 60vw;
     top: 50vh;
+    top: 50vh;
     z-index: 3;
 }
 
@@ -2148,6 +2158,7 @@ i {
     font-size: 1.25rem;
     font-family: gilroy-regular;
     margin: 2rem 6rem;
+    
     
 }
 
@@ -3610,6 +3621,7 @@ i {
     #foot21 ul,
     #foot22 ul {
         width: 100%;
+        justify-content: flex-start;
         justify-content: flex-start;
         margin: 1.5rem 0px;
         opacity: 0.6;
