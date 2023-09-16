@@ -1059,7 +1059,7 @@ p {
 }
 
 #arr5 .text {
-    width: 100vw;
+    width: 100%;
     margin-left: 0px;
     color: white;
     text-align: center;
@@ -1332,7 +1332,7 @@ i {
 }
 
 #arr7 .text {
-    width: 100vw;
+    width: 100%;
     margin-left: 0px;
     color: white;
     text-align: center;
@@ -1343,6 +1343,7 @@ i {
     width: 100%;
     font-size: 3rem;
     font-family: gilroy-semi-bold;
+    text-align: center;
     /* color: white; */
 }
 
@@ -1485,7 +1486,7 @@ i {
 }
 
 #arr8 .text {
-    width: 100vw;
+    width: 100%;
     margin-left: 0px;
     /* color: white; */
     text-align: center;
@@ -2077,8 +2078,6 @@ i {
     display: flex;
     padding: 2rem;
     flex-direction: column;
-    /* z-index: -999; */
-    display: none;
 }
 
 #area1 {
@@ -3733,7 +3732,7 @@ i {
     #wrap {
         position: relative;
         height: 100%;
-        margin-bottom: 450px;
+        /* margin-bottom: 450px; */
         /* overflow-y: scroll; */
     }
 
@@ -3741,20 +3740,20 @@ i {
 }
 
 footer {
-    position: fixed;
+    /* position: fixed; */
     margin-top: 1px;
     bottom: 0;
     left: 0;
     right: 0;
     /* z-index: -999; */
     height: 500px;
-    transform: translateY(59.999%);
+    /* transform: translateY(59.999%); */
 }
 
 #wrap {
     position: relative;
     height: 100%;
-    margin-bottom: 500px;
+   
     /* overflow-y: scroll; */
 }
 
@@ -3985,3 +3984,28 @@ footer {
     position: relative;
 }
 
+
+
+@media screen and (min-width: 2400px) {
+    #MainHead{
+        margin-left: 4%;
+    }
+    #men{
+        display: none;
+    }
+    #ham {
+        right: 10%;
+    }
+    #arr10 .cards div {
+        width: 30%;
+        margin: 0px;
+    }
+    #foot2{
+        width: 50%;
+    }
+    #arr11 #center{
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+  }

@@ -2309,7 +2309,7 @@ const innerhtml = [
 
 
 
-populate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 0, ['Ruminatic- SaaS Wes ', 'Cake- SaaS Dashboard', 'Amarette- Watch Ecom Store', 'Botiko- Interiors Web Design', 'Saletion- Saas Web Design', 'Dappr- CRM Dashboard', 'Macron- Team Club Web Design', 'Mager- Arm Dashboard', 'MR- Interior Design Web', 'Branova- Air Purifier Web Design', 'Sooth- Organic Creams Web Design', 'Phantom- Discord Bot Design', 'Artchitec- Architecture Studio Web Design', 'VK BYGG- Construction Web Design', 'Mustang Garage- Car Forum Web Design', 'Creatsy- Mask Ecom Store Design', 'Datra- Marketing Web Design', 'Acura- Management Dashboard Design '], 'l1', -1, 0, 550, -140, 0)
+populate([1, 2, 3, 23, 22, 24, 33, 34, 35, 48, 49, 50, 60, 64, 68, 16, 17, 18], 0, ['Ruminatic- SaaS Wes ', 'Cake- SaaS Dashboard', 'Amarette- Watch Ecom Store', 'Botiko- Interiors Web Design', 'Saletion- Saas Web Design', 'Dappr- CRM Dashboard', 'Macron- Team Club Web Design', 'Mager- Arm Dashboard', 'MR- Interior Design Web', 'Branova- Air Purifier Web Design', 'Sooth- Organic Creams Web Design', 'Phantom- Discord Bot Design', 'Artchitec- Architecture Studio Web Design', 'VK BYGG- Construction Web Design', 'Mustang Garage- Car Forum Web Design', 'Creatsy- Mask Ecom Store Design', 'Datra- Marketing Web Design', 'Acura- Management Dashboard Design '], 'l1', -1, 0, 550, -140, 0)
 
 
 
@@ -2335,42 +2335,6 @@ function fullWidth(a) {
 }
 
 
-
-
-
-
-const footer = new IntersectionObserver(footer => {
-
-    //    console.log(entries)
-    if (footer[0].isIntersecting) {
-        document.getElementById('arr12').style.display = 'flex'
-    }
-    else {
-        document.getElementById('arr12').style.display = 'none'
-    }
-}
-)
-
-footer.observe(document.getElementById('arr11'));
-
-
-
-function myFunction() {
-    console.log('this is the footer function')
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    var bottom = scrolled - 89.89
-    // var bottom = scrolled-90.74
-
-    if (bottom >= 0) {
-        document.getElementById('arr12').style.transform = 'translateY(' + (45.5 - (bottom * 4.5)) + '%)';
-
-    }
-    console.log(bottom)
-}
-
-window.onscroll = function () { myFunction() };
 
 
 

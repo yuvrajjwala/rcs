@@ -434,8 +434,8 @@ i {
 
 @keyframes anim0 {
     from {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init)
+        top: var(--pos_y_final);
+        left: var(--pos_x_final);
     }
 
     to {
@@ -446,15 +446,11 @@ i {
 
 @keyframes anim1 {
     0% {
-        top: var(--pos_y_init);
-        left: var(--pos_x_init);
-        transform: scale(0);
+        transform: scale(0.9);
     }
 
     50% {
-        top: var(--pos_y_final);
-        left: var(--pos_x_final);
-        transform: scale(0);
+        transform: scale(0.9);
     }
 
     100% {
@@ -1754,7 +1750,7 @@ i {
         left: 15px;
     }
     .textarea {
-        padding: 0rem 10px;
+        padding: 0rem 0px;
         padding-right: 15px;
     }
     .textarea img {
@@ -2434,18 +2430,12 @@ i {
 
 footer{
     z-index: -100;
-    position: fixed;
     bottom: 0px;
     right: 0px;
     left: 0px;
     height: 500px;
 }
 
-
-#wrap{
-    margin-bottom: 500px;
-    width: 100vw;
-}
 
 
 
@@ -2955,3 +2945,36 @@ body{
         font-family: 'gilroy-semi-bold';
     }
 }
+
+
+@media screen and (min-width: 2400px) {
+    #MainHead{
+        margin-left: 4%;
+    }
+    #men{
+        display: none;
+    }
+    #ham {
+        right: 10%;
+    }
+    #arr10 .cards div {
+        width: 30%;
+        margin: 0px;
+    }
+    #foot2{
+        width: 50%;
+    }
+    #arr11 #center{
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+
+    #one  .container{
+        width: 90%;
+    }
+    .overlay-scroll-container{
+        width: 90vw;
+    }
+
+  }

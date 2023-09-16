@@ -335,36 +335,36 @@ function fullWidth(a) {
 
 
 
-const footer = new IntersectionObserver(footer => {
+// const footer = new IntersectionObserver(footer => {
 
-    //    console.log(entries)
-    if (footer[0].isIntersecting) {
-        document.getElementById('arr12').style.display = 'flex'
-    }
-    else {
-        document.getElementById('arr12').style.display = 'none'
-    }
-}
-)
+//     //    console.log(entries)
+//     if (footer[0].isIntersecting) {
+//         document.getElementById('arr12').style.display = 'flex'
+//     }
+//     else {
+//         document.getElementById('arr12').style.display = 'none'
+//     }
+// }
+// )
 
 footer.observe(document.getElementById('arr11'));
 
 
 
-function myFunction() {
-    console.log('this is the footer function')
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    var bottom = scrolled - 89.89
-    // var bottom = scrolled-90.74
+// function myFunction() {
+//     console.log('this is the footer function')
+//     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+//     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+//     var scrolled = (winScroll / height) * 100;
+//     var bottom = scrolled - 89.89
+//     // var bottom = scrolled-90.74
 
-    if (bottom >= 0) {
-        document.getElementById('arr12').style.transform = 'translateY(' + (45.5 - (bottom * 4.5)) + '%)';
+//     if (bottom >= 0) {
+//         document.getElementById('arr12').style.transform = 'translateY(' + (45.5 - (bottom * 4.5)) + '%)';
 
-    }
-    console.log(bottom)
-}
+//     }
+//     console.log(bottom)
+// }
 
 window.onscroll = function () { myFunction() };
 

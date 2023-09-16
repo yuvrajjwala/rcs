@@ -742,45 +742,45 @@ function mouseBgHover(i) {
 
 
 
-const footer = new IntersectionObserver(footer => {
+// const footer = new IntersectionObserver(footer => {
 
-    //    console.log(entries)
-    if (footer[0].isIntersecting) {
-        document.getElementById('arr12').style.display = 'flex'
-    }
-    else {
-        document.getElementById('arr12').style.display = 'none'
-    }
-},
-)
+//     //    console.log(entries)
+//     if (footer[0].isIntersecting) {
+//         document.getElementById('arr12').style.display = 'flex'
+//     }
+//     else {
+//         document.getElementById('arr12').style.display = 'none'
+//     }
+// },
+// )
 
-footer.observe(document.getElementById('arr11'));
-
-
+// footer.observe(document.getElementById('arr11'));
 
 
 
-let ar = 0;
-const footer12 = new IntersectionObserver(footer => {
 
-    //    console.log(entries)
-    if (footer[0].isIntersecting) {
-        document.getElementById('arr12').style.zIndex = '0'
-        if (ar == 0) {
-            document.getElementById('arr12').style.zIndex = '-1'
-            ar++
-        }
-    }
-    else {
-        document.getElementById('arr12').style.zIndex = '-1'
-    }
-},
-    {
-        threshold: 1
-    }
-)
 
-footer12.observe(document.getElementById('arr12'));
+// let ar = 0;
+// const footer12 = new IntersectionObserver(footer => {
+
+//     //    console.log(entries)
+//     if (footer[0].isIntersecting) {
+//         document.getElementById('arr12').style.zIndex = '0'
+//         if (ar == 0) {
+//             document.getElementById('arr12').style.zIndex = '-1'
+//             ar++
+//         }
+//     }
+//     else {
+//         document.getElementById('arr12').style.zIndex = '-1'
+//     }
+// },
+//     {
+//         threshold: 1
+//     }
+// )
+
+// footer12.observe(document.getElementById('arr12'));
 
 
 
@@ -988,22 +988,22 @@ const post = ['CEO of</span> Glance Tech Inc, Sweden', 'CEO & Founder of</span> 
 
 
 // document.getElementsByTagName('footer')[0].style.transitionDuration = '0.1s'
-function myFunction() {
-    console.log('this is the footer function')
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    var bottom = scrolled - 95.74
-    // var bottom = scrolled-90.74
+// function myFunction() {
+//     console.log('this is the footer function')
+//     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+//     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+//     var scrolled = (winScroll / height) * 100;
+//     var bottom = scrolled - 95.74
+//     // var bottom = scrolled-90.74
 
-    if (bottom >= 0) {
-        document.getElementById('arr12').style.transform = 'translateY(' + (60 - (bottom * 14.1)) + '%)';
+//     if (bottom >= 0) {
+//         document.getElementById('arr12').style.transform = 'translateY(' + (60 - (bottom * 14.1)) + '%)';
 
-    }
-    console.log(bottom)
-}
+//     }
+//     console.log(bottom)
+// }
 
-window.onscroll = function () { myFunction() };
+// window.onscroll = function () { myFunction() };
 
 
 function fullWidth(a) {

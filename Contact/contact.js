@@ -302,10 +302,10 @@ const footer = new IntersectionObserver(footer => {
 
     //    console.log(entries)
     if (footer[0].isIntersecting) {
-        document.getElementById('arr12').style.display = 'flex'
+        // document.getElementById('arr12').style.display = 'flex'
     }
     else {
-        document.getElementById('arr12').style.display = 'none'
+        // document.getElementById('arr12').style.display = 'none'
     }
 }
 )
@@ -347,11 +347,11 @@ function myFunction() {
     var bottom = scrolled - 89.89
     // var bottom = scrolled-90.74
 
-    if (bottom >= 0) {
-        document.getElementById('arr12').style.transform = 'translateY(' + (45 - (bottom * 4.5)) + '%)';
+    // if (bottom >= 0) {
+    //     document.getElementById('arr12').style.transform = 'translateY(' + (45 - (bottom * 4.5)) + '%)';
 
-    }
-    console.log(bottom)
+    // }
+    // console.log(bottom)
 }
 
 window.onscroll = function () { myFunction() };
