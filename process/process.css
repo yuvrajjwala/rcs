@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none !important;
+} 
+
+#foot2 a li{
+ color: white !important;
+}
+
 @font-face {
     font-family: gilroy-bold;
     src: url('../fonts/Gilroy-Bold.ttf');
@@ -203,6 +211,11 @@ i {
     overflow: hidden;
     z-index: -1;
 }
+ @media only screen and (max-width : 900px ) {
+    #one .container {
+        display: none;
+    }
+ }
 
 #_01 {
     display: none;
@@ -575,7 +588,7 @@ i {
 }
 
 #list {
-    margin-top: 10rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     width: 90%;
     display: flex;
@@ -2505,8 +2518,10 @@ i {
 
     #arr3 .text .heading {
         font-size: 2.75rem;
-        text-align: center;
+        /* text-align: center; */
+        margin: 1rem;
     }
+    
 
     #arr3_1 .text .heading {
         font-size: 2.15rem;
@@ -2627,7 +2642,9 @@ i {
     }
 
     #arr1 {
-        width: 95%;
+        width: 100%;
+        height: 80vh;
+        margin-top: 0;
     }
 }
 

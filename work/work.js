@@ -1,4 +1,11 @@
-
+var w = window.innerWidth;
+if(w<=900){
+    document.getElementById('l1').classList.remove('magnetic')
+    document.getElementById('l2').classList.remove('magnetic')
+    document.getElementById('l3').classList.remove('magnetic')
+    document.getElementById('l4').classList.remove('magnetic')
+    document.getElementById('l5').classList.remove('magnetic')
+}
 //Background Animation...
 
 function set(left1, top2, rotate1) {
@@ -498,8 +505,10 @@ function populate(arr, count, text, ids, dec, numb, numb1, numb2, rotate1) {
         // })
     }
         document.getElementById('imgPhoto'+(count-1)).addEventListener('load',()=>{
-            document.getElementById('loader').style.display = 'none';
-            console.log(count)
+            setTimeout(() => {
+                document.getElementById('loader').style.display = 'none';
+                console.log(count)
+            }, 1500);
         })
 
 }
