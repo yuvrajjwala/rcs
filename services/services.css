@@ -540,8 +540,8 @@ i {
 #Mainarea {
     width: 52%;
     text-align: center;
-    font-size: 6rem;
-    font-family: gilroy-medium;
+    font-size: 4rem;
+    font-family: gilroy-semi-bold;
     margin: 2rem auto;
 }
 
@@ -766,6 +766,14 @@ i {
     cursor: default;
 }
 
+.service-sm-heading{
+    position: relative;
+    letter-spacing: 4px;
+    font-family: gilroy-semi-bold;
+    top: 30px;
+    font-size: small;
+}
+
 #arr10 .cards div ul .accordion {
     border-bottom: 1px solid white;
 }
@@ -869,6 +877,11 @@ i {
     left: 60vw;
     top: 65vh;
     z-index: 3;
+}
+
+#arr1 img{
+    height: 50px;
+    width: 50px;
 }
 
 #arr11 #center {
@@ -1282,7 +1295,7 @@ i {
     }
 
     #Mainarea {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
 
