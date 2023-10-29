@@ -530,11 +530,17 @@ i {
 }
 
 #Mainarea {
-    /* width: 52%; */
+    max-width: 700px;
     text-align: center;
     font-size: 6rem;
-    font-family: gilroy-medium;
+    font-family: gilroy-semi-bold;
     /* margin: 2rem auto; */
+}
+.our-process-sm{
+    font-family: gilroy-semi-bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: small;
 }
 
 #arr1 div:last-child {
@@ -555,11 +561,10 @@ i {
 }
 
 #arr1 {
-    margin-left: auto;
-    width: 62vw;
+    margin: auto;
+    width: 60vw;
     align-items: center;
     justify-content: center;
-    margin-right: 5vw;
     margin-top: 119px;
 }
 
@@ -1389,7 +1394,7 @@ i {
     }
 
     #Mainarea {
-        font-size: 4rem;
+        font-size: 2.9rem;
     }
 
     #arr11 #center {
