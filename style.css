@@ -291,12 +291,12 @@ p {
 }
 
 .menu-scroll-container {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(175, 0, 0);
   width: 45vw;
   position: absolute;
   display: flex;
   overflow: hidden;
-  padding: 26vh 100px;
+  padding: 26vh 100px 26vh 98px;
   height: 100vh;
   top: 0;
   transition-duration: 1s;
