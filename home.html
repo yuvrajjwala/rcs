@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <title>Raw Canvas</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="./dist/kinet.min.js"></script>
+    <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
+
+
+
+    <meta charset="UTF-8">
+    <link data-optimized="2" rel="stylesheet"
+        href="https://itcraftapps.com/wp-content/litespeed/css/1/7409956776596e1d35d12ae80f13e8a1.css?ver=498c6" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no""><link rel=" apple-touch-icon"
+        sizes="180x180" href="https://itcraftapps.com/wp-content/themes/itcraft/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://itcraftapps.com/wp-content/themes/itcraft/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://itcraftapps.com/wp-content/themes/itcraft/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://itcraftapps.com/wp-content/themes/itcraft/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://itcraftapps.com/wp-content/themes/itcraft/favicon/safari-pinned-tab.svg"
+        color="#2a084b">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+    <meta name="google-site-verification" content="TVHMVR3rs_G444WrTDlLLt7vKnYXPzGuhBTMPTgQRp0" />
+    <link rel='stylesheet' href='craft.css' type='text/css' media='all' />
+    <link rel="https://api.w.org/" href="https://itcraftapps.com/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://itcraftapps.com/wp-json/wp/v2/pages/24834" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://itcraftapps.com/xmlrpc.php?rsd" />
+    <link rel='shortlink' href='https://itcraftapps.com/' />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://itcraftapps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitcraftapps.com%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://itcraftapps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitcraftapps.com%2F&#038;format=xml" />
+    <!-- ---------------------Footer css------------------------- -->
+
+    <link rel="stylesheet" href="./Footer.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <title>Raw Canvas</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="./dist/kinet.min.js"></script>
+    <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
+
+
+</head>
+
+<body style="max-width: 2400px; margin: auto;">
+
+
+    <!-- BreadCrumb  -->
+    <section id="wrap">
+        <div onmouseover="mouseBgHover(0)" class="Section" id="one">
+
+
+            <div class="container">
+
+                <!-- changes -->
+                <div>
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1350 1001.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_00">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <defs>
+                                <linearGradient id="gradient" x1="0%" y1="-30%" x2="90%" y2="120%">
+                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
+                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path class="blob" fill="url(#gradient)"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72">
+                                <animate attributeName="d" dur="1s" repeatCount="1"
+                                    values="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,160.5,77.561,106.427,195.1,41.419,367.5,250.5C495.317,946.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,258-8,183.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,30-420-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72;
+                            
+                            M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72" />
+
+                            </path>
+
+                        </g>
+                    </svg>
+
+
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_000">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_0000">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_00000">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+
+
+
+
+
+
+                </div>
+
+
+
+                <div>
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1350 1001.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_01">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <defs>
+                                <linearGradient id="gradient1" x1="-40%" y1="30%" x2="-30%" y2="120%">
+                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
+                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path class="blob" fill="url(#gradient1)"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72">
+                                <animate attributeName="d" dur="1s" repeatCount="1"
+                                    values="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,160.5,77.561,106.427,195.1,41.419,367.5,250.5C495.317,946.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,258-8,183.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,30-420-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72;
+                            
+                            M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72" />
+
+                            </path>
+
+                        </g>
+                    </svg>
+
+
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_001">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_0001">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_00001">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+
+
+
+
+
+
+                </div>
+
+
+
+                <div>
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1350 1001.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_02">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <defs>
+                                <linearGradient id="gradient2" x1="-40%" y1="30%" x2="-30%" y2="120%">
+                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
+                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path class="blob" fill="url(#gradient2)"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72">
+                                <animate attributeName="d" dur="1s" repeatCount="1"
+                                    values="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,160.5,77.561,106.427,195.1,41.419,367.5,250.5C495.317,946.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,258-8,183.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,30-420-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72;
+                            
+                            M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72" />
+
+                            </path>
+
+                        </g>
+                    </svg>
+
+
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_002">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_0002">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_00002">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+
+
+
+
+
+
+                </div>
+
+
+
+                <div>
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1350 1001.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_03">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <defs>
+                                <linearGradient id="gradient3" x1="-40%" y1="30%" x2="-30%" y2="120%">
+                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
+                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path class="blob" fill="url(#gradient3)"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72">
+                                <animate attributeName="d" dur="1s" repeatCount="1"
+                                    values="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,160.5,77.561,106.427,195.1,41.419,367.5,250.5C495.317,946.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,258-8,183.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,30-420-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72;
+                            
+                            M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72" />
+
+                            </path>
+
+                        </g>
+                    </svg>
+
+
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_003">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_0003">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_00003">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+
+
+
+
+
+
+                </div>
+
+
+
+                <div>
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1350 1001.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_04">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <defs>
+                                <linearGradient id="gradient4" x1="-40%" y1="30%" x2="-30%" y2="120%">
+                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
+                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path class="blob" fill="url(#gradient4)"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72">
+                                <animate attributeName="d" dur="1s" repeatCount="1"
+                                    values="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,160.5,77.561,106.427,195.1,41.419,367.5,250.5C495.317,946.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,258-8,183.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,30-420-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72;
+                            
+                            M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72" />
+
+                            </path>
+
+                        </g>
+                    </svg>
+
+
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_004">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_0004">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+                    <svg width="1406.289" height="1001.139" viewBox="0 0 1320 1101.139" preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                        id="_00004">
+                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
+                            <path class="blob"
+                                d="M297.85,135.382c-42.2,24.406-76.152,50.225-93.5,63.5C104.4,275.367,24.967,337.017,4.85,433.382c-2.181,10.447-21.6,110.777,36.5,190.5,77.561,106.427,195.1,41.419,367.5,139.5C555.317,846.708,540,933.9,680.35,979.882c26.636,8.726,144.656,47.391,261-8,113.787-54.173,156.486-165.233,188.5-248.5,23.094-60.067,82.916-222.776,15-409-16.648-45.648-64.1-170.418-189-251-254.231-164.024-599.528,38.185-658,72"
+                                fill="none" stroke-width="0.6px" stroke="rgba(0,0,0,0.1)"></path>
+                        </g>
+                    </svg>
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+            <div id="nav">
+                <div id="logo">
+                    <img src="./img/rcs.png" />
+                </div>
+
+                <div id="overlay-sidebar" class="overlay-scroll-container">
+                    <div id="menu-scroll-container" class="menu-scroll-container">
+                        <div class="menu-scroll-social">
+                            <ul>
+                                <li><span>Social</span></li>
+                                <li class="magnetic"><a href="https://dribbble.com/RawCanvasStudio"
+                                        target="_blank">Dribbble</a></li>
+                                <li class="magnetic"><a href="https://www.behance.net/rawcanvasstudio"
+                                        target="_blank">Behance</a></li>
+                                <li class="magnetic"><a
+                                        href="https://www.linkedin.com/company/raw-canvas-studio/?viewAsMember=true"
+                                        target="_blank">LinkedIn</a></li>
+                                <li class="magnetic"><a href="https://www.instagram.com/raw_canvas_studio/"
+                                        target="_blank">Instagram</a></li>
+                                <li class="magnetic"><a href="https://t.me/RawCanvasStudio" target="_blank">Telegram</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-scroll-navagition">
+                            <ul>
+                                <li id="line-span-menu"><span>Menu</span></li>
+                                <li class="magnetic"> <a id="style-no" href="/">Home</a></li>
+                                <li class="magnetic"> <a id="style-no" href="./work/work.html">Work</a></li>
+                                <!-- <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li> -->
+                                <li class="magnetic"><a id="style-no" href="./services/services.html">Services</a></li>
+                                <li class="magnetic"><a id="style-no" href="./process/process.html">Our Process</a></li>
+                                </li>
+                                <li class="magnetic"><a id="style-no" href="./Contact/contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="email-sidebar">
+                            <p id="light">Contact</p>
+                            <div style="display: flex;flex-wrap: wrap;">
+                                <div>
+                                    <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
+                                        <a style="text-decoration:none;color: black;"
+                                            href="mailto: mail@studiorawcanvas.com">mail@studiorawcanvas.com</a>
+                                    </p>
+                                    <div id="email-bottom-1">
+                                        <div id="email-bottm-2"></div>
+                                    </div>
+                                </div>
+                                <div class="telegram-div-sidbar">
+                                    <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">
+                                        <a style="text-decoration: none;color: black;"
+                                            href="https://t.me/RawCanvasStudio">Telegram</a>
+                                    </p>
+                                    <div id="email-bottom-11">
+                                        <div id="email-bottm-22"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div id="menu">
+                    <div id="men">
+                        menu
+                    </div>
+
+                    <div onclick="siderBarOpen()" id="ham">
+                        <div id="_1"></div>
+                        <div id="_2"></div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                let a = 0;
+                function siderBarOpen() {
+
+                    document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
+                        if (a % 2 == 0) {
+                            document.getElementById('overlay-sidebar').style.display = "none";
+                        }
+                        else return;
+                    });
+
+                    if (a % 2 != 0) {
+                        a++;
+                        document.getElementById('overlay-sidebar').style.opacity = 0;
+                        document.getElementById('menu-scroll-container').style.right = "-45vw";
+
+                    }
+                    else {
+                        a++;
+                        document.getElementById('overlay-sidebar').style.display = "block";
+                        setTimeout(() => {
+                            document.getElementById('overlay-sidebar').style.opacity = 1;
+                            document.getElementById('menu-scroll-container').style.right = "0vw"
+                        }, 5);
+                    }
+                }
+            </script>
+
+            <div id="arr1">
+                <div id="MainHead">
+                    <div class="heading" data-aos="fade-up" data-aos-duration="1000">
+                        For those who are striving for quality at all stages
+                    </div>
+                    <p data-aos="fade-up" data-aos-duration="1500">RawCanvasStudio came to life in 2021, and since our
+                        inception, we've collaborated with more than a hundred digital products to enhance their user
+                        experiences. Our journey has been marked by hands-on design experience gained through
+                        partnerships with top-tier product teams. We continue to leverage this valuable expertise to
+                        assist them in embracing a design-centric approach and achieving tangible results. </p>
+                    <div>
+                        <a href="./Contact/contact.html" style="text-decoration: none;"> <button
+                                class="btn dark magnetic">Let's talk</button> </a>
+                        <a href="./work/work.html" style="text-decoration: none;"> <button class="btn magnetic">Our
+                                Work</button> </a>
+                    </div>
+                </div>
+
+                <div id="icons">
+                    <img src="./img/icons.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div onmouseover="mouseBgHover(1)" id="arr2">
+            <div data-aos="fade-up" data-aos-duration="1000"  class="h2">Are you ready to escape the ordinary</div>
+            <a data-aos="fade-up" data-aos-duration="1000" href="./Contact/contact.html" style="text-decoration: none;"> <button class="btn transparent magnetic" id="let">Let's Talk</button> </a>
+        </div> -->
+
+
+        <div data-aos="fade-up" data-aos-duration="1500" onmouseover="mouseBgHover(0)" id="arr3">
+            <div class="cards" id="c1">
+                <div class="text">
+                    <p style="font-size: 16px;">WHY US
+                    </p>
+                    <div class="heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Get your top
+                        quality & dedicated talent</div>
+                    <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Our
+                        swift-paced team is capable
+                        of handling design projects on anywhere and
+                        anytime. We’re ready to
+                        deliver your best product wherever you are!
+                    </p>
+                    <a href="./process/process.html" style="text-decoration: none;"> <button data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="100" class="btn magnetic">Our Process</button> </a>
+                </div>
+                <img data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" src="./img/L2.svg" alt="">
+            </div>
+            <div class="cards" id="c2">
+                <div class="text">
+                    <p style="font-size: 16px;">TEAM UP
+                    </p>
+                    <div class="heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Team up without
+                        the chaos</div>
+                    <p id="not-hurderls" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">No hurdle,
+                        no hassle. Have the
+                        most convenient way of managing your project and
+                        monitor along the way
+                    </p>
+                    <a href="./Contact/contact.html" style="text-decoration: none;"> <button data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="100" class="btn magnetic">Let's Talk</button></a>
+                </div>
+                <img data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" src="./img/L3.svg" alt="">
+            </div>
+        </div>
+
+
+        <div onmouseover="mouseBgHover(0)" id="arr4">
+            <img id="side-line" src="./img/side-line.png" />
+            <div class="text">
+                <div class="heading-our-text">
+                    <p>THE PROCESS</p>
+                    <div class="heading" data-aos="fade-up" data-aos-duration="500">Our simple and easy process</div>
+                    <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">Well-planned workflow with
+                        seamless design process executions.</p>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div>
+                    <ul>
+                        <li id="l1" class="accordion" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                            <div class="text">
+                                <div class="heading">01. Subscribe Your Plans</div>
+                                <p class="show" id="p1">Choose either which suits best whatever amount of works need to
+                                    be
+                                    done.</p>
+                            </div>
+                        </li>
+                        <li id="l2" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                            <div class="text">
+                                <div class="heading">02. Submit Task</div>
+                                <p class="hidden" id="p2">Experience how we simplify assigning projects within less than
+                                    a
+                                    day.</p>
+                            </div>
+                        </li>
+                        <li id="l3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                            <div class="text">
+                                <div class="heading">03. Draft and Revisions</div>
+                                <p class="hidden" id="p3">Review project drafts and hand in revisions, both minor and
+                                    significant changes.</p>
+                            </div>
+                        </li>
+                        <li id="l4" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                            <div class="text">
+                                <div class="heading">04. Approve and get your file !</div>
+                                <p class="hidden" id="p4">What a month! Your project is completed. Receive the files
+                                    right
+                                    away!</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <img src="./img/our1.png" alt="" id="listImg">
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="why-raw-canvas-studio" id="arr15">
+            <p class="why-rcs">Why Raw Canvas?</p>
+            <div class="why-rcs-boxes">
+                <div class="left-box" data-aos="fade-up" data-aos-duration="100">
+                    <!-- <img src="./img/whyRCS/Group 11054.svg"> -->
+                    <div class="why-rcs-content1">
+                        <p>Our simple and easy process</p>
+                        <br>
+                        <span>Well-planned workflow with seamless design process executions.</span><br>
+                        <a href="/work/work.html" style="text-decoration: none;"> <button class="btn-why-rcs">Our work
+                                <span><img src="./img/whyRCS/Icon ionic-ios-arrow-back.svg"></span>
+                            </button> </a>
+                    </div>
+                    <div>
+                        <img class="whyrcs1-img" src="./img/whyRCS/a99a4990c601627393d54447aec3ceac.svg">
+                    </div>
+                </div>
+                <div class="right-box" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                    <div>
+                        <img src="./img/whyRCS/Group 11055.svg">
+                        <p>Going beyond
+                            what’s possible</p>
+                        <span>Raw Cavas Studio doesn’t do cookie-cutter solutions. Every project involves stages of
+                            target audience research and prototype testing.</span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="why-rcs-boxes" id="why1">
+                <div class="right-box" data-aos="fade-up" data-aos-duration="600">
+                    <div>
+                        <img id="icon2-why" src="./img/whyRCS/Group 11055.png">
+                        <p>Share your Vision with Us!</p>
+                        <a href="./Contact/contact.html" style="text-decoration: none;"> <button
+                                class="btn-why-rcs">Contact Us
+                                <span><img id="arow2" src="./img/whyRCS/Icon ionic-ios-arrow-back.svg"></span>
+                            </button> </a>
+
+                    </div>
+                </div>
+                <div id="desktop-desing" class="left-box" data-aos="fade-up" data-aos-duration="600"
+                    data-aos-delay="300">
+                    <!-- <img src="./img/whyRCS/Group 11054.svg"> -->
+                    <div class="why-rcs-content2">
+                        <p>Design-driven development
+                            of your web product</p>
+                        <br>
+                        <span>Let's look at roadmap</span><br>
+                        <a href="./process/process.html" style="text-decoration: none;"> <button
+                                class="btn-why-rcs">Roadmap
+                                <span><img src="./img/whyRCS/Icon ionic-ios-arrow-back.svg"></span>
+                            </button> </a>
+                    </div>
+                    <div>
+                        <img class="whyrcs1-img2" src="./img/whyRCS/Group 11054.svg">
+                    </div>
+                </div>
+
+
+
+
+
+                <div id="mob-design-box" class="left-box">
+                    <!-- <img src="./img/whyRCS/Group 11054.svg"> -->
+                    <div class="why-rcs-content2">
+                        <p>Design-driven development
+                            of your web product</p>
+                        <br>
+                        <span>Let's look at roadmap</span><br>
+                        <a href="./process/process.html" style="text-decoration: none;"> <button
+                                class="btn-why-rcs">Roadmap
+                                <span><img src="./img/whyRCS/Icon ionic-ios-arrow-back.svg"></span>
+                            </button> </a>
+                    </div>
+                    <div>
+                        <img id="mob-designimg" class="whyrcs1-img2" src="./img/process/Group 11056.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div onmouseover="mouseBgHover(1)" id="arr7">
+            <div id="round-head-id" class="round-head">PROCESS</div>
+            <div class="text">
+                <div class="heading">Our design process
+                </div>
+            </div>
+
+            <div id="arr7_1">
+                <div data-aos="fade-up" data-aos-duration="500" class="imgarea">
+                    <div
+                        style="background: url('./img/Group11058.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        <!-- <img id="chess" class="imgarea_1" src="./img/Iconawesome-chess.png" alt=""> -->
+                    </div>
+                    <br>
+                    <div>Strategy</div>
+                    <p>Product is strategized for the best & flawless user journey.</p>
+                </div>
+                <div class="imgarea" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                    <div
+                        style="background: url('./img/Group11055.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        <!-- <img class="imgarea_1" src="./img/pen-ruler-solid.png" alt=""> -->
+                    </div>
+                    <br>
+                    <div>Design</div>
+                    <p>Product is strategized for the best & flawless user journey.</p>
+                </div>
+                <div class="imgarea" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                    <div
+                        style="background: url('./img/Group11056.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        <!-- <img class="imgarea_1" src="./img/file-code-solid.png" alt=""> -->
+                    </div>
+                    <br>
+                    <div>Development</div>
+                    <p>Product is strategized for the best & flawless user journey.</p>
+                </div>
+                <div class="imgarea" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
+                    <div
+                        style="background: url('./img/Group11057.svg');background-size: contain; background-repeat: no-repeat;background-position: center;">
+                        <!-- <img class="imgarea_1" src="./img/microscope-solid.png" alt=""> -->
+                    </div>
+                    <br>
+                    <div>Testing</div>
+                    <p>Product is strategized for the best & flawless user journey.</p>
+                </div>
+            </div>
+
+            <a href="./Contact/contact.html" style="text-decoration: none;"> <button
+                    class="btn dark transparent magnetic">Contact Us</button> </a>
+
+        </div>
+
+
+
+        <div onmouseover="mouseBgHover(0)" id="arr6">
+            <img src="./img/comp1.png" alt="" id="comp1" class="absolute">
+            <img src="./img/comp2.png" alt="" id="comp2" class="absolute">
+            <img src="./img/comp3.png" alt="" id="comp3" class="absolute">
+            <img src="./img/comp55.png" alt="" id="comp4" class="absolute">
+            <img src="./img/comp56.png" alt="" id="comp5" class="absolute">
+            <div id="arr6_1">
+                <div class="text">
+                    <p class="round-head">TESTIMONIALS</p>
+                    <div class="heading">What our Clients have to say... </div>
+                    <span><i style="font-size: 1.15rem;" class="fas fa-star"></i>
+                        <i style="font-size: 1.15rem;" class="fas fa-star"></i>
+                        <i style="font-size: 1.15rem;" class="fas fa-star"></i>
+                        <i style="font-size: 1.15rem;" class="fas fa-star"></i>
+                        <i style="font-size: 1.15rem;" class="fas fa-star"></i>
+                    </span>
+                    <p id="test-1">After an extensive search we settled on Raw Canvas. We couldn’t be happier with the
+                        results. We have no reservations about using them again.</p>
+                    <p id="arr6_1_p" style="font-family: gilroy-extra-bold; margin-top: 2rem;">Pranav Sharma</p>
+                    <p id="arr6_1_p1" style="margin-top: 0.5rem; font-family: gilroy-medium;"> <span
+                            style="color: #707070; font-family: gilroy-regular;">Founding Partner -</span> Woodstock VC
+                        Fund</p>
+                </div>
+                <div id="arrow"><img onclick="left()" style="margin-right: 1rem ; transform: rotate(180deg);"
+                        src="./img/Iconionic-ios-arrow-round-back_1.png" alt=""><img onclick="right()"
+                        src="./img/Iconionic-ios-arrow-round-back_1.png" alt=""></div>
+                <a href="./work/work.html" style="text-decoration: none;"> <button class="magnetic"
+                        id="arrow-button">Our Work</button> </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div onmouseover="mouseBgHover(0)" id="arr8">
+            <div id="round-head-id" class="round-head">SERVICES</div>
+            <div class="text">
+                <div class="heading">Our Services</div>
+            </div>
+
+            <div id="arr8_1">
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/ux_ui-1.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500">
+                    </div>
+                    <div>Design & Branding</div>
+                    <p>Boost your brand and give it a creative support</p>
+                </div>
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/websites.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="100">
+                    </div>
+                    <div>Website Design</div>
+                    <p>Your website is the first impression of your business</p>
+                </div>
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/mobile_apps.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="200">
+                    </div>
+                    <div>Application Design</div>
+                    <p>Building smarter applications for smarts user</p>
+                </div>
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/front_end.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="300">
+                    </div>
+                    <div>Development</div>
+                    <p>Providing the simplest solution for the most complex problem</p>
+                </div>
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/branding.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="00">
+                    </div>
+                    <div>3D Animation</div>
+                    <p>Production for more intuitive
+                        and Dynamic content</p>
+                </div>
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/mobile_apps1.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="100">
+                    </div>
+                    <div>AR/VR Design</div>
+                    <p>Design for the future
+                        ahead Of time</p>
+                </div>
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/front_end.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="200">
+                    </div>
+                    <div> Front-end Dev</div>
+                    <p>We provide front-end development to your needs.</p>
+                </div>
+                <div class="imgarea1">
+                    <div>
+                        <img class="imgarea_11" src="./img/back_end1.png" alt="" data-aos="fade-up"
+                            data-aos-duration="500" data-aos-delay="300">
+                    </div>
+                    <div>Back-End Dev</div>
+                    <p>Web development according to the latest technology standards.</p>
+                </div>
+            </div>
+
+            <a href="./process/process.html" style="text-decoration: none;"> <button class="btn magnetic">Our Process
+                    ?</button> </a>
+
+        </div>
+
+
+        <div onmouseover="mouseBgHover(0)" id="arr9">
+            <div class="arr9_1" data-aos="fade-up" data-aos-duration="500" data-aos-delay="00">
+                <div>202</div>
+                <p>Projects</p>
+            </div>
+            <!-- <div class="arr9_1" data-aos="fade-up" data-aos-duration="1000"> -->
+            <div class="arr9_1" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
+                <div>76</div>
+                <p>Happy Clients</p>
+            </div>
+            <div class="arr9_1" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                <div>14</div>
+                <p>Countries</p>
+            </div>
+            <div class="arr9_1" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+                <div>80</div>
+                <p>Services</p>
+            </div>
+        </div>
+
+
+        <div onmouseover="mouseBgHover(1)" id="arr10">
+
+            <!-- <div class="text">
+                <p>THE PROCESS</p>
+                <div class="heading">Our simple and easy process</div>
+                <p>Well-planned workflow with seamless design process executions.</p>
+            </div> -->
+
+            <div class="cards">
+                <div>
+                    <ul>
+                        <li id="l11" class="accordion">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">Why Raw Canvas Studio?</div>
+                                    <div class="oo" id="i1" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="show" id="p11">Raw Canvas Studio is a team of designers. RCS is a design and
+                                    development agency that’s building websites and apps since 2017. This initiative is
+                                    our
+                                    way of giving back to the community. Having launched our own startups and with 200+
+                                    successful projects on our resume, we know exactly how to make ideas shine. The
+                                    world is
+                                    full of ideas that stay undiscovered. RCS is on a mission to give them wings. And
+                                    drop
+                                    shadows.</p>
+                            </div>
+
+
+                        </li>
+                        <li id="l22">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">What could be the ball park cost / preliminary estimation and
+                                        the
+                                        timelines for our project? </div>
+                                    <div id="i2" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p22">To start the project, it’s enough to fill out our brief, to
+                                    hold
+                                    the meeting or have a call. Agency can start a project at any stage, whether it’s
+                                    the
+                                    idea or an already formed vision. Ideally, but not necessarily if the customer has
+                                    an
+                                    idea of how the project should look like. The vision of the customer helps to
+                                    understand
+                                    the expectations. Usually, everything becomes clear after the first meeting Read
+                                    more on
+                                    https://rondesign.agency/faq/</p>
+                            </div>
+
+                        </li>
+                        <li id="l33">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">I already have some materials ( wireframes / mockups /
+                                        templates)
+                                        can
+                                        you use and improve them rather then to create from scratch?</div>
+                                    <div id="i3" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p33">Sure — the more materials and information we receive from
+                                    you,
+                                    the less work we will need to do in the project. For example, we can take your
+                                    wireframes and make the necessary improvements. And then create the UI design based
+                                    on
+                                    them. </p>
+                            </div>
+
+                        </li>
+                        <li id="l44">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">What would be the deliverables I will get? </div>
+                                    <div id="i4" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p44">If to day about the design, you can see the more thorough
+                                    list is
+                                    available on this page. We will send you all the source files for design and
+                                    development
+                                    (code). Also you’re always able to download all the files from our server using your
+                                    personal link. And you can continue using the prototype we created during the
+                                    project.
+                                </p>
+                            </div>
+
+                        </li>
+                        <li id="l55">
+                            <div class="text">
+                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
+                                    <div class="heading">Will you sign an NDA?</div>
+                                    <div id="i5" style="margin-top:0px; height:30px; width:30px;"><svg
+                                            style="position:absolute;" width="46" height="23" fill="none"
+                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
+                                            <path d="M12 8v8"></path>
+                                            <path d="M8 12h8"></path>
+                                        </svg></div>
+                                </div>
+                                <p class="hidden" id="p55">Yes Of course, we understand that you as a brand may want to
+                                    keep
+                                    everything confidential. So we are open to create a Contract before we begin our
+                                    design
+                                    process.
+
+                                </p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="text">
+                    <div class="heading">FAQ's</div>
+                    <p style="margin-bottom: 4rem; color: white;" id="faq-text">What are your curiosities ?</p>
+                    <a href="./Contact/contact.html" style="text-decoration: none; display: none;"> <button
+                            style="margin-left: 0px;" class="btn dark transparent magnetic">Let's Talk</button> </a>
+                </div>
+                <!-- <img src="./img/628df8040afc12127ab2ce50_img-process-1.png" alt="" id="listImg"> -->
+            </div>
+
+        </div>
+
+
+
+        <section class="block-home-v3-benefits bg-light-9 pt--80 pt-lg--144 pb--80 pb-lg--144" data-scroll-theme>
+            <div class="container">
+                <h2 id="benefits-f4e08b7010-tab" role="tablist"
+                    class="text-dark-2 fs-36 fs-lg-56 fw-500 lh-13 lh-lg-14 mb--0 d-flex flex-wrap col-12 col-lg-11 col-xl-9 col-xxl-7 pl--0 pr--0 pr-lg--40">
+                    <span class="w-100">Benefits </span>
+                    <span>for</span>
+                    <span
+                        class="col px-0 ml--15 ml-lg--22 mr--15 mr-lg--22 h-px bg-dark-4 flex-shrink-0 align-self-center"></span><a
+                        class="block-home-v3-benefits__nav-link nav-link active" id="benefits-f4e08b7010-1-tab"
+                        data-bs-toggle="tab" data-bs-target="#benefits-f4e08b7010-1" type="button" role="tab"
+                        aria-controls="benefits-f4e08b7010-1" aria-selected="true">corporation</a><span
+                        class="w-100 d-lg-none"></span><a
+                        class="block-home-v3-benefits__nav-link nav-link ml-auto ml-lg--space"
+                        id="benefits-f4e08b7010-2-tab" data-bs-toggle="tab" data-bs-target="#benefits-f4e08b7010-2"
+                        type="button" role="tab" aria-controls="benefits-f4e08b7010-2" aria-selected="false">startup</a>
+                </h2>
+            </div>
+            <div class="container pr-0 pr-sm--24">
+                <div class="tab-content mt--110 mt-xl--240" id="benefits-f4e08b7010">
+                    <div class="tab-pane fade show active" id="benefits-f4e08b7010-1" role="tabpanel"
+                        aria-labelledby="benefits-f4e08b7010-1-tab" tabindex="0">
+                        <div class="row gy-80 gy-xl-0 d-none d-lg-flex">
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="175" height="163"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-1.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Expertise" decoding="async" /><noscript><img width="175"
+                                        height="163" src="https://itcraftapps.com/wp-content/uploads/2022/09/b-1.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Expertise" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Expertise</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>Combined experience of our pros goes beyond a lifetime of one person.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="162" height="160"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-2.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Transparency" decoding="async" /><noscript><img width="162"
+                                        height="160" src="https://itcraftapps.com/wp-content/uploads/2022/09/b-2.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Transparency" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Transparency</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>We will always keep you up-to-date &#8211; we know that business is based on
+                                        trust.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="172" height="172"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-3.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Unique approach" decoding="async" /><noscript><img width="172"
+                                        height="172" src="https://itcraftapps.com/wp-content/uploads/2022/09/b-3.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Unique approach" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Unique approach</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>We want to know you better and we want to understand your projects.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="172" height="172"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-4.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Time is crucial" decoding="async" /><noscript><img width="172"
+                                        height="172" src="https://itcraftapps.com/wp-content/uploads/2022/09/b-4.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Time is crucial" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Time is crucial</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>You will save the most valuable resource &#8211; time. Optimization is our second
+                                        name .</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-home-v3-benefits__glide-wrapper d-lg-none">
+                            <div class="block-home-v3-benefits__glide">
+                                <div data-glide-el="track" class="glide__track">
+                                    <div class="glide__slides">
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="175" height="163"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-1.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Expertise" decoding="async" /><noscript><img width="175"
+                                                    height="163"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-1.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Expertise" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Expertise</p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>Combined experience of our pros goes beyond a lifetime of one person.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="162" height="160"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-2.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Transparency" decoding="async" /><noscript><img
+                                                    width="162" height="160"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-2.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Transparency" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Transparency
+                                            </p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>We will always keep you up-to-date &#8211; we know that business is
+                                                    based on trust.</p>
+                                            </div>
+                                        </div>
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="172" height="172"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-3.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Unique approach" decoding="async" /><noscript><img
+                                                    width="172" height="172"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-3.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Unique approach" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Unique
+                                                approach</p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>We want to know you better and we want to understand your projects.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="172" height="172"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-4.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Time is crucial" decoding="async" /><noscript><img
+                                                    width="172" height="172"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-4.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Time is crucial" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Time is
+                                                crucial</p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>You will save the most valuable resource &#8211; time. Optimization
+                                                    is our second name .</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="benefits-f4e08b7010-2" role="tabpanel"
+                        aria-labelledby="benefits-f4e08b7010-2-tab" tabindex="0">
+                        <div class="row gy-80 gy-xl-0 d-none d-lg-flex">
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="172" height="172"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-5.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Resources" decoding="async" /><noscript><img width="172"
+                                        height="172" src="https://itcraftapps.com/wp-content/uploads/2022/09/b-5.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Resources" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Resources</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>Combined experience of our pros goes beyond a lifetime of one person.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="148" height="173"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-6.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Funds" decoding="async" /><noscript><img width="148" height="173"
+                                        src="https://itcraftapps.com/wp-content/uploads/2022/09/b-6.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Funds" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Funds</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>Your project will bring down the house, thus &#8211; you will gain budget from
+                                        investors.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="201" height="174"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-7.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Communication" decoding="async" /><noscript><img width="201"
+                                        height="174" src="https://itcraftapps.com/wp-content/uploads/2022/09/b-7.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Communication" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Communication</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>We want to know you better and we want to understand your projects.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-3"><img data-lazyloaded="1"
+                                    src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                    width="172" height="172"
+                                    data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-8.svg"
+                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                    alt="itCrafta - Time to market" decoding="async" /><noscript><img width="172"
+                                        height="172" src="https://itcraftapps.com/wp-content/uploads/2022/09/b-8.svg"
+                                        class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                        alt="itCrafta - Time to market" decoding="async" /></noscript>
+                                <p
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">
+                                    Time to market</p>
+                                <div
+                                    class="col-12 col-md-10 col-xl-12 px-0 text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                    <p>Time is money &#8211; that’s why we will help you launch your MVP in estimated
+                                        time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-home-v3-benefits__glide-wrapper d-lg-none">
+                            <div class="block-home-v3-benefits__glide">
+                                <div data-glide-el="track" class="glide__track">
+                                    <div class="glide__slides">
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="172" height="172"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-5.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Resources" decoding="async" /><noscript><img width="172"
+                                                    height="172"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-5.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Resources" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Resources</p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>Combined experience of our pros goes beyond a lifetime of one person.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="148" height="173"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-6.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Funds" decoding="async" /><noscript><img width="148"
+                                                    height="173"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-6.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Funds" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Funds</p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>Your project will bring down the house, thus &#8211; you will gain
+                                                    budget from investors.</p>
+                                            </div>
+                                        </div>
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="201" height="174"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-7.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Communication" decoding="async" /><noscript><img
+                                                    width="201" height="174"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-7.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Communication" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Communication
+                                            </p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>We want to know you better and we want to understand your projects.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="glide__slide h-auto"><img data-lazyloaded="1"
+                                                src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                                width="172" height="172"
+                                                data-src="https://itcraftapps.com/wp-content/uploads/2022/09/b-8.svg"
+                                                class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                alt="itCrafta - Time to market" decoding="async" /><noscript><img
+                                                    width="172" height="172"
+                                                    src="https://itcraftapps.com/wp-content/uploads/2022/09/b-8.svg"
+                                                    class="img-fluid d-block mb--45 mb-lg--80 maxh-120px maxh-lg-160px"
+                                                    alt="itCrafta - Time to market" decoding="async" /></noscript>
+                                            <p class="text-black text-lg-dark-2 fs-28 fw-500 lh-15 mb--0">Time to market
+                                            </p>
+                                            <div class="text-dark-3 fs-17 lh-155 mt--16 last-child-mb-0">
+                                                <p>Time is money &#8211; that’s why we will help you launch your MVP in
+                                                    estimated time.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block-home-v3-case-studies pt--100 pt-lg--140">
+            <div class="container">
+                <div class="row align-items-center gx-0 gx-lg-32">
+                    <div class="col-12 col-lg d-flex align-items-center overflow-hidden">
+                        <h2 class="text-dark-2 fs-36 fs-lg-56 fw-500 lh-13 lh-lg-14 mb--0 flex-shrink-0">Our work</h2>
+                        <div class="d-inline-block bg-dark-4 ml--15 ml-lg--22 mr--15 mr-lg--22 w-100 flex-shrink-0"
+                            style="height: 1px;"></div>
+                    </div>
+                    <div class="col-12 col-lg-auto align-items-end justify-content-end d-none d-lg-flex">
+                        <button type="button"
+                            class="block-home-v3-case-studies__glide-prev btn-reset mr--12 transition-all transition-duration-150 text-gray-5 h-text-gray-6"
+                            aria-label="Previous posts">
+                            <svg width="56" height="57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M38.667 28.5203H17.3337m0 0L27.1999 18.5m-9.8662 10.0203L27.1999 38.5"
+                                    stroke="currentColor" stroke-linecap="round"></path>
+                                <rect x="-.5" y=".5" width="55" height="55" rx="27.5" transform="matrix(-1 0 0 1 55 .5)"
+                                    stroke="currentColor"></rect>
+                            </svg>
+                        </button>
+                        <button type="button"
+                            class="block-home-v3-case-studies__glide-next btn-reset transition-all transition-duration-150 text-dark-2 h-text-gray-6"
+                            aria-label="Next posts">
+                            <svg width="56" height="57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 28.5203h20m0 0L28.7504 18.5M38 28.5203 28.7504 38.5" stroke="currentColor"
+                                    stroke-linecap="round"></path>
+                                <rect x=".5" y="1" width="55" height="55" rx="27.5" stroke="currentColor"></rect>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="block-home-v3-case-studies__glide-wrapper mt--56 mt-lg--93">
+                    <div class="block-home-v3-case-studies__glide">
+                        <div data-glide-el="track" class="glide__track">
+                            <div class="glide__slides">
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/beespeaker/"
+                                        aria-label="BeeSpeaker"><img data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1.png.webp 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1.png.webp 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset"
+                                            href="https://itcraftapps.com/portfolio/beespeaker/">BeeSpeaker</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        Innovative app with voice recognition for convenient language learning, anytime
+                                        and anywhere.</div>
+                                </div>
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/hihi/" aria-label="Nimble"><img
+                                            data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-792x792.png.webp 792w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-492x492.png.webp 492w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse.png.webp 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-792x792.png.webp 792w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse-492x492.png.webp 492w, https://itcraftapps.com/wp-content/uploads/2023/04/NormalTrue-SmallFalse-MobileFalse.png.webp 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset" href="https://itcraftapps.com/portfolio/hihi/">Nimble</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        A custom mobile soft client using WebRTC &amp; SIP technologies to connect to a
+                                        cloud-based PBX.</div>
+                                </div>
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/ipc/" aria-label="IPC"><img
+                                            data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9.png.webp 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-9.png.webp 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset" href="https://itcraftapps.com/portfolio/ipc/">IPC</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        Taking stress off the shoulders of many traders in the global financial market
+                                        is not easy. Well, we did it &#8211; here’s the app.</div>
+                                </div>
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/mindleap/" aria-label="MindLeap"><img
+                                            data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False.png.webp 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2021/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False.png.webp 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset"
+                                            href="https://itcraftapps.com/portfolio/mindleap/">MindLeap</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        Effective management platform for mental health patients and specialists.
+                                        Super-secure and with video consultations.</div>
+                                </div>
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/cryptohawk/"
+                                        aria-label="CryptoHawk"><img data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2.png.webp 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalTrue-SmallFalse-MobileFalse-5-2.png.webp 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset"
+                                            href="https://itcraftapps.com/portfolio/cryptohawk/">CryptoHawk</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        AI-powered cryptocurrency prediction tool that combines Machine Learning and Big
+                                        Data – all in one, for investors.</div>
+                                </div>
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/immobi/" aria-label="Immobi"><img
+                                            data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-792x792.png.webp 792w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-492x492.png.webp 492w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse.png.webp 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-792x792.png.webp 792w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse-492x492.png.webp 492w, https://itcraftapps.com/wp-content/uploads/2023/01/NormalTrue-SmallFalse-MobileFalse.png.webp 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset"
+                                            href="https://itcraftapps.com/portfolio/immobi/">Immobi</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        Life of a Real Estate agent is not easy. Why not make their lives simpler?</div>
+                                </div>
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/conarch/" aria-label="Conarch"><img
+                                            data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-792x792.png.webp 792w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-492x492.png.webp 492w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063.png 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-792x792.png.webp 792w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063-492x492.png.webp 492w, https://itcraftapps.com/wp-content/uploads/2023/01/Group-10063.png 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset"
+                                            href="https://itcraftapps.com/portfolio/conarch/">Conarch</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        Conarch speeds up the process off obtaining construction permit. All required
+                                        parcel information – with just one click.</div>
+                                </div>
+                                <div class="glide__slide hover-parent pt--8"><a
+                                        class="d-block mb--24 hover-move-top-1 transition-all transition-duration-150"
+                                        href="https://itcraftapps.com/portfolio/dhl/" aria-label="DHL"><img
+                                            data-lazyloaded="1"
+                                            src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                            width="768" height="768"
+                                            data-src="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-768x768.png.webp"
+                                            class="img-fluid" alt="" decoding="async"
+                                            data-srcset="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2.png 1392w"
+                                            data-sizes="(max-width: 768px) 100vw, 768px" /><noscript><img width="768"
+                                                height="768"
+                                                src="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-768x768.png.webp"
+                                                class="img-fluid" alt="" decoding="async"
+                                                srcset="https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2022/06/NormalThmb-SmallMindleap-MobileTrue-Property-4False-Property-5False-2.png 1392w"
+                                                sizes="(max-width: 768px) 100vw, 768px" /></noscript></a>
+                                    <h3
+                                        class="text-dark-2 fs-24 fw-500 lh-15 mb--0 hover-move-top-1 transition-all transition-duration-150">
+                                        <a class="text-reset" href="https://itcraftapps.com/portfolio/dhl/">DHL</a>
+                                    </h3>
+                                    <div
+                                        class="text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                                        A dedicated web-based platform required to increase efficiency and centralize
+                                        the data for managing fleet, drivers, training and certification of personnel.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://itcraftapps.com/portfolio/"
+                    class="btn btn-lg btn-black d-table mt--54 mt-lg--104 mx-auto"><span>Explore all</span></a>
+            </div>
+        </section>
+
+
+        <section class="block-base-cta-1 bg-dark-4 pt--93 pt-lg--180 pb--100 pb-lg--180" data-scroll-theme>
+            <div class="container d-lg-flex align-items-end">
+                <h3 class="text-white fs-32 fs-lg-56 fw-500 lh-14 mb--0 d-flex flex-wrap flex-grow-1 pr-lg--48"><span
+                        class="w-lg-100">Got a project?</span>
+                    <span class="w-100"></span>
+                    <span class="col px-0 mr--15 mr-lg--22 h-px bg-white flex-shrink-0 align-self-center"></span>
+                    <span>Let’s talk!</span>
+                </h3><a href="https://itcraftapps.com/contact/"
+                    class="btn btn-white btn-lg rounded-pill d-table mt--80 mt-lg--0 mx-auto mx-lg-0"><span>Contact
+                        us</span></a>
+            </div>
+        </section>
+
+
+        <script>
+            function contactEleHoverEffect() {
+
+                document.getElementById('img11_1').style.scale = '1.1';
+                document.getElementById('img11_1').style.transitionDuration = '1s';
+
+                document.getElementById('img11_2').style.scale = '1.1';
+                document.getElementById('img11_2').style.transitionDuration = '1s';
+
+                document.getElementById('img11_3').style.scale = '1.1';
+                document.getElementById('img11_3').style.transitionDuration = '1s';
+
+                document.getElementById('img11_4').style.scale = '1.1';
+                document.getElementById('img11_4').style.transitionDuration = '1s';
+
+
+
+            }
+            function leveeffect() {
+
+                document.getElementById('img11_1').style.scale = '1';
+                document.getElementById('img11_1').style.transitionDuration = '2s';
+
+                document.getElementById('img11_2').style.scale = '1';
+                document.getElementById('img11_2').style.transitionDuration = '2s';
+
+                document.getElementById('img11_3').style.scale = '1';
+                document.getElementById('img11_3').style.transitionDuration = '2s';
+
+                document.getElementById('img11_4').style.scale = '1';
+                document.getElementById('img11_4').style.transitionDuration = '2s';
+            }
+        </script>
+        <div onmouseover="mouseBgHover(1)" id="arr11">
+            <!-- <div id="backhov">
+            </div> -->
+            <img src="./img/topleft.png" alt="" id="img11_1">
+            <img src="./img/topright.png" alt="" id="img11_2">
+            <img src="./img/bottomleft.png" alt="" id="img11_3">
+            <img src="./img/bottomright.png" alt="" id="img11_4">
+            <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="center">
+                <div id="first">Ready to discuss <span id="yellow">your
+                        project ?</span> </div>
+                <a href="./Contact/contact.html" style="text-decoration: none; color:white;">
+                    <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="second">CONTACT US<div>
+                        </div>
+                </a>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <script>
+        function mouseBgHoverr(i) {
+            if (i == 1)
+                document.getElementById('box-shadow-div').style.display = 'none';
+            else
+                document.getElementById('box-shadow-div').style.display = 'block';
+        }
+    </script>
+
+    <!-- -------------------------------Footer----------------------------------------- -->
+
+    <div class="Footer-Container">
+        <div class="Footer-Flex">
+            <div class="Footer-Flex-Item">
+                <h3 class="Footer-Flex-h3-Tag">Raw Canvas</h3>
+                <p class="Footer-Flex-p-Tag">Raw Canvas at Block Janakupri New Delhi - 110058</p>
+                <p class="Footer-Flex-p-Tag">GST 07 JTVPS2563HE ARN AD8757ADU</p>
+            </div>
+            <div class="Footer-Flex-Item">
+                <h3 class="Footer-Flex-h3-Tag">CONTACT</h3>
+                <p class="Footer-Flex-p-Tag subItem">abc@gmail.com</p>
+                <p class="Footer-Flex-p-Tag subItem">+91 7645328866</p>
+                <p class="Footer-Flex-p-Tag subItem">Telegram</p>
+                <p class="Footer-Flex-p-Tag subItem">Whatsapp</p>
+            </div>
+            <div class="Footer-Flex-Item">
+                <h3 class="Footer-Flex-h3-Tag">STUDIO</h3>
+                <p class="Footer-Flex-p-Tag subItem">Home</p>
+                <p class="Footer-Flex-p-Tag subItem">Work</p>
+                <p class="Footer-Flex-p-Tag subItem">Service</p>
+                <p class="Footer-Flex-p-Tag subItem">Our Process</p>
+            </div>
+            <div class="Footer-Flex-Item">
+                <h3 class="Footer-Flex-h3-Tag">FOLLOW US</h3>
+                <p class="Footer-Flex-p-Tag subItem">Clutch</p>
+                <p class="Footer-Flex-p-Tag subItem">LinkedIn</p>
+                <p class="Footer-Flex-p-Tag subItem">Dribbble</p>
+                <p class="Footer-Flex-p-Tag subItem">Behance</p>
+                <p class="Footer-Flex-p-Tag subItem">Instagram</p>
+                <p class="Footer-Flex-p-Tag subItem">Telegram</p>
+            </div>
+
+            <div class="Footer-Flex-Item Footer-arrow">
+                &#8593
+            </div>
+        </div>
+        <div class="Footer-Divider"></div>
+        <div class="Footer-Flex-Item-copyright">
+            <p class="Footer-Flex-p-Tag-copyright">© Raw Canvas studio, All right reserved
+            </p>
+        </div>
+    </div>
+    <!-- ----------------------------------------Footer end------------------------------------------ -->
+    <!-- cursor movment code -->
+    <style type="text/css">
+        #box-shadow-div {
+            position: fixed;
+            width: 8px;
+            z-index: -1;
+            top: 10px;
+            height: 8px;
+            border-radius: 100%;
+            background-color: #000000cb;
+            /* transition-timing-function: linear; */
+            z-index: 1;
+            transition-duration: 0.2s;
+        }
+
+        @media screen and (max-width: 900px) {
+            #box-shadow-div {
+                display: none;
+            }
+        }
+    </style>
+    <!-- <script type="text/javascript">
+        window.onload = function () {
+            var bsDiv = document.getElementById("box-shadow-div");
+            var x, y;
+            window.addEventListener('mousemove', function (event) {
+                x = event.clientX;
+                y = event.clientY;
+                if (typeof x !== 'undefined') {
+                    bsDiv.style.left = x + "px";
+                    bsDiv.style.top = y + "px";
+                }
+            }, false);
+        }
+    </script>
+    </head>
+
+    <div id="box-shadow-div"></div> -->
+
+    <!-- <div id="circle" class="circle"></div> -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!-- aos is here jwala -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 400,
+            // disable: function () {
+            //     var maxWidth = 800;
+            //     return window.innerWidth < maxWidth;
+            // }
+        });
+
+    </script>
+    <!-- <script src="smooth-scrollbar.js"></script>
+    <script>
+
+        //SMOOTH SCROLL MOMENTUM JS
+
+        var Scrollbar = window.Scrollbar;
+        const options = {
+            'damping': 0.06
+        }
+        Scrollbar.init(document.querySelector('body'), options);
+    </script> -->
+    <script type='text/javascript' src='https://itcraftapps.com/wp-includes/js/jquery/jquery.min.js'
+        id='jquery-js'></script>
+    <script type='text/javascript'
+        src='https://itcraftapps.com/wp-content/themes/itcraft/dist/scripts/home.js?ver=476755439'
+        id='home-js'></script>
+    <script type="text/javascript" data-no-optimize="1" data-no-defer="1">ThirdPartyScriptLoader.loadScripts();</script>
+    <script
+        data-no-optimize="1">!function (t, e) { "object" == typeof exports && "undefined" != typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define(e) : (t = "undefined" != typeof globalThis ? globalThis : t || self).LazyLoad = e() }(this, function () { "use strict"; function e() { return (e = Object.assign || function (t) { for (var e = 1; e < arguments.length; e++) { var n, a = arguments[e]; for (n in a) Object.prototype.hasOwnProperty.call(a, n) && (t[n] = a[n]) } return t }).apply(this, arguments) } function i(t) { return e({}, it, t) } function o(t, e) { var n, a = "LazyLoad::Initialized", i = new t(e); try { n = new CustomEvent(a, { detail: { instance: i } }) } catch (t) { (n = document.createEvent("CustomEvent")).initCustomEvent(a, !1, !1, { instance: i }) } window.dispatchEvent(n) } function l(t, e) { return t.getAttribute(gt + e) } function c(t) { return l(t, bt) } function s(t, e) { return function (t, e, n) { e = gt + e; null !== n ? t.setAttribute(e, n) : t.removeAttribute(e) }(t, bt, e) } function r(t) { return s(t, null), 0 } function u(t) { return null === c(t) } function d(t) { return c(t) === vt } function f(t, e, n, a) { t && (void 0 === a ? void 0 === n ? t(e) : t(e, n) : t(e, n, a)) } function _(t, e) { nt ? t.classList.add(e) : t.className += (t.className ? " " : "") + e } function v(t, e) { nt ? t.classList.remove(e) : t.className = t.className.replace(new RegExp("(^|\\s+)" + e + "(\\s+|$)"), " ").replace(/^\s+/, "").replace(/\s+$/, "") } function g(t) { return t.llTempImage } function b(t, e) { !e || (e = e._observer) && e.unobserve(t) } function p(t, e) { t && (t.loadingCount += e) } function h(t, e) { t && (t.toLoadCount = e) } function n(t) { for (var e, n = [], a = 0; e = t.children[a]; a += 1)"SOURCE" === e.tagName && n.push(e); return n } function m(t, e) { (t = t.parentNode) && "PICTURE" === t.tagName && n(t).forEach(e) } function a(t, e) { n(t).forEach(e) } function E(t) { return !!t[st] } function I(t) { return t[st] } function y(t) { return delete t[st] } function A(e, t) { var n; E(e) || (n = {}, t.forEach(function (t) { n[t] = e.getAttribute(t) }), e[st] = n) } function k(a, t) { var i; E(a) && (i = I(a), t.forEach(function (t) { var e, n; e = a, (t = i[n = t]) ? e.setAttribute(n, t) : e.removeAttribute(n) })) } function L(t, e, n) { _(t, e.class_loading), s(t, ut), n && (p(n, 1), f(e.callback_loading, t, n)) } function w(t, e, n) { n && t.setAttribute(e, n) } function x(t, e) { w(t, ct, l(t, e.data_sizes)), w(t, rt, l(t, e.data_srcset)), w(t, ot, l(t, e.data_src)) } function O(t, e, n) { var a = l(t, e.data_bg_multi), i = l(t, e.data_bg_multi_hidpi); (a = at && i ? i : a) && (t.style.backgroundImage = a, n = n, _(t = t, (e = e).class_applied), s(t, ft), n && (e.unobserve_completed && b(t, e), f(e.callback_applied, t, n))) } function N(t, e) { !e || 0 < e.loadingCount || 0 < e.toLoadCount || f(t.callback_finish, e) } function C(t, e, n) { t.addEventListener(e, n), t.llEvLisnrs[e] = n } function M(t) { return !!t.llEvLisnrs } function z(t) { if (M(t)) { var e, n, a = t.llEvLisnrs; for (e in a) { var i = a[e]; n = e, i = i, t.removeEventListener(n, i) } delete t.llEvLisnrs } } function R(t, e, n) { var a; delete t.llTempImage, p(n, -1), (a = n) && --a.toLoadCount, v(t, e.class_loading), e.unobserve_completed && b(t, n) } function T(o, r, c) { var l = g(o) || o; M(l) || function (t, e, n) { M(t) || (t.llEvLisnrs = {}); var a = "VIDEO" === t.tagName ? "loadeddata" : "load"; C(t, a, e), C(t, "error", n) }(l, function (t) { var e, n, a, i; n = r, a = c, i = d(e = o), R(e, n, a), _(e, n.class_loaded), s(e, dt), f(n.callback_loaded, e, a), i || N(n, a), z(l) }, function (t) { var e, n, a, i; n = r, a = c, i = d(e = o), R(e, n, a), _(e, n.class_error), s(e, _t), f(n.callback_error, e, a), i || N(n, a), z(l) }) } function G(t, e, n) { var a, i, o, r, c; t.llTempImage = document.createElement("IMG"), T(t, e, n), E(c = t) || (c[st] = { backgroundImage: c.style.backgroundImage }), o = n, r = l(a = t, (i = e).data_bg), c = l(a, i.data_bg_hidpi), (r = at && c ? c : r) && (a.style.backgroundImage = 'url("'.concat(r, '")'), g(a).setAttribute(ot, r), L(a, i, o)), O(t, e, n) } function D(t, e, n) { var a; T(t, e, n), a = e, e = n, (t = It[(n = t).tagName]) && (t(n, a), L(n, a, e)) } function V(t, e, n) { var a; a = t, (-1 < yt.indexOf(a.tagName) ? D : G)(t, e, n) } function F(t, e, n) { var a; t.setAttribute("loading", "lazy"), T(t, e, n), a = e, (e = It[(n = t).tagName]) && e(n, a), s(t, vt) } function j(t) { t.removeAttribute(ot), t.removeAttribute(rt), t.removeAttribute(ct) } function P(t) { m(t, function (t) { k(t, Et) }), k(t, Et) } function S(t) { var e; (e = At[t.tagName]) ? e(t) : E(e = t) && (t = I(e), e.style.backgroundImage = t.backgroundImage) } function U(t, e) { var n; S(t), n = e, u(e = t) || d(e) || (v(e, n.class_entered), v(e, n.class_exited), v(e, n.class_applied), v(e, n.class_loading), v(e, n.class_loaded), v(e, n.class_error)), r(t), y(t) } function $(t, e, n, a) { var i; n.cancel_on_exit && (c(t) !== ut || "IMG" === t.tagName && (z(t), m(i = t, function (t) { j(t) }), j(i), P(t), v(t, n.class_loading), p(a, -1), r(t), f(n.callback_cancel, t, e, a))) } function q(t, e, n, a) { var i, o, r = (o = t, 0 <= pt.indexOf(c(o))); s(t, "entered"), _(t, n.class_entered), v(t, n.class_exited), i = t, o = a, n.unobserve_entered && b(i, o), f(n.callback_enter, t, e, a), r || V(t, n, a) } function H(t) { return t.use_native && "loading" in HTMLImageElement.prototype } function B(t, i, o) { t.forEach(function (t) { return (a = t).isIntersecting || 0 < a.intersectionRatio ? q(t.target, t, i, o) : (e = t.target, n = t, a = i, t = o, void (u(e) || (_(e, a.class_exited), $(e, n, a, t), f(a.callback_exit, e, n, t)))); var e, n, a }) } function J(e, n) { var t; et && !H(e) && (n._observer = new IntersectionObserver(function (t) { B(t, e, n) }, { root: (t = e).container === document ? null : t.container, rootMargin: t.thresholds || t.threshold + "px" })) } function K(t) { return Array.prototype.slice.call(t) } function Q(t) { return t.container.querySelectorAll(t.elements_selector) } function W(t) { return c(t) === _t } function X(t, e) { return e = t || Q(e), K(e).filter(u) } function Y(e, t) { var n; (n = Q(e), K(n).filter(W)).forEach(function (t) { v(t, e.class_error), r(t) }), t.update() } function t(t, e) { var n, a, t = i(t); this._settings = t, this.loadingCount = 0, J(t, this), n = t, a = this, Z && window.addEventListener("online", function () { Y(n, a) }), this.update(e) } var Z = "undefined" != typeof window, tt = Z && !("onscroll" in window) || "undefined" != typeof navigator && /(gle|ing|ro)bot|crawl|spider/i.test(navigator.userAgent), et = Z && "IntersectionObserver" in window, nt = Z && "classList" in document.createElement("p"), at = Z && 1 < window.devicePixelRatio, it = { elements_selector: ".lazy", container: tt || Z ? document : null, threshold: 300, thresholds: null, data_src: "src", data_srcset: "srcset", data_sizes: "sizes", data_bg: "bg", data_bg_hidpi: "bg-hidpi", data_bg_multi: "bg-multi", data_bg_multi_hidpi: "bg-multi-hidpi", data_poster: "poster", class_applied: "applied", class_loading: "litespeed-loading", class_loaded: "litespeed-loaded", class_error: "error", class_entered: "entered", class_exited: "exited", unobserve_completed: !0, unobserve_entered: !1, cancel_on_exit: !0, callback_enter: null, callback_exit: null, callback_applied: null, callback_loading: null, callback_loaded: null, callback_error: null, callback_finish: null, callback_cancel: null, use_native: !1 }, ot = "src", rt = "srcset", ct = "sizes", lt = "poster", st = "llOriginalAttrs", ut = "loading", dt = "loaded", ft = "applied", _t = "error", vt = "native", gt = "data-", bt = "ll-status", pt = [ut, dt, ft, _t], ht = [ot], mt = [ot, lt], Et = [ot, rt, ct], It = { IMG: function (t, e) { m(t, function (t) { A(t, Et), x(t, e) }), A(t, Et), x(t, e) }, IFRAME: function (t, e) { A(t, ht), w(t, ot, l(t, e.data_src)) }, VIDEO: function (t, e) { a(t, function (t) { A(t, ht), w(t, ot, l(t, e.data_src)) }), A(t, mt), w(t, lt, l(t, e.data_poster)), w(t, ot, l(t, e.data_src)), t.load() } }, yt = ["IMG", "IFRAME", "VIDEO"], At = { IMG: P, IFRAME: function (t) { k(t, ht) }, VIDEO: function (t) { a(t, function (t) { k(t, ht) }), k(t, mt), t.load() } }, kt = ["IMG", "IFRAME", "VIDEO"]; return t.prototype = { update: function (t) { var e, n, a, i = this._settings, o = X(t, i); { if (h(this, o.length), !tt && et) return H(i) ? (e = i, n = this, o.forEach(function (t) { -1 !== kt.indexOf(t.tagName) && F(t, e, n) }), void h(n, 0)) : (t = this._observer, i = o, t.disconnect(), a = t, void i.forEach(function (t) { a.observe(t) })); this.loadAll(o) } }, destroy: function () { this._observer && this._observer.disconnect(), Q(this._settings).forEach(function (t) { y(t) }), delete this._observer, delete this._settings, delete this.loadingCount, delete this.toLoadCount }, loadAll: function (t) { var e = this, n = this._settings; X(t, n).forEach(function (t) { b(t, e), V(t, n, e) }) }, restoreAll: function () { var e = this._settings; Q(e).forEach(function (t) { U(t, e) }) } }, t.load = function (t, e) { e = i(e); V(t, e) }, t.resetStatus = function (t) { r(t) }, Z && function (t, e) { if (e) if (e.length) for (var n, a = 0; n = e[a]; a += 1)o(t, n); else o(t, e) }(t, window.lazyLoadOptions), t }); !function (e, t) { "use strict"; function a() { t.body.classList.add("litespeed_lazyloaded") } function n() { console.log("[LiteSpeed] Start Lazy Load Images"), d = new LazyLoad({ elements_selector: "[data-lazyloaded]", callback_finish: a }), o = function () { d.update() }, e.MutationObserver && new MutationObserver(o).observe(t.documentElement, { childList: !0, subtree: !0, attributes: !0 }) } var d, o; e.addEventListener ? e.addEventListener("load", n, !1) : e.attachEvent("onload", n) }(window, document);</script>
+</body>
+
+</html>
