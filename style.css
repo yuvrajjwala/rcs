@@ -1611,8 +1611,8 @@ i {
 }
 
 #arr10 {
-  background-color: #000000;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   padding: 1rem 6rem;
   height: 100vh;
   min-height: 900px;
@@ -1642,7 +1642,7 @@ i {
 #arr10 .cards div:last-child div {
   font-size: 5rem;
   font-family: gilroy-medium;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #arr10 .cards div:last-child p {
@@ -1667,13 +1667,13 @@ i {
   font-family: gilroy-bold;
   width: 90%;
   line-height: 35px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 #arr10 .cards div ul li .text p {
   font-size: 1.05rem;
   font-family: gilroy-medium;
-  color: rgb(112, 112, 112, 1);
+  color: rgb(0, 0, 0);
   width: 95%;
   /*CHANGE JWALA*/
   line-height: 1.75rem;
@@ -2389,8 +2389,8 @@ i {
   }
 
   #arr10 {
-    background-color: #000000;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 1rem 4rem;
     height: 100vh;
     min-height: 850px;
@@ -2643,8 +2643,8 @@ i {
   }
 
   #arr10 {
-    background-color: #000000;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 1rem 3rem;
     height: 100vh;
     min-height: 900px;
@@ -3412,7 +3412,7 @@ i {
   }
 
   #arr10 .cards div ul li .text p {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0rem 0px;
     text-align: justify;
     line-height: 1.3rem;
