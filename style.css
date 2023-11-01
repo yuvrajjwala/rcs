@@ -863,8 +863,6 @@ p {
 
 #c1 div button {
   margin-top: 2rem;
-  width: 10.5vw;
-  height: 4.25rem;
 }
 
 #arr3 #c2 .text .heading {
@@ -3942,4 +3940,27 @@ footer {
 .container a{
   text-decoration: none;
   font-family: gilroy-medium !important;
+}
+
+.button-new-dark{
+  padding: 20px 50px;
+  background-color: black;
+  color: white;
+  font-family: gilroy-medium;
+  font-size: medium;
+  border-radius: 50px;
+  display: flex;
+  width: auto;
+  
+}
+
+.button-new-light{
+  padding: 20px 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: gilroy-medium;
+  font-size: medium;
+  border-radius: 50px;
+  border: 1px solid;
+  
 }
