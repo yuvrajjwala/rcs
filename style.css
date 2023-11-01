@@ -1203,7 +1203,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 85vw;
-  max-width: 1500px;
+  max-width: 1300px;
   margin: auto;
   margin-top: 0px;
 }
@@ -3931,4 +3931,15 @@ footer {
     top: auto;
     left: auto;
   }
+}
+
+
+.container{
+  margin: 0rem 8rem;
+  font-family: gilroy-medium !important;
+}
+
+.container a{
+  text-decoration: none;
+  font-family: gilroy-medium !important;
 }
