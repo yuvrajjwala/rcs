@@ -1113,10 +1113,10 @@ p {
 }
 
 #arr6_1 .text .heading {
-  font-size: 4.7rem;
+  font-size: 3.5rem;
   font-family: gilroy-medium;
-  margin-bottom: 1.3rem;
-  line-height: 5.5rem;
+  margin-bottom: 1.4rem;
+  line-height: 4.5rem;
 }
 
 #arr1 svg {
@@ -2284,7 +2284,7 @@ i {
   }
 
   #arr6_1 .text .heading {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: gilroy-medium;
   }
 
@@ -3109,7 +3109,7 @@ i {
 
   #arr6_1 .text p {
     font-size: 0.7rem;
-    width: 77%;
+    width: 65%;
     line-height: 1.2rem;
   }
 
