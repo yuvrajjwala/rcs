@@ -16,37 +16,43 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 8rem;
 }
 .Footer-Flex-Item {
   width: 200px;
   height: 300px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
 }
 .Footer-Flex-h3-Tag {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   padding: 20px;
+  line-height: 23.86px;
 }
 .Footer-Flex-p-Tag {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
-  color: #525050;
+  color: #828282;
   padding: 20px;
-  line-height: 20px;
+  line-height: 24px;
 }
 .subItem {
   padding: 5px 20px;
+  font-weight: 500;
+  color: #292929;
+  font-size: 16px;
+  line-height: 18.83px;
 }
 
 .Footer-Divider {
-  width: 100%;
+  width: auto;
   height: 2px;
   background-color: gray;
-  margin: auto;
+  margin: 0 8rem;
 }
 .Footer-Flex-Item-copyright {
   display: flex;
@@ -55,22 +61,27 @@
   margin: 10px 0px;
 }
 .Footer-Flex-p-Tag-copyright {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
-  color: #525050;
-  line-height: 20px;
+  color: #292929;
+  line-height: 18.56px;
 }
 
 .Footer-arrow {
   width: 80px;
   height: 80px;
   font-size: 60px;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+.ColorGreen {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.24px;
+  color: #62beb7;
 }
 
 @media screen and (min-width: 240px) and (max-width: 750px) {
