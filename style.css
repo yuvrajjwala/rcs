@@ -291,7 +291,7 @@ p {
 }
 
 .menu-scroll-container {
-  background-color: rgb(175, 0, 0);
+  background-color: rgb(255, 255, 255);
   width: 45vw;
   position: absolute;
   display: flex;
@@ -627,7 +627,7 @@ p {
 }
 
 #MainHead .heading {
-  font-size: 5.8rem;
+  font-size: 4rem;
   width: 92%;
   font-family: gilroy-semi-bold;
   color: #181919;
@@ -636,15 +636,18 @@ p {
 
 #MainHead p {
   margin-top: 1.4rem;
-  font-size: 17px;
+  font-size: 15px;
   font-family: gilroy-regular;
   line-height: 1.5rem;
-  color: #181919;
+  color: #535353;
   width: 96%;
 }
 
 #MainHead div {
   margin-top: 3rem;
+}
+.the-process{
+  font-family: gilroy-bold !important;
 }
 
 .imgdiv img:hover {
@@ -656,20 +659,7 @@ p {
   transition-duration: 0.5s;
 }
 
-.btn {
-  /* position: relative; */
-  width: 10.5vw;
-  height: 4.25rem;
-  border-radius: 2rem;
-  margin-right: 2rem;
-  border: 1px solid black;
-  font-family: gilroy-regular;
-  cursor: pointer;
-  font-size: 1.15rem;
-  transition-duration: 0.1s;
-  background: transparent;
-  z-index: 2;
-}
+
 .magnetic {
   z-index: 2;
 }
@@ -837,7 +827,7 @@ p {
 }
 
 .text .heading {
-  font-size: 2.7rem;
+  font-size: 2.35rem;
   font-family: gilroy-semi-bold;
   line-height: 45px;
   color: #181919;
@@ -924,7 +914,7 @@ p {
 
 #arr4 .cards div ul li .text p {
   font-size: 1.25rem;
-  font-family: gilroy-semi-bold;
+  font-family: gilroy-regular;
 }
 
 #arr4 .cards div ul li {
@@ -951,10 +941,11 @@ p {
 
 #arr4 .text p:last-child {
   margin-top: 0px;
-  font-family: gilroy-semi-bold;
-  font-size: 1.45rem;
+  font-family: gilroy-regular;
+  font-size: 1.2rem;
   color: #181919;
-  opacity: 0.6;
+  margin-top: -10px;
+ 
 }
 
 /* #arr4 .text .heading{
@@ -977,8 +968,8 @@ p {
 
 #arr4 .cards div ul .accordion .text p {
   width: 80%;
-  opacity: 0.6;
   font-size: 16px;
+  margin-top: 10px;
   line-height: 22px;
 }
 
@@ -1231,7 +1222,7 @@ body {
 .left-box p {
   font-size: 2rem;
   line-height: 38px;
-  font-family: gilroy-bold;
+  font-family: gilroy-semi-bold;
   color: #181919;
 }
 
@@ -1240,6 +1231,10 @@ body {
   font-family: gilroy-medium;
   line-height: 27px;
   color: #888888;
+}
+a{
+  text-decoration: none !important;
+  font-family: gilroy-medium !important;
 }
 
 .btn-why-rcs {
@@ -1292,7 +1287,7 @@ body {
   font-size: 1.8rem;
   margin-right: 40px;
   line-height: 38px;
-  font-family: gilroy-bold;
+  font-family: gilroy-semi-bold;
   color: #181919;
   margin-bottom: 10px;
 }
@@ -1438,10 +1433,7 @@ i {
   transition-duration: 0.5s;
 }
 
-#arr7 .btn {
-  width: 12rem;
-  height: 4rem;
-}
+
 
 .animate {
   animation: anim4 2s ease-in-out 1;
@@ -1552,13 +1544,6 @@ i {
   justify-content: center;
 }
 
-#arr8 .btn {
-  width: 12rem;
-  height: 4.25rem;
-  display: block;
-  margin: auto;
-}
-
 .imgarea1 {
   transform: scale(0.8);
   transition-duration: 1s;
@@ -1638,7 +1623,7 @@ i {
 }
 
 #arr10 .cards div:last-child div {
-  font-size: 5rem;
+  font-size: 3.2rem;
   font-family: gilroy-medium;
   color: rgb(0, 0, 0);
 }
@@ -2495,10 +2480,7 @@ i {
   .why-raw-canvas-studio {
     margin-bottom: 0px;
   }
-  #arr7 .btn {
-    width: 10rem;
-    height: 3.5rem;
-  }
+
   #one {
     overflow: hidden;
     padding-bottom: 0rem;
@@ -2665,12 +2647,6 @@ i {
     padding: 1rem;
   }
 
-  .btn {
-    width: 10rem;
-    height: 3.5rem;
-    font-size: 1.05rem;
-    z-index: 10;
-  }
 
   #arr2 .h2 {
     width: 70vw;
@@ -2814,12 +2790,7 @@ i {
     scale: 0.85;
   }
 
-  .btn {
-    width: 6.8rem;
-    height: 3.2rem;
-    font-size: 0.8rem;
-    margin-right: 0.5rem;
-  }
+
   #desktop-desing {
     display: none;
   }
@@ -3263,12 +3234,7 @@ i {
     transition-duration: 0.5s;
   }
 
-  #arr7 .btn {
-    width: 9rem;
-    display: block;
-    margin: 2rem auto;
-    height: 3.2rem;
-  }
+
 
   #arr8 {
     padding-top: 3rem;
@@ -3325,13 +3291,6 @@ i {
     width: 40vw;
   }
 
-  #arr8 .btn {
-    width: 8rem;
-    display: block;
-    margin: 4rem auto;
-    font-size: 0.9rem;
-    height: 3.2rem;
-  }
 
   #arr9 {
     justify-content: space-between;
@@ -3779,7 +3738,7 @@ footer {
   mix-blend-mode: multiply;
   z-index: 10;
 }
-
+/* 
 .btn::before {
   content: "";
   position: absolute;
@@ -3796,18 +3755,14 @@ footer {
 .btn:hover::before {
   top: -11.5rem;
   transition-duration: 0.5s;
-}
+} */
 
 .btn:hover {
   color: white;
   /* transition-duration: 1s; */
 }
 
-.btn {
-  overflow: hidden;
-  z-index: 100;
-  /* transition-duration: 0s; */
-}
+
 
 #arrow-button::before {
   content: "";
