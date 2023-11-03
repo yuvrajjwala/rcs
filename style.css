@@ -56,6 +56,10 @@ p {
   line-height: 2.25rem;
 }
 
+
+.Footer-Container{
+  font-family: gilroy-regular !important; 
+}
 /* Navbar */
 
 #nav {
@@ -628,10 +632,10 @@ p {
 
 #MainHead .heading {
   font-size: 4rem;
-  width: 92%;
+  width: 80%;
   font-family: gilroy-semi-bold;
   color: #181919;
-  line-height: 100px;
+  line-height: 85px;
 }
 
 #MainHead p {
@@ -1241,7 +1245,7 @@ a{
   border: none;
   background-color: #62beb7;
   color: white;
-  border-radius: 20px;
+  border-radius: 100px;
   padding: 13px 35px;
   margin-top: 20px;
   transition-duration: 0.5s;
@@ -3600,13 +3604,9 @@ i {
   }
 
   .round-head {
-    color: #62beb7;
+    color: #000000;
     width: 8rem;
-    letter-spacing: 2px !important;
-    height: 2.1rem !important;
-    padding: 0.5rem !important;
-    padding-top: 11px !important;
-    margin-bottom: 20px !important;
+   
   }
 
   #arrow-button {
@@ -3672,16 +3672,8 @@ footer {
 
 .round-head {
   display: block;
-  font-size: 1.1rem;
-  font-family: gilroy-bold;
-  padding: 1.25rem;
-  text-align: center;
-  width: 10rem;
-  height: 3.8rem;
-  border-radius: 50px;
-  background-color: rgb(231, 242, 243);
-  color: #62beb7;
-  margin: 2rem auto;
+ margin-bottom: 20px;
+ color: black !important;
 }
 
 /* 
