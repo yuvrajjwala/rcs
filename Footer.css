@@ -38,7 +38,7 @@
   font-weight: 500;
   font-family: gilroy-regular;
   color: #828282;
-  padding: 20px;
+  padding: 0px 20px 5px 20px;
   line-height: 24px;
 }
 .subItem {
@@ -105,6 +105,10 @@
   height: 60px;
   border-radius: 100%;
   margin-right: -10px;
+  margin-bottom: 15px;
+}
+.Footer-Flex-p-Tag-LeftDiv {
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 240px) and (max-width: 750px) {
@@ -162,6 +166,6 @@
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    margin: 0;
+    margin: 0px 0px 20px 0px;
   }
 }
