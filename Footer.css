@@ -99,13 +99,13 @@
   width: auto;
   height: auto;
   margin-left: 19px;
+  margin-bottom: 35px;
 }
 .Footer-Image-Logo {
   width: 60px;
   height: 60px;
   border-radius: 100%;
   margin-right: -10px;
-  margin-bottom: 15px;
 }
 .Footer-Flex-p-Tag-LeftDiv {
   margin-top: 20px;
@@ -160,12 +160,12 @@
     justify-content: space-around;
     width: 60%;
     height: auto;
-    margin: 10px 0px 0px 20px;
+    margin: 10px 0px 20px 20px;
   }
   .Footer-Image-Logo {
     width: 60px;
     height: 60px;
     border-radius: 100%;
-    margin: 0px 0px 20px 0px;
+    margin: 0px;
   }
 }
