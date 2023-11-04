@@ -2230,6 +2230,7 @@ i {
     transform: scale(0.8);
     left: 85px;
   }
+  
 }
 
 /* Media Queries */
@@ -2746,6 +2747,15 @@ i {
     font-family: gilroy-medium;
     font-size: 1.15rem;
     margin-bottom: 1.2vw;
+  }
+
+  .arrow a{
+    margin-left: -1px !important;
+  }
+
+  .container{
+    margin: 0rem 1.5rem !important;
+    font-family: gilroy-medium !important;
   }
 
   #logo img {

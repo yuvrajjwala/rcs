@@ -895,86 +895,113 @@ function populate(arr, count, text, ids, dec) {
 }
 
 populate([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 0, ['Ruminatic- SaaS Wes ', 'Cake- SaaS Dashboard', 'Amarette- Watch Ecom Store', 'Botiko- Interiors Web Design', 'Saletion- Saas Web Design', 'Dappr- CRM Dashboard', 'Macron- Team Club Web Design', 'Mager- Arm Dashboard', 'MR- Interior Design Web', 'Branova- Air Purifier Web Design', 'Sooth- Organic Creams Web Design', 'Phantom- Discord Bot Design', 'Artchitec- Architecture Studio Web Design', 'VK BYGG- Construction Web Design', 'Mustang Garage- Car Forum Web Design', 'Creatsy- Mask Ecom Store Design', 'Datra- Marketing Web Design', 'Acura- Management Dashboard Design '], 'l1', -1)
-var num = 0;
 
 
-function left() {
-
-    const testimonials = [ "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
-        "I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs. Raw Cavas Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing. They Perfectly Met My Expectations — Working With Them Felt Like An Extension Of My In-House Team.",
-
-        " Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! ", "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again."
-   ]
-
-    const name1 = ['Pranav Sharma','Södra Jumkils Fiberförening', 'Steffen Konrath']
-    const post = ['Founding Partner -</span> Woodstock VC Fund','CEO of</span> Glance Tech Inc, Sweden', 'CEO & Founder of</span> Evai-Intelligence']
 
 
-    var test1 = document.getElementById('test-1')
-    var test11 = document.getElementById('arr6_1_p')
-    var test12 = document.getElementById('arr6_1_p1')
-    test1.style.opacity = 0;
-    setTimeout(() => {  
-        if (num == 0) {
-            num = testimonials.length-1;
-        }
-        num--;
-        test1.innerHTML = testimonials[num]
-        test11.innerHTML = name1[num]
-        test12.innerHTML = post[num]
-        test1.style.opacity = 1;
-    }, 500);
-    test11.style.opacity = 0;
-    setTimeout(() => {
-        test11.style.opacity = 1;
-    }, 500);
-    test12.style.opacity = 0;
-    setTimeout(() => {
-        test12.style.opacity = 1;
-    }, 500);
+// var num = 0;
 
-}
-var s=0;
-function right() {
 
-    const testimonials = ["I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs. Raw Cavas Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing. They Perfectly Met My Expectations — Working With Them Felt Like An Extension Of My In-House Team.",
+// function left() {
 
-    " Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! ", "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
-"After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again."]
-const name1 = ['Södra Jumkils Fiberförening', 'Steffen Konrath','Pranav Sharma']
-const post = ['CEO of</span> Glance Tech Inc, Sweden', 'CEO & Founder of</span> Evai-Intelligence','Founding Partner -</span> Woodstock VC Fund']
+//     const testimonials = [ "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
+//         "I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs. Raw Cavas Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing. They Perfectly Met My Expectations — Working With Them Felt Like An Extension Of My In-House Team.",
+
+//         " Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! ", "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again."
+//    ]
+
+//     const name1 = ['Pranav Sharma','Södra Jumkils Fiberförening', 'Steffen Konrath']
+//     const post = ['Founding Partner -</span> Woodstock VC Fund','CEO of</span> Glance Tech Inc, Sweden', 'CEO & Founder of</span> Evai-Intelligence']
 
 
     var test1 = document.getElementById('test-1')
     var test11 = document.getElementById('arr6_1_p')
     var test12 = document.getElementById('arr6_1_p1')
-    test1.style.opacity = 0;
+//     test1.style.opacity = 0;
+//     setTimeout(() => {  
+//         if (num == 0) {
+//             num = testimonials.length-1;
+//         }
+//         num--;
+//         test1.innerHTML = testimonials[num]
+//         test11.innerHTML = name1[num]
+//         test12.innerHTML = post[num]
+//         test1.style.opacity = 1;
+//     }, 500);
+//     test11.style.opacity = 0;
+//     setTimeout(() => {
+//         test11.style.opacity = 1;
+//     }, 500);
+//     test12.style.opacity = 0;
+//     setTimeout(() => {
+//         test12.style.opacity = 1;
+//     }, 500);
+
+// }
+// var s=0;
+// function right() {
+
+//     const testimonials = ["I Was Most Appreciative Of Their Ability To Provide Us With Designers For Specific Needs. Raw Cavas Studio Was Transparent About Deliverables And Any Challenges The Team Was Facing. They Perfectly Met My Expectations — Working With Them Felt Like An Extension Of My In-House Team.",
+
+//     " Raw Canvas team are just amazing. We have had some personal websites and dashboards. The team always delivered on time. The best quality with endless iterations. Good Job! ", "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again.",
+// "After an extensive search we settled on Raw Canvas. We couldn’t be happier with the results. We have no reservations about using them again."]
+// const name1 = ['Södra Jumkils Fiberförening', 'Steffen Konrath','Pranav Sharma']
+// const post = ['CEO of</span> Glance Tech Inc, Sweden', 'CEO & Founder of</span> Evai-Intelligence','Founding Partner -</span> Woodstock VC Fund']
+
+
+//     var test1 = document.getElementById('test-1')
+//     var test11 = document.getElementById('arr6_1_p')
+//     var test12 = document.getElementById('arr6_1_p1')
+//     test1.style.opacity = 0;
    
-    setTimeout(() => {
-        if (num == testimonials.length - 2 ) {
+//     setTimeout(() => {
+//         if (num == testimonials.length - 2 ) {
          
-            num = -1;
+//             num = -1;
            
-        }
-        if(num==0 && s==0){
-            num=-1;
-            s++;
-        }
-        num++;
-        test1.innerHTML = testimonials[num]
-        test11.innerHTML = name1[num]
-        test12.innerHTML = post[num]
-        test1.style.opacity = 1;
-    }, 500);
-    test11.style.opacity = 0;
-    setTimeout(() => {
-        test11.style.opacity = 1;
-    }, 500);
-    test12.style.opacity = 0;
-    setTimeout(() => {
-        test12.style.opacity = 1;
-    }, 500);
-}
+//         }
+//         if(num==0 && s==0){
+//             num=-1;
+//             s++;
+//         }
+//         num++;
+//         test1.innerHTML = testimonials[num]
+//         test11.innerHTML = name1[num]
+//         test12.innerHTML = post[num]
+//         test1.style.opacity = 1;
+//     }, 500);
+//     test11.style.opacity = 0;
+//     setTimeout(() => {
+//         test11.style.opacity = 1;
+//     }, 500);
+//     test12.style.opacity = 0;
+//     setTimeout(() => {
+//         test12.style.opacity = 1;
+//     }, 500);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // function console1(){

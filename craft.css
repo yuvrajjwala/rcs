@@ -1,4 +1,3 @@
-
 .blockquote-footer:before {
   content: "— ";
 }
@@ -2652,6 +2651,24 @@ fieldset:disabled .btn {
   --bs-btn-font-size: 1.0625rem;
   --bs-btn-border-radius: 50rem;
 }
+
+@media only screen and (max-width: 800px) {
+  .btn-group-lg > .btn,
+  .btn-lg {
+    --bs-btn-padding-y: 1rem;
+    --bs-btn-padding-x: 1.2rem;
+    --bs-btn-font-size: 0.6625rem;
+    --bs-btn-border-radius: 50rem;
+  }
+  .btn-group-lg > .btn, .btn-lg {
+    min-width: 8.5rem !important;
+    margin: auto;
+}
+.ph-head{
+  max-width: 60vw;
+}
+}
+
 .btn-group-sm > .btn,
 .btn-sm {
   --bs-btn-padding-y: 0.73125rem;
