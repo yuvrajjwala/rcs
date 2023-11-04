@@ -2294,7 +2294,7 @@ i {
   min-height: 850px;
 }
 .menu-scroll-container {
-  background-color: rgb(175, 0, 0);
+  background-color: rgb(255, 255, 255);
   width: 45vw;
   position: absolute;
   display: flex;
