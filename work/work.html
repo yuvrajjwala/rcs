@@ -1,854 +1,1888 @@
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" class="no-js no-svg">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Raw Canvas </title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://kit.fontawesome.com/153547211b.js" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/b9c018e32a.js"></script>
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-    <script src="./dist/kinet.min.js"></script>
-    <script src='https://unpkg.com/kinet@2.2.1/dist/kinet.min.js'></script>
     <link rel="stylesheet" href="work.css">
-    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
-</head>
-
-<body style="max-width: 2400px; margin: auto;">
-
-    <div id="wrap">
-
-        <div id="one">
-
-
-            <div class="container">
-
-
-                <div>
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_00">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <defs>
-                                <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
-                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
-                                </linearGradient>
-                            </defs>
-                            <path class="blob" fill="url(#gradient)"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936">
-                                <animate attributeName="d" dur="0.5s" repeatCount="1"
-                                    values="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.635,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,100.993,174.9,140.735,49.449,61.458,127.936;
-                        
-                                M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936" />
-
-                            </path>
-
-                        </g>
-                    </svg>
-
-
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_000">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_0000">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_00000">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-
-
-
-
-
-
-                </div>
-
-
-
-                <div>
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_01">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <defs>
-                                <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
-                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
-                                </linearGradient>
-                            </defs>
-                            <path class="blob" fill="url(#gradient1)"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936">
-                                <animate attributeName="d" dur="0.5s" repeatCount="1"
-                                    values="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.635,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,100.993,174.9,140.735,49.449,61.458,127.936;
-                        
-                                M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936" />
-
-                            </path>
-
-                        </g>
-                    </svg>
-
-
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_001">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_0001">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_00001">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-
-
-
-
-
-
-                </div>
-
-
-
-                <div>
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_02">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <defs>
-                                <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
-                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
-                                </linearGradient>
-                            </defs>
-                            <path class="blob" fill="url(#gradient2)"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936">
-                                <animate attributeName="d" dur="0.5s" repeatCount="1"
-                                    values="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.635,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,100.993,174.9,140.735,49.449,61.458,127.936;
-                        
-                                M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936" />
-
-                            </path>
-
-                        </g>
-                    </svg>
-
-
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_002">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_0002">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_00002">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-
-
-
-
-
-
-                </div>
-
-
-
-                <div>
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_03">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <defs>
-                                <linearGradient id="gradient3" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
-                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
-                                </linearGradient>
-                            </defs>
-                            <path class="blob" fill="url(#gradient3)"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936">
-                                <animate attributeName="d" dur="0.5s" repeatCount="1"
-                                    values="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.635,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,100.993,174.9,140.735,49.449,61.458,127.936;
-                        
-                                M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936" />
-
-                            </path>
-
-                        </g>
-                    </svg>
-
-
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_003">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_0003">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_00003">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-
-
-
-
-
-
-                </div>
-
-
-
-                <div>
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_04">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <defs>
-                                <linearGradient id="gradient4" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="0%" style="stop-color: rgb(194, 229, 156);"></stop>
-                                    <stop offset="100%" style="stop-color: rgb(98, 190, 183);"></stop>
-                                </linearGradient>
-                            </defs>
-                            <path class="blob" fill="url(#gradient4)"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936">
-                                <animate attributeName="d" dur="0.5s" repeatCount="1"
-                                    values="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.635,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,100.993,174.9,140.735,49.449,61.458,127.936;
-                        
-                                M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936" />
-
-                            </path>
-
-                        </g>
-                    </svg>
-
-
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_004">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_0004">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="1146.633" height="1145.853"
-                        viewBox="0 0 1146.633 1145.853" id="_00004">
-                        <g transform="translate(131.05635833740234, -3.5839157104492188)">
-                            <path class="blob"
-                                d="M61.458,127.936C-.961,205.48-.439,291.846.1,317.193,2.782,443.828,59.09,540.515,159.028,607.2c66.721,46.386,96.979-12.123,198.121,45.031C448.689,704.5,495.306,834.006,575.467,815.287,686.6,789.334,734.3,654.835,759.543,583.659,788.3,502.582,866.632,281.7,720.314,124.17,582.2-24.521,434.246,135.185,325.392,149.923,200.993,174.9,140.735,29.449,61.458,127.936"
-                                fill="none" stroke-width="0.5px" stroke="rgba(0,0,0,0.1)"></path>
-                        </g>
-                    </svg>
-
-
-
-
-
-
-
-                </div>
-
-
-            </div>
-
-
-            <div id="nav">
-                <div id="logo">
-                    <img src="../img/rcs.png" />
-                </div>
-
-                <div id="overlay-sidebar" class="overlay-scroll-container">
-                    <div id="menu-scroll-container" class="menu-scroll-container">
-                        <div class="menu-scroll-social">
-                            <ul>
-                                <li><span>Social</span></li>
-                                <li class="magnetic"><a href="https://dribbble.com/RawCanvasStudio"
-                                        target="_blank">Dribbble</a></li>
-                                <li class="magnetic"><a href="https://www.behance.net/rawcanvasstudio"
-                                        target="_blank">Behance</a></li>
-                                <li class="magnetic"><a
-                                        href="https://www.linkedin.com/company/raw-canvas-studio/?viewAsMember=true"
-                                        target="_blank">LinkedIn</a></li>
-                                <li class="magnetic"><a href="https://www.instagram.com/raw_canvas_studio/"
-                                        target="_blank">Instagram</a></li>
-                                <li class="magnetic"><a href="https://t.me/RawCanvasStudio" target="_blank">Telegram</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="menu-scroll-navagition">
-                            <ul>
-                                <li id="line-span-menu"><span>Menu</span></li>
-                                <li class="magnetic"> <a id="style-no" href="/">Home</a></li>
-                                <li class="magnetic"> <a id="style-no" href="/work/work.html">Work</a></li>
-                                <!-- <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li> -->
-                                <li class="magnetic"><a id="style-no" href="/services/services.html">Services</a></li>
-                                <li class="magnetic"><a id="style-no" href="/process/process.html">Our Process</a></li>
-                                </li>
-                                <li class="magnetic"><a id="style-no" href="/Contact/contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="email-sidebar">
-                            <p id="light">Contact</p>
-                            <div style="display: flex;flex-wrap: wrap;">
-                                <div>
-                                    <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
-                                        <a style="text-decoration:none;color: black;"
-                                            href="mailto: mail@studiorawcanvas.com">mail@studiorawcanvas.com</a>
-                                    </p>
-                                    <div id="email-bottom-1">
-                                        <div id="email-bottm-2"></div>
-                                    </div>
-                                </div>
-                                <div class="telegram-div-sidbar">
-                                    <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">
-                                        <a style="text-decoration: none;color: black;"
-                                            href="https://t.me/RawCanvasStudio">Telegram</a>
-                                    </p>
-                                    <div id="email-bottom-11">
-                                        <div id="email-bottm-22"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-                <div id="menu">
-                    <div id="men">
-                        menu
-                    </div>
-
-                    <div onclick="siderBarOpen()" id="ham">
-                        <div id="_1"></div>
-                        <div id="_2"></div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <script>
-                let a = 0;
-                // let w = window.innerWidth;
-                function siderBarOpen() {
-
-
-                    document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
-                        if (a % 2 == 0) {
-                            document.getElementById('overlay-sidebar').style.display = "none";
-                        }
-                        else return;
-                    });
-
-                    if (a % 2 != 0) {
-                        a++;
-                        document.getElementById('overlay-sidebar').style.opacity = 0;
-                        document.getElementById('menu-scroll-container').style.right = "-45vw";
-
-                    }
-                    else {
-                        a++;
-                        document.getElementById('overlay-sidebar').style.display = "block";
-                        setTimeout(() => {
-                            document.getElementById('overlay-sidebar').style.opacity = 1;
-
-                            document.getElementById('menu-scroll-container').style.right = "0vw"
-                        }, 5);
-                    }
-                }
-            </script>
-            <div style="overflow: visible; height: 100vh; width: 100vw; position: absolute; left: 0; right: 0;" id="loader">
-                <img src="../img/transparentgif.gif" alt="">
-            </div>
-            <div id="arr1">
-                <div class="heading1">
-                    <div>Development And Design Resources</div>
-                    <ul>
-                        <li id="l1" class="active magnetic"
-                            onclick="populate([1, 2, 3, 23, 22, 24, 33, 34, 35, 48, 49, 50, 60, 64, 68, 16, 17, 18],0,['Ruminatic- SaaS Wes ','Cake- SaaS Dashboard','Amarette- Watch Ecom Store','Botiko- Interiors Web Design','Saletion- Saas Web Design','Dappr- CRM Dashboard','Macron- Team Club Web Design','Mager- Arm Dashboard','MR- Interior Design Web','Branova- Air Purifier Web Design','Sooth- Organic Creams Web Design','Phantom- Discord Bot Design','Artchitec- Architecture Studio Web Design','VK BYGG- Construction Web Design','Mustang Garage- Car Forum Web Design','Creatsy- Mask Ecom Store Design','Datra- Marketing Web Design','Acura- Management Dashboard Design '],'l1',-1,0,500.49,-230.18,0)">
-                            Website Design</li>
-                        <li id="l2" class="magnetic"
-                            onclick="populate([19, 20, 21, 4, 5, 6, 25, 26, 27, 28, 29, 30, 31, 32],0,['Lplants- Plant Forum App Design','NFT Bidding App Design','Money Management App Design','Learn Skill App Design','Organic Skincare Products App Design','Temperature Control App Design','Expense Management App Design','Mager- Stock trading App Design','Cupcake madness App Design','NFT Bidding App Design','Money/Expense Management App Design','Fitness App Design','Furniture Studio Ecom App Design','Photonet- App Design'],'l2',-1,1,-336.21,-292.64,-43)">
-                            App Design</li>
-                        <li id="l3" class="magnetic"
-                            onclick="populate([7, 8, 9, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47],0,['Halu Slur- NFT VR Web Design ','Opensea- Redesign Web Design','Zuroor- NFT Trading App Design','Rolade- NFT Web Design','Gegion- NFT Galery Web Design','MR.Studio- NFT Web Design','Unicorns- 3D Generative Web Design','SquidWar- NFT Web Design','Peakmines- Web Design','NFT Bidding App Design','Peanuts- NFT Web Design','MasCoy- NFT Collection Web Design','NFT Collection App Design','NFT Bidding App Design','Crypto Trading Dashboard'],'l3',-1,2,1029,-356,-48)">
-                            NFT and Web 3.0</li>
-                        <li id="l4" class="magnetic"
-                            onclick="populate([10, 11, 12, 51, 52, 53, 54, 55, 56, 57, 58, 59],0,['','','','','','','','','','','',''],'l4',-1,3,600.38,-620.47,178)">
-                            Branding</li>
-                        <li id="l5" class="magnetic"
-                            onclick="populate([13, 61, 62, 63, 14, 65, 66, 67, 15, 69, 70, 71],0,['','','','','','','','','','','',''],'l5',-1,4,803.35,-285.84,-15 )">
-                            Graphic Design</li>
-                    </ul>
-                </div>
-
-                <div id="photosarea">
-                </div>
-            </div>
-        </div>
-
-
-        <div class="bottom-text-new">
-            and more..
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div id="arr9">
-            <div class="arr9_1">
-                <div>202</div>
-                <p>Projects</p>
-            </div>
-            <div class="arr9_1">
-                <div>76</div>
-                <p>Happy Clients</p>
-            </div>
-            <div class="arr9_1">
-                <div>14</div>
-                <p>Countries</p>
-            </div>
-            <div class="arr9_1">
-                <div>80</div>
-                <p>Services</p>
-            </div>
-        </div>
-
-
-        <div onmouseover="mouseBgHover(1)" id="arr10">
-
-            <!-- <div class="text">
-            <p>THE PROCESS</p>
-            <div class="heading">Our simple and easy process</div>
-            <p>Well-planned workflow with seamless design process executions.</p>
-        </div> -->
-
-            <div class="cards">
-                <div>
-                    <ul>
-                        <li id="l11" class="accordion">
-                            <div class="text">
-                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
-                                    <div class="heading">Why Raw Canvas Studio?</div>
-                                    <div class="oo" id="i1" style="margin-top:0px; height:30px; width:30px;"><svg
-                                            style="position:absolute;" width="46" height="23" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                                            <path d="M8 12h8"></path>
-                                        </svg></div>
-                                </div>
-                                <p class="show" id="p11">Raw Canvas Studio is a team of designers. RCS is a design and
-                                    development agency that’s building websites and apps since 2017. This initiative is
-                                    our
-                                    way of giving back to the community. Having launched our own startups and with 200+
-                                    successful projects on our resume, we know exactly how to make ideas shine. The
-                                    world is
-                                    full of ideas that stay undiscovered. RCS is on a mission to give them wings. And
-                                    drop
-                                    shadows.</p>
-                            </div>
-
-
-                        </li>
-                        <li id="l22">
-                            <div class="text">
-                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
-                                    <div class="heading">What could be the ball park cost / preliminary estimation and
-                                        the
-                                        timelines for our project? </div>
-                                    <div id="i2" style="margin-top:0px; height:30px; width:30px;"><svg
-                                            style="position:absolute;" width="46" height="23" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                                            <path d="M12 8v8"></path>
-                                            <path d="M8 12h8"></path>
-                                        </svg></div>
-                                </div>
-                                <p class="hidden" id="p22">To start the project, it’s enough to fill out our brief, to
-                                    hold
-                                    the meeting or have a call. Agency can start a project at any stage, whether it’s
-                                    the
-                                    idea or an already formed vision. Ideally, but not necessarily if the customer has
-                                    an
-                                    idea of how the project should look like. The vision of the customer helps to
-                                    understand
-                                    the expectations. Usually, everything becomes clear after the first meeting Read
-                                    more on
-                                    https://rondesign.agency/faq/</p>
-                            </div>
-
-                        </li>
-                        <li id="l33">
-                            <div class="text">
-                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
-                                    <div class="heading">I already have some materials ( wireframes / mockups /
-                                        templates)
-                                        can
-                                        you use and improve them rather then to create from scratch?</div>
-                                    <div id="i3" style="margin-top:0px; height:30px; width:30px;"><svg
-                                            style="position:absolute;" width="46" height="23" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                                            <path d="M12 8v8"></path>
-                                            <path d="M8 12h8"></path>
-                                        </svg></div>
-                                </div>
-                                <p class="hidden" id="p33">Sure — the more materials and information we receive from
-                                    you,
-                                    the less work we will need to do in the project. For example, we can take your
-                                    wireframes and make the necessary improvements. And then create the UI design based
-                                    on
-                                    them. </p>
-                            </div>
-
-                        </li>
-                        <li id="l44">
-                            <div class="text">
-                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
-                                    <div class="heading">What would be the deliverables I will get? </div>
-                                    <div id="i4" style="margin-top:0px; height:30px; width:30px;"><svg
-                                            style="position:absolute;" width="46" height="23" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                                            <path d="M12 8v8"></path>
-                                            <path d="M8 12h8"></path>
-                                        </svg></div>
-                                </div>
-                                <p class="hidden" id="p44">If to day about the design, you can see the more thorough
-                                    list is
-                                    available on this page. We will send you all the source files for design and
-                                    development
-                                    (code). Also you’re always able to download all the files from our server using your
-                                    personal link. And you can continue using the prototype we created during the
-                                    project.
-                                </p>
-                            </div>
-
-                        </li>
-                        <li id="l55">
-                            <div class="text">
-                                <div style="display: flex ; justify-content: space-between; align-items:flex-start;">
-                                    <div class="heading">Will you sign an NDA?</div>
-                                    <div id="i5" style="margin-top:0px; height:30px; width:30px;"><svg
-                                            style="position:absolute;" width="46" height="23" fill="none"
-                                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M12 2a10 10 0 1 0 0 20 10 10 0 1 0 0-20z"></path>
-                                            <path d="M12 8v8"></path>
-                                            <path d="M8 12h8"></path>
-                                        </svg></div>
-                                </div>
-                                <p class="hidden" id="p55">Yes Of course, we understand that you as a brand may want to
-                                    keep
-                                    everything confidential. So we are open to create a Contract before we begin our
-                                    design
-                                    process.
-
-                                </p>
-                            </div>
-
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="text">
-                    <div class="heading" style="line-height: 58px;">FAQ's</div>
-                    <p style="margin-bottom: 4rem; color: white;" id="faq-text">What are your curiosities ?</p>
-                    <a href="../Contact/contact.html" style="text-decoration: none; display: none;"> <button
-                            style="margin-left: 0px;" class="btn dark transparent magnetic">Let's Talk</button> </a>
-                </div>
-                <!-- <img src="./img/628df8040afc12127ab2ce50_img-process-1.png" alt="" id="listImg"> -->
-            </div>
-
-        </div>
-
-        <script>
-            function contactEleHoverEffect() {
-
-                document.getElementById('img11_1').style.scale = '1.1';
-                document.getElementById('img11_1').style.transitionDuration = '1s';
-
-                document.getElementById('img11_2').style.scale = '1.1';
-                document.getElementById('img11_2').style.transitionDuration = '1s';
-
-                document.getElementById('img11_3').style.scale = '1.1';
-                document.getElementById('img11_3').style.transitionDuration = '1s';
-
-                document.getElementById('img11_4').style.scale = '1.1';
-                document.getElementById('img11_4').style.transitionDuration = '1s';
-
-
-
+    <link data-optimized="2" rel="stylesheet"
+        href="https://itcraftapps.com/wp-content/litespeed/css/1/7409956776596e1d35d12ae80f13e8a1.css?ver=498c6" />
+
+
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+    <meta name="google-site-verification" content="TVHMVR3rs_G444WrTDlLLt7vKnYXPzGuhBTMPTgQRp0" />
+    <link rel='stylesheet' id='home/css-css'
+        href='https://itcraftapps.com/wp-content/themes/itcraft/dist/styles/home.css?ver=3.0.33' type='text/css'
+        media='all' />
+    <link rel="https://api.w.org/" href="https://itcraftapps.com/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://itcraftapps.com/wp-json/wp/v2/pages/24834" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://itcraftapps.com/xmlrpc.php?rsd" />
+    <link rel='shortlink' href='https://itcraftapps.com/' />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://itcraftapps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitcraftapps.com%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://itcraftapps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitcraftapps.com%2F&#038;format=xml" />
+    <link rel="icon" type="image/x-icon" href="/rcs/img/favicon.png">
+
+    <!-- ---------------------------------Footer css---------------------- -->
+
+    <link rel="stylesheet" href="../Footer.css">
+
+
+
+
+
+    <head>
+        <script
+            data-no-optimize="1">var litespeed_docref = sessionStorage.getItem("litespeed_docref"); litespeed_docref && (Object.defineProperty(document, "referrer", { get: function () { return litespeed_docref } }), sessionStorage.removeItem("litespeed_docref"));</script>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"">
+    
+       
+        
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+        <!-- This site is optimized with the Yoast SEO plugin v21.2 - https://yoast.com/wordpress/plugins/seo/ -->
+        <title>Case Studies - Mobile &amp; Web App Development Company | USA, UK, Norway</title>
+        <meta name="description"
+            content="itCraft ⭐ Mobile &amp; Web projects portfolio ➤ Create an app that will grow your business! ➤ IPC, InterCars, Mindleap, Seaber, DHL and more!" />
+        <link rel="canonical" href="https://itcraftapps.com/portfolio/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Case Studies - Mobile &amp; Web App Development Company | USA, UK, Norway" />
+        <meta property="og:description"
+            content="itCraft ⭐ Mobile &amp; Web projects portfolio ➤ Create an app that will grow your business! ➤ IPC, InterCars, Mindleap, Seaber, DHL and more!" />
+        <meta property="og:url" content="https://itcraftapps.com/portfolio/" />
+        <meta property="og:site_name" content="Mobile &amp; Web App Development Company | USA, UK, Norway" />
+        <meta property="article:publisher" content="https://www.facebook.com/itCraftpl" />
+        <meta property="article:modified_time" content="2023-05-16T10:28:08+00:00" />
+        <meta property="og:image"
+            content="https://itcraftapps.com/wp-content/uploads/2023/01/Main_social_1200x630px.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <!-- / Yoast SEO plugin. -->
+
+
+        <style id='classic-theme-styles-inline-css' type='text/css'>
+            /*! This file is auto-generated */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                font-size: 1.125em
             }
-            function leveeffect() {
 
-                document.getElementById('img11_1').style.scale = '1';
-                document.getElementById('img11_1').style.transitionDuration = '2s';
-
-                document.getElementById('img11_2').style.scale = '1';
-                document.getElementById('img11_2').style.transitionDuration = '2s';
-
-                document.getElementById('img11_3').style.scale = '1';
-                document.getElementById('img11_3').style.transitionDuration = '2s';
-
-                document.getElementById('img11_4').style.scale = '1';
-                document.getElementById('img11_4').style.transitionDuration = '2s';
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                text-decoration: none
             }
+        </style>
+
+
+        <style id='global-styles-inline-css' type='text/css'>
+            body {
+                --wp--preset--color--black: #000000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #ffffff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+            }
+
+            :where(.is-layout-flex) {
+                gap: 0.5em;
+            }
+
+            :where(.is-layout-grid) {
+                gap: 0.5em;
+            }
+
+            body .is-layout-flow>.alignleft {
+                float: left;
+                margin-inline-start: 0;
+                margin-inline-end: 2em;
+            }
+
+            body .is-layout-flow>.alignright {
+                float: right;
+                margin-inline-start: 2em;
+                margin-inline-end: 0;
+            }
+
+            body .is-layout-flow>.aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained>.alignleft {
+                float: left;
+                margin-inline-start: 0;
+                margin-inline-end: 2em;
+            }
+
+            body .is-layout-constrained>.alignright {
+                float: right;
+                margin-inline-start: 2em;
+                margin-inline-end: 0;
+            }
+
+            body .is-layout-constrained>.aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+                max-width: var(--wp--style--global--content-size);
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            body .is-layout-constrained>.alignwide {
+                max-width: var(--wp--style--global--wide-size);
+            }
+
+            body .is-layout-flex {
+                display: flex;
+            }
+
+            body .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            body .is-layout-flex>* {
+                margin: 0;
+            }
+
+            body .is-layout-grid {
+                display: grid;
+            }
+
+            body .is-layout-grid>* {
+                margin: 0;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important;
+            }
+
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+            }
+
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important;
+            }
+
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important;
+            }
+
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important;
+            }
+
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+            }
+
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important;
+            }
+
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+            }
+
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+            }
+
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+            }
+
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important;
+            }
+
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+            }
+
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+            }
+
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+            }
+
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+            }
+
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+            }
+
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+            }
+
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important;
+            }
+
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important;
+            }
+
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important;
+            }
+
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important;
+            }
+
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important;
+            }
+
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important;
+            }
+
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important;
+            }
+
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important;
+            }
+
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important;
+            }
+
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important;
+            }
+
+            .wp-block-navigation a:where(:not(.wp-element-button)) {
+                color: inherit;
+            }
+
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em;
+            }
+
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em;
+            }
+
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em;
+            }
+
+            .wp-block-pullquote {
+                font-size: 1.5em;
+                line-height: 1.6;
+            }
+        </style>
+        <link rel='stylesheet' id='main/css-css'
+            href='https://itcraftapps.com/wp-content/themes/itcraft/dist/styles/main.css?ver=3.0.33' type='text/css'
+            media='all' />
+        <link rel="https://api.w.org/" href="https://itcraftapps.com/wp-json/" />
+        <link rel="alternate" type="application/json" href="https://itcraftapps.com/wp-json/wp/v2/pages/24838" />
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://itcraftapps.com/xmlrpc.php?rsd" />
+        <link rel='shortlink' href='https://itcraftapps.com/?p=24838' />
+        <link rel="alternate" type="application/json+oembed"
+            href="https://itcraftapps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitcraftapps.com%2Fportfolio%2F" />
+        <link rel="alternate" type="text/xml+oembed"
+            href="https://itcraftapps.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fitcraftapps.com%2Fportfolio%2F&#038;format=xml" />
+        <!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v10.2.5-->
+        <script type="text/javascript" class="hsq-set-content-id" data-content-id="standard-page">
+            var _hsq = _hsq || [];
+            _hsq.push(["setContentType", "standard-page"]);
         </script>
+        <!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+        <link rel="preload" as="font"
+            href="https://itcraftapps.com/wp-content/themes/itcraft/dist/fonts/satoshi/Satoshi-Variable.woff2"
+            type="font/woff2" crossorigin>
+        <style type="text/css" id="wp-custom-css">
+            .body-overflow-measure {
+                height: 200vh;
+                position: relative
+            }
 
-        <div id="arr11">
-            <!-- <div id="backhov">
-        </div> -->
-            <img src="../img/topleft.png" alt="" id="img11_1">
-            <img src="../img/topright.png" alt="" id="img11_2">
-            <img src="../img/bottomleft.png" alt="" id="img11_3">
-            <img src="../img/bottomright.png" alt="" id="img11_4">
-            <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="center">
-                <div id="first">Ready to discuss <span id="yellow">your
-                        project ?</span> </div>
-                <a href="../Contact/contact.html" style="text-decoration: none; color:white;">
-                    <div onmouseover="contactEleHoverEffect()" onmouseleave="leveeffect()" id="second">CONTACT US<div>
+            .btn {
+                text-transform: none !important;
+                letter-spacing: 0 !important;
+            }
+
+            /* Career text align fix - 20-20-2022 */
+            .career-text .block-header__lead {
+                text-align: left;
+            }
+
+            @media (min-width: 768px) {
+                .job-offer li {
+                    padding-left: 25px;
+                }
+            }
+
+            #hubspot-messages-iframe-container {
+                z-index: 1000 !important;
+            }
+
+            /* Other */
+            .portfolio-description .container .justify-content-center .title {
+                color: #FF4591 !important;
+            }
+
+            .linkwhite {
+                color: #fff;
+            }
+
+            .linkwhite:hover {
+                color: #fff;
+            }
+
+            .linkwhite:visited {
+                color: #fff;
+            }
+
+            @media(max-width: 767px) {
+                .ss-headers__lead .clutch-widget {
+                    display: table;
+                    margin: 0 auto;
+                    max-width: 194px;
+                }
+            }
+
+            @media(min-width:768px) {
+
+                /*.d-md-none {
+            display: inline!important;
+        }*/
+                img.d-md-none {
+                    display: inline !important;
+                }
+
+                .block-base-image img.d-md-none {
+                    display: none !important;
+                }
+            }
+
+            .modal-contact__address {
+                max-width: 370px;
+                text-align: center;
+            }
+
+            .modal-contact .wpcf7 form.init .wpcf7-response-output,
+            .modal-contact .wpcf7 form.resetting .wpcf7-response-output,
+            .modal-contact .wpcf7 form.submitting .wpcf7-response-output {
+                display: none !important;
+            }
+
+            /* svg fix */
+            img[width="1"] {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+            }
+
+            /* FAQ - fix clicks */
+            .block-faq__row,
+            .block-our-manifesto__row {
+                z-index: 0;
+            }
+
+            /* Cookie */
+            #cookie-law-info-bar {
+                z-index: 50;
+                box-shadow: none;
+                border-top: 1px solid #dee2e6;
+            }
+
+            #cookie-law-info-bar .wt-cli-accept-btn,
+            #cookie-law-info-bar .wt-cli-accept-all-btn,
+            #cookie-law-info-bar .cli-plugin-main-link {
+                padding: .5rem 1.5rem;
+                line-height: 1.25rem;
+                border-radius: 2.25rem;
+            }
+        </style>
+        <script data-no-optimize="1" data-no-defer="1">
+            window.dataLayer = window.dataLayer || [];
+        </script> <!-- Google Tag Manager -->
+        <script type='tpsl/inlinescript' id='gtm' data-no-optimize='1'>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                                    })(window,document,'script','dataLayer','GTM-KMBBZJZ');</script>
+        <!-- End Google Tag Manager -->
+        <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "itCraft - Mobile App Development Company",
+      "id": "https://itcraftapps.com/#org",
+      "url": "https://itcraftapps.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://itcraftapps.com/#logo",
+        "url": "https://itcraftapps.com/wp-content/uploads/2020/01/itCraft_kolor_jasne_tloq.png",
+        "width": 680,
+        "height": 263,
+        "caption": "itCraft - Mobile App Development Company"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+44-203-514-7441",
+        "email": "hello@itcraftapps.com",
+        "contactType": "customer service",
+        "availableLanguage": "English"
+      },
+      "areaServed": [
+        "US",
+        "CA",
+        "GB",
+        "AT",
+        "DK",
+        "FI",
+        "FR",
+        "DE",
+        "IS",
+        "IE",
+        "IL",
+        "IT",
+        "KW",
+        "LI",
+        "LU",
+        "NZ",
+        "NO",
+        "PL",
+        "QA",
+        "SE",
+        "CH",
+        "AE"
+      ],
+      "sameAs": [
+        "https://www.facebook.com/itCraftpl/",
+        "https://www.linkedin.com/company/itcraft-s-c-/",
+        "https://www.behance.net/itcraft-company",
+        "https://clutch.co/profile/itcraft",
+        "https://www.instagram.com/itcraftappscom/",
+        "https://dribbble.com/itCraft"
+      ],
+      "location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "347 Fifth Avenue",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "NY 10016",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.74807149999999,
+            "longitude": -73.98458
+          }
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "7 Bell Yard",
+            "addressLocality": "London",
+            "postalCode": "WC2A 2JR",
+            "addressCountry": "GB"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.51426679999999,
+            "longitude": -0.11175700000001143
+          }
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Towarowa 20",
+            "addressLocality": "Bydgoszcz",
+            "postalCode": "85-746",
+            "addressCountry": "PL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.12542,
+            "longitude": 18.069073
+          }
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Rejtana 2-4",
+            "addressLocality": "Toruń",
+            "postalCode": "87-100",
+            "addressCountry": "PL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.020266,
+            "longitude": 18.608817
+          }
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Trzy Lipy 3",
+            "addressLocality": "Gdańsk",
+            "postalCode": "80-172",
+            "addressCountry": "PL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 54.355179,
+            "longitude": 18.593408
+          }
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Aleje Jerozolimskie 181B",
+            "addressLocality": "Warszawa",
+            "postalCode": "02-222",
+            "addressCountry": "PL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.2103327,
+            "longitude": 20.952745400000026
+          }
+        }
+      ]
+    }
+    </script>
+
+        <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Blog",
+      "name": "itCraftapps.com - Mobile App Development Blog",
+      "url": "https://itcraftapps.com/blog"
+    }
+    </script>
+
+    </head>
+
+<body>
+
+
+    <div id="nav">
+        <div id="logo">
+            <img src="../img/rcs.png" />
+        </div>
+
+        <div id="overlay-sidebar" class="overlay-scroll-container">
+            <div id="menu-scroll-container" class="menu-scroll-container">
+                <div class="menu-scroll-social">
+                    <ul>
+                        <li><span>Social</span></li>
+                        <li class="magnetic"><a href="https://dribbble.com/RawCanvasStudio" target="_blank">Dribbble</a>
+                        </li>
+                        <li class="magnetic"><a href="https://www.behance.net/rawcanvasstudio"
+                                target="_blank">Behance</a></li>
+                        <li class="magnetic"><a
+                                href="https://www.linkedin.com/company/raw-canvas-studio/?viewAsMember=true"
+                                target="_blank">LinkedIn</a></li>
+                        <li class="magnetic"><a href="https://www.instagram.com/raw_canvas_studio/"
+                                target="_blank">Instagram</a></li>
+                        <li class="magnetic"><a href="https://t.me/RawCanvasStudio" target="_blank">Telegram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-scroll-navagition">
+                    <ul>
+                        <li id="line-span-menu"><span>Menu</span></li>
+                        <li class="magnetic"> <a id="style-no" href="/">Home</a></li>
+                        <li class="magnetic"> <a id="style-no" href="/work/work.html">Work</a></li>
+                        <!-- <li class="magnetic"><a id="style-no" href="./process/process.html">About</a></li> -->
+                        <li class="magnetic"><a id="style-no" href="/services/services.html">Services</a></li>
+                        <li class="magnetic"><a id="style-no" href="/process/process.html">Our Process</a></li>
+                        </li>
+                        <li class="magnetic"><a id="style-no" href="/Contact/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="email-sidebar">
+                    <p id="light">Contact</p>
+                    <div style="display: flex;flex-wrap: wrap;">
+                        <div>
+                            <p onmouseover="fullWidth(1)" onmouseleave="fullWidth(0)" class="email-rcs">
+                                <a style="text-decoration:none;color: black;"
+                                    href="mailto: mail@studiorawcanvas.com">mail@studiorawcanvas.com</a>
+                            </p>
+                            <div id="email-bottom-1">
+                                <div id="email-bottm-2"></div>
+                            </div>
                         </div>
-                </a>
+                        <div class="telegram-div-sidbar">
+                            <p onmouseover="fullWidth(3)" onmouseleave="fullWidth(2)" class="email-rcs">
+                                <a style="text-decoration: none;color: black;"
+                                    href="https://t.me/RawCanvasStudio">Telegram</a>
+                            </p>
+                            <div id="email-bottom-11">
+                                <div id="email-bottm-22"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="menu">
+            <div id="men">
+                menu
+            </div>
+
+            <div onclick="siderBarOpen()" id="ham">
+                <div id="_1"></div>
+                <div id="_2"></div>
             </div>
         </div>
     </div>
+
     <script>
-        function mouseBgHoverr(i){
-            if(i==1)
-            document.getElementById('box-shadow-div').style.display='none';
-            else
-            document.getElementById('box-shadow-div').style.display='block';
+        let a = 0;
+        // let w = window.innerWidth;
+        function siderBarOpen() {
+
+
+            document.getElementById('menu-scroll-container').addEventListener('transitionend', (event) => {
+                if (a % 2 == 0) {
+                    document.getElementById('overlay-sidebar').style.display = "none";
+                }
+                else return;
+            });
+
+            if (a % 2 != 0) {
+                a++;
+                document.getElementById('overlay-sidebar').style.opacity = 0;
+                document.getElementById('menu-scroll-container').style.right = "-45vw";
+
+            }
+            else {
+                a++;
+                document.getElementById('overlay-sidebar').style.display = "block";
+                setTimeout(() => {
+                    document.getElementById('overlay-sidebar').style.opacity = 1;
+
+                    document.getElementById('menu-scroll-container').style.right = "0vw"
+                }, 5);
+            }
         }
     </script>
 
-    <footer style="max-width: 2400px; margin: auto;" onmouseover="mouseBgHoverr(1)" onmouseleave="mouseBgHoverr(0)" id="arr12">
-        <div id="area1">
-            <div id="foot1">
-                <div id="foot11">
-                    <div>Raw Canvas Studio</div>
-                    <p>New Delhi, Delhi, India</p>
-                </div>
-                <div id="foot12">mail@studiorawcanvas.com</div>
-                <div id="bottom1">
-                    <div id="bottom2"></div>
-                </div>
-            </div>
-            <div id="foot2">
-                <div id="foot21">
-                    <ul>
-                        <a href="https://dribbble.com/RawCanvasStudio" target="_blank"> <li>Dribbble</li></a>
-                        <a href="https://www.behance.net/rawcanvasstudio" target="_blank"> <li>Behance</li></a>
-                        <a href="https://www.instagram.com/raw_canvas_studio/" target="_blank"><li>Instagram</li></a>
-                    </ul>
-                </div>
-                <div id="foot22">
-                    <ul>
-                        <a href="https://www.linkedin.com/company/raw-canvas-studio/?viewAsMember=true" target="_blank"><li>LinkedIn</li></a>
-                        <a href="https://t.me/RawCanvasStudio" target="_blank"><li>Telegram</li></a>
-                        <!-- <li>Facebook</li> -->
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div id="area2">
-            <div><i class="fas fa-arrow-up"></i></div>
-        </div>
-        <div id="area3">© 2023 Raw Canvas studio. All right reserved</div>
-    </footer>
 
 
-    <style type="text/css">
-        #box-shadow-div {
-            position: fixed;
-            width: 8px;
-            z-index: -1;
-            top: 10px;
-            height: 8px;
-            border-radius: 100%;
-            background-color: #000000cb;
-            /* transition-timing-function: linear; */
-            z-index: 1;
-            transition-duration: 0.2s;
+
+
+
+    <div class="document" role="document">
+
+
+
+
+
+
+
+
+        <section class="block-base-header-3 d-flex pt--100 pb--40 pb-lg--56 minh-340px minh-lg-400px">
+            <div class="container align-self-end">
+                <h1 class="text-dark-2 fs-36 fs-lg-56 fw-500 lh-13 lh-lg-14 mb--0 d-flex flex-wrap"><span
+                        class="w-lg-100">Our work </span>
+                    <span class="w-100 d-lg-none"></span>
+                    <span class="col px-0 mr--15 mr-lg--22 h-px bg-dark-4 flex-shrink-0 align-self-center"></span>
+                    <span>insights &amp; </span>
+                    <span class="text-right ml--space w-100 w-lg-auto">expertise</span>
+                </h1>
+            </div>
+        </section>
+
+
+
+        <section class="block-case-study-projects-archive bg-light-9 pt--40 pt-lg--64 pb--64 pb-lg--140"
+            data-scroll-theme>
+            <div class="container">
+                <style>
+                    .active{
+                        color: white !important;
+                    }
+                </style>
+
+                <nav class="nav-pills-2 nav-pills-2--style-white nav-pills-2--mobile-sm mb--40 mb-lg--64">
+                    <ul class="d-flex flex-row gap-8">
+                        <!-- <li>
+                            <button type="button" class="js-button-case-study-filters " data-category-id="all">
+                                <span>All</span>
+                            </button>
+                        </li> -->
+                        <li>
+                            <button onclick="updateButton('show-all')" id="show-all" type="button"
+                                class="js-button-case-study-filters active" data-category-id="fintech">
+                                <span>All</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button onclick="updateButton('show-retail')" id="show-retail" type="button"
+                                class="js-button-case-study-filters" data-category-id="healthcare">
+                                <span>Retail & Marketplace</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button onclick="updateButton('show-saas')" id="show-saas" type="button"
+                                class="js-button-case-study-filters" data-category-id="retail-marketplace">
+                                <span>SAAS</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button onclick="updateButton('show-fintech')" id="show-fintech" type="button"
+                                class="js-button-case-study-filters" data-category-id="retail-marketplace">
+                                <span>Fintech</span>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button onclick="updateButton('show-telecom')" id="show-telecom" type="button"
+                                class="js-button-case-study-filters" data-category-id="transport-logistics">
+                                <span>Telecom</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button onclick="updateButton('show-web3')" id="show-web3" type="button" class="js-button-case-study-filters"
+                                data-category-id="transport-logistics">
+                                <span>Web3</span>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button onclick="updateButton('show-construction')" id="show-construction" type="button" class="js-button-case-study-filters"
+                                data-category-id="transport-logistics">
+                                <span>Construction</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="position-relative d-flex justify-content-center">
+                    <div class="block-case-study-projects-archive__spinner is-hidden spinner-border mx-auto position-absolute"
+                        role="status">
+                        <span class="visually-hidden">Loading&#8230;</span>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div id="projects-container" class="row">
+                    <!-- Data will be displayed here -->
+                </div>
+
+
+
+                <script>
+
+                    function updateButton(id) {
+                        var button = document.getElementById(id);
+                        const ids = ['show-all', 'show-retail', 'show-saas', 'show-fintech', 'show-telecom', 'show-web3', 'show-construction']
+
+                        for (let i = 0; i < ids.length; i++) {
+                            if (ids[i] != id) {
+                                document.getElementById(ids[i]).classList.remove("active");
+                            }
+                        }
+
+                        if (button) {
+                            button.classList.add("active");
+                        }
+                    }
+
+
+                    const data = [
+                        {
+                            "name": "Nimble",
+                            "img": "Nimble.jpeg",
+                            "desc": "An innovative application that connects homeowners with reliable and professional contractors who provide construction, housekeeping services, house remodeling, and house repair services."
+                        },
+                        {
+                            "name": "Woodstock",
+                            "img": "Woodstock.png",
+                            "desc": "A thesis and research-driven fund, investing in early-stage Distributed Ledger. Woodstock invests in early and growth-stage Distributed Ledger Technology (DLT) startups and companies."
+                        },
+                        {
+                            "name": "9Media Online",
+                            "img": "9Media Online.jpeg",
+                            "desc": "Headquartered in Singapore, 9media provides an end-to-end solution designed for Connected TV advertising."
+                        },
+                        {
+                            "name": "India Data Hub",
+                            "img": "IndiaDataHub.png",
+                            "desc": "Providing a range of analytical tools specifically designed to enable users to understand the data. The visualization engine allows users to visualize data, compare various indicators, transform data, and perform basic statistical analysis."
+                        },
+                        {
+                            "name": "Needefy",
+                            "img": "Needefy.jpeg",
+                            "desc": "A consulting company with significant expertise and experience within IT, Telecom, and Industry. Our team of experts analyze your needs and propose customer-specific solutions."
+                        },
+                        {
+                            "name": "Drip Sports",
+                            "img": "Drip Sports.jpeg",
+                            "desc": "A comprehensive solution that simplifies the process of managing sports leagues, programs, and camps. It aims to streamline communication between coaches, parents, and players using a dynamic scheduling system."
+                        },
+                        {
+                            "name": "Green Laces",
+                            "img": "Greenlace.jpeg",
+                            "desc": "The leading retailer in the Nordics for vegan shoes and accessories that have been ethically and sustainably produced since 2010."
+                        },
+                        {
+                            "name": "Lenovo",
+                            "img": "Lenovo India.png",
+                            "desc": "A multinational technology company renowned for its diverse range of computers, smartphones, and electronic devices."
+                        },
+                        {
+                            "name": "Branova",
+                            "img": "Branova.png",
+                            "desc": "Innovative and energy-efficient air purification solutions have been designed for you. Decades worth of data, skill and tech guarantee our expertise in clean-air solutions at a global scale."
+                        },
+                        {
+                            "name": "Galacterium",
+                            "img": "Galacterium.jpeg",
+                            "desc": "The Galacterium Omniverse offers a suite of Utility tokens."
+                        },
+                        {
+                            "name": "Macron",
+                            "img": "Macron.jpeg",
+                            "desc": "Producing hard to create cutting edge, high performance sportswear to support athletes from grassroots to professionals in their efforts to become their own hero on and off the field."
+                        },
+                        {
+                            "name": "evAI",
+                            "img": "evAI.jpeg",
+                            "desc": "evAI Intelligence is an AI-based company and solution provider in the contextual intelligence market."
+                        },
+                        {
+                            "name": "Lararnas a-kassa",
+                            "img": "Lararnas a-kassa.jpeg",
+                            "desc": "Sweden’s largest unemployment benefit fund for teachers and educators specializing in teachers’ working conditions and help make overall improvements to the unemployment insurance fund."
+                        },
+                        {
+                            "name": "Veito",
+                            "img": "Veito.png",
+                            "desc": "Veito's sleek infrared heaters, built with high IP ratings and carbon fiber technology, offer sun-like warmth, remote control, and various power modes, available through Nordic and Baltic country dealers."
+                        },
+                        {
+                            "name": "Photonet",
+                            "img": "Photonet.jpeg",
+                            "desc": "Cutting-edge AI-driven facial recognition technology offers precise face scanning upon uploading a selfie, displaying relevant photos containing the user."
+                        },
+                        {
+                            "name": "Ecoklimat",
+                            "img": "Ecoklimat.jpeg",
+                            "desc": "Addressing property owners who want to save energy in a qualitative and environmentally friendly way through their choice of facilities for indoor climate."
+                        },
+                        {
+                            "name": "Xenon",
+                            "img": "Xenon.jpeg",
+                            "desc": "Empowering Global Adoption by Offering Comprehensive Blockchain Solutions that Enhance Accessibility and Efficiency Worldwide."
+                        },
+                        {
+                            "name": "Zood",
+                            "img": "Zood.jpg",
+                            "desc": "Elevating global real estate prominence by innovatively establishing modern, multi-functional, and high-quality residential and commercial projects, adhering to the highest international standards."
+                        }
+                    ];
+                    const projectsContainer = document.getElementById("projects-container");
+                    const showAllButton = document.getElementById("show-all");
+                    const showRetailButton = document.getElementById("show-retail");
+                    const showSaasButton = document.getElementById("show-saas");
+                    const showTelecomButton = document.getElementById("show-telecom");
+                    const showFintechButton = document.getElementById("show-fintech");
+                    const showWeb3Button = document.getElementById("show-web3");
+                    const showConstructionButton = document.getElementById("show-construction");
+
+                    function renderData(dataToRender) {
+                        projectsContainer.innerHTML = ""; // Clear the container
+
+                        dataToRender.forEach((project, index) => {
+                            const article = document.createElement("article");
+                            article.className = "block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-19933 portfolio type-portfolio status-publish portfolio_category-flutter portfolio_category-machine-learning portfolio_category-social-media portfolio_category-startup";
+
+                            const figure = document.createElement("figure");
+                            figure.className = "mb--24 hover-move-top-1 transition-all transition-duration-150";
+
+                            const a = document.createElement("a");
+                            a.href = "#";
+
+                            const img = document.createElement("img");
+                            img.width = "768";
+                            img.height = "576";
+                            img.src = `/WorkImages/${project.img}`;
+                            img.className = "img-fluid d-none d-lg-block";
+                            img.alt = `${project.name}`;
+                            img.decoding = "async";
+                            img.sizes = "(max-width: 768px) 100vw, 768px";
+                            a.appendChild(img);
+
+                            figure.appendChild(a);
+
+                            const h3 = document.createElement("h3");
+                            h3.className = "fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150";
+
+                            const aProject = document.createElement("a");
+                            // aProject.href = `https://itcraftapps.com/portfolio/${project.name}`;
+                            aProject.className = "text-reset";
+                            aProject.id = `company-name${index}`;
+                            aProject.textContent = project.name;
+                            h3.appendChild(aProject);
+
+                            const divDesc = document.createElement("div");
+                            divDesc.className = "col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150";
+                            divDesc.id = `desc${index}`;
+                            divDesc.textContent = project.desc;
+
+                            article.appendChild(figure);
+                            article.appendChild(h3);
+                            article.appendChild(divDesc);
+
+                            projectsContainer.appendChild(article);
+                        });
+                    }
+
+                    showAllButton.addEventListener("click", () => {
+                        renderData(data);
+                    });
+
+                    showRetailButton.addEventListener("click", () => {
+                        const retailAndMarketplaceData = data.filter(item =>
+                            ["Lenovo", "Branova", "Green Laces", "Ecoklimat", "Macron", "Veito", "Happy Kids"].includes(item.name)
+                        );
+                        renderData(retailAndMarketplaceData);
+                    });
+
+                    showSaasButton.addEventListener("click", () => {
+                        const saasData = data.filter(item =>
+                            ["Drip Sports", "evAI", "India Data Hub", "Lararnas a-kassa", "Photonet"].includes(item.name)
+                        );
+                        renderData(saasData);
+                    });
+
+                    showTelecomButton.addEventListener("click", () => {
+                        const telecomData = data.filter(item =>
+                            ["9Media Online", "Needefy"].includes(item.name)
+                        );
+                        renderData(telecomData);
+                    });
+
+                    showFintechButton.addEventListener("click", () => {
+                        const fintechData = data.filter(item =>
+                            ["Woodstock", "India Data Hub"].includes(item.name)
+                        );
+                        renderData(fintechData);
+                    });
+
+                    showWeb3Button.addEventListener("click", () => {
+                        const web3Data = data.filter(item =>
+                            ["Phantom", "Oneplanet", "Peakmines", "One Peanut", "Xenon", "Antelope", "Unifriends"].includes(item.name)
+                        );
+                        renderData(web3Data);
+                    });
+
+                    showConstructionButton.addEventListener("click", () => {
+                        const constructionData = data.filter(item =>
+                            ["Nimble", "VK bygg", "Zood"].includes(item.name)
+                        );
+                        renderData(constructionData);
+                    });
+
+                    // Show all data by default
+                    renderData(data);
+                </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- <div id="case-study-projects" class="row" data-current-page="1">
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-19933 portfolio type-portfolio status-publish portfolio_category-flutter portfolio_category-machine-learning portfolio_category-social-media portfolio_category-startup">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="#">
+                                <img fetchpriority="high" width="768" height="576" src="/WorkImages/Nimble.jpeg"
+                                    class="img-fluid d-none d-lg-block" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /><img width="768" height="768"
+                                    src="/WorkImages/Nimble.jpeg" class="img-fluid d-lg-none" alt="" decoding="async"
+                                    srcset="https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-768x768.png.webp 768w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-300x300.png.webp 300w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-1024x1024.png.webp 1024w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1-150x150.png.webp 150w, https://itcraftapps.com/wp-content/uploads/2021/11/NormalTrue-SmallFalse-MobileFalse-6-1.png.webp 1392w"
+                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/beespeaker/" class="text-reset" id="company-name1">Nimble</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150" id="desc1">
+                            An innovative application that connects homeowners with reliable and professional
+                            contractors who provide construction, housekeeping services, house remodelling, and house
+                            repair services.</div>
+                    </article>
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-28967 portfolio type-portfolio status-publish portfolio_category-telecommunication">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="#">
+                                <img width="768" height="576" src="/WorkImages/Woodstock.png"
+                                    class="img-fluid d-none d-lg-block" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /><img width="768" height="768"
+                                    src="/WorkImages/Woodstock.png" class="img-fluid d-lg-none" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="" class="text-reset" id="company-name2">Woodstock</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150" id="desc2">
+                            A Thesis and research-driven fund, investing in early-stage Distributed Ledger. Woodstock
+                            invests in early and growth-stage Distributed Ledger Technology (DLT) startups and
+                            companies. </div>
+                    </article>
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-9744 portfolio type-portfolio status-publish portfolio_category-fintech portfolio_category-telecommunication">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/ipc/">
+                                <img width="768" height="768" src="/WorkImages/9Media Online.jpeg" class="img-fluid"
+                                    alt="" decoding="async" sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/ipc/" class="text-reset">9Media Online</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                            Headquartered in Singapore 9media provides End-to-end solution designed for Connected TV
+                            advertising.</div>
+                    </article>
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-8703 portfolio type-portfolio status-publish portfolio_category-retail-marketplace">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/makro/">
+                                <img width="768" height="576" src="/WorkImages/IndiaDataHub.png"
+                                    class="img-fluid d-none d-lg-block" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /><img width="768" height="768"
+                                    src="/WorkImages/IndiaDataHub.png" class="img-fluid d-lg-none" alt=""
+                                    decoding="async" sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/makro/" class="text-reset">India Data Hub</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                            Providing a range of analytical tools specifically designed to enable users to understand
+                            the data. The visualization engine allows users to visualize data, compare various
+                            indicators, transform data, and perform basic statistical analysis. </div>
+                    </article>
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-29180 portfolio type-portfolio status-publish portfolio_category-retail-marketplace">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/lemon-pharm/">
+                                <img width="768" height="576" src="/WorkImages/Lararnas a-kassa.jpeg"
+                                    class="img-fluid d-none d-lg-block" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /><img width="768" height="768"
+                                    src="https://itcraftapps.com/wp-content/uploads/2023/04/IPC-768x768.png"
+                                    class="img-fluid d-lg-none" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/lemon-pharm/" class="text-reset">Lararnas
+                                a-kassa</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                            Sweden’s largest unemployment benefit fund for teachers and educators specialising in
+                            teachers’ working conditions and help make overall improvements to the unemployment
+                            insurance fund.</div>
+                    </article>
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-14914 portfolio type-portfolio status-publish portfolio_category-healthcare portfolio_category-startup portfolio_category-web-app">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/mindleap/">
+                                <img width="768" height="768" src="/WorkImages/IndiaDataHub.png" class="img-fluid"
+                                    alt="" decoding="async" sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/mindleap/" class="text-reset">India data hub</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                            Providing a range of analytical tools specifically designed to enable users to understand
+                            the data. The visualization engine allows users to visualize data, compare various
+                            indicators, transform data, and perform basic statistical analysis.</div>
+                    </article>
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-24092 portfolio type-portfolio status-publish portfolio_category-fintech">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/cryptohawk/">
+                                <img width="768" height="576" src="/WorkImages/Drip Sports.jpeg"
+                                    class="img-fluid d-none d-lg-block" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /><img width="768" height="768"
+                                    src="/WorkImages/Drip Sports.jpeg" class="img-fluid d-lg-none" alt=""
+                                    decoding="async" sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/cryptohawk/" class="text-reset">Drip Sports</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                            A comprehensive solution that simplifies the process of managing sports leagues, programs,
+                            and camps. It aims to streamline communication between coaches, parents, and players using a
+                            dynamic scheduling system.</div>
+                    </article>
+
+                    <article
+                        class="block-case-study-projects-archive__item col-12 col-lg-6 hover-parent post-27835 portfolio type-portfolio status-publish portfolio_category-retail-marketplace">
+                        <figure class="mb--24 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/immobi/">
+                                <img width="768" height="576" src="/WorkImages/VK bygg.jpeg"
+                                    class="img-fluid d-none d-lg-block" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /><img width="768" height="768"
+                                    src="/WorkImages/VK bygg.jpeg" class="img-fluid d-lg-none" alt="" decoding="async"
+                                    sizes="(max-width: 768px) 100vw, 768px" /> </a>
+                        </figure>
+                        <h3
+                            class="fs-24 lh-15 fw-500 text-dark-2 mb-0 hover-move-top-1 transition-all transition-duration-150">
+                            <a href="https://itcraftapps.com/portfolio/immobi/" class="text-reset">Vkbygg</a>
+                        </h3>
+                        <div
+                            class="col-lg-10 px-0 text-dark-3 fs-17 lh-155 mt--8 hover-move-top-1 transition-all transition-duration-150">
+                            Vkbygg is a construction and contracting company is to creates outstanding and sustainable
+                            buildings that improve the lives of our customers and society as a whole.</div>
+                    </article>
+
+                </div> -->
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <section class="block-base-cta-1 bg-dark-4 pt--93 pt-lg--180 pb--100 pb-lg--180" data-scroll-theme>
+            <div class="container d-lg-flex align-items-end">
+                <h3 class="text-white fs-32 fs-lg-56 fw-500 lh-14 mb--0 d-flex flex-wrap flex-grow-1 pr-lg--48"><span
+                        class="w-lg-100">Got a project?</span>
+                    <span class="w-100"></span>
+                    <span class="col px-0 mr--15 mr-lg--22 h-px bg-white flex-shrink-0 align-self-center"></span>
+                    <span>Let’s talk!</span>
+                </h3><a href="https://itcraftapps.com/contact/"
+                    class="btn btn-white btn-lg rounded-pill d-table mt--80 mt-lg--0 mx-auto mx-lg-0"><span>Contact
+                        us</span></a>
+            </div>
+        </section>
+
+
+        <!-- -------------------------------Footer----------------------------------------- -->
+
+        <div class="Footer-Container">
+            <div class="Footer-Flex">
+                <div class="Footer-Flex-Item">
+                    <div class="Footer-Logo">
+                        <img class="Footer-Image-Logo" src="../img/favicon.png" alt="">
+                        <h3 class="Footer-Flex-h3-Tag">Raw Canvas</h3>
+                    </div>
+                    <p class="Footer-Flex-p-Tag">Raw Canvas <br> A1 Block, Janakupri <br> New Delhi - 110058</p>
+                    <div class="Footer-Flex-p-Tag-LeftDiv">
+                        <p class="Footer-Flex-p-Tag ">GST 07JTVPS7337R1Z1</p>
+                        <p class="Footer-Flex-p-Tag ">ARN AD0710230019696</p>
+                    </div>
+                </div>
+                <div class="Footer-Flex-Item">
+                    <h3 class="Footer-Flex-h3-Tag ColorGreen">CONTACT</h3>
+                    <p class="Footer-Flex-p-Tag subItem">mail@studiorawcanvas.com</p>
+                    <p class="Footer-Flex-p-Tag subItem mobile">+91 8826633306</p>
+                    <p class="Footer-Flex-p-Tag subItem">Telegram</p>
+                    <p class="Footer-Flex-p-Tag subItem">Whatsapp</p>
+                </div>
+                <div class="Footer-Flex-Item">
+                    <h3 class="Footer-Flex-h3-Tag ColorGreen">STUDIO</h3>
+                    <p class="Footer-Flex-p-Tag subItem">Home</p>
+                    <p class="Footer-Flex-p-Tag subItem">Work</p>
+                    <p class="Footer-Flex-p-Tag subItem">Service</p>
+                    <p class="Footer-Flex-p-Tag subItem">Our Process</p>
+                </div>
+                <div class="Footer-Flex-Item">
+                    <h3 class="Footer-Flex-h3-Tag ColorGreen">FOLLOW US</h3>
+                    <p class="Footer-Flex-p-Tag subItem">Clutch</p>
+                    <p class="Footer-Flex-p-Tag subItem">LinkedIn</p>
+                    <p class="Footer-Flex-p-Tag subItem">Dribbble</p>
+                    <p class="Footer-Flex-p-Tag subItem">Behance</p>
+                    <p class="Footer-Flex-p-Tag subItem">Instagram</p>
+                    <p class="Footer-Flex-p-Tag subItem">Telegram</p>
+                </div>
+    
+    
+                
+                <div class="Footer-Flex-Item Footer-arrow">
+                  <a href="#one"> <img src="/img/arrow-up.svg" alt="Scroll to Top"></a> 
+                </div>
+            </div>
+            <div class="Footer-Divider"></div>
+            <div class="Footer-Flex-Item-copyright">
+                <p class="Footer-Flex-p-Tag-copyright">© Raw Canvas studio, All right reserved
+                </p>
+            </div>
+        </div>
+        <!-- ----------------------------------------Footer end------------------------------------------ -->
+
+
+        <script type="text/javascript" id="cookie-box-js" data-no-optimize="1" data-no-defer="1">
+            // Lang - pl detect
+            if (window.location.href.includes('/pl/')) {
+                var pl_expires = new Date();
+                pl_expires.setTime(pl_expires.getTime() + 30 * 24 * 60 * 60 * 1000); //30 days
+
+                document.cookie = "viewed_polish_site=1; expires=" + pl_expires.toUTCString() + "; path=/";
+            }
+
+            // Cookie
+            function getCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1, c.length);
+                    }
+                    if (c.indexOf(nameEQ) === 0) {
+                        return c.substring(nameEQ.length, c.length);
+                    }
+                }
+
+                return null;
+            }
+
+            function getCookieStatus() {
+                const cookie_1 = getCookie('cookie_notice_accepted');
+                const cookie_2 = getCookie('cookielawinfo-checkbox-necessary');
+
+                if (cookie_1 == 'true' || cookie_2 == 'yes') {
+                    return true;
+                }
+
+                return false;
+            }
+
+            var cookiesAccepted = getCookieStatus();
+            var cookiesBox = document.getElementsByClassName('cookie-box');
+
+            function getCookieBoxHeight() {
+                return cookiesBox ? cookiesBox[0].offsetHeight : 0;
+            }
+
+            if (!cookiesAccepted && cookiesBox.length > 0) {
+                document.body.classList.add('cookie-box-vissible');
+                document.body.style.paddingBottom = getCookieBoxHeight() + 'px';
+            }
+
+            if (cookiesBox.length > 0) {
+                document.getElementsByClassName('closecookies')[0].addEventListener('click', function () {
+                    var expires = new Date();
+                    expires.setTime(expires.getTime() + 30 * 24 * 60 * 60 * 1000); //30 days
+
+                    document.cookie = "cookie_notice_accepted=true; expires=" + expires.toUTCString() + "; path=/";
+                    cookiesBox[0].classList.add('hide');
+                    document.body.classList.remove('cookie-box-vissible');
+                    document.body.style.paddingBottom = '';
+                });
+
+                window.addEventListener('resize', function () {
+                    if (document.body.classList.contains('cookie-box-vissible')) {
+                        document.body.style.paddingBottom = getCookieBoxHeight() + 'px';
+                    } else {
+                        document.body.style.paddingBottom = '';
+                    }
+                });
+            }
+
+            // Notification
+            function getNotificationStatus() {
+                const cookie_1 = getCookie('notificationbar_hidden');
+
+                if (cookie_1 == 'true') {
+                    return true;
+                }
+
+                return false;
+            }
+
+            var notificationClosed = getNotificationStatus();
+            var notificationBar = document.getElementsByClassName('notification-bar');
+            var siteHeader = document.getElementsByClassName('site-header');
+            var closeNotification = document.getElementsByClassName('js-close-notification');
+
+            function getNotificationHeight() {
+                return notificationBar ? notificationBar[0].offsetHeight - 1 : 0;
+            }
+
+            function getNotificationOffset() {
+                if (document.querySelectorAll('section') && (document.querySelectorAll('section')[0].classList.contains('bg-dark-4') || document.querySelectorAll('section')[0].classList.contains('landing-ebook-hero'))) {
+                    return 0;
+                }
+
+                if (480 >= window.innerWidth) {
+                    return 40;
+                } else if (1024 >= window.innerWidth) {
+                    return 24;
+                }
+
+                return 0;
+            }
+
+            function getSiteHeaderHeight() {
+                return siteHeader ? siteHeader[0].offsetHeight : 0;
+            }
+
+            if (notificationBar.length > 0) {
+                setTimeout(function () {
+                    if (!notificationClosed) {
+                        document.body.classList.add('notification-vissible');
+
+                        if (document.body.classList.contains('navigation-default') || document.body.classList.contains('blog') || document.body.classList.contains('navigation-transparent-light') || document.body.classList.contains('navigation-logo-dark') || document.body.classList.contains('navigation-logo-light')) {
+                            document.body.style.paddingTop = getNotificationHeight() + getNotificationOffset() + 'px';
+                            siteHeader[0].style.setProperty('top', getNotificationHeight() + getNotificationOffset() + 'px', 'important');
+                        } else {
+                            document.body.style.paddingTop = getNotificationHeight() + getNotificationOffset() + 'px';
+                        }
+                    }
+                }, 200);
+
+                for (var d = 0; d < closeNotification.length; d++) {
+                    closeNotification[d].addEventListener('click', function () {
+                        var expires = new Date();
+                        expires.setTime(expires.getTime() + 30 * 24 * 60 * 60 * 1000); //30 days
+
+                        document.cookie = "notificationbar_hidden=true; expires=" + expires.toUTCString() + "; path=/";
+                        notificationBar[0].classList.add('hide');
+                        document.body.classList.remove('notification-vissible');
+                        siteHeader[0].style.top = '';
+                        document.body.style.paddingTop = '';
+                    });
+                }
+
+                window.addEventListener('resize', function () {
+                    setTimeout(function () {
+                        document.body.style.paddingTop = '';
+
+                        if (document.body.classList.contains('notification-vissible')) {
+                            if (document.body.classList.contains('navigation-default') || document.body.classList.contains('blog') || document.body.classList.contains('navigation-transparent-light') || document.body.classList.contains('navigation-logo-dark') || document.body.classList.contains('navigation-logo-light')) {
+                                document.body.style.paddingTop = getNotificationHeight() + getNotificationOffset() + 'px';
+                                siteHeader[0].style.setProperty('top', getNotificationHeight() + getNotificationOffset() + 'px', 'important');
+                            } else {
+                                document.body.style.paddingTop = getNotificationHeight() + getNotificationOffset() + 'px';
+                            }
+                        } else {
+                            document.body.style.paddingTop = '';
+                        }
+                    }, 200);
+                });
+            }
+        </script>
+
+        <!--<script type="text/javascript" data-no-optimize="1" data-no-defer="1">
+ThirdPartyScriptLoader.registerInlineScript('cookie-box-js');
+</script>-->
+
+    </div><!-- end .document -->
+
+    <style id="multiple-file-upload">
+        /* Delete Status */
+        .dnd-icon-remove.deleting {
+            font-size: 12px;
+            color: #000;
+            font-weight: 500;
+            position: relative;
+            top: -3px;
         }
 
-        @media screen and (max-width: 900px) {
-            #box-shadow-div {
-                display: none;
+        .dnd-icon-remove.deleting:after {
+            display: none !important;
+        }
+
+        .wpcf7-drag-n-drop-file.d-none {
+            display: none;
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Upload Status */
+        .dnd-upload-status {
+            display: flex;
+            padding: 4px 0;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Progress bar - Image */
+        .dnd-upload-status .dnd-upload-image {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #a5a5a5;
+            text-align: center;
+            border-radius: 100%;
+            position: relative;
+        }
+
+        .dnd-upload-status .dnd-upload-image span.file {
+            background-image: url("data:image/svg+xml,%0A%3Csvg width='18' height='23' viewBox='0 0 18 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.569 0.659576H0.5V23H18V6.09053L12.569 0.659576ZM12.7872 1.93075L16.7288 5.87234H12.7872V1.93075ZM1.24468 22.2553V1.40426H12.0426V6.61702H17.2553V22.2553H1.24468Z' fill='%235C5B5B'/%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 21px;
+            width: 16px;
+            display: block;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+
+        /* Progress bar - Image Details ( Name and Size ) */
+        .dnd-upload-status .dnd-upload-details {
+            padding-left: 10px;
+            width: calc(100% - 40px);
+        }
+
+        .dnd-upload-status .dnd-upload-details .name {
+            color: #016d98;
+            padding: 4px 0;
+            padding-right: 60px;
+            display: flex;
+        }
+
+        .dnd-upload-status .dnd-upload-details .name span {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            padding-right: 10px;
+        }
+
+        .dnd-upload-status .dnd-upload-details .name em {
+            color: #444242;
+            font-weight: 700;
+        }
+
+        /* Remove Upload File */
+        .dnd-upload-status .dnd-upload-details .remove-file {
+            position: absolute;
+            right: 0;
+            top: 10px;
+            text-decoration: none;
+            box-shadow: none;
+            outline: none;
+            opacity: 1;
+        }
+
+        .dnd-upload-status .dnd-upload-details .remove-file span:after {
+            content: '';
+            width: 15px;
+            height: 15px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url("data:image/svg+xml,%3Csvg width='35' height='35' viewBox='0 0 35 35' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.5 0C7.83499 0 0 7.83499 0 17.5C0 27.165 7.83499 35 17.5 35C27.165 35 35 27.165 35 17.5C34.9888 7.83965 27.1604 0.0112198 17.5 0ZM17.5 33.871C8.45857 33.871 1.12903 26.5414 1.12903 17.5C1.12903 8.45857 8.45857 1.12903 17.5 1.12903C26.5414 1.12903 33.871 8.45857 33.871 17.5C33.861 26.5373 26.5373 33.861 17.5 33.871Z' fill='black'/%3E%3Cpath d='M25.4834 9.51661C25.2629 9.29624 24.9056 9.29624 24.6852 9.51661L17.5 16.7018L10.3148 9.51661C10.0983 9.29236 9.74087 9.28615 9.51661 9.50271C9.29236 9.71927 9.28615 10.0767 9.50271 10.3009C9.50723 10.3057 9.51188 10.3103 9.51661 10.3148L16.7018 17.5L9.51661 24.6852C9.29236 24.9018 9.28615 25.2591 9.50278 25.4834C9.71941 25.7076 10.0768 25.7139 10.301 25.4972C10.3057 25.4927 10.3103 25.488 10.3148 25.4834L17.5 18.2982L24.6852 25.4834C24.9094 25.7 25.2668 25.6938 25.4834 25.4696C25.6947 25.2508 25.6947 24.9039 25.4834 24.6852L18.2982 17.5L25.4834 10.3148C25.7038 10.0944 25.7038 9.73705 25.4834 9.51661Z' fill='black'/%3E%3C/svg%3E%0A");
+        }
+
+        .dnd-upload-status.in-progress .remove-file {
+            opacity: 0.2;
+        }
+
+        .dnd-upload-status .dnd-upload-details span.has-error {
+            color: #f50505;
+        }
+
+        /* Progress Loading */
+        .dnd-upload-status .dnd-upload-details .dnd-progress-bar {
+            display: block;
+            border-radius: 5px;
+            overflow: hidden;
+            background: #565555;
+            height: 14px;
+        }
+
+        .dnd-upload-status .dnd-upload-details .dnd-progress-bar span {
+            background: #4CAF50;
+            display: block;
+            font-size: 11px;
+            text-align: right;
+            color: #fff;
+            height: 100%;
+            width: 0;
+            line-height: 14px;
+        }
+
+        .dnd-upload-status .dnd-upload-details .dnd-progress-bar span.complete {
+            width: 100% !important;
+            padding-right: 5px;
+        }
+
+        .dnd-upload-counter {
+            position: absolute;
+            right: 5px;
+            bottom: 3px;
+            font-size: 12px;
+        }
+
+        /* CodeDropz Upload Plugin */
+        .codedropz-upload-handler {
+            border: 2px dashed #c5c5c5;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .codedropz-upload-container {
+            padding: 15px 20px;
+        }
+
+        .codedropz-upload-inner {
+            overflow: hidden;
+            width: 100%;
+            /*white-space: nowrap;*/
+            text-align: center;
+            text-overflow: ellipsis;
+            font-weight: inherit;
+        }
+
+        .codedropz-upload-inner .codedropz-btn-wrap a.cd-upload-btn {
+            text-decoration: none;
+            box-shadow: none;
+        }
+
+        .codedropz-upload-inner h3 {
+            margin: 5px 0;
+            font-size: 30px;
+            line-height: 32px;
+            word-break: break-word;
+        }
+
+        /* Add border on dragenter, drag etc */
+        .codedropz-dragover {
+            border-color: #6b6a6a;
+        }
+
+        .codedropz-upload-wrapper span.has-error-msg {
+            display: inline-block;
+            color: #ff0000;
+            padding: 5px 0;
+            font-style: italic;
+        }
+
+        /* Jquery Validation For Contact Form 7 */
+        .wpcf7-form label.error-new {
+            color: #900;
+            font-size: 11px;
+            float: none;
+            padding-left: 5px;
+        }
+
+        .wpcf7-form .codedropz-upload-wrapper.invalid .codedropz-upload-handler {
+            border-bottom-color: #900;
+            border-bottom-style: solid;
+        }
+
+        /* END : Jquery Validation CF7 */
+
+        @media screen and (max-width: 767px) {
+            .dnd-upload-status .dnd-upload-details .name em {
+                font-weight: normal;
+            }
+
+            .dnd-upload-status .dnd-upload-details .name {
+                padding-right: 60px;
+            }
+
+            .codedropz-upload-inner h3 {
+                font-size: 22px;
             }
         }
     </style>
-    <script type="text/javascript">
-        window.onload = function () {
-            var bsDiv = document.getElementById("box-shadow-div");
-            var x, y;
-            window.addEventListener('mousemove', function (event) {
-                x = event.clientX;
-                y = event.clientY;
-                if (typeof x !== 'undefined') {
-                    bsDiv.style.left = x + "px";
-                    bsDiv.style.top = y + "px";
-                }
-            }, false);
-        }
-    </script>
-    </head>
-    <div id="box-shadow-div"></div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 120,
-            duration: 400,
-            disable: function () {
-                var maxWidth = 800;
-                return window.innerWidth < maxWidth;
-            }
-        });
+    <script src="WorkImage.js" type=""></script>
+    <script type='text/javascript' src='https://itcraftapps.com/wp-includes/js/jquery/jquery.min.js'
+        id='jquery-js'></script>
+    <script type='text/javascript'
+        src='https://itcraftapps.com/wp-content/themes/itcraft/dist/scripts/main.js?ver=1348132448'
+        id='main-js'></script>
 
+    <script type="text/javascript" data-no-optimize="1" data-no-defer="1">
+        ThirdPartyScriptLoader.loadScripts();
     </script>
 
-
-
-    <script src="work.js"></script>
 </body>
 
 </html>
