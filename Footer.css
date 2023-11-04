@@ -20,7 +20,8 @@
 }
 .Footer-Flex-Item {
   width: 200px;
-  height: 300px;
+  min-height: 400px;
+  height: 100%;
   background-color: rgb(255, 255, 255);
   color: black;
 }
@@ -131,7 +132,8 @@
   }
   .Footer-Flex-Item {
     width: 100%;
-    height: auto;
+    min-height: 200px;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     color: black;
     margin-bottom: 20px;
