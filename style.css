@@ -836,7 +836,7 @@ p {
   line-height: 45px;
   color: #181919;
   /* font-weight: lighter; */
-  /* width: 80%; */
+  width: 80%;
   line-height: 58px;
   margin-bottom: 20px;
 }
@@ -860,7 +860,7 @@ p {
 }
 
 #arr3 #c2 .text .heading {
-  width: 100%;
+  width: 52%;
   max-width: 400px;
 }
 
@@ -939,7 +939,7 @@ p {
 #arr4 .text p:first-child {
   font-size: 0.9rem;
   letter-spacing: 3px;
-  font-family: Satoshi-medium;
+  font-family: Satoshi-bold;
   color: #181919;
 }
 
@@ -1061,7 +1061,7 @@ p {
 #arr5 .text .heading {
   width: 100%;
   font-size: 3rem;
-  font-family: Satoshi-medium;
+  font-family: Satoshi-bold;
   margin-bottom: 100px;
   /* color: white; */
 }
@@ -2167,7 +2167,7 @@ i {
 #arr3 .cards .text p:nth-child(3) {
   width: 100%;
   opacity: 1;
-  max-width: 480px;
+  max-width: 426px;
   font-family: Satoshi-Regular;
   font-size: 16px;
   line-height: 1.6rem;
@@ -2370,6 +2370,7 @@ i {
     /* width: 80px; */
   }
 
+
   #icons #threeIco {
     height: 58px;
     position: relative;
@@ -2414,10 +2415,24 @@ i {
   }
 }
 
+.why-us-heading{
+  font-size: 16px;
+  text-align: center;
+  font-family: satoshi-medium;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+}
+
 @media only screen and (min-width: 1600px) {
   #menu #men {
     margin-top: 70px;
   }
+}
+@media only screen and (max-width: 1810px){
+  #arr3 #c2 .text .heading {
+    width: 68%;
+    max-width: 400px;
+}
 }
 @media only screen and (max-width: 1600px) {
   #ham {

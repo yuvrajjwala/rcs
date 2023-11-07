@@ -53,9 +53,14 @@
 
 .Footer-Divider {
   width: auto;
-  height: 2px;
-  background-color: gray;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.422);
   margin: 0 8rem;
+}
+.Footer-Divider1 {
+  width: auto;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.422);
 }
 .Footer-Flex-Item-copyright {
   display: flex;
