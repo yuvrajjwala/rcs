@@ -2017,6 +2017,7 @@ i {
   position: absolute;
   bottom: 70px;
   font-family: "gilroy-semi-bold";
+  left: 155px;
 }
 #light {
   color: #b2b1b2;
@@ -2871,5 +2872,17 @@ footer {
   }
   .overlay-scroll-container {
     width: 90vw;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 599px) {
+  .email-sidebar {
+    position: absolute;
+    bottom: 1%;
+    margin: 20px;
+    width: 250px;
+    margin-left: 13%;
+    left: 0;
+    font-family: "gilroy-semi-bold";
   }
 }
