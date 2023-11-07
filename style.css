@@ -652,7 +652,7 @@ p {
   margin-top: 3rem;
 }
 .the-process{
-  font-family: Satoshi-Bold !important;
+  font-family: gilroy-bold !important;
 }
 
 .imgdiv img:hover {
@@ -663,7 +663,6 @@ p {
 .imgdiv img {
   transition-duration: 0.5s;
 }
-
 
 .magnetic {
   z-index: 2;
@@ -781,7 +780,7 @@ p {
 .email-sidebar {
   position: absolute;
   bottom: 70px;
-  font-family: "Satoshi-medium";
+  font-family: "gilroy-semi-bold";
   left: 118px;
 }
 
@@ -950,7 +949,6 @@ p {
   font-size: 1.2rem;
   color: #181919;
   margin-top: -10px;
- 
 }
 
 /* #arr4 .text .heading{
@@ -1238,7 +1236,7 @@ body {
   line-height: 27px;
   color: #888888;
 }
-a{
+a {
   text-decoration: none !important;
   font-family: Satoshi-medium !important;
 }
@@ -1438,8 +1436,6 @@ i {
   /*JWALA*/
   transition-duration: 0.5s;
 }
-
-
 
 .animate {
   animation: anim4 2s ease-in-out 1;
@@ -2234,7 +2230,6 @@ i {
     transform: scale(0.8);
     left: 85px;
   }
-  
 }
 
 /* Media Queries */
@@ -2657,7 +2652,6 @@ i {
     padding: 1rem;
   }
 
-
   #arr2 .h2 {
     width: 70vw;
     font-size: 3rem;
@@ -2761,11 +2755,11 @@ i {
     margin-bottom: 1.2vw;
   }
 
-  .arrow a{
+  .arrow a {
     margin-left: -1px !important;
   }
 
-  .container{
+  .container {
     margin: 0rem 1.5rem !important;
     font-family: Satoshi-medium !important;
   }
@@ -2816,7 +2810,6 @@ i {
     margin-bottom: 50px;
     scale: 0.85;
   }
-
 
   #desktop-desing {
     display: none;
@@ -2876,6 +2869,7 @@ i {
   .menu-scroll-container {
     width: 100vw;
     padding: 18vh 0px;
+    background-color: red;
   }
   .telegram-div-sidbar {
     margin-left: 0vw;
@@ -3261,8 +3255,6 @@ i {
     transition-duration: 0.5s;
   }
 
-
-
   #arr8 {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -3317,7 +3309,6 @@ i {
     transform: scale(1);
     width: 40vw;
   }
-
 
   #arr9 {
     justify-content: space-between;
@@ -3628,7 +3619,6 @@ i {
   .round-head {
     color: #000000;
     width: 8rem;
-   
   }
 
   #arrow-button {
@@ -3694,8 +3684,8 @@ footer {
 
 .round-head {
   display: block;
- margin-bottom: 20px;
- color: black !important;
+  margin-bottom: 20px;
+  color: black !important;
 }
 
 /* 
@@ -3776,8 +3766,6 @@ footer {
   color: white;
   /* transition-duration: 1s; */
 }
-
-
 
 #arrow-button::before {
   content: "";
@@ -3901,18 +3889,17 @@ footer {
   }
 }
 
-
-.container{
+.container {
   margin: 0rem 8rem;
   font-family: Satoshi-medium !important;
 }
 
-.container a{
+.container a {
   text-decoration: none;
   font-family: Satoshi-medium !important;
 }
 
-.button-new-dark{
+.button-new-dark {
   padding: 20px 50px;
   background-color: black;
   color: white;
@@ -3921,10 +3908,9 @@ footer {
   border-radius: 50px;
   display: flex;
   width: auto;
-  
 }
 
-.button-new-light{
+.button-new-light {
   padding: 20px 50px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -3932,5 +3918,16 @@ footer {
   font-size: medium;
   border-radius: 50px;
   border: 1px solid;
-  
+}
+
+@media screen and (min-width: 240px) and (max-width: 599px) {
+  .email-sidebar {
+    position: absolute;
+    bottom: 5%;
+    margin: 20px;
+    width: 250px;
+    margin-left: 13%;
+    left: 0;
+    font-family: "gilroy-semi-bold";
+  }
 }
