@@ -652,7 +652,7 @@ p {
   margin-top: 3rem;
 }
 .the-process{
-  font-family: gilroy-bold !important;
+  font-family: Satoshi-Bold !important;
 }
 
 .imgdiv img:hover {
@@ -780,7 +780,7 @@ p {
 .email-sidebar {
   position: absolute;
   bottom: 70px;
-  font-family: "gilroy-semi-bold";
+  font-family: "Satoshi-medium";
   left: 118px;
 }
 
