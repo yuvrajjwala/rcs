@@ -2885,4 +2885,18 @@ footer {
     left: 0;
     font-family: "gilroy-semi-bold";
   }
+  .menu-scroll-container {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    padding: 24vh 20px;
+  }
+
+  .menu-scroll-navagition ul {
+    list-style: none;
+    margin-left: 0;
+    line-height: 60px;
+  }
 }

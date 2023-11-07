@@ -105,8 +105,6 @@ i {
    /* overflow: hidden;*/
 }
 
-
-
 @keyframes hov {
   0% {
     background: radial-gradient(
@@ -2245,8 +2243,6 @@ footer {
   z-index: 10;
 }
 
-
-
 .btn:hover::before {
   top: -11.5rem;
   transition-duration: 0.5s;
@@ -2262,8 +2258,6 @@ footer {
   z-index: 100;
   /* transition-duration: 0s; */
 }
-
-
 
 #arrow-button:hover::before {
   top: -13.5rem;
@@ -2371,5 +2365,34 @@ footer {
     position: relative;
     top: auto;
     left: auto;
+  }
+}
+
+@media screen and (min-width: 240px) and (max-width: 599px) {
+  .email-sidebar {
+    position: absolute;
+    bottom: 1%;
+    margin: 20px;
+    width: 250px;
+    margin-left: 13%;
+    left: 0;
+    font-family: "gilroy-semi-bold";
+  }
+  .menu-scroll-container {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    overflow: hidden;
+    padding: 24vh 20px;
+  }
+
+  .menu-scroll-navagition ul {
+    list-style: none;
+    margin-left: 0;
+    line-height: 60px;
+  }
+  .email-rcs {
+    padding-top: 5px;
   }
 }

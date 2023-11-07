@@ -141,12 +141,11 @@
     width: 80px;
     height: 80px;
     font-size: 60px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 12px;
   }
 
   .Footer-Divider {
@@ -158,15 +157,25 @@
   .Footer-Logo {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 60%;
+    justify-content: space-between;
+    width: 50%;
     height: auto;
-    margin: 10px 0px 20px 20px;
+    margin: 50px 0px 20px 20px;
   }
   .Footer-Image-Logo {
     width: 60px;
     height: 60px;
     border-radius: 100%;
     margin: 0px;
+  }
+  .Footer-Flex-h3-Tag {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: gilroy-regular;
+    color: black;
+    padding: 20px;
+    line-height: 23.86px;
+    text-wrap: nowrap;
+    margin: 0;
   }
 }

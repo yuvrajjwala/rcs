@@ -601,7 +601,7 @@ i {
   font-size: 2.35rem;
 }
 
-#arr2 .heading{
+#arr2 .heading {
   margin-bottom: 2rem;
 }
 
@@ -655,7 +655,7 @@ i {
   font-size: 3.75rem;
 }
 
-#main-process-heading{
+#main-process-heading {
   margin-bottom: 5rem !important;
 }
 
@@ -3590,4 +3590,31 @@ footer {
   #one .container {
     width: auto;
   }
+}
+
+@media screen and (min-width: 240px) and (max-width: 599px) {
+  .email-sidebar {
+    .email-sidebar {
+      position: absolute;
+      bottom: 1%;
+      margin: 20px;
+      width: 250px;
+      margin-left: 13%;
+      left: 0;
+      font-family: "gilroy-semi-bold";
+    }
+    .menu-scroll-container {
+      background-color: rgb(255, 255, 255);
+      width: 100vw;
+      position: fixed;
+      display: flex;
+      overflow: hidden;
+      padding: 24vh 20px;
+    }
+  
+    .menu-scroll-navagition ul {
+      list-style: none;
+      margin-left: 0;
+      line-height: 60px;
+    }
 }
