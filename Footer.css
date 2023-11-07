@@ -28,7 +28,7 @@
 .Footer-Flex-h3-Tag {
   font-size: 20px;
   font-weight: 600;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
   color: black;
   padding: 20px;
   line-height: 23.86px;
@@ -37,7 +37,7 @@
 .Footer-Flex-p-Tag {
   font-size: 14px;
   font-weight: 500;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
   color: #828282;
   padding: 0px 20px 5px 20px;
   line-height: 24px;
@@ -48,7 +48,7 @@
   color: #292929;
   font-size: 14px;
   line-height: 18.83px;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
 }
 
 .Footer-Divider {
@@ -66,7 +66,7 @@
 .Footer-Flex-p-Tag-copyright {
   font-size: 14px;
   font-weight: 400;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
   color: #292929;
   line-height: 18.56px;
 }

@@ -13,23 +13,23 @@ a {
 }
 
 @font-face {
-  font-family: gilroy-bold;
-  src: url("../fonts/Gilroy-Bold.ttf");
+  font-family: Satoshi-Bold;
+  src: url("../fonts/Satoshi-Bold.otf");
 }
 
 @font-face {
-  font-family: gilroy-semi-bold;
+  font-family: Satoshi-medium;
   src: url("../fonts//Gilroy-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: gilroy-regular;
-  src: url("../fonts/Gilroy-Regular.ttf");
+  font-family: Satoshi-Regular;
+  src: url("../fonts/Satoshi-Regular.otf");
 }
 
 @font-face {
-  font-family: gilroy-medium;
-  src: url("../fonts/Gilroy-Medium.ttf");
+  font-family: Satoshi-medium;
+  src: url("../fonts/Satoshi-medium.otf");
 }
 
 @font-face {
@@ -83,7 +83,7 @@ i {
   margin-top: 70px;
   margin-right: 21px;
   height: 2vh;
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
   font-size: 1.34rem;
   color: #181919;
 }
@@ -99,7 +99,7 @@ i {
   top: 0;
   transition-duration: 1s;
   justify-content: left;
-  font-family: "gilroy-medium";
+  font-family: "Satoshi-medium";
 }
 @media only screen and (min-width: 1600px) {
   #menu #men {
@@ -541,7 +541,7 @@ i {
   border-radius: 2rem;
   margin-right: 2rem;
   border: 1px solid rgba(24, 25, 25, 0.3);
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
   cursor: pointer;
   font-size: 1.15rem;
   background: transparent;
@@ -552,11 +552,11 @@ i {
   max-width: 700px;
   text-align: center;
   font-size: 6rem;
-  font-family: gilroy-semi-bold;
+  font-family: Satoshi-medium;
   /* margin: 2rem auto; */
 }
 .our-process-sm {
-  font-family: gilroy-semi-bold;
+  font-family: Satoshi-medium;
   letter-spacing: 2px;
   margin-bottom: 20px;
   font-size: small;
@@ -626,12 +626,12 @@ i {
 
 #arr2 .listComp .li {
   font-size: 2rem;
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
 }
 
 #arr2 .listComp .text .heading {
   font-size: 2rem;
-  font-family: gilroy-semi-bold;
+  font-family: Satoshi-medium;
 }
 
 #arr2 .listComp .text p {
@@ -747,13 +747,13 @@ i {
 
 .arr9_1 div {
   font-size: 5rem;
-  font-family: gilroy-semi-bold;
+  font-family: Satoshi-medium;
 }
 
 .arr9_1 p {
   margin-top: 1rem;
   font-size: 2rem;
-  font-family: gilroy-bold;
+  font-family: Satoshi-Bold;
 }
 
 #arr10 {
@@ -803,13 +803,13 @@ i {
 
 #arr10 .cards div ul li .text .heading {
   font-size: 1.3rem;
-  font-family: gilroy-bold;
+  font-family: Satoshi-Bold;
   width: 90%;
 }
 
 #arr10 .cards div ul li .text p {
   font-size: 1.05rem;
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
   color: rgb(112, 112, 112, 1);
   width: 100%;
   line-height: 1.75rem;
@@ -935,7 +935,7 @@ i {
 #arr11 #center #first {
   font-size: 5rem;
   width: 36vw;
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
   text-align: center;
   transition-duration: 0.5s;
 }
@@ -1035,7 +1035,7 @@ i {
 #foot22 ul li {
   list-style: none;
   font-size: 1.25rem;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
   margin: 2rem 8rem;
 }
 
@@ -1051,19 +1051,19 @@ i {
 
 #foot11 div {
   font-size: 2.5rem;
-  font-family: "gilroy-medium";
+  font-family: "Satoshi-medium";
 }
 
 #foot11 p {
   font-size: 1.01rem;
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
   margin-top: 0.5rem;
 }
 
 #foot12 {
   margin-top: 4rem;
   font-size: 1.25rem;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
 }
 
 #bottom1 {
@@ -1089,7 +1089,7 @@ i {
   border-top: 1px solid rgb(112, 112, 112, 1);
   padding-top: 2rem;
   font-size: 1.15rem;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
 }
 
 .text {
@@ -1099,14 +1099,14 @@ i {
 
 .text .heading {
   font-size: 3rem;
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
 }
 
 .text p {
   margin-top: 1.5rem;
   font-size: 1.45rem;
   color: #181919;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
 }
 
 #arr11 {
@@ -1182,7 +1182,7 @@ i {
 #arr11 #center #first {
   font-size: 5rem;
   width: 40vw;
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
   text-align: center;
   transition-duration: 1s;
 }
@@ -1198,7 +1198,7 @@ i {
   text-align: center;
   height: 30px;
   z-index: 2;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
   letter-spacing: 0.3rem;
   transition-duration: 1s;
   margin-top: 60px;
@@ -1264,7 +1264,7 @@ i {
     color: white;
     font-size: 1.5rem;
     margin: 1rem 0rem;
-    font-family: gilroy-bold;
+    font-family: Satoshi-Bold;
   }
 
   #arr10 .cards div:last-child p {
@@ -1291,7 +1291,7 @@ i {
 
   #arr10 .cards div ul li .text .heading {
     font-size: 1.3rem;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
     width: 100%;
     line-height: 1.5rem;
     /* line-height: 1.25rem; */
@@ -1476,7 +1476,7 @@ i {
   #foot22 ul li {
     list-style: none;
     font-size: 1.25rem;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
     margin: 2rem 2rem;
   }
 
@@ -1517,7 +1517,7 @@ i {
     color: white;
     font-size: 1.25rem;
     margin: 1rem 0rem;
-    font-family: gilroy-bold;
+    font-family: Satoshi-Bold;
   }
 
   #arr10 .cards div:last-child p {
@@ -1528,7 +1528,7 @@ i {
   #arr10 .cards div ul li .text .heading {
     font-size: 1.25rem;
     /* font-weight: 500; */
-    font-family: gilroy-bold;
+    font-family: Satoshi-Bold;
   }
 
   #arr10 .cards div ul li .text p {
@@ -1606,7 +1606,7 @@ i {
   #foot22 ul li {
     list-style: none;
     font-size: 1.25rem;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
     margin: 2rem 2rem;
   }
 
@@ -1688,7 +1688,7 @@ i {
     height: 5vh;
     position: relative;
     z-index: 2;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
     letter-spacing: 0.3rem;
     transition-duration: 1s;
   }
@@ -1769,7 +1769,7 @@ i {
   top: 0;
   transition-duration: 1s;
   justify-content: left;
-  font-family: "gilroy-medium";
+  font-family: "Satoshi-medium";
 }
 
 #menu-scroll-container {
@@ -1819,7 +1819,7 @@ i {
 
 .menu-scroll-social {
   font-size: 1.2rem;
-  font-family: "gilroy-regular";
+  font-family: "Satoshi-Regular";
   line-height: 47px;
   padding-left: 1vw;
 }
@@ -1828,7 +1828,7 @@ i {
 .menu-scroll-navagition span {
   font-size: 1rem;
   color: #b2b1b2;
-  font-family: "gilroy-regular";
+  font-family: "Satoshi-Regular";
 }
 
 .menu-scroll-social ul {
@@ -1843,26 +1843,26 @@ i {
 .email-sidebar {
   position: absolute;
   bottom: 70px;
-  font-family: "gilroy-semi-bold";
+  font-family: "Satoshi-medium";
   left: 118px;
 }
 
 #light {
   color: #b2b1b2;
-  font-family: "gilroy-semi-bold";
+  font-family: "Satoshi-medium";
   font-size: 1.2rem;
 }
 
 .email-rcs {
   cursor: pointer;
-  font-family: "gilroy-regular";
+  font-family: "Satoshi-Regular";
   font-size: 1.15rem;
   /* border-bottom: 1px solid rgb(196, 196, 196); */
 }
 
 .email-rcs:hover {
   /* border-bottom: 1px solid #000; */
-  font-family: "gilroy-medium";
+  font-family: "Satoshi-medium";
   transition-duration: 1s;
 }
 
@@ -1908,7 +1908,7 @@ i {
 #foot22 ul li {
   list-style: none;
   font-size: 1.25rem;
-  font-family: gilroy-regular;
+  font-family: Satoshi-Regular;
   margin: 2rem 6rem;
 }
 
@@ -1921,7 +1921,7 @@ i {
   #MainHead .heading {
     font-size: 4rem;
     width: 92%;
-    font-family: gilroy-semi-bold;
+    font-family: Satoshi-medium;
     color: #181919;
     line-height: 70px;
   }
@@ -1981,7 +1981,7 @@ i {
 
   #arr6_1 .text .heading {
     font-size: 4rem;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
   }
 
   #arr6_1 .text p {
@@ -2002,7 +2002,7 @@ i {
     color: white;
     font-size: 1.5rem;
     margin: 1rem 0rem;
-    font-family: gilroy-bold;
+    font-family: Satoshi-Bold;
   }
 
   #arr10 .cards div:last-child p {
@@ -2029,7 +2029,7 @@ i {
 
   #arr10 .cards div ul li .text .heading {
     font-size: 1.3rem;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
     width: 100%;
     line-height: 1.5rem;
     /* line-height: 1.25rem; */
@@ -2163,7 +2163,7 @@ i {
     font-size: 1rem;
     bottom: 10px;
     border-radius: 27px;
-    font-family: "gilroy-medium";
+    font-family: "Satoshi-medium";
     position: relative;
     /* border-bottom: 0.5px solid #707070 !important; */
   }
@@ -2214,7 +2214,7 @@ i {
 
   #arr6_1 .text .heading {
     font-size: 3rem;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
   }
 
   p {
@@ -2231,7 +2231,7 @@ i {
     color: white;
     font-size: 1.25rem;
     margin: 1rem 0rem;
-    font-family: gilroy-bold;
+    font-family: Satoshi-Bold;
   }
 
   #arr10 .cards div:last-child p {
@@ -2242,7 +2242,7 @@ i {
   #arr10 .cards div ul li .text .heading {
     font-size: 1.25rem;
     /* font-weight: 500; */
-    font-family: gilroy-bold;
+    font-family: Satoshi-Bold;
   }
 
   #arr10 .cards div ul li .text p {
@@ -2317,7 +2317,7 @@ i {
   #foot22 ul li {
     list-style: none;
     font-size: 1.25rem;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
     margin: 2rem 2rem;
   }
 
@@ -2496,7 +2496,7 @@ i {
 
   #arr2 .listComp .text .heading {
     font-size: 1.9rem;
-    font-family: gilroy-semi-bold;
+    font-family: Satoshi-medium;
   }
 
   #arr2 .listComp .text p {
@@ -2535,7 +2535,7 @@ i {
     width: 100%;
     text-align: center;
     margin-right: auto;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
     line-height: 41px;
   }
 
@@ -2544,7 +2544,7 @@ i {
     flex-direction: column;
     margin-left: 0px;
     margin-right: 0rem;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
     font-size: 1.15rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -2566,7 +2566,7 @@ i {
   .bottom-text-new {
     font-size: 1.5rem;
     margin: 3rem auto;
-    font-family: "gilroy-medium";
+    font-family: "Satoshi-medium";
     width: 100%;
     text-align: center;
   }
@@ -2621,7 +2621,7 @@ i {
   top: 0;
   transition-duration: 1s;
   justify-content: left;
-  font-family: "gilroy-medium";
+  font-family: "Satoshi-medium";
 }
 
 #menu-scroll-container {
@@ -2662,7 +2662,7 @@ i {
 
 .menu-scroll-social {
   font-size: 1.2rem;
-  font-family: "gilroy-regular";
+  font-family: "Satoshi-Regular";
   line-height: 47px;
   padding-left: 1vw;
 }
@@ -2671,7 +2671,7 @@ i {
 .menu-scroll-navagition span {
   font-size: 1rem;
   color: #b2b1b2;
-  font-family: "gilroy-regular";
+  font-family: "Satoshi-Regular";
 }
 
 .menu-scroll-social ul {
@@ -2686,25 +2686,25 @@ i {
 .email-sidebar {
   position: absolute;
   bottom: 70px;
-  font-family: "gilroy-semi-bold";
+  font-family: "Satoshi-medium";
   left: 100px;
 }
 
 #light {
   color: #b2b1b2;
-  font-family: "gilroy-semi-bold";
+  font-family: "Satoshi-medium";
   font-size: 1.2rem;
 }
 
 /* .email-rcs {
     cursor: pointer;
-    font-family: 'gilroy-regular';
+    font-family: 'Satoshi-Regular';
     font-size: 1.15rem;
 } */
 
 .email-rcs:hover {
   /* border-bottom: 1px solid #000; */
-  font-family: "gilroy-medium";
+  font-family: "Satoshi-medium";
   transition-duration: 1s;
 }
 
@@ -2767,24 +2767,24 @@ footer {
 
 /* #foot11 div {
     font-size: 2.5rem;
-    font-family: 'gilroy-semi-bold';
+    font-family: 'Satoshi-medium';
     padding-left: 1rem;
 } */
 
 /* #foot11 p {
     font-size: 1.01rem;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
     margin-top: 0.5rem;
 } */
 
 /* #foot12 {
     margin-top: 4rem;
     font-size: 1.25rem;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
 } */
 
 #foot12:hover {
-  font-family: gilroy-medium;
+  font-family: Satoshi-medium;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -2855,7 +2855,7 @@ footer {
     width: 250px;
     margin-left: 15%;
     left: 0;
-    font-family: "gilroy-semi-bold";
+    font-family: "Satoshi-medium";
   }
   .telegram-div-sidbar {
     margin-top: 15px;
@@ -2972,7 +2972,7 @@ footer {
 
   #arr3 .cards .text p:nth-child(3) {
     width: 105%;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
     font-size: 0.9rem;
     letter-spacing: 0.6px;
   }
@@ -3017,7 +3017,7 @@ footer {
 
   #arr4 .text p:last-child {
     margin-top: 10px;
-    font-family: gilroy-semi-bold;
+    font-family: Satoshi-medium;
     font-size: 1rem;
     width: 74vw;
     color: #181919;
@@ -3089,7 +3089,7 @@ footer {
 
   #arr6_1 .text .heading {
     font-size: 2.5rem;
-    font-family: gilroy-medium;
+    font-family: Satoshi-medium;
     line-height: 55px;
   }
 
@@ -3212,7 +3212,7 @@ footer {
 
   .arr9_1 div {
     font-size: 3rem;
-    font-family: "gilroy-semi-bold";
+    font-family: "Satoshi-medium";
   }
 
   .arr9_1 p {
@@ -3322,7 +3322,7 @@ footer {
     height: 5vh;
     position: relative;
     z-index: 2;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
     letter-spacing: 0.3rem;
     transition-duration: 0.5s;
   }
@@ -3456,7 +3456,7 @@ footer {
     height: 5vh;
     position: relative;
     z-index: 2;
-    font-family: gilroy-regular;
+    font-family: Satoshi-Regular;
     letter-spacing: 0.3rem;
     transition-duration: 1s;
   }
