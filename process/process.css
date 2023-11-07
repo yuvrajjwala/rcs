@@ -562,6 +562,11 @@ i {
   font-size: small;
 }
 
+.down-arrow{
+  height: 60px;
+  margin-top: 50px;
+}
+
 #arr1 div:last-child {
   background-color: black;
   font-size: 2rem;
@@ -2174,7 +2179,7 @@ i {
     overflow: hidden;
     padding-bottom: 0rem;
     /* height: 100vh; */
-    min-height: 850px;
+    min-height: 450px;
   }
 
   #MainHead .heading {
@@ -2408,6 +2413,9 @@ i {
 }
 
 @media only screen and (max-width: 1200px) {
+  .phone-heading{
+    margin: 1.5rem;
+  }
   #arr4 {
     padding: 2rem 5rem;
   }
@@ -2458,7 +2466,6 @@ i {
   #arr3 .text .heading {
     font-size: 2.75rem;
     /* text-align: center; */
-    margin: 1rem;
   }
 
   #arr3_1 .text .heading {
@@ -2512,6 +2519,9 @@ i {
     margin: 0rem;
     margin-left: 0px;
     margin-bottom: 10px;
+  }
+  #one{
+    height: auto;
   }
 
   .heading1 {
@@ -2573,7 +2583,7 @@ i {
 
   #arr1 {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     margin-top: 0;
   }
 }
