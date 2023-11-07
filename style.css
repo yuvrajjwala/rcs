@@ -120,6 +120,10 @@ p {
   /* overflow: hidden;*/
 }
 
+.phone-drop img{
+  display: none;
+}
+
 #ham::before {
   position: absolute;
   content: "";
@@ -2752,6 +2756,11 @@ i {
 }
 
 @media only screen and (max-width: 900px) {
+  .phone-drop img{
+    display: block;
+    margin-top: 8vh;
+    height: 40px;
+  }
   .phone-faq{
     display: flex;
     justify-content: space-between;
