@@ -546,6 +546,7 @@ i {
   font-size: 1.15rem;
   background: transparent;
   color: #161616;
+  line-height: 4rem;
 }
 
 #Mainarea {
@@ -563,7 +564,7 @@ i {
 }
 
 .down-arrow{
-  height: 60px;
+  height: 50px;
   margin-top: 50px;
 }
 
@@ -646,7 +647,7 @@ i {
 
 #arr3 {
   padding: 7rem 7rem;
-  background-color: #f9f8f4;
+  background-color: #F5F5F7;
   padding-left: 10rem;
 }
 

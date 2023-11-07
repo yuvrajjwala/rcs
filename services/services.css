@@ -547,7 +547,8 @@ i {
 #Mainarea {
   width: 52%;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
+  max-width: 650px;
   font-family: Satoshi-medium;
   margin: 2rem auto;
 }
@@ -2297,7 +2298,7 @@ i {
 .menu-scroll-container {
   background-color: rgb(255, 255, 255);
   width: 45vw;
-  position: absolute;
+  position: fixed;
   display: flex;
   overflow: hidden;
   padding: 26vh 100px 26vh 62px;
