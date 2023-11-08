@@ -2347,6 +2347,7 @@ i {
     --bs-btn-border-radius: 50rem !important;
 }
 
+
 .btn-group-lg>.btn, .btn-lg {
   min-width: auto !important;
   margin-top: 50px;
