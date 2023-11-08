@@ -50,6 +50,12 @@
   font-size: 14px;
   line-height: 18.83px;
   font-family: Satoshi-Regular;
+  transition-duration: 0.5s;
+}
+
+.subItem:hover{
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .Footer-Divider {
