@@ -2926,7 +2926,7 @@ i {
   #arr3 .cards .text .heading {
     line-height: 40px;
     font-size: 1.72rem;
-    text-align: center;
+    text-align: left;
     width: 100%;
   }
 
@@ -2946,7 +2946,7 @@ i {
     font-family: "Satoshi-medium";
     font-size: 0.82rem;
     letter-spacing: 0.6px;
-    text-align: center;
+    text-align: left;
   }
 
   #arr3 #c2 .text p:nth-child(3) {
@@ -2995,10 +2995,10 @@ i {
   }
   #arr3 #c2 .text .heading {
     width: 70%;
-    text-align: center;
+    text-align: left;
     max-width: 330px;
     display: block;
-    margin: auto;
+
   }
 
   #side-line {
@@ -3953,5 +3953,11 @@ footer {
     margin-left: 16%;
     left: 0;
     font-family: "gilroy-semi-bold";
+  }
+}
+
+@media screen and (max-width: 800px){
+  .phn-btn-left{
+    margin-left: 0;
   }
 }
