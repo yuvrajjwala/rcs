@@ -656,6 +656,12 @@ font-weight: 500;;
 
 }
 
+.sathoshi-varible-medium{
+  font-family: 'Satoshi-varible' !important;
+  font-weight: 600 !important;
+
+}
+
 #MainHead p {
   margin-top: 1.4rem;
   font-size: 15px;
@@ -2461,12 +2467,20 @@ font-weight: 500;;
 }
 
 .why-us-heading{
-  font-size: 16px;
+  font-size: 0.9rem;
   text-align: center;
   font-family: Satoshi-varible;
 font-weight: 500;;
   margin-bottom: 15px;
   letter-spacing: 3px;
+}
+
+.text-dark-3 {
+  font-weight: 400 !important;
+}
+
+.text-gray-4 {
+  font-weight: 400 !important;
 }
 
 @media only screen and (min-width: 1600px) {
