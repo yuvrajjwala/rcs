@@ -1493,7 +1493,8 @@ i {
 
 @media only screen and (max-width: 1200px) {
   #Mainarea {
-    font-size: 3rem;
+    font-size: 2.3rem;
+    margin: 15px;
   }
 
   #one {
@@ -2440,7 +2441,11 @@ i {
   }
 
   #arr2 .text .heading {
-    font-size: 2.75rem;
+    font-size: 2rem;
+  }
+
+  .image1{
+    margin-left: 1rem;
   }
 
   .listComp {

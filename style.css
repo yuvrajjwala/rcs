@@ -1300,7 +1300,7 @@ font-weight: 500;;
   position: relative;
   right: -6px;
   height: 8.5px;
-  top: 4px;
+  top: 5px;
 }
 
 #icon2-why {
@@ -2876,7 +2876,7 @@ font-weight: 500; !important;
 
   #MainHead .heading {
     font-size: 2rem;
-    width: 95%;
+    width: 88%;
     font-family: Satoshi-varible;
 font-weight: 500;;
     margin-top: 1rem;
