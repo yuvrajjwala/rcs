@@ -8,6 +8,7 @@
   /* outline: 1px solid red; */
   scroll-behavior: smooth;
   /* line-height: 30px; */
+  font-family: Satoshi-varible !important;
 }
 
 html {
@@ -126,6 +127,8 @@ font-weight: 500;;
   /* overflow: hidden;*/
 }
 
+
+
 .phone-drop img{
   display: none;
 }
@@ -228,6 +231,12 @@ font-weight: 500;;
   width: 100%;
   overflow: hidden;
   z-index: -1;
+}
+
+.OurWork-new-btn{
+  position: relative;
+  left: 3%;
+  margin-top: 2rem;
 }
 
 #_01 {
@@ -2268,11 +2277,14 @@ font-weight: 500;;
   }
 }
 
+
+
 @media only screen and (max-height: 700px) {
   .menu-scroll-navagition ul {
     font-size: 30px;
     transform: scale(0.8);
   }
+  
   .menu-scroll-social {
     transform: scale(0.8);
   }
@@ -2818,6 +2830,11 @@ font-weight: 500;;
     margin-top: 8vh;
     height: 40px;
   }
+  .OurWork-new-btn{
+    position: relative;
+    left: -10%;
+    margin-top: 2rem;
+  }
   .phone-faq{
     display: flex;
     justify-content: space-between;
@@ -2873,6 +2890,8 @@ font-weight: 500; !important;
     width: 81%;
     margin: 10px 2.5rem;
   }
+
+  
 
   #MainHead .heading {
     font-size: 2rem;

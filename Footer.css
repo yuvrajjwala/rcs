@@ -29,7 +29,7 @@
 .Footer-Flex-h3-Tag {
   font-size: 20px;
   font-weight: 600;
-  font-family: Satoshi-Regular;
+  font-family: Satoshi-varible;
   color: black;
   padding: 20px;
   line-height: 23.86px;
@@ -38,7 +38,7 @@
 .Footer-Flex-p-Tag {
   font-size: 14px;
   font-weight: 500;
-  font-family: Satoshi-Regular;
+  font-family: Satoshi-varible;
   color: #828282;
   padding: 0px 20px 5px 20px;
   line-height: 24px;
@@ -49,7 +49,7 @@
   color: #292929;
   font-size: 14px;
   line-height: 18.83px;
-  font-family: Satoshi-Regular;
+  font-family: Satoshi-varible;
   transition-duration: 0.5s;
 }
 
@@ -181,13 +181,27 @@
     margin: 0px;
   }
   .Footer-Flex-h3-Tag {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     font-family: gilroy-regular;
-    color: black;
+    color: #62BEB7;
     padding: 20px;
     line-height: 23.86px;
     text-wrap: nowrap;
     margin: 0;
   }
+  .footer-raw{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -30px;
+  }
 }
+
+.footer-raw{
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
