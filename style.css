@@ -3053,7 +3053,7 @@ font-weight: 500;";
     line-height: 0.9rem;
     width: 6rem !important;
     display: block;
-    margin: auto;
+    margin: 0px;
   }
   #arr3 #c2 .text .heading {
     width: 70%;
