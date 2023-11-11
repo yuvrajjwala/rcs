@@ -2,7 +2,14 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Satoshi-varible !important;
 }
+
+@font-face {
+  font-family: Satoshi-varible;
+  src: url("../fonts/Satoshi-Variable.ttf");
+}
+
 
 a {
   text-decoration: none !important;
@@ -555,6 +562,7 @@ i {
   font-size: 3rem;
   font-family: Satoshi-medium;
   /* margin: 2rem auto; */
+  font-weight: 500;
 }
 .our-process-sm {
   font-family: Satoshi-medium;

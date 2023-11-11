@@ -2,7 +2,14 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Satoshi-varible !important;
 }
+
+@font-face {
+  font-family: Satoshi-varible;
+  src: url("../fonts/Satoshi-Variable.ttf");
+}
+
 
 a {
   text-decoration: none !important;
@@ -549,8 +556,10 @@ i {
   text-align: center;
   font-size: 3rem;
   max-width: 650px;
-  font-family: Satoshi-medium;
+  font-weight: 500 !important;
+  font-family: Satoshi-varible;
   margin: 2rem auto;
+ 
 }
 
 #arr1 div:last-child {
