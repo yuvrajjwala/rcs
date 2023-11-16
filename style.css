@@ -662,11 +662,10 @@ font-weight: 500;";
 #MainHead .heading {
   font-size: 4rem;
   width: 80%;
-  font-family: Satoshi-varible;
-font-weight: 500;;
+  font-family: 'Satoshi-varible';
   color: #181919;
   line-height: 85px;
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 
 .sathoshi-varible{
@@ -675,8 +674,8 @@ font-weight: 500;;
 }
 
 .sathoshi-varible-medium{
-  font-family: 'Satoshi-varible' !important;
-  font-weight: 600 !important;
+  font-family: 'Satoshi-varible' ;
+  font-weight: 600 ;
 
 }
 
