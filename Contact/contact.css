@@ -9,26 +9,16 @@
   src: url("../fonts/Satoshi-Bold.otf");
 }
 
-@font-face {
-  font-family: Satoshi-medium;
-  src: url("../fonts//Gilroy-SemiBold.ttf");
-}
 
 @font-face {
-  font-family: Satoshi-Regular;
-  src: url("../fonts/Satoshi-Regular.otf");
+  font-family: Satoshi-varible;
+  src: url("../fonts/Satoshi-Variable.ttf");
 }
 
-@font-face {
-  font-family: Satoshi-medium;
-  src: url("../fonts/Satoshi-medium.otf");
-}
 
-@font-face {
-  font-family: gilroy-light;
-  src: url("../fonts/Gilroy-Light.ttf");
+body{
+  font-family: 'Satoshi-varible' !important;
 }
-
 :root {
   --pos_x_init: 0px;
   --pos_y_init: 0px;
@@ -177,14 +167,14 @@ i {
 #contact-heading {
   font-size: 5rem;
   /* font-size: 80px; */
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-varible";
   margin-left: 11vw;
   line-height: 120px;
   margin-top: 50px;
 }
 .intrested-contact {
   opacity: 0.3;
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-varible";
   font-size: 2.1rem;
   margin-left: 11vw;
   line-height: 140px;
