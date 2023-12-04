@@ -1,15 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
 
-* {
-  margin: 0px;
-  padding: 0px;
-  /* font-family: 'Montserrat', sans-serif; */
-  box-sizing: border-box;
-  /* outline: 1px solid red; */
-  scroll-behavior: smooth;
-  /* line-height: 30px; */
-  font-family: Satoshi-varible !important;
-}
+
 
 html {
   overflow-x: hidden;
@@ -49,7 +40,16 @@ html {
   font-family: gilroy-light;
   src: url("./fonts/Gilroy-Light.ttf");
 }
-
+* {
+  margin: 0px;
+  padding: 0px;
+  /* font-family: 'Montserrat', sans-serif; */
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+  scroll-behavior: smooth;
+  /* line-height: 30px; */
+  font-family: Satoshi-varible !important;
+}
 :root {
   --pos_x_init: 0px;
   --pos_y_init: 0px;
@@ -2833,6 +2833,25 @@ font-weight: 500;;
 }
 
 @media only screen and (max-width: 900px) {
+  
+  #style-no {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .email-rcs{
+    margin-bottom: 5px !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    font-family: Satoshi-varible;
+    font-weight: 400;
+    
+}
+
   .phone-drop img{
     display: block;
     margin-top: 8vh;

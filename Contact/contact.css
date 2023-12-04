@@ -11,13 +11,13 @@
 
 
 @font-face {
-  font-family: Satoshi-varible;
+  font-family: Satoshi-Variable;
   src: url("../fonts/Satoshi-Variable.ttf");
 }
 
 
 body{
-  font-family: 'Satoshi-varible' !important;
+  font-family: 'Satoshi-Variable' !important;
 }
 :root {
   --pos_x_init: 0px;
@@ -65,7 +65,7 @@ i {
   margin-top: 70px;
   margin-right: 21px;
   height: 2vh;
-  font-family: Satoshi-medium;
+  font-family: Satoshi-Variable;
   font-size: 1.34rem;
   color: #181919;
 }
@@ -167,14 +167,14 @@ i {
 #contact-heading {
   font-size: 5rem;
   /* font-size: 80px; */
-  font-family: "Satoshi-varible";
+  font-family: "Satoshi-Variable";
   margin-left: 11vw;
   line-height: 120px;
   margin-top: 50px;
 }
 .intrested-contact {
   opacity: 0.3;
-  font-family: "Satoshi-varible";
+  font-family: "Satoshi-Variable";
   font-size: 2.1rem;
   margin-left: 11vw;
   line-height: 140px;
@@ -187,7 +187,7 @@ i {
 }
 
 .btn-contact-choose {
-  font-family: "Satoshi-medium";
+  font-family: "Satoshi-Variable";
   font-size: 24px;
   border: 1.5px solid #e5e5e5;
   padding: 26px 47px;
@@ -231,7 +231,7 @@ i {
   font-size: 30px;
   color: black;
   opacity: 0.3;
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-Variable";
 }
 .submit-contact-form button {
   background-color: transparent;
@@ -241,7 +241,7 @@ i {
 
   margin-bottom: 100px;
   padding-bottom: 20px;
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-Variable";
   cursor: pointer;
 }
 #submitform {
@@ -280,7 +280,7 @@ i {
   top: 0;
   transition-duration: 1s;
   justify-content: left;
-  font-family: "Satoshi-medium";
+  font-family: "Satoshi-Variable";
 }
 #menu-scroll-container {
   right: -45vw;
@@ -320,7 +320,7 @@ i {
 }
 .menu-scroll-social {
   font-size: 1.2rem;
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-Variable";
   line-height: 47px;
   padding-left: 1vw;
 }
@@ -328,7 +328,7 @@ i {
 .menu-scroll-navagition span {
   font-size: 1rem;
   color: #b2b1b2;
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-Variable";
 }
 
 .menu-scroll-social ul {
@@ -343,23 +343,23 @@ i {
 .email-sidebar {
   position: absolute;
   bottom: 70px;
-  font-family: "Satoshi-medium";
+  font-family: "Satoshi-Variable";
   left: 118px;
 }
 #light {
   color: #b2b1b2;
-  font-family: "Satoshi-medium";
+  font-family: "Satoshi-Variable";
   font-size: 1.2rem;
 }
 .email-rcs {
   cursor: pointer;
-  font-family: "Satoshi-Regular";
+  font-family: "Satoshi-Variable";
   font-size: 1.15rem;
   /* border-bottom: 1px solid rgb(196, 196, 196); */
 }
 .email-rcs:hover {
   /* border-bottom: 1px solid #000; */
-  font-family: "Satoshi-medium";
+  font-family: "Satoshi-Variable";
   transition-duration: 1s;
 }
 #email-bottom-1,
@@ -390,7 +390,7 @@ i {
 #arr11 #center #first {
   font-size: 5rem;
   width: 40vw;
-  font-family: Satoshi-medium;
+  font-family: Satoshi-Variable;
   text-align: center;
   transition-duration: 1s;
 }
@@ -406,7 +406,7 @@ i {
   text-align: center;
   height: 30px;
   z-index: 2;
-  font-family: Satoshi-Regular;
+  font-family: Satoshi-Variable;
   letter-spacing: 0.3rem;
   transition-duration: 1s;
   margin-top: 60px;
@@ -496,7 +496,7 @@ i {
 
   #arr6_1 .text .heading {
     font-size: 4rem;
-    font-family: Satoshi-medium;
+    font-family: Satoshi-Variable;
   }
 
   #arr6_1 .text p {
@@ -517,7 +517,8 @@ i {
     color: white;
     font-size: 1.5rem;
     margin: 1rem 0rem;
-    font-family: Satoshi-Bold;
+    font-family: Satoshi-Variable;
+    font-weight: 600;
   }
 
   #arr10 .cards div:last-child p {
@@ -544,7 +545,7 @@ i {
 
   #arr10 .cards div ul li .text .heading {
     font-size: 1.5rem;
-    font-family: Satoshi-medium;
+    font-family: Satoshi-Variable;
     width: 100%;
     line-height: 1.5rem;
     /* line-height: 1.25rem; */
@@ -2386,4 +2387,20 @@ footer {
   .email-rcs {
     padding-top: 5px;
   }
+}
+
+
+@media only screen and (max-width: 900px) {
+  
+  #style-no {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .email-rcs{
+    margin-bottom: 5px !important;
+  }
+
 }

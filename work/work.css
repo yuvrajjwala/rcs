@@ -2019,6 +2019,7 @@ i {
 #style-no {
   text-decoration: none;
   color: black;
+  font-weight: 500;
 }
 
 .email-sidebar {

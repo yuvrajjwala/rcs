@@ -2984,3 +2984,21 @@ body {
     line-height: 60px;
   }
 }
+
+
+
+
+@media only screen and (max-width: 900px) {
+  
+  #style-no {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .email-rcs{
+    margin-bottom: 5px !important;
+  }
+
+}
